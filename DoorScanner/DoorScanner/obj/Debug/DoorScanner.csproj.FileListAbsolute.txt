@@ -1,0 +1,5 @@
+C:\Users\Aitor\Documents\SharpDevelop Projects\CsharpProject\DoorScanner\DoorScanner\bin\Debug\DoorScanner.exe
+C:\Users\Aitor\Documents\SharpDevelop Projects\CsharpProject\DoorScanner\DoorScanner\bin\Debug\DoorScanner.pdb
+C:\Users\Aitor\Documents\SharpDevelop Projects\CsharpProject\DoorScanner\DoorScanner\obj\Debug\DoorScanner.csprojResolveAssemblyReference.cache
+C:\Users\Aitor\Documents\SharpDevelop Projects\CsharpProject\DoorScanner\DoorScanner\obj\Debug\DoorScanner.exe
+C:\Users\Aitor\Documents\SharpDevelop Projects\CsharpProject\DoorScanner\DoorScanner\obj\Debug\DoorScanner.pdb

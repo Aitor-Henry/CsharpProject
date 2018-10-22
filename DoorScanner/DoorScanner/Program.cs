@@ -22,9 +22,18 @@ namespace DoorScanner
 		[STAThread]
 		private static void Main(string[] args)
 		{
-			Application.EnableVisualStyles();
+			/*Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
 			Application.Run(new MainForm());
+			*/
+			//networkScan NS = new networkScan();
+			
+			
+			//MsgBox pour afficher les résultats, c'est de la merde
+			networkScan NS = new networkScan();
+			MessageBoxButtons MB = MessageBoxButtons.YesNo;
+			
+			MessageBox.Show(NS.showIP()+", "+NS.showMask(), "Votre adresse IPv4", MB);
 		}
 		
 	}
