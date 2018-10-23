@@ -46,7 +46,7 @@ namespace DoorScanner
 	                   	if (ipv4Addresses[0].Equals(unicastIPAddressInformation.Address))
 	                    {
 	                   		currentMask = unicastIPAddressInformation.IPv4Mask;
-	                   		currentIP = ipv4Addresses[0];
+	                   		currentIP = ipv4Addresses[ipv4Addresses.Length-1];
 	                   	}
 	               	}
 	            }
@@ -64,7 +64,7 @@ namespace DoorScanner
 			return currentMask.ToString();
 		}
 		
-		
+		/*
 		public IPAddress getNetworkAddress(IPAddress IP, IPAddress mask){
 			//calcul pour IDR
 		}
@@ -74,10 +74,10 @@ namespace DoorScanner
 		}
 		
 		public List<IPAddress> getListIpAvailable(IPAddress IDR, IPAddress Broadcast){
-			/*
-			Boucle effectuant des Pings avec un bool pour la validation, si il y a un retour on incrémente l'adresse dans la liste
-			*/
+			
+			//Boucle effectuant des Pings avec un bool pour la validation, si il y a un retour on incrémente l'adresse dans la liste
+			
 		}
-		
+		*/
 	}
 }
