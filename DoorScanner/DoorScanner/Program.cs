@@ -33,7 +33,8 @@ namespace DoorScanner
 			networkScan NS = new networkScan();
 			MessageBoxButtons MB = MessageBoxButtons.YesNo;
 			
-			MessageBox.Show(NS.showIP()+", "+NS.showMask(), "Votre adresse IPv4", MB);
+			MessageBox.Show(NS.showListIP(), "Votre adresse IPv4", MB);
+			//MessageBox.Show(NS.showIP()+", "+NS.showMask()+", "+NS.shownetworkID()+", "+NS.showBroadcast(), "Votre adresse IPv4", MB);
 		}
 		
 	}

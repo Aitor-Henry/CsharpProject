@@ -33,9 +33,7 @@ namespace DoorScanner
 		public networkScan()
 		{
 			//récupere l'adresse IP de la machine et le masque du réseau.
-			IPAddress[] ipv4Addresses = Array.FindAll(
-	    	Dns.GetHostEntry(string.Empty).AddressList,
-	    	a => a.AddressFamily == AddressFamily.InterNetwork);
+			IPAddress[] ipv4Addresses = Array.FindAll(Dns.GetHostEntry(string.Empty).AddressList,a => a.AddressFamily == AddressFamily.InterNetwork);
 			
 			foreach (NetworkInterface adapter in NetworkInterface.GetAllNetworkInterfaces())
 	        {
@@ -52,6 +50,9 @@ namespace DoorScanner
 	            }
 	        }
 			
+			networkAdd = getNetworkAddress(currentIP, currentMask);
+			broadcastAdd = getBroadcastAddress(networkAdd, currentMask);
+			listIpNetwork = getListIpAvailable();
 		}
 		
 
@@ -64,20 +65,78 @@ namespace DoorScanner
 			return currentMask.ToString();
 		}
 		
+		public string shownetworkID(){
+			return networkAdd.ToString();
+		}
+		
+		public string showBroadcast(){
+			return broadcastAdd.ToString();
+		}
+		
 		/*
-		public IPAddress getNetworkAddress(IPAddress IP, IPAddress mask){
-			//calcul pour IDR
+		public string lengthNet(){
+			return listIpNetwork.Count.ToString();
 		}
 		
-		public IPAddress getBroadcastAddress(IPAddress IP, IPAddress mask){
-			//calcul pour broadcast
-		}
-		
-		public List<IPAddress> getListIpAvailable(IPAddress IDR, IPAddress Broadcast){
-			
-			//Boucle effectuant des Pings avec un bool pour la validation, si il y a un retour on incrémente l'adresse dans la liste
-			
+		public string showListIP(){
+			List<string> listIPstring= new List<string>();
+			string concatIPs;
+			for(int i=0; i<listIpNetwork.Count; i++){
+				listIPstring.Add(listIpNetwork[i].ToString());
+			}
+			concatIPs = string.Join(",", listIPstring.ToArray());
+			return concatIPs;
 		}
 		*/
+		
+		public IPAddress getNetworkAddress(IPAddress IP, IPAddress mask){
+			//calcul pour IDR
+			byte[] IPadd = IP.GetAddressBytes();
+			byte[] MaskBytes = mask.GetAddressBytes();
+			byte[] Broadcast = new byte[MaskBytes.Length];
+
+			for(int i=0; i<IPadd.Length; i++){
+				Broadcast[i] = (byte) (IPadd[i] & MaskBytes[i]);
+			}
+			return new IPAddress(Broadcast);
+		}
+		
+		
+		public IPAddress getBroadcastAddress(IPAddress IDR, IPAddress mask){
+			//calcul pour broadcast
+			byte[] IPadd = IDR.GetAddressBytes();
+			byte[] maskBytes = mask.GetAddressBytes();
+			byte[] broadcastbytes = new byte[maskBytes.Length];
+			for (int i = 0; i < broadcastbytes.Length; i++){
+				broadcastbytes[i] = (byte)(IPadd[i] | (maskBytes[i] ^ 255));
+			}
+			return new IPAddress(broadcastbytes);
+		}
+		
+		/* NOT WORKING 
+		public List<IPAddress> getListIpAvailable(){
+			//liste des addresses dans le réseau
+			List<IPAddress> listAddress = new List<IPAddress>();
+			foreach(NetworkInterface ni in NetworkInterface.GetAllNetworkInterfaces()){
+				
+			    foreach (UnicastIPAddressInformation ip in ni.GetIPProperties().UnicastAddresses){
+					
+			        if(!ip.IsDnsEligible){
+						
+			            if (ip.Address.AddressFamily == System.Net.Sockets.AddressFamily.InterNetwork){
+							
+			                // All IP Address in the LAN
+			                if(!(currentIP.Equals(ip.Address) || networkAdd.Equals(ip.Address) || broadcastAdd.Equals(ip.Address))){
+			                	listAddress.Add(ip.Address);
+			                }
+			                
+			            }
+			        }
+			    }
+			}
+			return listAddress;
+		}
+		*/
+
 	}
 }
