@@ -11,6 +11,7 @@ using System.Collections.Generic;
 using System.Net;
 using System.Net.NetworkInformation;
 using System.Net.Sockets;
+using System.Diagnostics;
 using System.Text;
 using System.IO;
 
@@ -52,7 +53,7 @@ namespace DoorScanner
 			
 			networkAdd = getNetworkAddress(currentIP, currentMask);
 			broadcastAdd = getBroadcastAddress(networkAdd, currentMask);
-			listIpNetwork = getListIpAvailable();
+			getIpAvailable(networkAdd);
 		}
 		
 
@@ -112,6 +113,28 @@ namespace DoorScanner
 			}
 			return new IPAddress(broadcastbytes);
 		}
+		
+		public void getIpAvailable(IPAddress IDR)
+		{	//liste des ip dispo sur le reseau av commande nmap
+			string commande = ("nmap -O --osscan-guess "+IDR+" -oX ipDispo.xml");
+				/*osscan-guess demande à nmap une estimation de l'OS
+				  + le fichier xml est enregistrer dans le dossier courant /bin*/
+			Console.WriteLine(commande);
+			Process cmd = new Process();
+			try
+			{	
+				cmd.StartInfo.FileName = "cmd.exe";
+				cmd.StartInfo.Arguments = "/c"+commande;
+				cmd.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
+				cmd.Start();
+				Console.WriteLine("fichier enregistrer!");
+			}
+			catch (Exception e)
+			{
+				Console.WriteLine("erreur...");
+			}	
+		}
+			
 		
 		/* NOT WORKING 
 		public List<IPAddress> getListIpAvailable(){
