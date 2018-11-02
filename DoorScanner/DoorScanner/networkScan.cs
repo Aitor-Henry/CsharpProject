@@ -44,7 +44,7 @@ namespace DoorScanner
 	                {
 	                   	if (ipv4Addresses[0].Equals(unicastIPAddressInformation.Address))
 	                    {
-	                   		currentMask = unicastIPAddressInformation.IPv4Mask;
+	                   		currentMask = IPAddress.Parse("255.255.255.0"); //unicastIPAddressInformation.IPv4Mask;
 	                   		currentIP = ipv4Addresses[ipv4Addresses.Length-1];
 	                   	}
 	               	}
@@ -116,23 +116,15 @@ namespace DoorScanner
 		
 		public void getIpAvailable(IPAddress IDR)
 		{	//liste des ip dispo sur le reseau av commande nmap
-			string commande = ("nmap -O --osscan-guess "+IDR+" -oX ipDispo.xml");
+			//PROBLEME, l'IDR doit etre au format slash CIDR (192.168.1.0/24) 
+			string commande = ("nmap -O --osscan-guess "+IDR.ToString()+"/24 -oX ipDispo.xml");
 				/*osscan-guess demande à nmap une estimation de l'OS
 				  + le fichier xml est enregistrer dans le dossier courant /bin*/
-			Console.WriteLine(commande);
 			Process cmd = new Process();
-			try
-			{	
 				cmd.StartInfo.FileName = "cmd.exe";
 				cmd.StartInfo.Arguments = "/c"+commande;
 				cmd.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
 				cmd.Start();
-				Console.WriteLine("fichier enregistrer!");
-			}
-			catch (Exception e)
-			{
-				Console.WriteLine("erreur...");
-			}	
 		}
 			
 		

@@ -32,10 +32,10 @@ namespace DoorScanner
 			//MsgBox pour afficher les résultats, c'est de la merde
 			networkScan NS = new networkScan();
 			MessageBoxButtons MB = MessageBoxButtons.YesNo;
-			
 			//MessageBox.Show(NS.showListIP(), "Votre adresse IPv4", MB);
-			//MessageBox.Show(NS.showIP()+", "+NS.showMask()+", "+NS.shownetworkID()+", "+NS.showBroadcast(), "Votre adresse IPv4", MB);
+			MessageBox.Show(NS.showIP()+", "+NS.showMask()+", "+NS.shownetworkID()+", "+NS.showBroadcast(), "Votre adresse IPv4", MB);
 		}
+		
 		
 	}
 }
