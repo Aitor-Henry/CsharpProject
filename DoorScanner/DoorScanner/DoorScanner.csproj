@@ -47,6 +47,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interface.cs" />
+    <Compile Include="ListeInterfaces.cs" />
     <Compile Include="networkScan.cs" />
     <Compile Include="MainForm.cs" />
     <Compile Include="MainForm.Designer.cs">
