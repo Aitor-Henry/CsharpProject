@@ -42,6 +42,10 @@ namespace DoorScanner
 			ipAddress=cIp;
 			os=cOs;
 		}
+		public string showInterface()
+		{
+			return "Host: "+hostName+" IP: "+ipAddress+" OS: "+os;
+		}
 		
 	}
 }

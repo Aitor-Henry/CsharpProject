@@ -25,8 +25,19 @@ namespace DoorScanner
 		{
 		}
 		
-		
-		public void XmltoList(){
+		public string showIpList()
+		{
+			string resultat="";
+			foreach(Interface i in InterListe)
+			{
+				resultat=resultat+" \n"+i.showInterface();
+				
+			}
+			return resultat;
+		}
+		public void XmltoList()
+		{	//y a une couille la dedans mais je sais pas encore ou...
+			//les valeur de n.ip et n.os ne change pas, host OK et nb d'ip up OK 
 			InterListe = new List<Interface>();
 			XmlDocument xnl = new XmlDocument();
 				xnl.Load("ipDispo.xml");
@@ -34,9 +45,10 @@ namespace DoorScanner
 				foreach (XmlNode n in host)
 				{
 					Interface ipUp = new Interface();
-					ipUp.hostName = n.SelectSingleNode("hostname").InnerText;
+					ipUp.hostName = n.SelectSingleNode("hostnames").InnerText;
 					ipUp.ipAddress = n.SelectSingleNode("//address[@addrtype='ipv4']/@addr").InnerText;
-					ipUp.os = n.SelectSingleNode("//osmatch[@accuracy = max(/osmatch/accuracy)]@name").InnerText;
+					ipUp.os = n.SelectSingleNode(
+						"//osmatch[not(@accuracy < preceding::osmatch/@accuracy)and not(@accuracy < following::osmatch/@accuracy)]/@name").InnerText;
 					InterListe.Add(ipUp);
 				}
 		}
