@@ -8,12 +8,14 @@
  */
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Net;
 using System.Net.NetworkInformation;
 using System.Net.Sockets;
-using System.Diagnostics;
-using System.Text;
 using System.IO;
+using System.Text;
+using System.Diagnostics;
+
 
 namespace DoorScanner
 {
@@ -34,26 +36,71 @@ namespace DoorScanner
 		public networkScan()
 		{
 			//récupere l'adresse IP de la machine et le masque du réseau.
-			IPAddress[] ipv4Addresses = Array.FindAll(Dns.GetHostEntry(string.Empty).AddressList,a => a.AddressFamily == AddressFamily.InterNetwork);
-			
-			foreach (NetworkInterface adapter in NetworkInterface.GetAllNetworkInterfaces())
-	        {
-	        	foreach (UnicastIPAddressInformation unicastIPAddressInformation in adapter.GetIPProperties().UnicastAddresses)
-	            {
-	            	if (unicastIPAddressInformation.Address.AddressFamily == AddressFamily.InterNetwork)
-	                {
-	                   	if (ipv4Addresses[0].Equals(unicastIPAddressInformation.Address))
-	                    {
-	                   		currentMask = IPAddress.Parse("255.255.255.0"); //unicastIPAddressInformation.IPv4Mask;
-	                   		currentIP = ipv4Addresses[ipv4Addresses.Length-1];
-	                   	}
-	               	}
-	            }
-	        }
-			
-			networkAdd = getNetworkAddress(currentIP, currentMask);
-			broadcastAdd = getBroadcastAddress(networkAdd, currentMask);
-			getIpAvailable(networkAdd);
+			if (NetworkInterface.GetIsNetworkAvailable())
+            {
+
+                //appell de toutes les cartes reseau local
+                NetworkInterface[] interfaces = NetworkInterface.GetAllNetworkInterfaces();
+
+                //affichage de toutes les informations des cartes reseau
+                foreach (NetworkInterface ni in interfaces)
+                {
+                    if (ni.OperationalStatus == OperationalStatus.Up && ni.NetworkInterfaceType != NetworkInterfaceType.Loopback)
+                    {
+
+                        IPInterfaceProperties adapterProperties = ni.GetIPProperties();
+                        IPAddressCollection dnsServers = adapterProperties.DnsAddresses;
+                        GatewayIPAddressInformationCollection gateway = adapterProperties.GatewayAddresses;
+                        IPAddressCollection dhcpserver = adapterProperties.DhcpServerAddresses;
+                        UnicastIPAddressInformationCollection unicastadress = adapterProperties.UnicastAddresses;
+                        string InfoInterface;
+
+                        // renvoie les informations de la carte reseau physique
+                        InfoInterface = " Nom de l'interface: 			"+ni.Name+Environment.NewLine;
+                        InfoInterface += " Description de l'interface: 		"+ni.Description+Environment.NewLine;
+                        InfoInterface += " ID de l'interface: 			"+ni.Id+Environment.NewLine;
+                        InfoInterface += " Type de l'interface: 			"+ni.NetworkInterfaceType+Environment.NewLine;
+                        InfoInterface += " Vitesse de l'interface: 		"+(((ni.Speed) / 1024) / 1024).ToString()+".Mbits/s"+Environment.NewLine;
+                        InfoInterface += " Status de l'interface: 		"+ni.OperationalStatus.ToString()+Environment.NewLine;
+
+                            foreach (UnicastIPAddressInformation uni in unicastadress)
+                            {
+                                // seulement IPV4
+                                if (uni.Address.AddressFamily == AddressFamily.InterNetwork)
+                                {
+
+                                	InfoInterface += "  Address IP ....................... : "+uni.Address+Environment.NewLine;
+                                    currentIP = uni.Address;
+
+                                    InfoInterface += "  MASK ............................. : "+uni.IPv4Mask+Environment.NewLine;
+                                    currentMask = uni.IPv4Mask;
+
+                                foreach (GatewayIPAddressInformation gate in gateway)
+                                {
+                                    InfoInterface += "  gateway .......................... : "+ gate.Address+Environment.NewLine;
+                                }
+
+
+                                foreach (IPAddress dns in dnsServers)
+                                {
+                                    InfoInterface +="  DNS Servers ...................... : "+dns.ToString()+Environment.NewLine;
+                                }
+
+                                InfoInterface += "  Bail dhcp ........................ : "+(((uni.DhcpLeaseLifetime) / 3600) / 24)+" Jours "+Environment.NewLine;
+
+                                foreach (IPAddress dhcp in dhcpserver)
+                                {
+                                    InfoInterface += "Serveur dhcp ....................... : "+dhcp.ToString()+Environment.NewLine;
+                                }
+                                }
+                            }
+                    	File.WriteAllText("InterfaceInfos.txt", InfoInterface);
+                    	networkAdd = getNetworkAddress(currentIP, currentMask);
+                    	broadcastAdd = getBroadcastAddress(networkAdd, currentMask);
+                    }
+                    
+                }
+            }
 		}
 		
 

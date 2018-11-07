@@ -26,16 +26,19 @@ namespace DoorScanner
 			Application.SetCompatibleTextRenderingDefault(false);
 			Application.Run(new MainForm());
 			*/
-			//networkScan NS = new networkScan();
+
 			
 			
 			//MsgBox pour afficher les résultats, c'est de la merde
-			//networkScan NS = new networkScan();
+			networkScan NS = new networkScan();
+			MessageBoxButtons MB = MessageBoxButtons.YesNo;
+			MessageBox.Show(NS.showIP()+", "+NS.showMask()+", "+NS.shownetworkID()+", "+NS.showBroadcast(), "Votre adresse IPv4", MB);
+			/*
 			ListeInterfaces ipDispo = new ListeInterfaces();
 			ipDispo.XmltoList();
 			MessageBoxButtons MB = MessageBoxButtons.YesNo;
-			MessageBox.Show(ipDispo.showIpList());
-			//MessageBox.Show(NS.showIP()+", "+NS.showMask()+", "+NS.shownetworkID()+", "+NS.showBroadcast(), "Votre adresse IPv4", MB);
+			MessageBox.Show(ipDispo.showIpList());*/
+			
 		}
 		
 		
