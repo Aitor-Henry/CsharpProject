@@ -63,6 +63,11 @@
 <distance value="1"/>
 <times srtt="3105" rttvar="904" to="100000"/>
 </host>
+<host>
+	<address addr="2.1.2.1" addrtype="ipv4"/>
+	<hostnames>titi</hostnames>
+	<osmatch name="timere" accuracy="2"></osmatch>
+</host>
 <host starttime="1541415331" endtime="1541415337"><status state="up" reason="localhost-response" reason_ttl="0"/>
 <address addr="192.168.1.13" addrtype="ipv4"/>
 <hostnames>

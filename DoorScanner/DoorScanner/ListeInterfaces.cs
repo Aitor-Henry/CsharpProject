@@ -45,8 +45,8 @@ namespace DoorScanner
 				foreach (XmlNode n in host)
 				{
 					Interface ipUp = new Interface();
+					ipUp.ipAddress = n.SelectSingleNode("address[@addrtype='ipv4']/@addr").InnerText;
 					ipUp.hostName = n.SelectSingleNode("hostnames").InnerText;
-					ipUp.ipAddress = n.SelectSingleNode("//address[@addrtype='ipv4']/@addr").InnerText;
 					ipUp.os = n.SelectSingleNode(
 						"//osmatch[not(@accuracy < preceding::osmatch/@accuracy)and not(@accuracy < following::osmatch/@accuracy)]/@name").InnerText;
 					InterListe.Add(ipUp);
