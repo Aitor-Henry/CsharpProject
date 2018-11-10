@@ -7,6 +7,7 @@
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
 using System;
+using System.Net;
 
 namespace DoorScanner
 {
@@ -19,12 +20,21 @@ namespace DoorScanner
 			get{return HostName;}
 			set{HostName=value;}
 		}
+		
 		private string IpAddress;
 		public string ipAddress
 		{
 			get{return IpAddress;}
 			set{IpAddress=value;}
 		}
+		
+		private string Mask;
+		public string mask
+		{
+			get{return Mask;}
+			set{Mask=value;}
+		}
+		
 		private string Os;
 		public string os
 		{
@@ -36,12 +46,26 @@ namespace DoorScanner
 		{
 		}
 		
-		public Interface(string cHostName, string cIp, string cOs)
+		public Interface(string cIp, string cMask)
 		{
-			hostName=cHostName;
 			ipAddress=cIp;
-			os=cOs;
+			Mask=cMask;
 		}
+		public Interface(string chostname, string cIP, string cMask, string cOs){
+			ipAddress=cIP;
+			Mask=cMask;
+			HostName=chostname;
+			Os=cOs;
+		}
+		
+		public string showIP(){
+			return ipAddress.ToString();
+		}
+		
+		public string showMask(){
+			return Mask.ToString();
+		}
+		
 		public string showInterface()
 		{
 			return "Host: "+hostName+" IP: "+ipAddress+" OS: "+os;

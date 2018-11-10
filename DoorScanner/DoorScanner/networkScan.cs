@@ -25,12 +25,18 @@ namespace DoorScanner
 	public class networkScan
 	{
 		
-		IPAddress currentIP;
-		IPAddress currentMask;
+		
 		IPAddress networkAdd;
 		IPAddress broadcastAdd;
+		IPAddress currentIP;
+		IPAddress currentMask;
+		Interface currentInterface;
 		
-		List<IPAddress> listIpNetwork;
+		public Interface interfaceGS
+		{
+			get{return currentInterface;}
+			set{currentInterface=value;}
+		}
 
 		
 		public networkScan()
@@ -38,7 +44,7 @@ namespace DoorScanner
 			//récupere l'adresse IP de la machine et le masque du réseau.
 			if (NetworkInterface.GetIsNetworkAvailable())
             {
-
+				
                 //appell de toutes les cartes reseau local
                 NetworkInterface[] interfaces = NetworkInterface.GetAllNetworkInterfaces();
 
@@ -95,6 +101,7 @@ namespace DoorScanner
                                 }
                             }
                     	File.WriteAllText("InterfaceInfos.txt", InfoInterface);
+                    	currentInterface = new Interface(currentIP.ToString(), currentMask.ToString());
                     	networkAdd = getNetworkAddress(currentIP, currentMask);
                     	broadcastAdd = getBroadcastAddress(networkAdd, currentMask);
                     }
@@ -103,15 +110,6 @@ namespace DoorScanner
             }
 		}
 		
-
-
-		public string showIP(){
-			return currentIP.ToString();
-		}
-		
-		public string showMask(){
-			return currentMask.ToString();
-		}
 		
 		public string shownetworkID(){
 			return networkAdd.ToString();
@@ -121,23 +119,7 @@ namespace DoorScanner
 			return broadcastAdd.ToString();
 		}
 		
-		/*
-		public string lengthNet(){
-			return listIpNetwork.Count.ToString();
-		}
-		
-		public string showListIP(){
-			List<string> listIPstring= new List<string>();
-			string concatIPs;
-			for(int i=0; i<listIpNetwork.Count; i++){
-				listIPstring.Add(listIpNetwork[i].ToString());
-			}
-			concatIPs = string.Join(",", listIPstring.ToArray());
-			return concatIPs;
-		}
-		*/
-		
-		public IPAddress getNetworkAddress(IPAddress IP, IPAddress mask){
+		public static IPAddress getNetworkAddress(IPAddress IP, IPAddress mask){
 			//calcul pour IDR
 			byte[] IPadd = IP.GetAddressBytes();
 			byte[] MaskBytes = mask.GetAddressBytes();
@@ -149,8 +131,7 @@ namespace DoorScanner
 			return new IPAddress(Broadcast);
 		}
 		
-		
-		public IPAddress getBroadcastAddress(IPAddress IDR, IPAddress mask){
+		public static IPAddress getBroadcastAddress(IPAddress IDR, IPAddress mask){
 			//calcul pour broadcast
 			byte[] IPadd = IDR.GetAddressBytes();
 			byte[] maskBytes = mask.GetAddressBytes();
@@ -161,10 +142,9 @@ namespace DoorScanner
 			return new IPAddress(broadcastbytes);
 		}
 		
-		public void getIpAvailable(IPAddress IDR)
+		public void getIpAvailable(string IDR)
 		{	//liste des ip dispo sur le reseau av commande nmap
-			//PROBLEME, l'IDR doit etre au format slash CIDR (192.168.1.0/24) 
-			string commande = ("nmap -O --osscan-guess "+IDR.ToString()+"/24 -oX ipDispo.xml");
+			string commande = ("nmap -O --osscan-guess "+IDR+convertMask(currentInterface.mask)+" -oX ipDispo.xml");
 				/*osscan-guess demande à nmap une estimation de l'OS
 				  + le fichier xml est enregistrer dans le dossier courant /bin*/
 			Process cmd = new Process();
@@ -173,32 +153,55 @@ namespace DoorScanner
 				cmd.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
 				cmd.Start();
 		}
-			
 		
-		/* NOT WORKING 
-		public List<IPAddress> getListIpAvailable(){
-			//liste des addresses dans le réseau
-			List<IPAddress> listAddress = new List<IPAddress>();
-			foreach(NetworkInterface ni in NetworkInterface.GetAllNetworkInterfaces()){
+		public string convertMask(string mask){
+			string result="";
+			Dictionary<string, string> convertToCIDR = new Dictionary<string, string>(){
+				// Les masques classiques
+				{"255.255.255.0","/24"},
+				{"255.255.0.0","/16"},
+				{"255.0.0.0","/8"},
+				//les moins classiques, on prends en compte toutes les possibilitées
+				{"255.255.255.255","/32"},
+				{"255.255.255.254","/31"},
+				{"255.255.255.252","/30"},
+				{"255.255.255.248","/29"},
+				{"255.255.255.240","/28"},
+				{"255.255.255.224","/27"},
+				{"255.255.255.192","/26"},
+				{"255.255.255.128","/25"},
 				
-			    foreach (UnicastIPAddressInformation ip in ni.GetIPProperties().UnicastAddresses){
-					
-			        if(!ip.IsDnsEligible){
-						
-			            if (ip.Address.AddressFamily == System.Net.Sockets.AddressFamily.InterNetwork){
-							
-			                // All IP Address in the LAN
-			                if(!(currentIP.Equals(ip.Address) || networkAdd.Equals(ip.Address) || broadcastAdd.Equals(ip.Address))){
-			                	listAddress.Add(ip.Address);
-			                }
-			                
-			            }
-			        }
-			    }
+				{"255.255.254.0","/23"},
+				{"255.255.252.0","/22"},
+				{"255.255.248.0","/21"},
+				{"255.255.240.0","/20"},
+				{"255.255.224.0","/19"},
+				{"255.255.192.0","/18"},
+				{"255.255.128.0","/17"},
+				
+				{"255.254.0.0","/15"},
+				{"255.252.0.0","/14"},
+				{"255.248.0.0","/13"},
+				{"255.240.0.0","/12"},
+				{"255.224.0.0","/11"},
+				{"255.192.0.0","/10"},
+				{"255.128.0.0","/9"},
+				
+				{"254.0.0.0","/7"},
+				{"252.0.0.0","/6"},
+				{"248.0.0.0","/5"},
+				{"240.0.0.0","/4"},
+				{"224.0.0.0","/3"},
+				{"192.0.0.0","/2"},
+				{"128.0.0.0","/1"}
+			};
+			if(convertToCIDR.TryGetValue(mask, out result)){
+				return result;
+			} else {
+				//shouldn't happen but never know
+				return "error";
 			}
-			return listAddress;
 		}
-		*/
 
 	}
 }
