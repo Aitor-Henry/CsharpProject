@@ -104,6 +104,7 @@ namespace DoorScanner
                     	currentInterface = new Interface(currentIP.ToString(), currentMask.ToString());
                     	networkAdd = getNetworkAddress(currentIP, currentMask);
                     	broadcastAdd = getBroadcastAddress(networkAdd, currentMask);
+                    	getIpAvailable(networkAdd);
                     }
                     
                 }
@@ -119,7 +120,31 @@ namespace DoorScanner
 			return broadcastAdd.ToString();
 		}
 		
+<<<<<<< Updated upstream
 		public static IPAddress getNetworkAddress(IPAddress IP, IPAddress mask){
+=======
+		public string showInfoIP(){
+			return "IPv4 : "+currentIP.ToString()+" "+currentMask.ToString()+" IDR: "+networkAdd.ToString();
+		}
+		
+		/*
+		public string lengthNet(){
+			return listIpNetwork.Count.ToString();
+		}
+		
+		public string showListIP(){
+			List<string> listIPstring= new List<string>();
+			string concatIPs;
+			for(int i=0; i<listIpNetwork.Count; i++){
+				listIPstring.Add(listIpNetwork[i].ToString());
+			}
+			concatIPs = string.Join(",", listIPstring.ToArray());
+			return concatIPs;
+		}
+		*/
+		
+		public IPAddress getNetworkAddress(IPAddress IP, IPAddress mask){
+>>>>>>> Stashed changes
 			//calcul pour IDR
 			byte[] IPadd = IP.GetAddressBytes();
 			byte[] MaskBytes = mask.GetAddressBytes();
@@ -144,7 +169,12 @@ namespace DoorScanner
 		
 		public void getIpAvailable(string IDR)
 		{	//liste des ip dispo sur le reseau av commande nmap
+<<<<<<< Updated upstream
 			string commande = ("nmap -O --osscan-guess "+IDR+convertMask(currentInterface.mask)+" -oX ipDispo.xml");
+=======
+			//PROBLEME, l'IDR doit etre au format slash CIDR (192.168.1.0/24) 
+			string commande = ("nmap -O --osscan-guess "+IDR.ToString()+"/24 -oX ipDispos.xml");
+>>>>>>> Stashed changes
 				/*osscan-guess demande à nmap une estimation de l'OS
 				  + le fichier xml est enregistrer dans le dossier courant /bin*/
 			Process cmd = new Process();

@@ -8,3 +8,5 @@ D:\Cours\M2\Csharp\Projet\CsharpProject\DoorScanner\DoorScanner\obj\Debug\DoorSc
 D:\Cours\M2\Csharp\Projet\CsharpProject\DoorScanner\DoorScanner\bin\Debug\DoorScanner.exe
 D:\Cours\M2\Csharp\Projet\CsharpProject\DoorScanner\DoorScanner\bin\Debug\DoorScanner.pdb
 D:\Cours\M2\Csharp\Projet\CsharpProject\DoorScanner\DoorScanner\obj\Debug\DoorScanner.pdb
+D:\Cours\M2\Csharp\Projet\CsharpProject\DoorScanner\DoorScanner\obj\Debug\DoorScanner.MainForm.resources
+D:\Cours\M2\Csharp\Projet\CsharpProject\DoorScanner\DoorScanner\obj\Debug\DoorScanner.csproj.GenerateResource.Cache
