@@ -17,15 +17,22 @@ namespace DoorScanner
 	public class ListeInterfaces
 	{
 		private List<Interface> InterListe;
+		
+		//-----GETTER AND SETTER-----
 		public List<Interface> interListe
 		{
 			get{return InterListe;}
 		}
+		
+		
+		//-----Constructeur-----
 		public ListeInterfaces()
 		{
 			XmltoList();
 		}
 		
+		
+		//-----Functions-----
 		public string showIpList()
 		{
 			string resultat="";
@@ -36,6 +43,7 @@ namespace DoorScanner
 			}
 			return resultat;
 		}
+		
 		public void XmltoList()
 		{	//y a une couille la dedans mais je sais pas encore ou...
 			//les valeur de n.ip et n.os ne change pas, host OK et nb d'ip up OK 
@@ -46,6 +54,8 @@ namespace DoorScanner
 				foreach (XmlNode n in host)
 				{
 					Interface ipUp = new Interface();
+					// AJOUT D'UNE LIGNE POUR METTRE TOUTES LES IP DANS INTERFACE.InfosPorts, les ajouter toutes en remplissant Port, state, protocole et service (name dans le xml)
+					
 					ipUp.ipAddress = n.SelectSingleNode("address[@addrtype='ipv4']/@addr").InnerText;
 					ipUp.hostName = n.SelectSingleNode("hostnames").InnerText;
 					ipUp.os = n.SelectSingleNode(

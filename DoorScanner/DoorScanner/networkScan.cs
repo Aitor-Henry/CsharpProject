@@ -182,6 +182,7 @@ namespace DoorScanner
 				cmd.StartInfo.Arguments = "/c"+commande;
 				cmd.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
 				cmd.Start();
+				cmd.WaitForExit();
 		}
 		
 		public string convertMask(string mask){

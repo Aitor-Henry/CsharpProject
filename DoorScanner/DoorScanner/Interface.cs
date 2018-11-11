@@ -8,6 +8,7 @@
  */
 using System;
 using System.Net;
+using System.Collections.Generic;
 
 namespace DoorScanner
 {
@@ -15,37 +16,45 @@ namespace DoorScanner
 	public class Interface
 	{
 		private string HostName;
+		private List<Port> InfosPorts;
+		private string Os;
+		private string Mask;
+		private string IpAddress;
+		
+		
+		//-----GETTER AND SETTER-----
 		public string hostName
 		{
 			get{return HostName;}
 			set{HostName=value;}
 		}
-		
-		private string IpAddress;
 		public string ipAddress
 		{
 			get{return IpAddress;}
 			set{IpAddress=value;}
 		}
-		
-		private string Mask;
 		public string mask
 		{
 			get{return Mask;}
 			set{Mask=value;}
 		}
-		
-		private string Os;
 		public string os
 		{
 			get{return Os;}
 			set{Os=value;}
 		}
+		public List<Port> infosports
+		{
+			get{return InfosPorts;}
+			set{InfosPorts=value;}
+		}
 		
+		
+		//-----Constructeurs-----
 		public Interface()
 		{
 		}
-		
+
 		public Interface(string cIp, string cMask)
 		{
 			ipAddress=cIp;
@@ -58,14 +67,8 @@ namespace DoorScanner
 			Os=cOs;
 		}
 		
-		public string showIP(){
-			return ipAddress.ToString();
-		}
 		
-		public string showMask(){
-			return Mask.ToString();
-		}
-		
+		//-----function-----
 		public string showInterface()
 		{
 			return "Host: "+hostName+" IP: "+ipAddress+" OS: "+os;
