@@ -28,7 +28,6 @@ namespace DoorScanner
 		//-----Constructeur-----
 		public ListeInterfaces()
 		{
-			XmltoList();
 		}
 		
 		
@@ -49,7 +48,7 @@ namespace DoorScanner
 			//les valeur de n.ip et n.os ne change pas, host OK et nb d'ip up OK 
 			InterListe = new List<Interface>();
 			XmlDocument xnl = new XmlDocument();
-				xnl.Load("ipDispos.xml");
+				xnl.Load("ipDispo.xml");
 				XmlNodeList host = xnl.SelectNodes("/nmaprun/host");
 				foreach (XmlNode n in host)
 				{

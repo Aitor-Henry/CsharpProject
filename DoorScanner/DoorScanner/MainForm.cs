@@ -25,16 +25,9 @@ namespace DoorScanner
 			//
 			InitializeComponent();
 			
-			networkScan NS = new networkScan();
-			infoUserIP.Text = NS.showInfoIP();
-		}
-		void BtnScanIpUpClick(object sender, EventArgs e)
-		{
-			ListeInterfaces LS = new ListeInterfaces();
-			
-			foreach (Interface i in LS){
-				lboxInterfaces.Items = i.showInterface().ToString();
-			}
+			//
+			// TODO: Add constructor code after the InitializeComponent() call.
+			//
 		}
 	}
 }

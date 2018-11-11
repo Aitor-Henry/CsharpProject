@@ -22,30 +22,25 @@ namespace DoorScanner
 		[STAThread]
 		private static void Main(string[] args)
 		{
-			Application.EnableVisualStyles();
+			/*Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
 			Application.Run(new MainForm());
+			*/
+
 			
 			
 			//MsgBox pour afficher les résultats, c'est de la merde
-<<<<<<< Updated upstream
 			networkScan NS = new networkScan();
 			MessageBoxButtons MB = MessageBoxButtons.YesNo;
 			
 			MessageBox.Show(NS.interfaceGS.ipAddress+", "+NS.interfaceGS.mask+", "+NS.shownetworkID()+", "+NS.showBroadcast(), "Votre informations réseau", MB);
 			
-			//NS.getIpAvailable(NS.interfaceGS.ipAddress);
+			NS.getIpAvailable(NS.interfaceGS.ipAddress);
 			
 			ListeInterfaces LI = new ListeInterfaces();
 			LI.XmltoList();
 			MessageBox.Show(LI.showIpList());
-=======
->>>>>>> Stashed changes
 			
-			//MessageBoxButtons MB = MessageBoxButtons.YesNo;
-			//MessageBox.Show(NS.showIP()+", "+NS.showMask()+", "+NS.shownetworkID()+", "+NS.showBroadcast(), "Votre adresse IPv4", MB);
-
-	
 		}
 		
 		
