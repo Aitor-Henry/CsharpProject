@@ -35,7 +35,7 @@ namespace DoorScanner
 			
 			MessageBox.Show(NS.interfaceGS.ipAddress+", "+NS.interfaceGS.mask+", "+NS.shownetworkID()+", "+NS.showBroadcast(), "Votre informations réseau", MB);
 			
-			NS.getIpAvailable(NS.interfaceGS.ipAddress);
+			//NS.getIpAvailable(NS.interfaceGS.ipAddress);
 			
 			ListeInterfaces LI = new ListeInterfaces();
 			LI.XmltoList();

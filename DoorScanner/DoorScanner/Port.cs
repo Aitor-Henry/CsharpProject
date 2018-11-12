@@ -56,5 +56,10 @@ namespace DoorScanner
 			service = cservice;
 		}
 		
+		//-----Functions-----
+		public string showip(){
+			return "port : "+numport+";"+state+";"+protocole+";"+service+".";
+		}
+		
 	}
 }
