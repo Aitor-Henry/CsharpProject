@@ -53,6 +53,7 @@ namespace DoorScanner
 		//-----Constructeurs-----
 		public Interface()
 		{
+			infosports= new List<Port>();
 		}
 
 		public Interface(string cIp, string cMask)
@@ -73,9 +74,9 @@ namespace DoorScanner
 		{
 			// le temps de voir si l'implémentation de l'ip marche
 			string retour = "Host: "+hostName+" IP: "+ipAddress+" OS: "+os+"\r\n";
-			/*foreach (Port e in infosports) {
+			foreach (Port e in infosports) {
 				retour = retour+e.showip()+"\r\n";
-			}*/
+			}
 			return retour;
 		}
 		
