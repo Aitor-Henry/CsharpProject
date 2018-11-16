@@ -31,23 +31,24 @@ namespace DoorScanner
 		IPAddress currentIP;
 		IPAddress currentMask;
 		Interface currentInterface;
+		public List<Interface> cartesListe;
 		
 		public Interface interfaceGS
 		{
 			get{return currentInterface;}
 			set{currentInterface=value;}
 		}
-
+		
 		
 		public networkScan()
 		{
 			//récupere l'adresse IP de la machine et le masque du réseau.
 			if (NetworkInterface.GetIsNetworkAvailable())
             {
-				
                 //appell de toutes les cartes reseau local
                 NetworkInterface[] interfaces = NetworkInterface.GetAllNetworkInterfaces();
-
+                //Instensiation de la liste des cartes 
+                cartesListe = new List<Interface>();
                 //affichage de toutes les informations des cartes reseau
                 foreach (NetworkInterface ni in interfaces)
                 {
@@ -101,9 +102,10 @@ namespace DoorScanner
                                 }
                             }
                     	File.WriteAllText("InterfaceInfos.txt", InfoInterface);
-                    	currentInterface = new Interface(currentIP.ToString(), currentMask.ToString());
                     	networkAdd = getNetworkAddress(currentIP, currentMask);
                     	broadcastAdd = getBroadcastAddress(networkAdd, currentMask);
+                    	currentInterface = new Interface(currentIP.ToString(), currentMask.ToString(), networkAdd.ToString(), broadcastAdd.ToString());
+                    	cartesListe.Add(currentInterface);
                     }
                     
                 }
@@ -118,6 +120,12 @@ namespace DoorScanner
 		public string showBroadcast(){
 			return broadcastAdd.ToString();
 		}
+		
+		/*public string showListeCartes(){
+			foreach (Interface i in cartesListe){
+				return i.ipAddress+" "+i.mask+" "+i.netAdd+" "+i.broadAdd;
+			}
+		}*/
 		
 		public static IPAddress getNetworkAddress(IPAddress IP, IPAddress mask){
 			//calcul pour IDR
@@ -144,7 +152,7 @@ namespace DoorScanner
 		
 		public void getIpAvailable(string IDR)
 		{	//liste des ip dispo sur le reseau av commande nmap
-			string commande = ("nmap -O --osscan-guess "+IDR+convertMask(currentInterface.mask)+" -oX ipDispo.xml");
+			string commande = ("nmap -su -T5 "+IDR+convertMask(currentInterface.mask)+" -oX ipDispo.xml");
 				/*osscan-guess demande à nmap une estimation de l'OS
 				  + le fichier xml est enregistrer dans le dossier courant /bin*/
 			Process cmd = new Process();

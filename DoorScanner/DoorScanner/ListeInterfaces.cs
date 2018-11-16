@@ -14,7 +14,7 @@ using System.Windows.Forms;
 namespace DoorScanner
 {
 	[Serializable]
-	public class ListeInterfaces
+	public class ListeInterfaces //les interfaces tiers sur le réseau
 	{
 		private List<Interface> InterListe;
 		
@@ -37,7 +37,7 @@ namespace DoorScanner
 			string resultat="";
 			foreach(Interface i in InterListe)
 			{
-				resultat=resultat+" \n"+i.showInterface();
+				resultat=resultat+" \n"+i.showInterfaceT();
 				
 			}
 			return resultat;
@@ -85,7 +85,7 @@ namespace DoorScanner
 				
 				ipUp.ipAddress = n.SelectSingleNode("address[@addrtype='ipv4']/@addr").InnerText;
 				ipUp.hostName = n.SelectSingleNode("hostnames").InnerText;
-				ipUp.os = n.SelectSingleNode("//osmatch[not(@accuracy < preceding::osmatch/@accuracy)and not(@accuracy < following::osmatch/@accuracy)]/@name").InnerText;
+				ipUp.osCarte = n.SelectSingleNode("//osmatch[not(@accuracy < preceding::osmatch/@accuracy)and not(@accuracy < following::osmatch/@accuracy)]/@name").InnerText;
 				
 				InterListe.Add(ipUp);
 			}

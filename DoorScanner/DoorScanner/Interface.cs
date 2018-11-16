@@ -17,9 +17,12 @@ namespace DoorScanner
 	{
 		private string HostName;
 		private List<Port> InfosPorts;
-		private string Os;
+		private string OsCarte;
+		private string MacAddress;
 		private string Mask;
 		private string IpAddress;
+		private string NetAdd;
+		private string BroadAdd;
 		
 		
 		//-----GETTER AND SETTER-----
@@ -27,6 +30,16 @@ namespace DoorScanner
 		{
 			get{return HostName;}
 			set{HostName=value;}
+		}
+		public string osCarte
+		{
+			get{return OsCarte;}
+			set{OsCarte=value;}
+		}
+		public string macAddress
+		{
+			get{return MacAddress;}
+			set{MacAddress=value;}
 		}
 		public string ipAddress
 		{
@@ -38,10 +51,15 @@ namespace DoorScanner
 			get{return Mask;}
 			set{Mask=value;}
 		}
-		public string os
+		public string netAdd
 		{
-			get{return Os;}
-			set{Os=value;}
+			get{return NetAdd;}
+			set{NetAdd=value;}
+		}
+		public string broadAdd
+		{
+			get{return BroadAdd;}
+			set{BroadAdd=value;}
 		}
 		public List<Port> infosports
 		{
@@ -56,28 +74,36 @@ namespace DoorScanner
 			infosports= new List<Port>();
 		}
 
-		public Interface(string cIp, string cMask)
+		public Interface(string cIp, string cMask, string cNet, string cBroad)
 		{
 			ipAddress=cIp;
-			Mask=cMask;
+			mask=cMask;
+			netAdd=cNet;
+			broadAdd=cBroad;
 		}
-		public Interface(string chostname, string cIP, string cMask, string cOs){
+		public Interface(string chostname, string cIP, string cMask, string cOsCarte, string cMac){
 			ipAddress=cIP;
-			Mask=cMask;
-			HostName=chostname;
-			Os=cOs;
+			mask=cMask;
+			hostName=chostname;
+			osCarte=cOsCarte;
+			macAddress=cMac;
+			
 		}
 		
 		
 		//-----function-----
-		public string showInterface()
+		public string showInterfaceT()
 		{
 			// le temps de voir si l'implémentation de l'ip marche
-			string retour = "Host: "+hostName+" IP: "+ipAddress+" OS: "+os+"\r\n";
+			string retour = "Host: "+hostName+" IP: "+ipAddress+" OS: "+osCarte+"\r\n";
 			foreach (Port e in infosports) {
 				retour = retour+e.showip()+"\r\n";
 			}
 			return retour;
+		}
+		public string showCarte()
+		{
+			return "IP: "+ipAddress+"  Reseau: "+netAdd;
 		}
 		
 	}

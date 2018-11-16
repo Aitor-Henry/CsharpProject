@@ -14,6 +14,9 @@ namespace DoorScanner
 		/// Designer variable used to keep track of non-visual components.
 		/// </summary>
 		private System.ComponentModel.IContainer components = null;
+		private System.Windows.Forms.Label label1;
+		private System.Windows.Forms.Button btnValider;
+		private System.Windows.Forms.ListView lviewCarteReseau;
 		
 		/// <summary>
 		/// Disposes resources used by the form.
@@ -36,12 +39,51 @@ namespace DoorScanner
 		/// </summary>
 		private void InitializeComponent()
 		{
+			this.label1 = new System.Windows.Forms.Label();
+			this.btnValider = new System.Windows.Forms.Button();
+			this.lviewCarteReseau = new System.Windows.Forms.ListView();
+			this.SuspendLayout();
+			// 
+			// label1
+			// 
+			this.label1.Location = new System.Drawing.Point(216, 9);
+			this.label1.Name = "label1";
+			this.label1.Size = new System.Drawing.Size(394, 52);
+			this.label1.TabIndex = 1;
+			this.label1.Text = "Choisissez à partir de quelle carte réseau voulez-vous lancer un scan, puis Valid" +
+	"ez :";
+			// 
+			// btnValider
+			// 
+			this.btnValider.Location = new System.Drawing.Point(38, 206);
+			this.btnValider.Name = "btnValider";
+			this.btnValider.Size = new System.Drawing.Size(142, 53);
+			this.btnValider.TabIndex = 2;
+			this.btnValider.Text = "Valider";
+			this.btnValider.UseVisualStyleBackColor = true;
+			this.btnValider.Click += new System.EventHandler(this.BtnValiderClick);
+			// 
+			// lviewCarteReseau
+			// 
+			this.lviewCarteReseau.Location = new System.Drawing.Point(216, 64);
+			this.lviewCarteReseau.MultiSelect = false;
+			this.lviewCarteReseau.Name = "lviewCarteReseau";
+			this.lviewCarteReseau.Size = new System.Drawing.Size(394, 343);
+			this.lviewCarteReseau.TabIndex = 3;
+			this.lviewCarteReseau.UseCompatibleStateImageBehavior = false;
 			// 
 			// MainForm
 			// 
+			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.Text = "DoorScanner";
+			this.ClientSize = new System.Drawing.Size(661, 436);
+			this.Controls.Add(this.lviewCarteReseau);
+			this.Controls.Add(this.btnValider);
+			this.Controls.Add(this.label1);
 			this.Name = "MainForm";
+			this.Text = "DoorScanner";
+			this.ResumeLayout(false);
+
 		}
 	}
 }

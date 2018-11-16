@@ -8,3 +8,10 @@ D:\Cours\M2\Csharp\Projet\CsharpProject\DoorScanner\DoorScanner\obj\Debug\DoorSc
 D:\Cours\M2\Csharp\Projet\CsharpProject\DoorScanner\DoorScanner\bin\Debug\DoorScanner.exe
 D:\Cours\M2\Csharp\Projet\CsharpProject\DoorScanner\DoorScanner\bin\Debug\DoorScanner.pdb
 D:\Cours\M2\Csharp\Projet\CsharpProject\DoorScanner\DoorScanner\obj\Debug\DoorScanner.pdb
+D:\Cours\M2\Csharp\DS\CsharpProject\DoorScanner\DoorScanner\obj\Debug\DoorScanner.csprojResolveAssemblyReference.cache
+D:\Cours\M2\Csharp\DS\CsharpProject\DoorScanner\DoorScanner\obj\Debug\DoorScanner.exe
+D:\Cours\M2\Csharp\DS\CsharpProject\DoorScanner\DoorScanner\bin\Debug\DoorScanner.exe
+D:\Cours\M2\Csharp\DS\CsharpProject\DoorScanner\DoorScanner\bin\Debug\DoorScanner.pdb
+D:\Cours\M2\Csharp\DS\CsharpProject\DoorScanner\DoorScanner\obj\Debug\DoorScanner.pdb
+D:\Cours\M2\Csharp\DS\CsharpProject\DoorScanner\DoorScanner\obj\Debug\DoorScanner.IpDispoSurLeReseau.resources
+D:\Cours\M2\Csharp\DS\CsharpProject\DoorScanner\DoorScanner\obj\Debug\DoorScanner.csproj.GenerateResource.Cache

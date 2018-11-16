@@ -20,14 +20,26 @@ namespace DoorScanner
 	{
 		public MainForm()
 		{
-			//
-			// The InitializeComponent() call is required for Windows Forms designer support.
-			//
 			InitializeComponent();
+
+			networkScan NS = new networkScan();
 			
-			//
-			// TODO: Add constructor code after the InitializeComponent() call.
-			//
+			
+			lviewCarteReseau.Columns.Add("IP", 100, HorizontalAlignment.Left);
+			lviewCarteReseau.Columns.Add("Reseau", 100, HorizontalAlignment.Left);
+			lviewCarteReseau.View = View.Details;
+			
+			foreach(Interface i in NS.cartesListe)
+			{	
+				
+				ListViewItem carte = new ListViewItem(i.ipAddress);
+				carte.SubItems.Add (i.netAdd);
+				lviewCarteReseau.Items.Add(carte);
+			}
+		}
+		void BtnValiderClick(object sender, EventArgs e)
+		{
+			
 		}
 	}
 }
