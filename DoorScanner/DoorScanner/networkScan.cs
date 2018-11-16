@@ -152,7 +152,7 @@ namespace DoorScanner
 		
 		public void getIpAvailable(string IDR)
 		{	//liste des ip dispo sur le reseau av commande nmap
-			string commande = ("nmap -su -T5 "+IDR+convertMask(currentInterface.mask)+" -oX ipDispo.xml");
+			string commande = ("nmap -sn -T5 "+IDR+convertMask(currentInterface.mask)+" -oX ipDispo.xml");
 				/*osscan-guess demande à nmap une estimation de l'OS
 				  + le fichier xml est enregistrer dans le dossier courant /bin*/
 			Process cmd = new Process();

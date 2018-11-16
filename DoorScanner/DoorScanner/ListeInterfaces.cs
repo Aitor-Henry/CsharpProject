@@ -83,11 +83,12 @@ namespace DoorScanner
 					ipUp.infosports.Add(P);
 				}*/
 				
-				ipUp.ipAddress = n.SelectSingleNode("address[@addrtype='ipv4']/@addr").InnerText;
-				ipUp.hostName = n.SelectSingleNode("hostnames").InnerText;
-				ipUp.osCarte = n.SelectSingleNode("//osmatch[not(@accuracy < preceding::osmatch/@accuracy)and not(@accuracy < following::osmatch/@accuracy)]/@name").InnerText;
-				
+				ipUp.ipAddress = n.SelectSingleNode("//address[@addrtype='ipv4']/@addr").InnerText;
+				ipUp.macAddress = n.SelectSingleNode("//address[@addrtype='mac']/@addr").InnerText;
+				ipUp.hostName = n.SelectSingleNode("//hostname/@name").InnerText;
+				ipUp.osCarte = n.SelectSingleNode("//address[@addrtype='mac']/@vendor").InnerText;
 				InterListe.Add(ipUp);
+
 			}
 		}
 	}

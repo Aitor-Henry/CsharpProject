@@ -95,11 +95,12 @@ namespace DoorScanner
 		public string showInterfaceT()
 		{
 			// le temps de voir si l'implémentation de l'ip marche
-			string retour = "Host: "+hostName+" IP: "+ipAddress+" OS: "+osCarte+"\r\n";
+			/*string retour = "Host: "+hostName+" IP: "+ipAddress+" OS: "+osCarte+"\r\n";
 			foreach (Port e in infosports) {
 				retour = retour+e.showip()+"\r\n";
 			}
-			return retour;
+			return retour;*/
+			return hostName+" "+ipAddress+" "+macAddress+" "+osCarte;
 		}
 		public string showCarte()
 		{
