@@ -33,12 +33,12 @@ namespace DoorScanner
 		Interface currentInterface;
 		public List<Interface> cartesListe;
 		
-		public Interface interfaceGS
+		/*public Interface interfaceGS
 		{
 			get{return currentInterface;}
 			set{currentInterface=value;}
 		}
-		
+		*/
 		
 		public networkScan()
 		{
@@ -121,12 +121,7 @@ namespace DoorScanner
 			return broadcastAdd.ToString();
 		}
 		
-		/*public string showListeCartes(){
-			foreach (Interface i in cartesListe){
-				return i.ipAddress+" "+i.mask+" "+i.netAdd+" "+i.broadAdd;
-			}
-		}*/
-		
+	
 		public static IPAddress getNetworkAddress(IPAddress IP, IPAddress mask){
 			//calcul pour IDR
 			byte[] IPadd = IP.GetAddressBytes();
@@ -150,9 +145,9 @@ namespace DoorScanner
 			return new IPAddress(broadcastbytes);
 		}
 		
-		public void getIpAvailable(string IDR)
+		public void getIpAvailable(string IDR, string mask)
 		{	//liste des ip dispo sur le reseau avec commande nmap
-			string commande = ("nmap -sn -T5 "+IDR+convertMask(currentInterface.mask)+" -oX ipDispo.xml");
+			string commande = ("nmap -sn -T5 "+IDR+convertMask(mask)+" -oX ipDispo.xml");
 				/* -sn pour recueillir nom d'hote, ip, mac, modele de la carte mac
 				  + le fichier xml est enregistrer dans le dossier courant /bin/debug */
 			Process cmd = new Process();

@@ -58,6 +58,13 @@ namespace DoorScanner
 			XDocument doc = XDocument.Load("ipDispo.xml");
 			
 			//chaque resultat de cette requete linq en loop est stocké dans lHost
+			
+			/*var items = from item in doc.Descendants("host")
+				select new {
+					ipaddr = item.Elements("address").Where(h=>h.Attribute("addrtype").Value == "mac").Se
+			}*/
+			
+			
 			lHost = (from host in doc.Root.Elements("host")//element sur lequel on va iterer
 			         select new Interface 
 			         {

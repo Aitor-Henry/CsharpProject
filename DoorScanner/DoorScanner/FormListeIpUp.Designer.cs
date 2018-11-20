@@ -20,6 +20,8 @@ namespace DoorScanner
 		private System.Windows.Forms.ColumnHeader columnVendor;
 		private System.Windows.Forms.ColumnHeader columnStatus;
 		public System.Windows.Forms.ListView lviewIpUp;
+		private System.Windows.Forms.Button validateIpButton;
+		private System.Windows.Forms.Button cancelIpButton;
 		
 		/// <summary>
 		/// Disposes resources used by the form.
@@ -48,6 +50,8 @@ namespace DoorScanner
 			this.columnMac = new System.Windows.Forms.ColumnHeader();
 			this.columnVendor = new System.Windows.Forms.ColumnHeader();
 			this.columnStatus = new System.Windows.Forms.ColumnHeader();
+			this.validateIpButton = new System.Windows.Forms.Button();
+			this.cancelIpButton = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// lviewIpUp
@@ -60,9 +64,10 @@ namespace DoorScanner
 			this.columnStatus});
 			this.lviewIpUp.FullRowSelect = true;
 			this.lviewIpUp.GridLines = true;
-			this.lviewIpUp.Location = new System.Drawing.Point(123, 101);
+			this.lviewIpUp.Location = new System.Drawing.Point(82, 66);
+			this.lviewIpUp.Margin = new System.Windows.Forms.Padding(2);
 			this.lviewIpUp.Name = "lviewIpUp";
-			this.lviewIpUp.Size = new System.Drawing.Size(623, 374);
+			this.lviewIpUp.Size = new System.Drawing.Size(417, 244);
 			this.lviewIpUp.TabIndex = 0;
 			this.lviewIpUp.UseCompatibleStateImageBehavior = false;
 			this.lviewIpUp.View = System.Windows.Forms.View.Details;
@@ -92,12 +97,37 @@ namespace DoorScanner
 			this.columnStatus.Text = "Statut";
 			this.columnStatus.Width = 90;
 			// 
+			// validateIpButton
+			// 
+			this.validateIpButton.DialogResult = System.Windows.Forms.DialogResult.OK;
+			this.validateIpButton.Location = new System.Drawing.Point(82, 12);
+			this.validateIpButton.Name = "validateIpButton";
+			this.validateIpButton.Size = new System.Drawing.Size(84, 33);
+			this.validateIpButton.TabIndex = 1;
+			this.validateIpButton.Text = "Valider";
+			this.validateIpButton.UseVisualStyleBackColor = true;
+			this.validateIpButton.Click += new System.EventHandler(this.ValidateIpButtonClick);
+			// 
+			// cancelIpButton
+			// 
+			this.cancelIpButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+			this.cancelIpButton.Location = new System.Drawing.Point(192, 12);
+			this.cancelIpButton.Name = "cancelIpButton";
+			this.cancelIpButton.Size = new System.Drawing.Size(83, 33);
+			this.cancelIpButton.TabIndex = 2;
+			this.cancelIpButton.TabStop = false;
+			this.cancelIpButton.Text = "Annuler";
+			this.cancelIpButton.UseVisualStyleBackColor = true;
+			// 
 			// FormListeIpUp
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(798, 523);
+			this.ClientSize = new System.Drawing.Size(615, 369);
+			this.Controls.Add(this.cancelIpButton);
+			this.Controls.Add(this.validateIpButton);
 			this.Controls.Add(this.lviewIpUp);
+			this.Margin = new System.Windows.Forms.Padding(2);
 			this.Name = "FormListeIpUp";
 			this.Text = "FormListeIpUp";
 			this.ResumeLayout(false);

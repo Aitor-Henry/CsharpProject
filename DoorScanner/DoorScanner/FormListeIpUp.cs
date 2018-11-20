@@ -17,6 +17,7 @@ namespace DoorScanner
 	/// </summary>
 	public partial class FormListeIpUp : Form
 	{
+		public string ipChoisie {get;set;}
 		public FormListeIpUp()
 		{
 			//
@@ -27,6 +28,18 @@ namespace DoorScanner
 			//
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
+			
 		}
+		
+		
+		
+		void ValidateIpButtonClick(object sender, EventArgs e)
+		{
+			if(lviewIpUp.SelectedItems.Count>0){
+				ipChoisie = lviewIpUp.SelectedItems[0].SubItems[1].Text;
+			}
+		}
+		
+
 	}
 }

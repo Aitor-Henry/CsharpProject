@@ -25,16 +25,6 @@ namespace DoorScanner
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
 			Application.Run(new MainForm());
-			
-
-			/*MsgBox pour afficher les résultats, c'est de la merde
-			networkScan NS = new networkScan();
-			MessageBoxButtons MB = MessageBoxButtons.YesNo;
-			
-			MessageBox.Show(NS.interfaceGS.ipAddress+", "+NS.interfaceGS.mask+", "+NS.shownetworkID()+", "+NS.showBroadcast(), "Votre informations réseau", MB);
-			*/
-			//NS.getIpAvailable(NS.interfaceGS.ipAddress);
-			
 		}
 		
 		
