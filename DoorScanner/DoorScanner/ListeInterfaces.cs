@@ -62,23 +62,27 @@ namespace DoorScanner
 			         select new Interface 
 			         {
 			         	ipAddress = host.Elements("address")
-			         		.Where(h=>h.Attribute("addrtype").Value == "ipv4")
+			         		.Where(h=>h.Attribute("addrtype").Value == "ipv4"
+			         		       && h.Attribute("addr") != null)
 			         		.Select(h=>h.Attribute("addr").Value)
 			         		.FirstOrDefault(),
 			         	macAddress = host.Elements("address")
-			         		.Where(h=>h.Attribute("addrtype").Value == "mac")
+			         		.Where(h=>h.Attribute("addrtype").Value == "mac"
+			         		       && h.Attribute("addr") != null)
 			         		.Select(h=>h.Attribute("addr").Value)
 			         		.FirstOrDefault(),
 			         	osCarte = host.Elements("address")
-			         		.Where(h=>h.Attribute("addrtype").Value == "mac")
+			         		.Where(h=>h.Attribute("addrtype").Value == "mac"
+			         		       && h.Attribute("vendor") != null)
 			         		.Select(h=>h.Attribute("vendor").Value)
 			         		.FirstOrDefault(),
 			         	hostName = host.Elements("hostnames")
 			         		.Elements("hostname")
+			         		.Where(h=>h.Attribute("name") != null)
 			         		.Select(h=>h.Attribute("name").Value)
 			         		.FirstOrDefault(),
 			         	status = host.Elements("status")
-			         		.Elements("reason")
+			         		.Where(h=>h.Attribute("reason") != null)
 			         		.Select(h=>h.Attribute("reason").Value)
 			         		.FirstOrDefault(),
 			         }
