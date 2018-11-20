@@ -61,6 +61,16 @@ namespace DoorScanner
 						portScan PS = new portScan(lIpUp.ipChoisie);
 						// Ligne suivant en comm. pour éviter de lancer un scan a chaque fois
 						PS.startScanPorts();
+						PS.readScanToList();
+
+						foreach (Port p in PS.listPort) {
+							ListViewItem carte = new ListViewItem(p.numport.ToString());
+							carte.SubItems.Add(p.protocole);
+							carte.SubItems.Add(p.state);
+							carte.SubItems.Add(p.service);
+							listPortView.Items.Add(carte);
+						}
+						ipAddLabel.Text = lIpUp.ipChoisie;
 						scanPortPanel.Visible = true;
 					} else {
 						MessageBox.Show("Vous n'avez pas seléctionné d'ip à scanner");
@@ -72,5 +82,6 @@ namespace DoorScanner
 			}
 			
 		}
+
 	}
 }

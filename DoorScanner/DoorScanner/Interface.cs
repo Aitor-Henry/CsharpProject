@@ -16,7 +16,6 @@ namespace DoorScanner
 	public class Interface
 	{
 		private string HostName;
-		private List<Port> InfosPorts;
 		private string OsCarte;
 		private string MacAddress;
 		private string Mask;
@@ -67,17 +66,11 @@ namespace DoorScanner
 			get{return Status;}
 			set{Status=value;}
 		}
-		public List<Port> infosports
-		{
-			get{return InfosPorts;}
-			set{InfosPorts=value;}
-		}
 		
 		
 		//-----Constructeurs-----
 		public Interface()
 		{
-			infosports= new List<Port>();
 		}
 
 		public Interface(string cIp, string cMask, string cNet, string cBroad)

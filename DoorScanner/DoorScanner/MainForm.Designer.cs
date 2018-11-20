@@ -21,7 +21,7 @@ namespace DoorScanner
 		private System.Windows.Forms.ColumnHeader columnNetwork;
 		private System.Windows.Forms.ColumnHeader columnMask;
 		private System.Windows.Forms.Panel scanPortPanel;
-		private System.Windows.Forms.ListView listView1;
+		private System.Windows.Forms.ListView listPortView;
 		private System.Windows.Forms.Label ipAddLabel;
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.ColumnHeader columnPort;
@@ -59,7 +59,7 @@ namespace DoorScanner
 			this.scanPortPanel = new System.Windows.Forms.Panel();
 			this.ipAddLabel = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
-			this.listView1 = new System.Windows.Forms.ListView();
+			this.listPortView = new System.Windows.Forms.ListView();
 			this.columnPort = new System.Windows.Forms.ColumnHeader();
 			this.columnProtocole = new System.Windows.Forms.ColumnHeader();
 			this.columnState = new System.Windows.Forms.ColumnHeader();
@@ -124,7 +124,7 @@ namespace DoorScanner
 			// 
 			this.scanPortPanel.Controls.Add(this.ipAddLabel);
 			this.scanPortPanel.Controls.Add(this.label2);
-			this.scanPortPanel.Controls.Add(this.listView1);
+			this.scanPortPanel.Controls.Add(this.listPortView);
 			this.scanPortPanel.Location = new System.Drawing.Point(48, 331);
 			this.scanPortPanel.Name = "scanPortPanel";
 			this.scanPortPanel.Size = new System.Drawing.Size(529, 376);
@@ -146,20 +146,20 @@ namespace DoorScanner
 			this.label2.TabIndex = 1;
 			this.label2.Text = "Adresse IP : ";
 			// 
-			// listView1
+			// listPortView
 			// 
-			this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+			this.listPortView.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
 			this.columnPort,
 			this.columnProtocole,
 			this.columnState,
 			this.columnService});
-			this.listView1.GridLines = true;
-			this.listView1.Location = new System.Drawing.Point(96, 65);
-			this.listView1.Name = "listView1";
-			this.listView1.Size = new System.Drawing.Size(284, 287);
-			this.listView1.TabIndex = 0;
-			this.listView1.UseCompatibleStateImageBehavior = false;
-			this.listView1.View = System.Windows.Forms.View.Details;
+			this.listPortView.GridLines = true;
+			this.listPortView.Location = new System.Drawing.Point(96, 65);
+			this.listPortView.Name = "listPortView";
+			this.listPortView.Size = new System.Drawing.Size(284, 287);
+			this.listPortView.TabIndex = 0;
+			this.listPortView.UseCompatibleStateImageBehavior = false;
+			this.listPortView.View = System.Windows.Forms.View.Details;
 			// 
 			// columnPort
 			// 
