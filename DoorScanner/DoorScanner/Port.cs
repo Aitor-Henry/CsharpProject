@@ -56,7 +56,7 @@ namespace DoorScanner
 			service = cservice;
 		}
 		
-		//-----Functions-----
+		//-----Functions----- Inutlie par la suite, juste debuggage
 		public string showip(){
 			return "port : "+numport+";"+state+";"+protocole+";"+service+".";
 		}

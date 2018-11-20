@@ -97,16 +97,9 @@ namespace DoorScanner
 		}
 		
 		
-		//-----function-----
+		//-----function----- Inutile, à supprimer par la suite
 		public string showInterfaceT()
 		{
-			// le temps de voir si l'implémentation de l'ip marche
-			/*string retour = "Host: "+hostName+" IP: "+ipAddress+" OS: "+osCarte+"\r\n";
-			foreach (Port e in infosports) {
-				retour = retour+e.showip()+"\r\n";
-			}
-			return retour;*/
-
 			return hostName+" "+ipAddress+" "+macAddress+" "+osCarte+" "+ status;
 		}
 		public string showCarte()

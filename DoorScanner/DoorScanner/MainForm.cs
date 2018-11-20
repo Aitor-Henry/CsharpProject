@@ -59,6 +59,7 @@ namespace DoorScanner
 				if(lIpUp.ShowDialog()==DialogResult.OK){
 					if(lIpUp.ipChoisie!=null){
 						portScan PS = new portScan(lIpUp.ipChoisie);
+						// Ligne suivant en comm. pour éviter de lancer un scan a chaque fois
 						PS.startScanPorts();
 						scanPortPanel.Visible = true;
 					} else {

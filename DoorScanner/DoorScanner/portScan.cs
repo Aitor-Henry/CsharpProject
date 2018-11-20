@@ -37,6 +37,33 @@ namespace DoorScanner
 		
 		public void readScanToList(){
 			//reader, incrémentation de la liste listPort
+						//marche presque.
+			/*XmlNode ports = n.SelectSingleNode("ports");
+				List<int> port = new List<int>();
+				List<string> prot = new List<string>();
+				List<string> state = new List<string>();
+				List<string> service = new List<string>();
+
+				foreach (XmlNode p2 in ports.SelectNodes("//port[@portid]")) {
+					port.Add(Int32.Parse(p2.Attributes["portid"].Value));
+					prot.Add(p2.Attributes["protocol"].Value);
+				}
+				foreach (XmlNode s in ports.SelectNodes("//state[@state]")) {
+					state.Add(s.Attributes["state"].Value);
+				}
+				foreach (XmlNode serv in ports.SelectNodes("//service[@name]")) {
+					service.Add(serv.Attributes["name"].Value);
+				}
+				MessageBox.Show(port.Count.ToString());
+				for (int i = 0; i < port.Count; i++) {
+					Port P = new Port();
+					P.numport=port[i];
+					P.protocole=prot[i];
+					P.service=service[i];
+					P.state=state[i];
+					ipUp.infosports.Add(P);
+				}
+			}*/
 		}
 	}
 }

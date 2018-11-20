@@ -58,13 +58,6 @@ namespace DoorScanner
 			XDocument doc = XDocument.Load("ipDispo.xml");
 			
 			//chaque resultat de cette requete linq en loop est stocké dans lHost
-			
-			/*var items = from item in doc.Descendants("host")
-				select new {
-					ipaddr = item.Elements("address").Where(h=>h.Attribute("addrtype").Value == "mac").Se
-			}*/
-			
-			
 			lHost = (from host in doc.Root.Elements("host")//element sur lequel on va iterer
 			         select new Interface 
 			         {
@@ -91,8 +84,6 @@ namespace DoorScanner
 			         }
 			        ).ToList<Interface>();
 			
-			//MessageBox.Show(lHost.Count.ToString());
-			
 			InterListe = new List<Interface>();
 			
 			//Transfere des donnees de lHost vers la liste d'interface 
@@ -105,34 +96,6 @@ namespace DoorScanner
 				if (i.status == null) i.status = "not found";
 				InterListe.Add(i);
 			}
-
-			//marche presque.
-			/*XmlNode ports = n.SelectSingleNode("ports");
-				List<int> port = new List<int>();
-				List<string> prot = new List<string>();
-				List<string> state = new List<string>();
-				List<string> service = new List<string>();
-
-				foreach (XmlNode p2 in ports.SelectNodes("//port[@portid]")) {
-					port.Add(Int32.Parse(p2.Attributes["portid"].Value));
-					prot.Add(p2.Attributes["protocol"].Value);
-				}
-				foreach (XmlNode s in ports.SelectNodes("//state[@state]")) {
-					state.Add(s.Attributes["state"].Value);
-				}
-				foreach (XmlNode serv in ports.SelectNodes("//service[@name]")) {
-					service.Add(serv.Attributes["name"].Value);
-				}
-				MessageBox.Show(port.Count.ToString());
-				for (int i = 0; i < port.Count; i++) {
-					Port P = new Port();
-					P.numport=port[i];
-					P.protocole=prot[i];
-					P.service=service[i];
-					P.state=state[i];
-					ipUp.infosports.Add(P);
-				}
-			}*/
 		}
 	}
 }
