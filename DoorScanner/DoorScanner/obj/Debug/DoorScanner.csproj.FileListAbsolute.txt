@@ -13,5 +13,5 @@ D:\Cours\M2\Csharp\DS\CsharpProject\DoorScanner\DoorScanner\obj\Debug\DoorScanne
 D:\Cours\M2\Csharp\DS\CsharpProject\DoorScanner\DoorScanner\bin\Debug\DoorScanner.exe
 D:\Cours\M2\Csharp\DS\CsharpProject\DoorScanner\DoorScanner\bin\Debug\DoorScanner.pdb
 D:\Cours\M2\Csharp\DS\CsharpProject\DoorScanner\DoorScanner\obj\Debug\DoorScanner.pdb
-D:\Cours\M2\Csharp\DS\CsharpProject\DoorScanner\DoorScanner\obj\Debug\DoorScanner.IpDispoSurLeReseau.resources
 D:\Cours\M2\Csharp\DS\CsharpProject\DoorScanner\DoorScanner\obj\Debug\DoorScanner.csproj.GenerateResource.Cache
+D:\Cours\M2\Csharp\DS\CsharpProject\DoorScanner\DoorScanner\obj\Debug\DoorScanner.FormListeIpUp.resources

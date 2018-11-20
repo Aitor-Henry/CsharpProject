@@ -1,8 +1,8 @@
 ﻿/*
  * Created by SharpDevelop.
  * User: Amaury
- * Date: 16/11/2018
- * Time: 12:36
+ * Date: 20/11/2018
+ * Time: 09:51
  * 
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
@@ -13,11 +13,11 @@ using System.Windows.Forms;
 namespace DoorScanner
 {
 	/// <summary>
-	/// Description of IpDispoSurLeReseau.
+	/// Description of FormListeIpUp.
 	/// </summary>
-	public partial class IpDispoSurLeReseau : Form
+	public partial class FormListeIpUp : Form
 	{
-		public IpDispoSurLeReseau()
+		public FormListeIpUp()
 		{
 			//
 			// The InitializeComponent() call is required for Windows Forms designer support.

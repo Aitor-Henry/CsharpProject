@@ -23,6 +23,7 @@ namespace DoorScanner
 		private string IpAddress;
 		private string NetAdd;
 		private string BroadAdd;
+		private string Status;
 		
 		
 		//-----GETTER AND SETTER-----
@@ -61,6 +62,11 @@ namespace DoorScanner
 			get{return BroadAdd;}
 			set{BroadAdd=value;}
 		}
+		public string status
+		{
+			get{return Status;}
+			set{Status=value;}
+		}
 		public List<Port> infosports
 		{
 			get{return InfosPorts;}
@@ -81,13 +87,13 @@ namespace DoorScanner
 			netAdd=cNet;
 			broadAdd=cBroad;
 		}
-		public Interface(string chostname, string cIP, string cMask, string cOsCarte, string cMac){
+		public Interface(string chostname, string cIP, string cstatus, string cOsCarte, string cMac)
+		{
 			ipAddress=cIP;
-			mask=cMask;
 			hostName=chostname;
+			status=cstatus;
 			osCarte=cOsCarte;
 			macAddress=cMac;
-			
 		}
 		
 		
@@ -100,7 +106,8 @@ namespace DoorScanner
 				retour = retour+e.showip()+"\r\n";
 			}
 			return retour;*/
-			return hostName+" "+ipAddress+" "+macAddress+" "+osCarte;
+
+			return hostName+" "+ipAddress+" "+macAddress+" "+osCarte+" "+ status;
 		}
 		public string showCarte()
 		{

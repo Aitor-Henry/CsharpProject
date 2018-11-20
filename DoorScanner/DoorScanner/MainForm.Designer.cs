@@ -17,6 +17,9 @@ namespace DoorScanner
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Button btnValider;
 		private System.Windows.Forms.ListView lviewCarteReseau;
+		private System.Windows.Forms.ColumnHeader columnIp;
+		private System.Windows.Forms.ColumnHeader columnNetwork;
+		private System.Windows.Forms.ColumnHeader columnMask;
 		
 		/// <summary>
 		/// Disposes resources used by the form.
@@ -42,6 +45,9 @@ namespace DoorScanner
 			this.label1 = new System.Windows.Forms.Label();
 			this.btnValider = new System.Windows.Forms.Button();
 			this.lviewCarteReseau = new System.Windows.Forms.ListView();
+			this.columnIp = new System.Windows.Forms.ColumnHeader();
+			this.columnNetwork = new System.Windows.Forms.ColumnHeader();
+			this.columnMask = new System.Windows.Forms.ColumnHeader();
 			this.SuspendLayout();
 			// 
 			// label1
@@ -65,12 +71,34 @@ namespace DoorScanner
 			// 
 			// lviewCarteReseau
 			// 
-			this.lviewCarteReseau.Location = new System.Drawing.Point(216, 64);
+			this.lviewCarteReseau.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+			this.columnIp,
+			this.columnNetwork,
+			this.columnMask});
+			this.lviewCarteReseau.FullRowSelect = true;
+			this.lviewCarteReseau.GridLines = true;
+			this.lviewCarteReseau.Location = new System.Drawing.Point(209, 89);
 			this.lviewCarteReseau.MultiSelect = false;
 			this.lviewCarteReseau.Name = "lviewCarteReseau";
-			this.lviewCarteReseau.Size = new System.Drawing.Size(394, 343);
+			this.lviewCarteReseau.Size = new System.Drawing.Size(431, 324);
 			this.lviewCarteReseau.TabIndex = 3;
 			this.lviewCarteReseau.UseCompatibleStateImageBehavior = false;
+			this.lviewCarteReseau.View = System.Windows.Forms.View.Details;
+			// 
+			// columnIp
+			// 
+			this.columnIp.Text = "IP";
+			this.columnIp.Width = 100;
+			// 
+			// columnNetwork
+			// 
+			this.columnNetwork.Text = "Réseau";
+			this.columnNetwork.Width = 100;
+			// 
+			// columnMask
+			// 
+			this.columnMask.Text = "Masque";
+			this.columnMask.Width = 100;
 			// 
 			// MainForm
 			// 

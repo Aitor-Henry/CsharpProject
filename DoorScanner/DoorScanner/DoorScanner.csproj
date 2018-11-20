@@ -50,11 +50,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Interface.cs" />
-    <Compile Include="IpDispoSurLeReseau.cs" />
-    <Compile Include="IpDispoSurLeReseau.Designer.cs">
-      <DependentUpon>IpDispoSurLeReseau.cs</DependentUpon>
+    <Compile Include="FormListeIpUp.cs" />
+    <Compile Include="FormListeIpUp.Designer.cs">
+      <DependentUpon>FormListeIpUp.cs</DependentUpon>
     </Compile>
+    <Compile Include="Interface.cs" />
     <Compile Include="ListeInterfaces.cs" />
     <Compile Include="networkScan.cs" />
     <Compile Include="MainForm.cs" />
@@ -66,8 +66,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="IpDispoSurLeReseau.resx">
-      <DependentUpon>IpDispoSurLeReseau.cs</DependentUpon>
+    <EmbeddedResource Include="FormListeIpUp.resx">
+      <DependentUpon>FormListeIpUp.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -11,6 +11,9 @@ using System.Xml;
 using System.Xml.Serialization;
 using System.Collections.Generic;
 using System.Windows.Forms;
+using System.Xml.XPath;
+using System.Xml.Linq;
+using System.Linq;
 namespace DoorScanner
 {
 	[Serializable]
@@ -32,6 +35,11 @@ namespace DoorScanner
 		
 		
 		//-----Functions-----
+		public void ajout(Interface i)
+		{
+			InterListe.Add(i);
+		}
+		
 		public string showIpList()
 		{
 			string resultat="";
@@ -44,20 +52,55 @@ namespace DoorScanner
 		}
 		
 		public void XmltoList()
-		{	//y a une couille la dedans mais je sais pas encore ou...
-			//les valeur de n.ip et n.os ne change pas, host OK et nb d'ip up OK 
-			InterListe = new List<Interface>();
-		 	
-			XmlDocument xnl = new XmlDocument();
-			xnl.Load("ipDispo.xml");
-			XmlNodeList host = xnl.SelectNodes("/nmaprun/host");
+		{				
+			IList<Interface> lHost = null;//liste intermediare
 			
-			foreach (XmlNode n in host)
-			{
-				Interface ipUp = new Interface();
+			XDocument doc = XDocument.Load("ipDispo.xml");
+			
+			//chaque resultat de cette requete linq en loop est stocké dans lHost
+			lHost = (from host in doc.Root.Elements("host")//element sur lequel on va iterer
+			         select new Interface 
+			         {
+			         	ipAddress = host.Elements("address")
+			         		.Where(h=>h.Attribute("addrtype").Value == "ipv4")
+			         		.Select(h=>h.Attribute("addr").Value)
+			         		.FirstOrDefault(),
+			         	macAddress = host.Elements("address")
+			         		.Where(h=>h.Attribute("addrtype").Value == "mac")
+			         		.Select(h=>h.Attribute("addr").Value)
+			         		.FirstOrDefault(),
+			         	osCarte = host.Elements("address")
+			         		.Where(h=>h.Attribute("addrtype").Value == "mac")
+			         		.Select(h=>h.Attribute("vendor").Value)
+			         		.FirstOrDefault(),
+			         	hostName = host.Elements("hostnames")
+			         		.Elements("hostname")
+			         		.Select(h=>h.Attribute("name").Value)
+			         		.FirstOrDefault(),
+			         	status = host.Elements("status")
+			         		.Elements("reason")
+			         		.Select(h=>h.Attribute("reason").Value)
+			         		.FirstOrDefault(),
+			         }
+			        ).ToList<Interface>();
+			
+			//MessageBox.Show(lHost.Count.ToString());
+			
+			InterListe = new List<Interface>();
+			
+			//Transfere des donnees de lHost vers la liste d'interface 
+			foreach(Interface i in lHost)
+			{	
+				if (i.hostName == null) i.hostName = "not found";
+				if (i.ipAddress == null) i.ipAddress = "not found";
+				if (i.macAddress == null) i.macAddress = "not found";
+				if (i.osCarte == null) i.osCarte = "not found";
+				if (i.status == null) i.status = "not found";
+				InterListe.Add(i);
+			}
 
-				//marche presque.
-				/*XmlNode ports = n.SelectSingleNode("ports");
+			//marche presque.
+			/*XmlNode ports = n.SelectSingleNode("ports");
 				List<int> port = new List<int>();
 				List<string> prot = new List<string>();
 				List<string> state = new List<string>();
@@ -81,15 +124,8 @@ namespace DoorScanner
 					P.service=service[i];
 					P.state=state[i];
 					ipUp.infosports.Add(P);
-				}*/
-				
-				ipUp.ipAddress = n.SelectSingleNode("//address[@addrtype='ipv4']/@addr").InnerText;
-				ipUp.macAddress = n.SelectSingleNode("//address[@addrtype='mac']/@addr").InnerText;
-				ipUp.hostName = n.SelectSingleNode("//hostname/@name").InnerText;
-				ipUp.osCarte = n.SelectSingleNode("//address[@addrtype='mac']/@vendor").InnerText;
-				InterListe.Add(ipUp);
-
-			}
+				}
+			}*/
 		}
 	}
 }

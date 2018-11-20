@@ -24,18 +24,12 @@ namespace DoorScanner
 		{
 			InitializeComponent();
 			
-			// Configuration de l'affichage des cartes réseau dispo
-			
-				//ajout des headers
-			lviewCarteReseau.Columns.Add("IP", 100, HorizontalAlignment.Left);
-			lviewCarteReseau.Columns.Add("Reseau", 100, HorizontalAlignment.Left);
-			lviewCarteReseau.View = View.Details;
-			
-				//Remplissage du tableau 
+			//remplissage du tableau à l'ouverture de la fenetre
 			foreach(Interface i in NS.cartesListe)
 			{	
 				ListViewItem carte = new ListViewItem(i.ipAddress);
-				carte.SubItems.Add (i.netAdd);
+				carte.SubItems.Add(i.netAdd);
+				carte.SubItems.Add(i.mask);
 				lviewCarteReseau.Items.Add(carte);
 			}
 		}
@@ -44,10 +38,25 @@ namespace DoorScanner
 		void BtnValiderClick(object sender, EventArgs e)
 		{
 			//A FAIRE: ajout d'un controle de selection (si null >> msg="ERROOOOR! GROS CONARD!")
-			//NS.getIpAvailable(lviewCarteReseau.SelectedItems[0].SubItems[1].Text);
+			
+			// Ligne suivant en comm. pour éviter de lancer un scan a chaque fois
+			//NS.getIpAvailable(lviewCarteReseau.SelectedItems[0].SubItems[1].Text); 
 			LI = new ListeInterfaces();
 			LI.XmltoList();
-			MessageBox.Show(LI.showIpList());
+			
+			FormListeIpUp lIpUp = new FormListeIpUp();
+			
+			foreach(Interface i in LI.interListe)
+			{
+				ListViewItem ipup = new ListViewItem(i.hostName);
+				ipup.SubItems.Add(i.ipAddress);
+				ipup.SubItems.Add(i.macAddress);
+				ipup.SubItems.Add(i.osCarte);
+				ipup.SubItems.Add(i.status);
+				lIpUp.lviewIpUp.Items.Add(ipup);
+			}
+			
+			lIpUp.Show();
 		}
 	}
 }

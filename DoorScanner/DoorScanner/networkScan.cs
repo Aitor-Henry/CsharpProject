@@ -20,7 +20,7 @@ using System.Diagnostics;
 namespace DoorScanner
 {
 	/// <summary>
-	/// Class to scan network, write it in a xml file, and read it to stock it in a 2 dimension List.
+	/// Class to collect info, scan network and write it in a xml file
 	/// </summary>
 	public class networkScan
 	{
@@ -151,10 +151,10 @@ namespace DoorScanner
 		}
 		
 		public void getIpAvailable(string IDR)
-		{	//liste des ip dispo sur le reseau av commande nmap
+		{	//liste des ip dispo sur le reseau avec commande nmap
 			string commande = ("nmap -sn -T5 "+IDR+convertMask(currentInterface.mask)+" -oX ipDispo.xml");
-				/*osscan-guess demande à nmap une estimation de l'OS
-				  + le fichier xml est enregistrer dans le dossier courant /bin*/
+				/* -sn pour recueillir nom d'hote, ip, mac, modele de la carte mac
+				  + le fichier xml est enregistrer dans le dossier courant /bin/debug */
 			Process cmd = new Process();
 				cmd.StartInfo.FileName = "cmd.exe";
 				cmd.StartInfo.Arguments = "/c"+commande;
@@ -163,7 +163,8 @@ namespace DoorScanner
 				cmd.WaitForExit();
 		}
 		
-		public string convertMask(string mask){
+		public string convertMask(string mask)
+		{//fait correspondre une notation CIDR à un masque, notation necessaire pour nmap
 			string result="";
 			Dictionary<string, string> convertToCIDR = new Dictionary<string, string>(){
 				// Les masques classiques
