@@ -93,7 +93,7 @@ namespace DoorScanner
 		//-----function----- Inutile, à supprimer par la suite
 		public string showInterfaceT()
 		{
-			return hostName+" "+ipAddress+" "+macAddress+" "+osCarte+" "+ status;
+			return hostName+"; "+ipAddress+"; "+macAddress+"; "+osCarte+"; "+ status;
 		}
 		public string showCarte()
 		{

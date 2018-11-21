@@ -24,6 +24,7 @@ namespace DoorScanner
 	public class portScan
 	{
 		string ipToScan;
+		List<string> LipToScan;
 		public List<Port> listPort {get; set;}
 				
 		public portScan(string ipScan)
@@ -32,6 +33,47 @@ namespace DoorScanner
 			ipToScan = ipScan;
 		}
 		
+		// Nouvelle solution en dév #########################################################################
+		public portScan(List<string> LipTS){
+			listPort = new List<Port>();
+			LipToScan = LipTS;
+		}
+		
+		public void startMultipleScanPorts(string optNB, string optScan){
+			/*
+			Options,
+				1) Nombre de ports :
+					Ports classiques == -F
+					1 à 1023 == -p1-1023
+					Tous == -p-
+				2) Type de scan (par défaut -sS):
+					TCP connect == -sT
+					scan UDP == -sU
+			*/
+			
+			foreach(string ip in LipToScan){
+				string commande = ("nmap "+optNB+" "+optScan+" "+ip+" -oX scanPort"+ip+".xml");
+				Process cmd = new Process();
+				cmd.StartInfo.FileName = "cmd.exe";
+				cmd.StartInfo.Arguments = "/c"+commande;
+				cmd.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
+				cmd.Start();
+				cmd.WaitForExit();
+			}
+		}
+		
+		
+		public void readScanToListMultiple(){
+			foreach (string ipS in LipToScan) {
+				//faire appel à readScanToList, à voir comment on va faire pour mettre cela en boucle. 
+			}
+		}
+		
+		
+		
+		// ##################################################################################################
+		
+		/*
 		public void startScanPorts(){
 			string commande = ("nmap -sS -sU "+ipToScan+" -oX scanPort.xml");
 			Process cmd = new Process();
@@ -41,11 +83,12 @@ namespace DoorScanner
 			cmd.Start();
 			cmd.WaitForExit();
 		}
-		
-		public void readScanToList(){
+		*/
+		public void readScanToList(string ip){
 			
 			XmlDocument docXml = new XmlDocument();
-			docXml.Load("scanPort.xml");
+			//docXml.Load("scanPort.xml");
+			docXml.Load("scanPort"+ip+".xml");
 			XmlNodeList host = docXml.SelectNodes("/nmaprun/host");
 			
 			foreach (XmlNode n in host){
