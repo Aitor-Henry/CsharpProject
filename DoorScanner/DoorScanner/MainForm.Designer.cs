@@ -28,6 +28,7 @@ namespace DoorScanner
 		private System.Windows.Forms.ColumnHeader columnState;
 		private System.Windows.Forms.ColumnHeader columnService;
 		private System.Windows.Forms.ColumnHeader columnProtocole;
+		private System.Windows.Forms.ColumnHeader columnIPshow;
 		
 		/// <summary>
 		/// Disposes resources used by the form.
@@ -52,18 +53,19 @@ namespace DoorScanner
 		{
 			this.label1 = new System.Windows.Forms.Label();
 			this.btnValider = new System.Windows.Forms.Button();
-			this.lviewCarteReseau = new System.Windows.Forms.ListView();
-			this.columnIp = new System.Windows.Forms.ColumnHeader();
-			this.columnNetwork = new System.Windows.Forms.ColumnHeader();
-			this.columnMask = new System.Windows.Forms.ColumnHeader();
 			this.scanPortPanel = new System.Windows.Forms.Panel();
 			this.ipAddLabel = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
 			this.listPortView = new System.Windows.Forms.ListView();
+			this.columnIPshow = new System.Windows.Forms.ColumnHeader();
 			this.columnPort = new System.Windows.Forms.ColumnHeader();
 			this.columnProtocole = new System.Windows.Forms.ColumnHeader();
 			this.columnState = new System.Windows.Forms.ColumnHeader();
 			this.columnService = new System.Windows.Forms.ColumnHeader();
+			this.columnIp = new System.Windows.Forms.ColumnHeader();
+			this.columnNetwork = new System.Windows.Forms.ColumnHeader();
+			this.columnMask = new System.Windows.Forms.ColumnHeader();
+			this.lviewCarteReseau = new System.Windows.Forms.ListView();
 			this.scanPortPanel.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -87,38 +89,6 @@ namespace DoorScanner
 			this.btnValider.Text = "Valider";
 			this.btnValider.UseVisualStyleBackColor = true;
 			this.btnValider.Click += new System.EventHandler(this.BtnValiderClick);
-			// 
-			// lviewCarteReseau
-			// 
-			this.lviewCarteReseau.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-			this.columnIp,
-			this.columnNetwork,
-			this.columnMask});
-			this.lviewCarteReseau.FullRowSelect = true;
-			this.lviewCarteReseau.GridLines = true;
-			this.lviewCarteReseau.Location = new System.Drawing.Point(139, 58);
-			this.lviewCarteReseau.Margin = new System.Windows.Forms.Padding(2);
-			this.lviewCarteReseau.MultiSelect = false;
-			this.lviewCarteReseau.Name = "lviewCarteReseau";
-			this.lviewCarteReseau.Size = new System.Drawing.Size(289, 212);
-			this.lviewCarteReseau.TabIndex = 3;
-			this.lviewCarteReseau.UseCompatibleStateImageBehavior = false;
-			this.lviewCarteReseau.View = System.Windows.Forms.View.Details;
-			// 
-			// columnIp
-			// 
-			this.columnIp.Text = "IP";
-			this.columnIp.Width = 100;
-			// 
-			// columnNetwork
-			// 
-			this.columnNetwork.Text = "Réseau";
-			this.columnNetwork.Width = 100;
-			// 
-			// columnMask
-			// 
-			this.columnMask.Text = "Masque";
-			this.columnMask.Width = 100;
 			// 
 			// scanPortPanel
 			// 
@@ -149,6 +119,7 @@ namespace DoorScanner
 			// listPortView
 			// 
 			this.listPortView.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+			this.columnIPshow,
 			this.columnPort,
 			this.columnProtocole,
 			this.columnState,
@@ -156,10 +127,14 @@ namespace DoorScanner
 			this.listPortView.GridLines = true;
 			this.listPortView.Location = new System.Drawing.Point(96, 65);
 			this.listPortView.Name = "listPortView";
-			this.listPortView.Size = new System.Drawing.Size(284, 287);
+			this.listPortView.Size = new System.Drawing.Size(411, 287);
 			this.listPortView.TabIndex = 0;
 			this.listPortView.UseCompatibleStateImageBehavior = false;
 			this.listPortView.View = System.Windows.Forms.View.Details;
+			// 
+			// columnIPshow
+			// 
+			this.columnIPshow.Text = "Adresse IP";
 			// 
 			// columnPort
 			// 
@@ -167,18 +142,50 @@ namespace DoorScanner
 			// 
 			// columnProtocole
 			// 
-			this.columnProtocole.DisplayIndex = 3;
+			this.columnProtocole.DisplayIndex = 4;
 			this.columnProtocole.Text = "Protocole";
 			// 
 			// columnState
 			// 
-			this.columnState.DisplayIndex = 1;
+			this.columnState.DisplayIndex = 2;
 			this.columnState.Text = "Etat";
 			// 
 			// columnService
 			// 
-			this.columnService.DisplayIndex = 2;
+			this.columnService.DisplayIndex = 3;
 			this.columnService.Text = "Service";
+			// 
+			// columnIp
+			// 
+			this.columnIp.Text = "IP";
+			this.columnIp.Width = 100;
+			// 
+			// columnNetwork
+			// 
+			this.columnNetwork.Text = "Réseau";
+			this.columnNetwork.Width = 100;
+			// 
+			// columnMask
+			// 
+			this.columnMask.Text = "Masque";
+			this.columnMask.Width = 100;
+			// 
+			// lviewCarteReseau
+			// 
+			this.lviewCarteReseau.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+			this.columnIp,
+			this.columnNetwork,
+			this.columnMask});
+			this.lviewCarteReseau.FullRowSelect = true;
+			this.lviewCarteReseau.GridLines = true;
+			this.lviewCarteReseau.Location = new System.Drawing.Point(139, 58);
+			this.lviewCarteReseau.Margin = new System.Windows.Forms.Padding(2);
+			this.lviewCarteReseau.MultiSelect = false;
+			this.lviewCarteReseau.Name = "lviewCarteReseau";
+			this.lviewCarteReseau.Size = new System.Drawing.Size(289, 212);
+			this.lviewCarteReseau.TabIndex = 3;
+			this.lviewCarteReseau.UseCompatibleStateImageBehavior = false;
+			this.lviewCarteReseau.View = System.Windows.Forms.View.Details;
 			// 
 			// MainForm
 			// 

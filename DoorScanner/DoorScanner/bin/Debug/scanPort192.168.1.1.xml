@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///C:/Program Files (x86)/Nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.70 scan initiated Thu Nov 22 23:30:35 2018 as: nmap -p1-1023 -sS -sU -oX scanPort192.168.1.1.xml 192.168.1.1 -->
+<nmaprun scanner="nmap" args="nmap -p1-1023 -sS -sU -oX scanPort192.168.1.1.xml 192.168.1.1" start="1542925835" startstr="Thu Nov 22 23:30:35 2018" version="7.70" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="1023" services="1-1023"/>
+<scaninfo type="udp" protocol="udp" numservices="1023" services="1-1023"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1542925835" endtime="1542925844"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.1" addrtype="ipv4"/>
+<address addr="B8:26:6C:FF:A4:64" addrtype="mac" vendor="Anov France"/>
+<hostnames>
+<hostname name="livebox.home" type="PTR"/>
+</hostnames>
+<ports><extraports state="open|filtered" count="1017">
+<extrareasons reason="no-responses" count="1017"/>
+</extraports>
+<extraports state="filtered" count="1013">
+<extrareasons reason="no-responses" count="1013"/>
+</extraports>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="113"><state state="closed" reason="reset" reason_ttl="64"/><service name="ident" method="table" conf="3"/></port>
+<port protocol="tcp" portid="135"><state state="closed" reason="reset" reason_ttl="64"/><service name="msrpc" method="table" conf="3"/></port>
+<port protocol="tcp" portid="137"><state state="closed" reason="reset" reason_ttl="64"/><service name="netbios-ns" method="table" conf="3"/></port>
+<port protocol="tcp" portid="138"><state state="closed" reason="reset" reason_ttl="64"/><service name="netbios-dgm" method="table" conf="3"/></port>
+<port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="https" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+<port protocol="tcp" portid="631"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="udp" portid="53"><state state="open" reason="udp-response" reason_ttl="64"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="udp" portid="123"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="ntp" method="table" conf="3"/></port>
+<port protocol="udp" portid="135"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="msrpc" method="table" conf="3"/></port>
+<port protocol="udp" portid="137"><state state="open" reason="udp-response" reason_ttl="64"/><service name="netbios-ns" method="table" conf="3"/></port>
+<port protocol="udp" portid="139"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="udp" portid="445"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="1036" rttvar="1098" to="100000"/>
+</host>
+<runstats><finished time="1542925844" timestr="Thu Nov 22 23:30:44 2018" elapsed="8.90" summary="Nmap done at Thu Nov 22 23:30:44 2018; 1 IP address (1 host up) scanned in 8.90 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

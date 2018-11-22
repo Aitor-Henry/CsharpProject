@@ -53,41 +53,16 @@ namespace DoorScanner
 					ipup.SubItems.Add(i.macAddress);
 					ipup.SubItems.Add(i.osCarte);
 					ipup.SubItems.Add(i.status);
-					lIpUp.lviewIpUp.Items.Add(ipup);
 					lIpUp.checkedListBoxSelectIp.Items.Add(i.showInterfaceT());
 				}
 				
 				if(lIpUp.ShowDialog()==DialogResult.OK){
-					/*if(lIpUp.ipChoisie!=null){
-						portScan PS = new portScan(lIpUp.ipChoisie);
-						// Ligne suivant en comm. pour éviter de lancer un scan a chaque fois
-						PS.startScanPorts();
-						PS.readScanToList();
-
-						foreach (Port p in PS.listPort) {
-							ListViewItem carte = new ListViewItem(p.numport.ToString());
-							carte.SubItems.Add(p.protocole);
-							carte.SubItems.Add(p.state);
-							carte.SubItems.Add(p.service);
-							listPortView.Items.Add(carte);
-						}
-						ipAddLabel.Text = lIpUp.ipChoisie;
-						scanPortPanel.Visible = true;
-					} else {
-						MessageBox.Show("Vous n'avez pas seléctionné d'ip à scanner");
-					}*/
-					
-					
-					// Nouvelle solution en dév #########################################################################
-					MessageBox.Show(lIpUp.checkedListBoxSelectIp.CheckedItems.Count.ToString());
 					
 					if(lIpUp.checkedListBoxSelectIp.CheckedItems.Count>0){
 						
 						List<string> IpSelected = new List<string>();
 						foreach (string ipSelected in lIpUp.checkedListBoxSelectIp.CheckedItems) {
 							IpSelected.Add(ipSelected.Split(new[] {"; "},StringSplitOptions.None)[1]);
-							MessageBox.Show(ipSelected.Split(new[] {"; "},StringSplitOptions.None)[1]);
-							
 						}
 						portScan PS = new portScan(IpSelected);
 						string optionNB="";
@@ -109,16 +84,36 @@ namespace DoorScanner
 							}
 						} else {
 							if(lIpUp.checkBoxUDP.Checked){
-								optionScan = "-sU";
+								optionScan = "-sS -sU";
 							} else {
 								optionScan = "-sS"; // option par défaut si aucune checkbox n'est cochée
 							}
 						}
 						PS.startMultipleScanPorts(optionNB, optionScan);
+						PS.readScanToListMultiple();
+						foreach (KeyValuePair<string,List<Port>> ip in PS.ResultatScans) {
+							ListViewItem ipPorts = new ListViewItem(ip.Key);
+							List<Port> Ports = ip.Value;
+							ipPorts.SubItems.Add(Ports[0].numport.ToString());
+							ipPorts.SubItems.Add(Ports[0].protocole);
+							ipPorts.SubItems.Add(Ports[0].state);
+							ipPorts.SubItems.Add(Ports[0].service);
+							listPortView.Items.Add(ipPorts);
+							for (int i = 1; i < Ports.Count; i++) {
+								ListViewItem PortsVI = new ListViewItem("");
+								PortsVI.SubItems.Add(Ports[i].numport.ToString());
+								PortsVI.SubItems.Add(Ports[i].protocole);
+								PortsVI.SubItems.Add(Ports[i].state);
+								PortsVI.SubItems.Add(Ports[i].service);
+								listPortView.Items.Add(PortsVI);
+							}
+						}
+						ipAddLabel.Text = PS.diplayLipToScan();
+						scanPortPanel.Visible = true;
 					} else {
 						MessageBox.Show("Vous n'avez pas seléctionné d'ip à scanner");
 					}
-					// ##################################################################################################
+
 				}
 			} else {
 				MessageBox.Show("Veuillez sélectionner une interface réseau parmis la liste.");

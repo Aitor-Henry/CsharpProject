@@ -23,20 +23,26 @@ namespace DoorScanner
 	/// </summary>
 	public class portScan
 	{
-		string ipToScan;
+		//string ipToScan;
+		//public List<Port> listPort {get; set;}
+		
 		List<string> LipToScan;
-		public List<Port> listPort {get; set;}
-				
+		public Dictionary<string, List<Port>> ResultatScans {get; set;} 
+		
+		
+		/*
 		public portScan(string ipScan)
 		{
 			listPort = new List<Port>();
 			ipToScan = ipScan;
 		}
+		*/
 		
 		// Nouvelle solution en dév #########################################################################
 		public portScan(List<string> LipTS){
-			listPort = new List<Port>();
+			
 			LipToScan = LipTS;
+			ResultatScans = new Dictionary<string, List<Port>>();
 		}
 		
 		public void startMultipleScanPorts(string optNB, string optScan){
@@ -65,48 +71,46 @@ namespace DoorScanner
 		
 		public void readScanToListMultiple(){
 			foreach (string ipS in LipToScan) {
-				//faire appel à readScanToList, à voir comment on va faire pour mettre cela en boucle. 
+				//réutilisation de la fonction
+				ResultatScans.Add(ipS, readScanToList(ipS));
 			}
 		}
 		
 		
-		
-		// ##################################################################################################
-		
-		/*
-		public void startScanPorts(){
-			string commande = ("nmap -sS -sU "+ipToScan+" -oX scanPort.xml");
-			Process cmd = new Process();
-			cmd.StartInfo.FileName = "cmd.exe";
-			cmd.StartInfo.Arguments = "/c"+commande;
-			cmd.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
-			cmd.Start();
-			cmd.WaitForExit();
-		}
-		*/
-		public void readScanToList(string ip){
-			
+		public List<Port> readScanToList(string ip){
+			List<Port> listPort = new List<Port>();
 			XmlDocument docXml = new XmlDocument();
-			//docXml.Load("scanPort.xml");
 			docXml.Load("scanPort"+ip+".xml");
 			XmlNodeList host = docXml.SelectNodes("/nmaprun/host");
 			
+
 			foreach (XmlNode n in host){
 				XmlNode ports = n.SelectSingleNode("ports");
 				List<int> port = new List<int>();
 				List<string> prot = new List<string>();
 				List<string> state = new List<string>();
 				List<string> service = new List<string>();
-				foreach (XmlNode p2 in ports.SelectNodes("//port[@portid]")) {
-					port.Add(Int32.Parse(p2.Attributes["portid"].Value));
-					prot.Add(p2.Attributes["protocol"].Value);
+				
+				foreach (XmlNode Node in ports) {
+					if(Node.Name=="port"){
+						port.Add(Int32.Parse(Node.Attributes["portid"].Value));
+						prot.Add(Node.Attributes["protocol"].Value);
+						
+						foreach (XmlNode test in Node) { //c'est pas beau mais j'ai pas trouvé d'autres moyens
+							if(test.Name=="state"){
+								state.Add(test.Attributes["state"].Value);
+							}
+							if(Node.ChildNodes.Count==1){
+								service.Add("unknown");
+							} else {
+								if(test.Name=="service"){
+									service.Add(test.Attributes["name"].Value);
+								}
+							}
+						}
+					}
 				}
-				foreach (XmlNode s in ports.SelectNodes("//state[@state]")) {
-					state.Add(s.Attributes["state"].Value);
-				}
-				foreach (XmlNode serv in ports.SelectNodes("//service[@name]")) {
-					service.Add(serv.Attributes["name"].Value);
-				}
+
 
 				for(int i=0; i<port.Count; i++){
 					Port P = new Port();
@@ -121,7 +125,17 @@ namespace DoorScanner
 					
 				}
 			}
+			return listPort;
 
 		}
+		
+		public string diplayLipToScan(){
+			string display="";
+			foreach (string ip in LipToScan) {
+				display = display+ip+"; ";
+			}
+			return display;
+		}
+		
 	}
 }

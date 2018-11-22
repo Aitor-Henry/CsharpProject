@@ -14,12 +14,6 @@ namespace DoorScanner
 		/// Designer variable used to keep track of non-visual components.
 		/// </summary>
 		private System.ComponentModel.IContainer components = null;
-		private System.Windows.Forms.ColumnHeader columnName;
-		private System.Windows.Forms.ColumnHeader columnIp;
-		private System.Windows.Forms.ColumnHeader columnMac;
-		private System.Windows.Forms.ColumnHeader columnVendor;
-		private System.Windows.Forms.ColumnHeader columnStatus;
-		public System.Windows.Forms.ListView lviewIpUp;
 		private System.Windows.Forms.Button validateIpButton;
 		private System.Windows.Forms.Button cancelIpButton;
 		public System.Windows.Forms.CheckedListBox checkedListBoxSelectIp;
@@ -52,68 +46,19 @@ namespace DoorScanner
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.lviewIpUp = new System.Windows.Forms.ListView();
-			this.columnName = new System.Windows.Forms.ColumnHeader();
-			this.columnIp = new System.Windows.Forms.ColumnHeader();
-			this.columnMac = new System.Windows.Forms.ColumnHeader();
-			this.columnVendor = new System.Windows.Forms.ColumnHeader();
-			this.columnStatus = new System.Windows.Forms.ColumnHeader();
 			this.validateIpButton = new System.Windows.Forms.Button();
 			this.cancelIpButton = new System.Windows.Forms.Button();
 			this.checkedListBoxSelectIp = new System.Windows.Forms.CheckedListBox();
 			this.groupBoxOptionScanRange = new System.Windows.Forms.GroupBox();
-			this.optionClassique = new System.Windows.Forms.RadioButton();
-			this.option1023 = new System.Windows.Forms.RadioButton();
 			this.optionTous = new System.Windows.Forms.RadioButton();
+			this.option1023 = new System.Windows.Forms.RadioButton();
+			this.optionClassique = new System.Windows.Forms.RadioButton();
 			this.groupBox1 = new System.Windows.Forms.GroupBox();
-			this.checkBoxTCPConnect = new System.Windows.Forms.CheckBox();
 			this.checkBoxUDP = new System.Windows.Forms.CheckBox();
+			this.checkBoxTCPConnect = new System.Windows.Forms.CheckBox();
 			this.groupBoxOptionScanRange.SuspendLayout();
 			this.groupBox1.SuspendLayout();
 			this.SuspendLayout();
-			// 
-			// lviewIpUp
-			// 
-			this.lviewIpUp.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-			this.columnName,
-			this.columnIp,
-			this.columnMac,
-			this.columnVendor,
-			this.columnStatus});
-			this.lviewIpUp.FullRowSelect = true;
-			this.lviewIpUp.GridLines = true;
-			this.lviewIpUp.Location = new System.Drawing.Point(315, 60);
-			this.lviewIpUp.Margin = new System.Windows.Forms.Padding(2);
-			this.lviewIpUp.Name = "lviewIpUp";
-			this.lviewIpUp.Size = new System.Drawing.Size(705, 244);
-			this.lviewIpUp.TabIndex = 0;
-			this.lviewIpUp.UseCompatibleStateImageBehavior = false;
-			this.lviewIpUp.View = System.Windows.Forms.View.Details;
-			// 
-			// columnName
-			// 
-			this.columnName.Text = "Nom d\'hôte";
-			this.columnName.Width = 80;
-			// 
-			// columnIp
-			// 
-			this.columnIp.Text = "Ip";
-			this.columnIp.Width = 80;
-			// 
-			// columnMac
-			// 
-			this.columnMac.Text = "Adresse Mac";
-			this.columnMac.Width = 80;
-			// 
-			// columnVendor
-			// 
-			this.columnVendor.Text = "Constructeur carte";
-			this.columnVendor.Width = 120;
-			// 
-			// columnStatus
-			// 
-			this.columnStatus.Text = "Statut";
-			this.columnStatus.Width = 120;
 			// 
 			// validateIpButton
 			// 
@@ -124,7 +69,7 @@ namespace DoorScanner
 			this.validateIpButton.TabIndex = 1;
 			this.validateIpButton.Text = "Valider";
 			this.validateIpButton.UseVisualStyleBackColor = true;
-			this.validateIpButton.Click += new System.EventHandler(this.ValidateIpButtonClick);
+
 			// 
 			// cancelIpButton
 			// 
@@ -140,9 +85,9 @@ namespace DoorScanner
 			// checkedListBoxSelectIp
 			// 
 			this.checkedListBoxSelectIp.FormattingEnabled = true;
-			this.checkedListBoxSelectIp.Location = new System.Drawing.Point(315, 330);
+			this.checkedListBoxSelectIp.Location = new System.Drawing.Point(284, 89);
 			this.checkedListBoxSelectIp.Name = "checkedListBoxSelectIp";
-			this.checkedListBoxSelectIp.Size = new System.Drawing.Size(705, 244);
+			this.checkedListBoxSelectIp.Size = new System.Drawing.Size(775, 424);
 			this.checkedListBoxSelectIp.TabIndex = 3;
 			// 
 			// groupBoxOptionScanRange
@@ -157,15 +102,15 @@ namespace DoorScanner
 			this.groupBoxOptionScanRange.TabStop = false;
 			this.groupBoxOptionScanRange.Text = "Options du scan de Ports - Nombre";
 			// 
-			// optionClassique
+			// optionTous
 			// 
-			this.optionClassique.Location = new System.Drawing.Point(34, 34);
-			this.optionClassique.Name = "optionClassique";
-			this.optionClassique.Size = new System.Drawing.Size(104, 24);
-			this.optionClassique.TabIndex = 0;
-			this.optionClassique.TabStop = true;
-			this.optionClassique.Text = "Ports classiques";
-			this.optionClassique.UseVisualStyleBackColor = true;
+			this.optionTous.Location = new System.Drawing.Point(34, 128);
+			this.optionTous.Name = "optionTous";
+			this.optionTous.Size = new System.Drawing.Size(104, 24);
+			this.optionTous.TabIndex = 2;
+			this.optionTous.TabStop = true;
+			this.optionTous.Text = "Tous les ports";
+			this.optionTous.UseVisualStyleBackColor = true;
 			// 
 			// option1023
 			// 
@@ -177,15 +122,15 @@ namespace DoorScanner
 			this.option1023.Text = "De 1 à 1023";
 			this.option1023.UseVisualStyleBackColor = true;
 			// 
-			// optionTous
+			// optionClassique
 			// 
-			this.optionTous.Location = new System.Drawing.Point(34, 128);
-			this.optionTous.Name = "optionTous";
-			this.optionTous.Size = new System.Drawing.Size(104, 24);
-			this.optionTous.TabIndex = 2;
-			this.optionTous.TabStop = true;
-			this.optionTous.Text = "Tous les ports";
-			this.optionTous.UseVisualStyleBackColor = true;
+			this.optionClassique.Location = new System.Drawing.Point(34, 34);
+			this.optionClassique.Name = "optionClassique";
+			this.optionClassique.Size = new System.Drawing.Size(104, 24);
+			this.optionClassique.TabIndex = 0;
+			this.optionClassique.TabStop = true;
+			this.optionClassique.Text = "Ports classiques";
+			this.optionClassique.UseVisualStyleBackColor = true;
 			// 
 			// groupBox1
 			// 
@@ -198,15 +143,6 @@ namespace DoorScanner
 			this.groupBox1.TabStop = false;
 			this.groupBox1.Text = "groupBox1";
 			// 
-			// checkBoxTCPConnect
-			// 
-			this.checkBoxTCPConnect.Location = new System.Drawing.Point(28, 40);
-			this.checkBoxTCPConnect.Name = "checkBoxTCPConnect";
-			this.checkBoxTCPConnect.Size = new System.Drawing.Size(172, 24);
-			this.checkBoxTCPConnect.TabIndex = 1;
-			this.checkBoxTCPConnect.Text = "Scan TCP connect";
-			this.checkBoxTCPConnect.UseVisualStyleBackColor = true;
-			// 
 			// checkBoxUDP
 			// 
 			this.checkBoxUDP.Location = new System.Drawing.Point(28, 96);
@@ -215,6 +151,15 @@ namespace DoorScanner
 			this.checkBoxUDP.TabIndex = 2;
 			this.checkBoxUDP.Text = "Scan UDP";
 			this.checkBoxUDP.UseVisualStyleBackColor = true;
+			// 
+			// checkBoxTCPConnect
+			// 
+			this.checkBoxTCPConnect.Location = new System.Drawing.Point(28, 40);
+			this.checkBoxTCPConnect.Name = "checkBoxTCPConnect";
+			this.checkBoxTCPConnect.Size = new System.Drawing.Size(172, 24);
+			this.checkBoxTCPConnect.TabIndex = 1;
+			this.checkBoxTCPConnect.Text = "Scan TCP connect";
+			this.checkBoxTCPConnect.UseVisualStyleBackColor = true;
 			// 
 			// FormListeIpUp
 			// 
@@ -226,7 +171,6 @@ namespace DoorScanner
 			this.Controls.Add(this.checkedListBoxSelectIp);
 			this.Controls.Add(this.cancelIpButton);
 			this.Controls.Add(this.validateIpButton);
-			this.Controls.Add(this.lviewIpUp);
 			this.Margin = new System.Windows.Forms.Padding(2);
 			this.Name = "FormListeIpUp";
 			this.Text = "FormListeIpUp";
