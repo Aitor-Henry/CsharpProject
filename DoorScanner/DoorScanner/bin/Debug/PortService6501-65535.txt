@@ -1,0 +1,2661 @@
+boks-servc;6501;TCP;BoKS Servc
+boks_servc;6501;TCP;BoKS Servc
+boks-servc;6501;UDP;BoKS Servc
+boks_servc;6501;UDP;BoKS Servc
+boks-servm;6502;TCP;BoKS Servm
+boks_servm;6502;TCP;BoKS Servm
+boks-servm;6502;UDP;BoKS Servm
+boks_servm;6502;UDP;BoKS Servm
+boks-clntd;6503;TCP;BoKS Clntd
+boks_clntd;6503;TCP;BoKS Clntd
+boks-clntd;6503;UDP;BoKS Clntd
+boks_clntd;6503;UDP;BoKS Clntd
+Unassigned;6504;UDP;Unassigned
+badm-priv;6505;TCP;BoKS Admin Private Port
+badm_priv;6505;TCP;BoKS Admin Private Port
+badm-priv;6505;UDP;BoKS Admin Private Port
+badm_priv;6505;UDP;BoKS Admin Private Port
+badm-pub;6506;TCP;BoKS Admin Public Port
+badm_pub;6506;TCP;BoKS Admin Public Port
+badm-pub;6506;UDP;BoKS Admin Public Port
+badm_pub;6506;UDP;BoKS Admin Public Port
+bdir-priv;6507;TCP;BoKS Dir Server, Private Port
+bdir_priv;6507;TCP;BoKS Dir Server, Private Port
+bdir-priv;6507;UDP;BoKS Dir Server, Private Port
+bdir_priv;6507;UDP;BoKS Dir Server, Private Port
+bdir-pub;6508;TCP;BoKS Dir Server, Public Port
+bdir_pub;6508;TCP;BoKS Dir Server, Public Port
+bdir-pub;6508;UDP;BoKS Dir Server, Public Port
+bdir_pub;6508;UDP;BoKS Dir Server, Public Port
+mgcs-mfp-port;6509;TCP;MGCS-MFP Port
+mgcs-mfp-port;6509;UDP;MGCS-MFP Port
+mcer-port;6510;TCP;MCER Port
+mcer-port;6510;UDP;MCER Port
+Unassigned;6511;TCP;Reserved
+dccp-udp;6511;UDP;Datagram Congestion Control Protocol Encapsulation for NAT Traversal
+netconf-tls;6513;TCP;NETCONF over TLS
+Unassigned;6513;UDP;Reserved
+syslog-tls;6514;UDP;syslog over DTLS
+syslog-tls;6514;TCP;Syslog over TLS
+syslog-tls;6514;UDP;syslog over DTLS
+elipse-rec;6515;TCP;Elipse RPC Protocol
+elipse-rec;6515;UDP;Elipse RPC Protocol
+lds-distrib;6543;TCP;lds_distrib
+lds-distrib;6543;UDP;lds_distrib
+lds-dump;6544;TCP;LDS Dump Service
+lds-dump;6544;UDP;LDS Dump Service
+apc-6547;6547;TCP;APC 6547
+apc-6547;6547;UDP;APC 6547
+apc-6548;6548;TCP;APC 6548
+apc-6548;6548;UDP;APC 6548
+apc-6549;6549;TCP;APC 6549
+apc-6549;6549;UDP;APC 6549
+fg-sysupdate;6550;TCP;fg-sysupdate
+fg-sysupdate;6550;UDP;fg-sysupdate
+sum;6551;TCP;Software Update Manager
+sum;6551;UDP;Software Update Manager
+xdsxdm;6558;TCP;Unassigned
+xdsxdm;6558;UDP;Unassigned
+sane-port;6566;TCP;SANE Control Port
+sane-port;6566;UDP;SANE Control Port
+Unassigned;6567;UDP;Reserved
+canit-store;6568;TCP;CanIt Storage Manager
+canit_store;6568;TCP;CanIt Storage Manager
+rp-reputation;6568;UDP;Roaring Penguin IP Address Reputation Collection
+affiliate;6579;TCP;Affiliate
+affiliate;6579;UDP;Affiliate
+parsec-master;6580;TCP;Parsec Masterserver
+parsec-master;6580;UDP;Parsec Masterserver
+parsec-peer;6581;TCP;Parsec Peer-to-Peer
+parsec-peer;6581;UDP;Parsec Peer-to-Peer
+parsec-game;6582;TCP;Parsec Gameserver
+parsec-game;6582;UDP;Parsec Gameserver
+joaJewelSuite;6583;TCP;JOA Jewel Suite
+joaJewelSuite;6583;UDP;JOA Jewel Suite
+Unassigned;6588;UDP;Unassigned
+mshvlm;6600;TCP;Microsoft Hyper-V Live Migration
+Unassigned;6600;UDP;Reserved
+mstmg-sstp;6601;TCP;Microsoft Threat Management Gateway SSTP
+Unassigned;6601;UDP;Reserved
+wsscomfrmwk;6602;TCP;Windows WSS Communication Framework
+Unassigned;6602;UDP;Reserved
+odette-ftps;6619;TCP;ODETTE-FTP over TLS/SSL
+odette-ftps;6619;UDP;ODETTE-FTP over TLS/SSL
+kftp-data;6620;TCP;Kerberos V5 FTP Data
+kftp-data;6620;UDP;Kerberos V5 FTP Data
+kftp;6621;TCP;Kerberos V5 FTP Control
+kftp;6621;UDP;Kerberos V5 FTP Control
+mcftp;6622;TCP;Multicast FTP
+mcftp;6622;UDP;Multicast FTP
+ktelnet;6623;TCP;Kerberos V5 Telnet
+ktelnet;6623;UDP;Kerberos V5 Telnet
+datascaler-db;6624;TCP;DataScaler database
+Unassigned;6624;UDP;Reserved
+datascaler-ctl;6625;TCP;DataScaler control
+Unassigned;6625;UDP;Reserved
+wago-service;6626;TCP;WAGO Service and Update
+wago-service;6626;UDP;WAGO Service and Update
+nexgen;6627;TCP;Allied Electronics NeXGen
+nexgen;6627;UDP;Allied Electronics NeXGen
+afesc-mc;6628;TCP;AFE Stock Channel M/C
+afesc-mc;6628;UDP;AFE Stock Channel M/C
+nexgen-aux;6629;TCP;Secondary, (non ANDI) multi-protocol multi-function interface to
+nexgen-aux;6629;UDP;Secondary, (non ANDI) multi-protocol multi-function interface to
+Unassigned;6630;UDP;Unassigned
+Unassigned;6631;UDP;Unassigned
+mxodbc-connect;6632;TCP;eGenix mxODBC Connect
+Unassigned;6632;UDP;Reserved
+Unassigned;6633;TCP;Reserved
+cisco-vpath-tun;6633;UDP;Cisco vPath Services Overlay
+Unassigned;6634;TCP;Reserved
+mpls-pm;6634;UDP;MPLS Performance Measurement out-of-band response
+Unassigned;6635;TCP;Reserved
+mpls-udp;6635;UDP;Encapsulate MPLS packets in UDP tunnels.
+Unassigned;6636;TCP;Reserved
+mpls-udp-dtls;6636;UDP;Encapsulate MPLS packets in UDP tunnels with DTLS.
+ovsdb;6640;TCP;Open vSwitch Database protocol
+Unassigned;6640;UDP;Reserved
+openflow;6653;TCP;OpenFlow
+openflow;6653;UDP;OpenFlow
+Unassigned;6654;UDP;Unassigned
+pcs-sf-ui-man;6655;TCP;PC SOFT - Software factory UI/manager
+Unassigned;6655;UDP;Reserved
+emgmsg;6656;TCP;Emergency Message Control Service
+Unassigned;6656;UDP;Reserved
+Unassigned;6657;TCP;Reserved
+palcom-disc;6657;UDP;PalCom Discovery
+vocaltec-gold;6670;TCP;Vocaltec Global Online Directory
+vocaltec-gold;6670;UDP;Vocaltec Global Online Directory
+p4p-portal;6671;TCP;P4P Portal Service
+p4p-portal;6671;UDP;P4P Portal Service
+vision-server;6672;TCP;vision_server
+vision_server;6672;TCP;vision_server
+vision-server;6672;UDP;vision_server
+vision_server;6672;UDP;vision_server
+vision-elmd;6673;TCP;vision_elmd
+vision_elmd;6673;TCP;vision_elmd
+vision-elmd;6673;UDP;vision_elmd
+vision_elmd;6673;UDP;vision_elmd
+vfbp;6678;TCP;Viscount Freedom Bridge Protocol
+vfbp-disc;6678;UDP;Viscount Freedom Bridge Discovery
+osaut;6679;TCP;Osorno Automation
+osaut;6679;UDP;Osorno Automation
+clever-ctrace;6687;TCP;CleverView for cTrace Message Service
+Unassigned;6687;UDP;Reserved
+clever-tcpip;6688;TCP;CleverView for TCP/IP Message Service
+Unassigned;6688;UDP;Reserved
+tsa;6689;TCP;Tofino Security Appliance
+tsa;6689;UDP;Tofino Security Appliance
+cleverdetect;6690;TCP;CLEVERDetect Message Service
+Unassigned;6690;UDP;Reserved
+Unassigned;6696;TCP;Reserved
+babel;6696;UDP;Babel Routing Protocol
+ircs-u;6697;TCP;Internet Relay Chat via TLS/SSL
+Unassigned;6697;UDP;Reserved
+Unassigned;6700;UDP;Unassigned
+Unassigned;6701;UDP;Unassigned
+kti-icad-srvr;6701;TCP;KTI/ICAD Nameserver
+kti-icad-srvr;6701;UDP;KTI/ICAD Nameserver
+Unassigned;6702;UDP;Unassigned
+e-design-net;6702;TCP;e-Design network
+e-design-net;6702;UDP;e-Design network
+e-design-web;6703;TCP;e-Design web
+e-design-web;6703;UDP;e-Design web
+frc-hp;6704;UDP;ForCES HP (High Priority) channel
+Unassigned;6704;TCP;Reserved
+Unassigned;6704;UDP;Reserved
+frc-mp;6705;UDP;ForCES MP (Medium Priority) channel
+Unassigned;6705;TCP;Reserved
+Unassigned;6705;UDP;Reserved
+frc-lp;6706;UDP;ForCES LP (Low priority) channel
+Unassigned;6706;TCP;Reserved
+Unassigned;6706;UDP;Reserved
+ibprotocol;6714;TCP;Internet Backplane Protocol
+ibprotocol;6714;UDP;Internet Backplane Protocol
+fibotrader-com;6715;TCP;Fibotrader Communications
+fibotrader-com;6715;UDP;Fibotrader Communications
+princity-agent;6716;TCP;Princity Agent
+Unassigned;6716;UDP;Reserved
+bmc-perf-agent;6767;TCP;BMC PERFORM AGENT
+bmc-perf-agent;6767;UDP;BMC PERFORM AGENT
+bmc-perf-mgrd;6768;TCP;BMC PERFORM MGRD
+bmc-perf-mgrd;6768;UDP;BMC PERFORM MGRD
+adi-gxp-srvprt;6769;TCP;ADInstruments GxP Server
+adi-gxp-srvprt;6769;UDP;ADInstruments GxP Server
+plysrv-http;6770;TCP;PolyServe http
+plysrv-http;6770;UDP;PolyServe http
+plysrv-https;6771;TCP;PolyServe https
+plysrv-https;6771;UDP;PolyServe https
+ntz-tracker;6777;TCP;netTsunami Tracker
+Unassigned;6777;UDP;Reserved
+ntz-p2p-storage;6778;TCP;netTsunami p2p storage system
+Unassigned;6778;UDP;Reserved
+Unassigned;6784;TCP;Reserved
+bfd-lag;6784;UDP;Bidirectional Forwarding Detection (BFD) on Link Aggregation Group (LAG) Interfaces
+dgpf-exchg;6785;TCP;DGPF Individual Exchange
+dgpf-exchg;6785;UDP;DGPF Individual Exchange
+smc-jmx;6786;TCP;Sun Java Web Console JMX
+smc-jmx;6786;UDP;Sun Java Web Console JMX
+smc-admin;6787;TCP;Sun Web Console Admin
+smc-admin;6787;UDP;Sun Web Console Admin
+smc-http;6788;TCP;SMC-HTTP
+smc-http;6788;UDP;SMC-HTTP
+radg;6789;TCP;GSS-API for the Oracle Remote Administration Daemon
+Unassigned;6789;UDP;Reserved
+hnmp;6790;TCP;HNMP
+hnmp;6790;UDP;HNMP
+hnm;6791;TCP;Halcyon Network Manager
+hnm;6791;UDP;Halcyon Network Manager
+acnet;6801;TCP;ACNET Control System Protocol
+acnet;6801;UDP;ACNET Control System Protocol
+pentbox-sim;6817;TCP;PenTBox Secure IM Protocol
+Unassigned;6817;UDP;Reserved
+ambit-lm;6831;TCP;ambit-lm
+ambit-lm;6831;UDP;ambit-lm
+netmo-default;6841;TCP;Netmo Default
+netmo-default;6841;UDP;Netmo Default
+netmo-http;6842;TCP;Netmo HTTP
+netmo-http;6842;UDP;Netmo HTTP
+iccrushmore;6850;TCP;ICCRUSHMORE
+iccrushmore;6850;UDP;ICCRUSHMORE
+acctopus-cc;6868;TCP;Acctopus Command Channel
+acctopus-st;6868;UDP;Acctopus Status
+muse;6888;TCP;MUSE
+muse;6888;UDP;MUSE
+Unassigned;6889;UDP;Unassigned
+rtimeviewer;6900;TCP;R*TIME Viewer Data Interface
+Unassigned;6900;UDP;Reserved
+jetstream;6901;TCP;Novell Jetstream messaging protocol
+Unassigned;6901;UDP;Reserved
+ethoscan;6935;TCP;EthoScan Service
+ethoscan;6935;UDP;EthoScan Service
+xsmsvc;6936;TCP;XenSource Management Service
+xsmsvc;6936;UDP;XenSource Management Service
+bioserver;6946;TCP;Biometrics Server
+bioserver;6946;UDP;Biometrics Server
+otlp;6951;TCP;OTLP
+otlp;6951;UDP;OTLP
+jmact3;6961;TCP;JMACT3
+jmact3;6961;UDP;JMACT3
+jmevt2;6962;TCP;jmevt2
+jmevt2;6962;UDP;jmevt2
+swismgr1;6963;TCP;swismgr1
+swismgr1;6963;UDP;swismgr1
+swismgr2;6964;TCP;swismgr2
+swismgr2;6964;UDP;swismgr2
+swistrap;6965;TCP;swistrap
+swistrap;6965;UDP;swistrap
+swispol;6966;TCP;swispol
+swispol;6966;UDP;swispol
+acmsoda;6969;TCP;acmsoda
+acmsoda;6969;UDP;acmsoda
+conductor-mpx;6970;UDP;conductor for multiplex
+conductor;6970;TCP;Conductor test coordination protocol
+Unassigned;6970;UDP;Reserved
+MobilitySrv;6997;TCP;Mobility XE Protocol
+MobilitySrv;6997;UDP;Mobility XE Protocol
+iatp-highpri;6998;TCP;IATP-highPri
+iatp-highpri;6998;UDP;IATP-highPri
+iatp-normalpri;6999;TCP;IATP-normalPri
+iatp-normalpri;6999;UDP;IATP-normalPri
+afs3-fileserver;7000;TCP;file server itself
+afs3-fileserver;7000;UDP;file server itself
+afs3-callback;7001;TCP;callbacks to cache managers
+afs3-callback;7001;UDP;callbacks to cache managers
+afs3-prserver;7002;TCP;users & groups database
+afs3-prserver;7002;UDP;users & groups database
+afs3-vlserver;7003;TCP;volume location database
+afs3-vlserver;7003;UDP;volume location database
+afs3-kaserver;7004;TCP;AFS/Kerberos authentication service
+afs3-kaserver;7004;UDP;AFS/Kerberos authentication service
+afs3-volser;7005;TCP;volume managment server
+afs3-volser;7005;UDP;volume managment server
+afs3-errors;7006;TCP;error interpretation service
+afs3-errors;7006;UDP;error interpretation service
+afs3-bos;7007;TCP;basic overseer process
+afs3-bos;7007;UDP;basic overseer process
+afs3-update;7008;TCP;server-to-server updater
+afs3-update;7008;UDP;server-to-server updater
+afs3-rmtsys;7009;TCP;remote cache manager service
+afs3-rmtsys;7009;UDP;remote cache manager service
+ups-onlinet;7010;TCP;onlinet uninterruptable power supplies
+ups-onlinet;7010;UDP;onlinet uninterruptable power supplies
+talon-disc;7011;TCP;Talon Discovery Port
+talon-disc;7011;UDP;Talon Discovery Port
+talon-engine;7012;TCP;Talon Engine
+talon-engine;7012;UDP;Talon Engine
+microtalon-dis;7013;TCP;Microtalon Discovery
+microtalon-dis;7013;UDP;Microtalon Discovery
+microtalon-com;7014;TCP;Microtalon Communications
+microtalon-com;7014;UDP;Microtalon Communications
+talon-webserver;7015;TCP;Talon Webserver
+talon-webserver;7015;UDP;Talon Webserver
+spg;7016;TCP;SPG Controls Carrier
+spg;7016;UDP;SPG Controls Carrier
+grasp;7017;TCP;GeneRic Autonomic Signaling Protocol
+grasp;7017;UDP;GeneRic Autonomic Signaling Protocol
+fisa-svc;7018;TCP;FISA Service
+Unassigned;7018;UDP;Reserved
+doceri-ctl;7019;TCP;doceri drawing service control
+doceri-view;7019;UDP;doceri drawing service screen view
+dpserve;7020;TCP;DP Serve
+dpserve;7020;UDP;DP Serve
+dpserveadmin;7021;TCP;DP Serve Admin
+dpserveadmin;7021;UDP;DP Serve Admin
+ctdp;7022;TCP;CT Discovery Protocol
+ctdp;7022;UDP;CT Discovery Protocol
+ct2nmcs;7023;TCP;Comtech T2 NMCS
+ct2nmcs;7023;UDP;Comtech T2 NMCS
+vmsvc;7024;TCP;Vormetric service
+vmsvc;7024;UDP;Vormetric service
+vmsvc-2;7025;TCP;Vormetric Service II
+vmsvc-2;7025;UDP;Vormetric Service II
+op-probe;7030;TCP;ObjectPlanet probe
+op-probe;7030;UDP;ObjectPlanet probe
+iposplanet;7031;TCP;IPOSPLANET retailing multi devices protocol
+Unassigned;7031;UDP;Reserved
+Unassigned;7040;TCP;Reserved
+quest-disc;7040;UDP;Quest application level network service discovery
+arcp;7070;TCP;ARCP
+arcp;7070;UDP;ARCP
+iwg1;7071;TCP;IWGADTS Aircraft Housekeeping Message
+iwg1;7071;UDP;IWGADTS Aircraft Housekeeping Message
+Unassigned;7072;UDP;Unassigned
+martalk;7073;TCP;MarTalk protocol
+Unassigned;7073;UDP;Reserved
+empowerid;7080;TCP;EmpowerID Communication
+empowerid;7080;UDP;EmpowerID Communication
+Unassigned;7088;TCP;Reserved
+zixi-transport;7088;UDP;Zixi live video transport protocol
+Unassigned;7095;TCP;Reserved
+jdp-disc;7095;UDP;Java Discovery Protocol
+lazy-ptop;7099;TCP;lazy-ptop
+lazy-ptop;7099;UDP;lazy-ptop
+font-service;7100;TCP;X Font Service
+font-service;7100;UDP;X Font Service
+elcn;7101;TCP;Embedded Light Control Network
+elcn;7101;UDP;Embedded Light Control Network
+Unassigned;7107;TCP;Reserved
+aes-x170;7107;UDP;AES-X170
+rothaga;7117;TCP;Encrypted chat and file transfer service
+Unassigned;7117;UDP;Reserved
+virprot-lm;7121;TCP;Virtual Prototypes License Manager
+virprot-lm;7121;UDP;Virtual Prototypes License Manager
+scenidm;7128;TCP;intelligent data manager
+scenidm;7128;UDP;intelligent data manager
+scenccs;7129;TCP;Catalog Content Search
+scenccs;7129;UDP;Catalog Content Search
+cabsm-comm;7161;TCP;CA BSM Comm
+cabsm-comm;7161;UDP;CA BSM Comm
+caistoragemgr;7162;TCP;CA Storage Manager
+caistoragemgr;7162;UDP;CA Storage Manager
+cacsambroker;7163;TCP;CA Connection Broker
+cacsambroker;7163;UDP;CA Connection Broker
+fsr;7164;TCP;File System Repository Agent
+fsr;7164;UDP;File System Repository Agent
+doc-server;7165;TCP;Document WCF Server
+doc-server;7165;UDP;Document WCF Server
+aruba-server;7166;TCP;Aruba eDiscovery Server
+aruba-server;7166;UDP;Aruba eDiscovery Server
+casrmagent;7167;TCP;CA SRM Agent
+Unassigned;7167;UDP;Reserved
+cnckadserver;7168;TCP;cncKadServer DB & Inventory Services
+Unassigned;7168;UDP;Reserved
+ccag-pib;7169;TCP;Consequor Consulting Process Integration Bridge
+ccag-pib;7169;UDP;Consequor Consulting Process Integration Bridge
+nsrp;7170;TCP;Adaptive Name/Service Resolution
+nsrp;7170;UDP;Adaptive Name/Service Resolution
+drm-production;7171;TCP;Discovery and Retention Mgt Production
+drm-production;7171;UDP;Discovery and Retention Mgt Production
+metalbend;7172;TCP;Port used for MetalBend programmable interface
+Unassigned;7172;UDP;Reserved
+zsecure;7173;TCP;zSecure Server
+Unassigned;7173;UDP;Reserved
+clutild;7174;TCP;Clutild
+clutild;7174;UDP;Clutild
+Unassigned;7181;TCP;Reserved
+janus-disc;7181;UDP;Janus Guidewire Enterprise Discovery Service Bus
+fodms;7200;TCP;FODMS FLIP
+fodms;7200;UDP;FODMS FLIP
+dlip;7201;TCP;DLIP
+dlip;7201;UDP;DLIP
+pon-ictp;7202;TCP;Inter-Channel Termination Protocol (ICTP) for multi-wavelength PON
+PS-Server;7215;TCP;Communication ports for PaperStream Server services
+Unassigned;7215;UDP;Reserved
+PS-Capture-Pro;7216;TCP;PaperStream Capture Professional
+Unassigned;7216;UDP;Reserved
+ramp;7227;TCP;Registry A & M Protocol
+ramp;7227;UDP;Registry A $ M Protocol
+citrixupp;7228;TCP;Citrix Universal Printing Port
+Unassigned;7228;UDP;Reserved
+citrixuppg;7229;TCP;Citrix UPP Gateway
+Unassigned;7229;UDP;Reserved
+Unassigned;7235;TCP;Reserved
+aspcoordination;7235;UDP;ASP Coordination Protocol
+display;7236;TCP;Wi-Fi Alliance Wi-Fi Display Protocol
+Unassigned;7236;UDP;Reserved
+pads;7237;TCP;PADS (Public Area Display System) Server
+Unassigned;7237;UDP;Reserved
+frc-hicp;7244;TCP;FrontRow Calypso Human Interface Control Protocol
+frc-hicp-disc;7244;UDP;FrontRow Calypso Human Interface Control Protocol
+cnap;7262;TCP;Calypso Network Access Protocol
+cnap;7262;UDP;Calypso Network Access Protocol
+watchme-7272;7272;TCP;WatchMe Monitoring 7272
+watchme-7272;7272;UDP;WatchMe Monitoring 7272
+oma-rlp;7273;TCP;OMA Roaming Location
+oma-rlp;7273;UDP;OMA Roaming Location
+oma-rlp-s;7274;TCP;OMA Roaming Location SEC
+oma-rlp-s;7274;UDP;OMA Roaming Location SEC
+oma-ulp;7275;TCP;OMA UserPlane Location
+oma-ulp;7275;UDP;OMA UserPlane Location
+oma-ilp;7276;TCP;OMA Internal Location Protocol
+oma-ilp;7276;UDP;OMA Internal Location Protocol
+oma-ilp-s;7277;TCP;OMA Internal Location Secure Protocol
+oma-ilp-s;7277;UDP;OMA Internal Location Secure Protocol
+oma-dcdocbs;7278;TCP;OMA Dynamic Content Delivery over CBS
+oma-dcdocbs;7278;UDP;OMA Dynamic Content Delivery over CBS
+ctxlic;7279;TCP;Citrix Licensing
+ctxlic;7279;UDP;Citrix Licensing
+itactionserver1;7280;TCP;ITACTIONSERVER 1
+itactionserver1;7280;UDP;ITACTIONSERVER 1
+itactionserver2;7281;TCP;ITACTIONSERVER 2
+itactionserver2;7281;UDP;ITACTIONSERVER 2
+mzca-action;7282;TCP;eventACTION/ussACTION (MZCA) server
+mzca-alert;7282;UDP;eventACTION/ussACTION (MZCA) alert
+genstat;7283;TCP;General Statistics Rendezvous Protocol
+Unassigned;7283;UDP;Reserved
+lcm-server;7365;TCP;LifeKeeper Communications
+lcm-server;7365;UDP;LifeKeeper Communications
+mindfilesys;7391;TCP;mind-file system server
+mindfilesys;7391;UDP;mind-file system server
+mrssrendezvous;7392;TCP;mrss-rendezvous server
+mrssrendezvous;7392;UDP;mrss-rendezvous server
+nfoldman;7393;TCP;nFoldMan Remote Publish
+nfoldman;7393;UDP;nFoldMan Remote Publish
+fse;7394;TCP;File system export of backup images
+fse;7394;UDP;File system export of backup images
+winqedit;7395;TCP;winqedit
+winqedit;7395;UDP;winqedit
+Unassigned;7396;UDP;Unassigned
+hexarc;7397;TCP;Hexarc Command Language
+hexarc;7397;UDP;Hexarc Command Language
+rtps-discovery;7400;TCP;RTPS Discovery
+rtps-discovery;7400;UDP;RTPS Discovery
+rtps-dd-ut;7401;TCP;RTPS Data-Distribution User-Traffic
+rtps-dd-ut;7401;UDP;RTPS Data-Distribution User-Traffic
+rtps-dd-mt;7402;TCP;RTPS Data-Distribution Meta-Traffic
+rtps-dd-mt;7402;UDP;RTPS Data-Distribution Meta-Traffic
+ionixnetmon;7410;TCP;Ionix Network Monitor
+ionixnetmon;7410;UDP;Ionix Network Monitor
+daqstream;7411;TCP;Streaming of measurement data
+daqstream;7411;UDP;Streaming of measurement data
+mtportmon;7421;TCP;Matisse Port Monitor
+mtportmon;7421;UDP;Matisse Port Monitor
+pmdmgr;7426;TCP;OpenView DM Postmaster Manager
+pmdmgr;7426;UDP;OpenView DM Postmaster Manager
+oveadmgr;7427;TCP;OpenView DM Event Agent Manager
+oveadmgr;7427;UDP;OpenView DM Event Agent Manager
+ovladmgr;7428;TCP;OpenView DM Log Agent Manager
+ovladmgr;7428;UDP;OpenView DM Log Agent Manager
+opi-sock;7429;TCP;OpenView DM rqt communication
+opi-sock;7429;UDP;OpenView DM rqt communication
+xmpv7;7430;TCP;OpenView DM xmpv7 api pipe
+xmpv7;7430;UDP;OpenView DM xmpv7 api pipe
+pmd;7431;TCP;OpenView DM ovc/xmpv3 api pipe
+pmd;7431;UDP;OpenView DM ovc/xmpv3 api pipe
+faximum;7437;TCP;Faximum
+faximum;7437;UDP;Faximum
+oracleas-https;7443;TCP;Oracle Application Server HTTPS
+oracleas-https;7443;UDP;Oracle Application Server HTTPS
+sttunnel;7471;TCP;Stateless Transport Tunneling Protocol
+Unassigned;7471;UDP;Reserved
+Unassigned;7472;UDP;Unassigned
+rise;7473;TCP;Rise: The Vieneo Province
+rise;7473;UDP;Rise: The Vieneo Province
+neo4j;7474;TCP;Neo4j Graph Database
+Unassigned;7474;UDP;Reserved
+openit;7478;TCP;IT Asset Management
+Unassigned;7478;UDP;Reserved
+telops-lmd;7491;TCP;telops-lmd
+telops-lmd;7491;UDP;telops-lmd
+silhouette;7500;TCP;Silhouette User
+silhouette;7500;UDP;Silhouette User
+ovbus;7501;TCP;HP OpenView Bus Daemon
+ovbus;7501;UDP;HP OpenView Bus Daemon
+adcp;7508;TCP;Automation Device Configuration Protocol
+Unassigned;7508;UDP;Reserved
+acplt;7509;TCP;ACPLT - process automation service
+Unassigned;7509;UDP;Reserved
+ovhpas;7510;TCP;HP OpenView Application Server
+ovhpas;7510;UDP;HP OpenView Application Server
+pafec-lm;7511;TCP;pafec-lm
+pafec-lm;7511;UDP;pafec-lm
+saratoga;7542;TCP;Saratoga Transfer Protocol
+saratoga;7542;UDP;Saratoga Transfer Protocol
+atul;7543;TCP;atul server
+atul;7543;UDP;atul server
+nta-ds;7544;TCP;FlowAnalyzer DisplayServer
+nta-ds;7544;UDP;FlowAnalyzer DisplayServer
+nta-us;7545;TCP;FlowAnalyzer UtilityServer
+nta-us;7545;UDP;FlowAnalyzer UtilityServer
+cfs;7546;TCP;Cisco Fabric service
+cfs;7546;UDP;Cisco Fabric service
+cwmp;7547;TCP;DSL Forum CWMP
+cwmp;7547;UDP;DSL Forum CWMP
+tidp;7548;TCP;Threat Information Distribution Protocol
+tidp;7548;UDP;Threat Information Distribution Protocol
+nls-tl;7549;TCP;Network Layer Signaling Transport Layer
+nls-tl;7549;UDP;Network Layer Signaling Transport Layer
+Unassigned;7550;TCP;Reserved
+cloudsignaling;7550;UDP;Cloud Signaling Service
+controlone-con;7551;TCP;ControlONE Console signaling
+Unassigned;7551;UDP;Reserved
+sncp;7560;TCP;Sniffer Command Protocol
+sncp;7560;UDP;Sniffer Command Protocol
+cfw;7563;TCP;Control Framework
+Unassigned;7563;UDP;Reserved
+vsi-omega;7566;TCP;VSI Omega
+vsi-omega;7566;UDP;VSI Omega
+dell-eql-asm;7569;TCP;Dell EqualLogic Host Group Management
+Unassigned;7569;UDP;Reserved
+aries-kfinder;7570;TCP;Aries Kfinder
+aries-kfinder;7570;UDP;Aries Kfinder
+coherence;7574;TCP;Oracle Coherence Cluster Service
+coherence-disc;7574;UDP;Oracle Coherence Cluster discovery service
+sun-lm;7588;TCP;Sun License Manager
+sun-lm;7588;UDP;Sun License Manager
+mipi-debug;7606;TCP;MIPI Alliance Debug
+mipi-debug;7606;UDP;MIPI Alliance Debug
+indi;7624;TCP;Instrument Neutral Distributed Interface
+indi;7624;UDP;Instrument Neutral Distributed Interface
+Unassigned;7625;UDP;Unassigned
+simco;7626;UDP;SImple Middlebox COnfiguration (SIMCO)
+simco;7626;TCP;SImple Middlebox COnfiguration (SIMCO) Server
+Unassigned;7626;UDP;De-registered
+soap-http;7627;TCP;SOAP Service Port
+soap-http;7627;UDP;SOAP Service Port
+zen-pawn;7628;TCP;Primary Agent Work Notification
+zen-pawn;7628;UDP;Primary Agent Work Notification
+xdas;7629;TCP;OpenXDAS Wire Protocol
+xdas;7629;UDP;OpenXDAS Wire Protocol
+hawk;7630;TCP;HA Web Konsole
+Unassigned;7630;UDP;Reserved
+tesla-sys-msg;7631;TCP;TESLA System Messaging
+Unassigned;7631;UDP;Reserved
+Unassigned;7632;UDP;Unassigned
+pmdfmgt;7633;TCP;PMDF Management
+pmdfmgt;7633;UDP;PMDF Management
+cuseeme;7648;TCP;bonjour-cuseeme
+cuseeme;7648;UDP;bonjour-cuseeme
+imqstomp;7672;TCP;iMQ STOMP Server
+Unassigned;7672;UDP;Reserved
+imqstomps;7673;TCP;iMQ STOMP Server over SSL
+Unassigned;7673;UDP;Reserved
+imqtunnels;7674;TCP;iMQ SSL tunnel
+imqtunnels;7674;UDP;iMQ SSL tunnel
+imqtunnel;7675;TCP;iMQ Tunnel
+imqtunnel;7675;UDP;iMQ Tunnel
+imqbrokerd;7676;TCP;iMQ Broker Rendezvous
+imqbrokerd;7676;UDP;iMQ Broker Rendezvous
+sun-user-https;7677;TCP;Sun App Server - HTTPS
+sun-user-https;7677;UDP;Sun App Server - HTTPS
+pando-pub;7680;TCP;Pando Media Public Distribution
+pando-pub;7680;UDP;Pando Media Public Distribution
+dmt;7683;TCP;Cleondris DMT
+Unassigned;7683;UDP;Reserved
+bolt;7687;TCP;Bolt database connection
+Unassigned;7687;UDP;Reserved
+Unassigned;7688;UDP;Unassigned
+collaber;7689;TCP;Collaber Network Service
+collaber;7689;UDP;Collaber Network Service
+klio;7697;TCP;KLIO communications
+klio;7697;UDP;KLIO communications
+em7-secom;7700;TCP;EM7 Secure Communications
+Unassigned;7700;UDP;Reserved
+nfapi;7701;UDP;SCF nFAPI defining MAC/PHY split
+Unassigned;7701;TCP;Reserved
+Unassigned;7701;UDP;Reserved
+Unassigned;7702;UDP;Reserved
+sync-em7;7707;TCP;EM7 Dynamic Updates
+sync-em7;7707;UDP;EM7 Dynamic Updates
+scinet;7708;TCP;scientia.net
+scinet;7708;UDP;scientia.net
+medimageportal;7720;TCP;MedImage Portal
+medimageportal;7720;UDP;MedImage Portal
+nsdeepfreezectl;7724;TCP;Novell Snap-in Deep Freeze Control
+nsdeepfreezectl;7724;UDP;Novell Snap-in Deep Freeze Control
+nitrogen;7725;TCP;Nitrogen Service
+nitrogen;7725;UDP;Nitrogen Service
+freezexservice;7726;TCP;FreezeX Console Service
+freezexservice;7726;UDP;FreezeX Console Service
+trident-data;7727;TCP;Trident Systems Data
+trident-data;7727;UDP;Trident Systems Data
+osvr;7728;UDP;Open-Source Virtual Reality
+osvr;7728;TCP;Open-Source Virtual Reality
+osvr;7728;UDP;Open-Source Virtual Reality
+smip;7734;TCP;Smith Protocol over IP
+smip;7734;UDP;Smith Protocol over IP
+aiagent;7738;TCP;HP Enterprise Discovery Agent
+aiagent;7738;UDP;HP Enterprise Discovery Agent
+scriptview;7741;TCP;ScriptView Network
+scriptview;7741;UDP;ScriptView Network
+msss;7742;TCP;Mugginsoft Script Server Service
+Unassigned;7742;UDP;Reserved
+sstp-1;7743;TCP;Sakura Script Transfer Protocol
+sstp-1;7743;UDP;Sakura Script Transfer Protocol
+raqmon-pdu;7744;TCP;RAQMON PDU
+raqmon-pdu;7744;UDP;RAQMON PDU
+prgp;7747;TCP;Put/Run/Get Protocol
+prgp;7747;UDP;Put/Run/Get Protocol
+inetfs;7775;TCP;A File System using TLS over a wide area network
+Unassigned;7775;UDP;Reserved
+Unassigned;7776;UDP;Unassigned
+cbt;7777;TCP;cbt
+cbt;7777;UDP;cbt
+interwise;7778;TCP;Interwise
+interwise;7778;UDP;Interwise
+vstat;7779;TCP;VSTAT
+vstat;7779;UDP;VSTAT
+Unassigned;7780;UDP;Unassigned
+accu-lmgr;7781;TCP;accu-lmgr
+accu-lmgr;7781;UDP;accu-lmgr
+Unassigned;7784;TCP;Reserved
+s-bfd;7784;UDP;Seamless Bidirectional Forwarding Detection (S-BFD)
+Unassigned;7785;UDP;Unassigned
+minivend;7786;TCP;MINIVEND
+minivend;7786;UDP;MINIVEND
+popup-reminders;7787;TCP;Popup Reminders Receive
+popup-reminders;7787;UDP;Popup Reminders Receive
+Unassigned;7788;UDP;Unassigned
+office-tools;7789;TCP;Office Tools Pro Receive
+office-tools;7789;UDP;Office Tools Pro Receive
+q3ade;7794;TCP;Q3ADE Cluster Service
+q3ade;7794;UDP;Q3ADE Cluster Service
+pnet-conn;7797;TCP;Propel Connector port
+pnet-conn;7797;UDP;Propel Connector port
+pnet-enc;7798;TCP;Propel Encoder port
+pnet-enc;7798;UDP;Propel Encoder port
+altbsdp;7799;TCP;Alternate BSDP Service
+altbsdp;7799;UDP;Alternate BSDP Service
+asr;7800;TCP;Apple Software Restore
+asr;7800;UDP;Apple Software Restore
+ssp-client;7801;TCP;Secure Server Protocol - client
+ssp-client;7801;UDP;Secure Server Protocol - client
+Unassigned;7802;TCP;Reserved
+vns-tp;7802;UDP;Virtualized Network Services Tunnel Protocol
+rbt-wanopt;7810;TCP;Riverbed WAN Optimization Protocol
+rbt-wanopt;7810;UDP;Riverbed WAN Optimization Protocol
+apc-7845;7845;TCP;APC 7845
+apc-7845;7845;UDP;APC 7845
+apc-7846;7846;TCP;APC 7846
+apc-7846;7846;UDP;APC 7846
+csoauth;7847;TCP;A product key authentication protocol made by CSO
+Unassigned;7847;UDP;Reserved
+mobileanalyzer;7869;TCP;MobileAnalyzer& MobileMonitor
+Unassigned;7869;UDP;Reserved
+rbt-smc;7870;TCP;Riverbed Steelhead Mobile Service
+Unassigned;7870;UDP;Reserved
+mdm;7871;TCP;Mobile Device Management
+Unassigned;7871;UDP;Reserved
+Unassigned;7872;TCP;Reserved
+mipv6tls;7872;UDP;TLS-based Mobile IPv6 Security
+owms;7878;TCP;Opswise Message Service
+Unassigned;7878;UDP;Reserved
+Unassigned;7879;UDP;Unassigned
+pss;7880;TCP;Pearson
+pss;7880;UDP;Pearson
+ubroker;7887;TCP;Universal Broker
+ubroker;7887;UDP;Universal Broker
+mevent;7900;TCP;Multicast Event
+mevent;7900;UDP;Multicast Event
+tnos-sp;7901;TCP;TNOS Service Protocol
+tnos-sp;7901;UDP;TNOS Service Protocol
+tnos-dp;7902;TCP;TNOS shell Protocol
+tnos-dp;7902;UDP;TNOS shell Protocol
+tnos-dps;7903;TCP;TNOS Secure DiaguardProtocol
+tnos-dps;7903;UDP;TNOS Secure DiaguardProtocol
+qo-secure;7913;TCP;QuickObjects secure port
+qo-secure;7913;UDP;QuickObjects secure port
+t2-drm;7932;TCP;Tier 2 Data Resource Manager
+t2-drm;7932;UDP;Tier 2 Data Resource Manager
+t2-brm;7933;TCP;Tier 2 Business Rules Manager
+t2-brm;7933;UDP;Tier 2 Business Rules Manager
+generalsync;7962;TCP;Encrypted, extendable, general-purpose synchronization protocol
+generalsync;7962;UDP;Encrypted, extendable, general-purpose synchronization protocol
+supercell;7967;TCP;Supercell
+supercell;7967;UDP;Supercell
+micromuse-ncps;7979;TCP;Micromuse-ncps
+micromuse-ncps;7979;UDP;Micromuse-ncps
+quest-vista;7980;TCP;Quest Vista
+quest-vista;7980;UDP;Quest Vista
+sossd-collect;7981;TCP;Spotlight on SQL Server Desktop Collect
+Unassigned;7981;UDP;Reserved
+sossd-agent;7982;TCP;Spotlight on SQL Server Desktop Agent
+sossd-disc;7982;UDP;Spotlight on SQL Server Desktop Agent Discovery
+pushns;7997;TCP;PUSH Notification Service
+Unassigned;7997;UDP;Reserved
+Unassigned;7998;TCP;Reserved
+usicontentpush;7998;UDP;USI Content Push Service
+irdmi2;7999;TCP;iRDMI2
+irdmi2;7999;UDP;iRDMI2
+irdmi;8000;TCP;iRDMI
+irdmi;8000;UDP;iRDMI
+vcom-tunnel;8001;TCP;VCOM Tunnel
+vcom-tunnel;8001;UDP;VCOM Tunnel
+teradataordbms;8002;TCP;Teradata ORDBMS
+teradataordbms;8002;UDP;Teradata ORDBMS
+mcreport;8003;TCP;Mulberry Connect Reporting Service
+mcreport;8003;UDP;Mulberry Connect Reporting Service
+Unassigned;8004;UDP;Unassigned
+mxi;8005;TCP;MXI Generation II for z/OS
+mxi;8005;UDP;MXI Generation II for z/OS
+wpl-analytics;8006;TCP;World Programming analytics
+wpl-disc;8006;UDP;World Programming analytics discovery
+warppipe;8007;TCP;I/O oriented cluster computing software
+warppipe;8007;UDP;I/O oriented cluster computing software
+http-alt;8008;TCP;HTTP Alternate
+http-alt;8008;UDP;HTTP Alternate
+qbdb;8019;TCP;QB DB Dynamic Port
+qbdb;8019;UDP;QB DB Dynamic Port
+intu-ec-svcdisc;8020;TCP;Intuit Entitlement Service and Discovery
+intu-ec-svcdisc;8020;UDP;Intuit Entitlement Service and Discovery
+intu-ec-client;8021;TCP;Intuit Entitlement Client
+intu-ec-client;8021;UDP;Intuit Entitlement Client
+oa-system;8022;TCP;oa-system
+oa-system;8022;UDP;oa-system
+ca-audit-da;8025;TCP;CA Audit Distribution Agent
+ca-audit-da;8025;UDP;CA Audit Distribution Agent
+ca-audit-ds;8026;TCP;CA Audit Distribution Server
+ca-audit-ds;8026;UDP;CA Audit Distribution Server
+pro-ed;8032;TCP;ProEd
+pro-ed;8032;UDP;ProEd
+mindprint;8033;TCP;MindPrint
+mindprint;8033;UDP;MindPrint
+vantronix-mgmt;8034;TCP;.vantronix Management
+vantronix-mgmt;8034;UDP;.vantronix Management
+ampify;8040;TCP;Ampify Messaging Protocol
+ampify;8040;UDP;Ampify Messaging Protocol
+enguity-xccetp;8041;TCP;Xcorpeon ASIC Carrier Ethernet Transport
+enguity-xccetp;8041;UDP;Xcorpeon ASIC Carrier Ethernet Transport
+fs-agent;8042;TCP;FireScope Agent
+Unassigned;8042;UDP;Reserved
+fs-server;8043;TCP;FireScope Server
+Unassigned;8043;UDP;Reserved
+fs-mgmt;8044;TCP;FireScope Management Interface
+Unassigned;8044;UDP;Reserved
+rocrail;8051;TCP;Rocrail Client Service
+Unassigned;8051;UDP;Reserved
+senomix01;8052;TCP;Senomix Timesheets Server
+senomix01;8052;UDP;Senomix Timesheets Server
+senomix02;8053;TCP;Senomix Timesheets Client [1 year assignment]
+senomix02;8053;UDP;Senomix Timesheets Client [1 year assignment]
+senomix03;8054;TCP;Senomix Timesheets Server [1 year assignment]
+senomix03;8054;UDP;Senomix Timesheets Server [1 year assignment]
+senomix04;8055;TCP;Senomix Timesheets Server [1 year assignment]
+senomix04;8055;UDP;Senomix Timesheets Server [1 year assignment]
+senomix05;8056;TCP;Senomix Timesheets Server [1 year assignment]
+senomix05;8056;UDP;Senomix Timesheets Server [1 year assignment]
+senomix06;8057;TCP;Senomix Timesheets Client [1 year assignment]
+senomix06;8057;UDP;Senomix Timesheets Client [1 year assignment]
+senomix07;8058;TCP;Senomix Timesheets Client [1 year assignment]
+senomix07;8058;UDP;Senomix Timesheets Client [1 year assignment]
+senomix08;8059;TCP;Senomix Timesheets Client [1 year assignment]
+senomix08;8059;UDP;Senomix Timesheets Client [1 year assignment]
+Unassigned;8060;TCP;Reserved
+aero;8060;UDP;Asymmetric Extended Route Optimization (AERO)
+toad-bi-appsrvr;8066;TCP;Toad BI Application Server
+Unassigned;8066;UDP;Reserved
+infi-async;8067;TCP;Infinidat async replication
+Unassigned;8067;UDP;Reserved
+ucs-isc;8070;TCP;Oracle Unified Communication Suite's Indexed Search Converter
+Unassigned;8070;UDP;Reserved
+gadugadu;8074;TCP;Gadu-Gadu
+gadugadu;8074;UDP;Gadu-Gadu
+mles;8077;TCP;Mles is a client-server data distribution protocol
+Unassigned;8077;UDP;Reserved
+http-alt;8080;TCP;HTTP Alternate (see port 80)
+http-alt;8080;UDP;HTTP Alternate (see port 80)
+sunproxyadmin;8081;TCP;Sun Proxy Admin Service
+sunproxyadmin;8081;UDP;Sun Proxy Admin Service
+us-cli;8082;TCP;Utilistor (Client)
+us-cli;8082;UDP;Utilistor (Client)
+us-srv;8083;TCP;Utilistor (Server)
+us-srv;8083;UDP;Utilistor (Server)
+d-s-n;8086;TCP;Distributed SCADA Networking Rendezvous Port
+d-s-n;8086;UDP;Distributed SCADA Networking Rendezvous Port
+simplifymedia;8087;TCP;Simplify Media SPP Protocol
+simplifymedia;8087;UDP;Simplify Media SPP Protocol
+radan-http;8088;TCP;Radan HTTP
+radan-http;8088;UDP;Radan HTTP
+Unassigned;8089;UDP;Unassigned
+opsmessaging;8090;TCP;Vehicle to station messaging
+Unassigned;8090;UDP;Reserved
+jamlink;8091;TCP;Jam Link Framework
+Unassigned;8091;UDP;Reserved
+sac;8097;TCP;SAC Port Id
+sac;8097;UDP;SAC Port Id
+xprint-server;8100;TCP;Xprint Server
+xprint-server;8100;UDP;Xprint Server
+ldoms-migr;8101;TCP;Logical Domains Migration
+Unassigned;8101;UDP;Reserved
+kz-migr;8102;TCP;Oracle Kernel zones migration server
+Unassigned;8102;UDP;Reserved
+mtl8000-matrix;8115;TCP;MTL8000 Matrix
+mtl8000-matrix;8115;UDP;MTL8000 Matrix
+cp-cluster;8116;TCP;Check Point Clustering
+cp-cluster;8116;UDP;Check Point Clustering
+purityrpc;8117;TCP;Purity replication clustering and remote management
+Unassigned;8117;UDP;Reserved
+privoxy;8118;TCP;Privoxy HTTP proxy
+privoxy;8118;UDP;Privoxy HTTP proxy
+apollo-data;8121;TCP;Apollo Data Port
+apollo-data;8121;UDP;Apollo Data Port
+apollo-admin;8122;TCP;Apollo Admin Port
+apollo-admin;8122;UDP;Apollo Admin Port
+paycash-online;8128;TCP;PayCash Online Protocol
+paycash-online;8128;UDP;PayCash Online Protocol
+paycash-wbp;8129;TCP;PayCash Wallet-Browser
+paycash-wbp;8129;UDP;PayCash Wallet-Browser
+indigo-vrmi;8130;TCP;INDIGO-VRMI
+indigo-vrmi;8130;UDP;INDIGO-VRMI
+indigo-vbcp;8131;TCP;INDIGO-VBCP
+indigo-vbcp;8131;UDP;INDIGO-VBCP
+dbabble;8132;TCP;dbabble
+dbabble;8132;UDP;dbabble
+puppet;8140;TCP;The Puppet master service
+Unassigned;8140;UDP;Reserved
+isdd;8148;TCP;i-SDD file transfer
+isdd;8148;UDP;i-SDD file transfer
+Unassigned;8149;TCP;Reserved
+eor-game;8149;UDP;Edge of Reality game data
+quantastor;8153;TCP;QuantaStor Management Interface
+Unassigned;8153;UDP;Reserved
+patrol;8160;TCP;Patrol
+patrol;8160;UDP;Patrol
+patrol-snmp;8161;TCP;Patrol SNMP
+patrol-snmp;8161;UDP;Patrol SNMP
+lpar2rrd;8162;TCP;LPAR2RRD client server communication
+Unassigned;8162;UDP;Reserved
+intermapper;8181;TCP;Intermapper network management system
+Unassigned;8181;UDP;Reserved
+vmware-fdm;8182;TCP;VMware Fault Domain Manager
+vmware-fdm;8182;UDP;VMware Fault Domain Manager
+proremote;8183;TCP;ProRemote
+Unassigned;8183;UDP;Reserved
+itach;8184;TCP;Remote iTach Connection
+itach;8184;UDP;Remote iTach Connection
+gcp-rphy;8190;TCP;Generic control plane for RPHY
+Unassigned;8190;UDP;Reserved
+limnerpressure;8191;TCP;Limner Pressure
+Unassigned;8191;UDP;Reserved
+spytechphone;8192;TCP;SpyTech Phone Service
+spytechphone;8192;UDP;SpyTech Phone Service
+Unassigned;8193;UDP;Unassigned
+blp1;8194;TCP;Bloomberg data API
+blp1;8194;UDP;Bloomberg data API
+blp2;8195;TCP;Bloomberg feed
+blp2;8195;UDP;Bloomberg feed
+vvr-data;8199;TCP;VVR DATA
+vvr-data;8199;UDP;VVR DATA
+trivnet1;8200;TCP;TRIVNET
+trivnet1;8200;UDP;TRIVNET
+trivnet2;8201;TCP;TRIVNET
+trivnet2;8201;UDP;TRIVNET
+Unassigned;8202;TCP;Reserved
+aesop;8202;UDP;Audio+Ethernet Standard Open Protocol
+lm-perfworks;8204;TCP;LM Perfworks
+lm-perfworks;8204;UDP;LM Perfworks
+lm-instmgr;8205;TCP;LM Instmgr
+lm-instmgr;8205;UDP;LM Instmgr
+lm-dta;8206;TCP;LM Dta
+lm-dta;8206;UDP;LM Dta
+lm-sserver;8207;TCP;LM SServer
+lm-sserver;8207;UDP;LM SServer
+lm-webwatcher;8208;TCP;LM Webwatcher
+lm-webwatcher;8208;UDP;LM Webwatcher
+rexecj;8230;TCP;RexecJ Server
+rexecj;8230;UDP;RexecJ Server
+Unassigned;8231;TCP;Reserved
+hncp-udp-port;8231;UDP;HNCP
+Unassigned;8232;TCP;Reserved
+hncp-dtls-port;8232;UDP;HNCP over DTLS
+synapse-nhttps;8243;TCP;Synapse Non Blocking HTTPS
+synapse-nhttps;8243;UDP;Synapse Non Blocking HTTPS
+robot-remote;8270;TCP;Robot Framework Remote Library Interface
+Unassigned;8270;UDP;Reserved
+pando-sec;8276;TCP;Pando Media Controlled Distribution
+pando-sec;8276;UDP;Pando Media Controlled Distribution
+synapse-nhttp;8280;TCP;Synapse Non Blocking HTTP
+synapse-nhttp;8280;UDP;Synapse Non Blocking HTTP
+Unassigned;8281;UDP;Unassigned
+Unassigned;8282;UDP;Reserved
+Unassigned;8282;UDP;Reserved
+libelle;8282;TCP;Libelle EnterpriseBus
+libelle-disc;8282;UDP;Libelle EnterpriseBus discovery
+blp3;8292;TCP;Bloomberg professional
+blp3;8292;UDP;Bloomberg professional
+hiperscan-id;8293;TCP;Hiperscan Identification Service
+Unassigned;8293;UDP;Reserved
+blp4;8294;TCP;Bloomberg intelligent client
+blp4;8294;UDP;Bloomberg intelligent client
+tmi;8300;TCP;Transport Management Interface
+tmi;8300;UDP;Transport Management Interface
+amberon;8301;TCP;Amberon PPC/PPS
+amberon;8301;UDP;Amberon PPC/PPS
+hub-open-net;8313;TCP;Hub Open Network
+Unassigned;8313;UDP;Reserved
+tnp-discover;8320;TCP;Thin(ium) Network Protocol
+tnp-discover;8320;UDP;Thin(ium) Network Protocol
+tnp;8321;TCP;Thin(ium) Network Protocol
+tnp;8321;UDP;Thin(ium) Network Protocol
+garmin-marine;8322;TCP;Garmin Marine
+garmin-marine;8322;UDP;Garmin Marine
+server-find;8351;TCP;Server Find
+server-find;8351;UDP;Server Find
+cruise-enum;8376;TCP;Cruise ENUM
+cruise-enum;8376;UDP;Cruise ENUM
+cruise-swroute;8377;TCP;Cruise SWROUTE
+cruise-swroute;8377;UDP;Cruise SWROUTE
+cruise-config;8378;TCP;Cruise CONFIG
+cruise-config;8378;UDP;Cruise CONFIG
+cruise-diags;8379;TCP;Cruise DIAGS
+cruise-diags;8379;UDP;Cruise DIAGS
+cruise-update;8380;TCP;Cruise UPDATE
+cruise-update;8380;UDP;Cruise UPDATE
+m2mservices;8383;TCP;M2m Services
+m2mservices;8383;UDP;M2m Services
+Unassigned;8384;TCP;Reserved
+marathontp;8384;UDP;Marathon Transport Protocol
+cvd;8400;TCP;cvd
+cvd;8400;UDP;cvd
+sabarsd;8401;TCP;sabarsd
+sabarsd;8401;UDP;sabarsd
+abarsd;8402;TCP;abarsd
+abarsd;8402;UDP;abarsd
+admind;8403;TCP;admind
+admind;8403;UDP;admind
+svcloud;8404;TCP;SuperVault Cloud
+Unassigned;8404;UDP;Reserved
+svbackup;8405;TCP;SuperVault Backup
+Unassigned;8405;UDP;Reserved
+dlpx-sp;8415;TCP;Delphix Session Protocol
+Unassigned;8415;UDP;Reserved
+espeech;8416;TCP;eSpeech Session Protocol
+espeech;8416;UDP;eSpeech Session Protocol
+espeech-rtp;8417;TCP;eSpeech RTP Protocol
+espeech-rtp;8417;UDP;eSpeech RTP Protocol
+aritts;8423;TCP;Aristech text-to-speech server
+Unassigned;8423;UDP;Reserved
+cybro-a-bus;8442;TCP;CyBro A-bus Protocol
+cybro-a-bus;8442;UDP;CyBro A-bus Protocol
+pcsync-https;8443;TCP;PCsync HTTPS
+pcsync-https;8443;UDP;PCsync HTTPS
+pcsync-http;8444;TCP;PCsync HTTP
+pcsync-http;8444;UDP;PCsync HTTP
+copy;8445;TCP;Port for copy peer sync feature
+copy-disc;8445;UDP;Port for copy discovery
+npmp;8450;TCP;npmp
+npmp;8450;UDP;npmp
+nexentamv;8457;TCP;Nexenta Management GUI
+Unassigned;8457;UDP;Reserved
+cisco-avp;8470;TCP;Cisco Address Validation Protocol
+Unassigned;8470;UDP;Reserved
+pim-port;8471;UDP;PIM over Reliable Transport
+pim-port;8471;TCP;PIM over Reliable Transport
+Unassigned;8471;UDP;Reserved
+otv;8472;TCP;Overlay Transport Virtualization (OTV)
+otv;8472;UDP;Overlay Transport Virtualization (OTV)
+vp2p;8473;TCP;Virtual Point to Point
+vp2p;8473;UDP;Virtual Point to Point
+noteshare;8474;TCP;AquaMinds NoteShare
+noteshare;8474;UDP;AquaMinds NoteShare
+fmtp;8500;TCP;Flight Message Transfer Protocol
+fmtp;8500;UDP;Flight Message Transfer Protocol
+cmtp-mgt;8501;TCP;CYTEL Message Transfer Management
+cmtp-av;8501;UDP;CYTEL Message Transfer Audio and Video
+ftnmtp;8502;TCP;FTN Message Transfer Protocol
+Unassigned;8502;UDP;Reserved
+Unassigned;8503;TCP;Reserved
+lsp-self-ping;8503;UDP;MPLS LSP Self-Ping
+rtsp-alt;8554;TCP;RTSP Alternate (see port 554)
+rtsp-alt;8554;UDP;RTSP Alternate (see port 554)
+d-fence;8555;TCP;SYMAX D-FENCE
+d-fence;8555;UDP;SYMAX D-FENCE
+dof-tunnel;8567;TCP;DOF Tunneling Protocol
+dof-tunnel;8567;UDP;DOF Tunneling Protocol
+asterix;8600;TCP;Surveillance Data
+asterix;8600;UDP;Surveillance Data
+Unassigned;8609;TCP;Reserved
+canon-cpp-disc;8609;UDP;Canon Compact Printer Protocol Discovery
+canon-mfnp;8610;TCP;Canon MFNP Service
+canon-mfnp;8610;UDP;Canon MFNP Service
+canon-bjnp1;8611;TCP;Canon BJNP Port 1
+canon-bjnp1;8611;UDP;Canon BJNP Port 1
+canon-bjnp2;8612;TCP;Canon BJNP Port 2
+canon-bjnp2;8612;UDP;Canon BJNP Port 2
+canon-bjnp3;8613;TCP;Canon BJNP Port 3
+canon-bjnp3;8613;UDP;Canon BJNP Port 3
+canon-bjnp4;8614;TCP;Canon BJNP Port 4
+canon-bjnp4;8614;UDP;Canon BJNP Port 4
+imink;8615;TCP;Imink Service Control
+Unassigned;8615;UDP;Reserved
+monetra;8665;TCP;Monetra
+Unassigned;8665;UDP;Reserved
+monetra-admin;8666;TCP;Monetra Administrative Access
+Unassigned;8666;UDP;Reserved
+msi-cps-rm;8675;TCP;Motorola Solutions Customer Programming Software for Radio Management
+msi-cps-rm-disc;8675;UDP;Motorola Solutions Customer Programming Software for Radio Management Discovery
+sun-as-jmxrmi;8686;TCP;Sun App Server - JMX/RMI
+sun-as-jmxrmi;8686;UDP;Sun App Server - JMX/RMI
+Unassigned;8687;UDP;Unassigned
+openremote-ctrl;8688;TCP;OpenRemote Controller HTTP/REST
+Unassigned;8688;UDP;Reserved
+vnyx;8699;TCP;VNYX Primary Port
+Unassigned;8699;UDP;Reserved
+nvc;8711;TCP;Nuance Voice Control
+Unassigned;8711;UDP;Reserved
+Unassigned;8732;TCP;Reserved
+dtp-net;8732;UDP;DASGIP Net Services
+ibus;8733;TCP;iBus
+ibus;8733;UDP;iBus
+dey-keyneg;8750;TCP;DEY Storage Key Negotiation
+Unassigned;8750;UDP;Reserved
+mc-appserver;8763;TCP;MC-APPSERVER
+mc-appserver;8763;UDP;MC-APPSERVER
+openqueue;8764;TCP;OPENQUEUE
+openqueue;8764;UDP;OPENQUEUE
+ultraseek-http;8765;TCP;Ultraseek HTTP
+ultraseek-http;8765;UDP;Ultraseek HTTP
+amcs;8766;TCP;Agilent Connectivity Service
+amcs;8766;UDP;Agilent Connectivity Service
+dpap;8770;TCP;Digital Photo Access Protocol (iPhoto)
+dpap;8770;UDP;Digital Photo Access Protocol (iPhoto)
+uec;8778;TCP;Stonebranch Universal Enterprise Controller
+Unassigned;8778;UDP;Reserved
+msgclnt;8786;TCP;Message Client
+msgclnt;8786;UDP;Message Client
+msgsrvr;8787;TCP;Message Server
+msgsrvr;8787;UDP;Message Server
+acd-pm;8793;TCP;Accedian Performance Measurement
+acd-pm;8793;UDP;Accedian Performance Measurement
+sunwebadmin;8800;TCP;Sun Web Server Admin Service
+sunwebadmin;8800;UDP;Sun Web Server Admin Service
+truecm;8804;TCP;truecm
+truecm;8804;UDP;truecm
+Unassigned;8805;TCP;Reserved
+pfcp;8805;UDP;Destination Port number for PFCP
+Unassigned;8808;TCP;Reserved
+ssports-bcast;8808;UDP;STATSports Broadcast Service
+dxspider;8873;TCP;dxspider linking protocol
+dxspider;8873;UDP;dxspider linking protocol
+cddbp-alt;8880;TCP;CDDBP
+cddbp-alt;8880;UDP;CDDBP
+galaxy4d;8881;TCP;Galaxy4D Online Game Engine
+Unassigned;8881;UDP;Reserved
+Unassigned;8882;UDP;Unassigned
+secure-mqtt;8883;TCP;Secure MQTT
+secure-mqtt;8883;UDP;Secure MQTT
+ddi-tcp-1;8888;TCP;NewsEDGE server TCP (TCP 1)
+ddi-udp-1;8888;UDP;NewsEDGE server UDP (UDP 1)
+ddi-tcp-2;8889;TCP;Desktop Data TCP 1
+ddi-udp-2;8889;UDP;NewsEDGE server broadcast
+ddi-tcp-3;8890;TCP;Desktop Data TCP 2
+ddi-udp-3;8890;UDP;NewsEDGE client broadcast
+ddi-tcp-4;8891;TCP;Desktop Data TCP 3: NESS application
+ddi-udp-4;8891;UDP;Desktop Data UDP 3: NESS application
+ddi-tcp-5;8892;TCP;Desktop Data TCP 4: FARM product
+ddi-udp-5;8892;UDP;Desktop Data UDP 4: FARM product
+ddi-tcp-6;8893;TCP;Desktop Data TCP 5: NewsEDGE/Web application
+ddi-udp-6;8893;UDP;Desktop Data UDP 5: NewsEDGE/Web application
+ddi-tcp-7;8894;TCP;Desktop Data TCP 6: COAL application
+ddi-udp-7;8894;UDP;Desktop Data UDP 6: COAL application
+ospf-lite;8899;TCP;ospf-lite
+ospf-lite;8899;UDP;ospf-lite
+jmb-cds1;8900;TCP;JMB-CDS 1
+jmb-cds1;8900;UDP;JMB-CDS 1
+jmb-cds2;8901;TCP;JMB-CDS 2
+jmb-cds2;8901;UDP;JMB-CDS 2
+manyone-http;8910;TCP;manyone-http
+manyone-http;8910;UDP;manyone-http
+manyone-xml;8911;TCP;manyone-xml
+manyone-xml;8911;UDP;manyone-xml
+wcbackup;8912;TCP;Windows Client Backup
+wcbackup;8912;UDP;Windows Client Backup
+dragonfly;8913;TCP;Dragonfly System Service
+dragonfly;8913;UDP;Dragonfly System Service
+twds;8937;TCP;Transaction Warehouse Data Service
+Unassigned;8937;UDP;Reserved
+ub-dns-control;8953;TCP;unbound dns nameserver control
+Unassigned;8953;UDP;Reserved
+cumulus-admin;8954;TCP;Cumulus Admin Port
+cumulus-admin;8954;UDP;Cumulus Admin Port
+nod-provider;8980;TCP;Network of Devices Provider
+nod-provider;8980;UDP;Network of Devices Provider
+Unassigned;8981;TCP;Reserved
+nod-client;8981;UDP;Network of Devices Client
+sunwebadmins;8989;TCP;Sun Web Server SSL Admin Service
+sunwebadmins;8989;UDP;Sun Web Server SSL Admin Service
+http-wmap;8990;TCP;webmail HTTP service
+http-wmap;8990;UDP;webmail HTTP service
+https-wmap;8991;TCP;webmail HTTPS service
+https-wmap;8991;UDP;webmail HTTPS service
+oracle-ms-ens;8997;TCP;Oracle Messaging Server Event Notification Service
+Unassigned;8997;UDP;Reserved
+canto-roboflow;8998;TCP;Canto RoboFlow Control
+Unassigned;8998;UDP;Reserved
+bctp;8999;TCP;Brodos Crypto Trade Protocol
+bctp;8999;UDP;Brodos Crypto Trade Protocol
+cslistener;9000;TCP;CSlistener
+cslistener;9000;UDP;CSlistener
+etlservicemgr;9001;TCP;ETL Service Manager
+etlservicemgr;9001;UDP;ETL Service Manager
+dynamid;9002;TCP;DynamID authentication
+dynamid;9002;UDP;DynamID authentication
+golem;9005;TCP;Golem Inter-System RPC
+Unassigned;9005;UDP;Reserved
+Unassigned;9006;UDP;De-Commissioned Port
+Unassigned;9007;TCP;Reserved
+ogs-client;9007;UDP;Open Grid Services Client
+ogs-server;9008;TCP;Open Grid Services Server
+Unassigned;9008;UDP;Reserved
+pichat;9009;TCP;Pichat Server
+pichat;9009;UDP;Pichat Server
+sdr;9010;TCP;Secure Data Replicator Protocol
+Unassigned;9010;UDP;Reserved
+tambora;9020;TCP;TAMBORA
+tambora;9020;UDP;TAMBORA
+panagolin-ident;9021;TCP;Pangolin Identification
+panagolin-ident;9021;UDP;Pangolin Identification
+paragent;9022;TCP;PrivateArk Remote Agent
+paragent;9022;UDP;PrivateArk Remote Agent
+swa-1;9023;TCP;Secure Web Access - 1
+swa-1;9023;UDP;Secure Web Access - 1
+swa-2;9024;TCP;Secure Web Access - 2
+swa-2;9024;UDP;Secure Web Access - 2
+swa-3;9025;TCP;Secure Web Access - 3
+swa-3;9025;UDP;Secure Web Access - 3
+swa-4;9026;TCP;Secure Web Access - 4
+swa-4;9026;UDP;Secure Web Access - 4
+versiera;9050;TCP;Versiera Agent Listener
+Unassigned;9050;UDP;Reserved
+fio-cmgmt;9051;TCP;Fusion-io Central Manager Service
+Unassigned;9051;UDP;Reserved
+CardWeb-IO;9060;TCP;CardWeb request-response I/O exchange
+CardWeb-RT;9060;UDP;CardWeb realtime device data
+glrpc;9080;TCP;Groove GLRPC
+glrpc;9080;UDP;Groove GLRPC
+Unassigned;9081;TCP;Reserved
+cisco-aqos;9081;UDP;Required for Adaptive Quality of Service
+lcs-ap;9082;UDP;LCS Application Protocol
+emc-pp-mgmtsvc;9083;TCP;EMC PowerPath Mgmt Service
+Unassigned;9083;UDP;Reserved
+aurora;9084;UDP;IBM AURORA Performance Visualizer
+aurora;9084;TCP;IBM AURORA Performance Visualizer
+aurora;9084;UDP;IBM AURORA Performance Visualizer
+ibm-rsyscon;9085;TCP;IBM Remote System Console
+ibm-rsyscon;9085;UDP;IBM Remote System Console
+net2display;9086;TCP;Vesa Net2Display
+net2display;9086;UDP;Vesa Net2Display
+classic;9087;TCP;Classic Data Server
+classic;9087;UDP;Classic Data Server
+sqlexec;9088;TCP;IBM Informix SQL Interface
+sqlexec;9088;UDP;IBM Informix SQL Interface
+sqlexec-ssl;9089;TCP;IBM Informix SQL Interface - Encrypted
+sqlexec-ssl;9089;UDP;IBM Informix SQL Interface - Encrypted
+websm;9090;TCP;WebSM
+websm;9090;UDP;WebSM
+xmltec-xmlmail;9091;TCP;xmltec-xmlmail
+xmltec-xmlmail;9091;UDP;xmltec-xmlmail
+XmlIpcRegSvc;9092;TCP;Xml-Ipc Server Reg
+XmlIpcRegSvc;9092;UDP;Xml-Ipc Server Reg
+copycat;9093;TCP;Copycat database replication service
+Unassigned;9093;UDP;Reserved
+hp-pdl-datastr;9100;TCP;PDL Data Streaming Port
+pdl-datastream;9100;TCP;Printer PDL Data Stream
+hp-pdl-datastr;9100;UDP;PDL Data Streaming Port
+pdl-datastream;9100;UDP;Printer PDL Data Stream
+bacula-dir;9101;TCP;Bacula Director
+bacula-dir;9101;UDP;Bacula Director
+bacula-fd;9102;TCP;Bacula File Daemon
+bacula-fd;9102;UDP;Bacula File Daemon
+bacula-sd;9103;TCP;Bacula Storage Daemon
+bacula-sd;9103;UDP;Bacula Storage Daemon
+peerwire;9104;TCP;PeerWire
+peerwire;9104;UDP;PeerWire
+xadmin;9105;TCP;Xadmin Control Service
+xadmin;9105;UDP;Xadmin Control Service
+astergate;9106;TCP;Astergate Control Service
+astergate-disc;9106;UDP;Astergate Discovery Service
+astergatefax;9107;TCP;AstergateFax Control Service
+Unassigned;9107;UDP;Reserved
+mxit;9119;TCP;MXit Instant Messaging
+mxit;9119;UDP;MXit Instant Messaging
+grcmp;9122;TCP;Global Relay compliant mobile instant messaging protocol
+Unassigned;9122;UDP;Reserved
+grcp;9123;TCP;Global Relay compliant instant messaging protocol
+Unassigned;9123;UDP;Reserved
+dddp;9131;TCP;Dynamic Device Discovery
+dddp;9131;UDP;Dynamic Device Discovery
+apani1;9160;TCP;apani1
+apani1;9160;UDP;apani1
+apani2;9161;TCP;apani2
+apani2;9161;UDP;apani2
+apani3;9162;TCP;apani3
+apani3;9162;UDP;apani3
+apani4;9163;TCP;apani4
+apani4;9163;UDP;apani4
+apani5;9164;TCP;apani5
+apani5;9164;UDP;apani5
+sun-as-jpda;9191;TCP;Sun AppSvr JPDA
+sun-as-jpda;9191;UDP;Sun AppSvr JPDA
+wap-wsp;9200;TCP;WAP connectionless session service
+wap-wsp;9200;UDP;WAP connectionless session service
+wap-wsp-wtp;9201;TCP;WAP session service
+wap-wsp-wtp;9201;UDP;WAP session service
+wap-wsp-s;9202;TCP;WAP secure connectionless session service
+wap-wsp-s;9202;UDP;WAP secure connectionless session service
+wap-wsp-wtp-s;9203;TCP;WAP secure session service
+wap-wsp-wtp-s;9203;UDP;WAP secure session service
+wap-vcard;9204;TCP;WAP vCard
+wap-vcard;9204;UDP;WAP vCard
+wap-vcal;9205;TCP;WAP vCal
+wap-vcal;9205;UDP;WAP vCal
+wap-vcard-s;9206;TCP;WAP vCard Secure
+wap-vcard-s;9206;UDP;WAP vCard Secure
+wap-vcal-s;9207;TCP;WAP vCal Secure
+wap-vcal-s;9207;UDP;WAP vCal Secure
+rjcdb-vcards;9208;TCP;rjcdb vCard
+rjcdb-vcards;9208;UDP;rjcdb vCard
+almobile-system;9209;TCP;ALMobile System Service
+almobile-system;9209;UDP;ALMobile System Service
+oma-mlp;9210;TCP;OMA Mobile Location Protocol
+oma-mlp;9210;UDP;OMA Mobile Location Protocol
+oma-mlp-s;9211;TCP;OMA Mobile Location Protocol Secure
+oma-mlp-s;9211;UDP;OMA Mobile Location Protocol Secure
+serverviewdbms;9212;TCP;Server View dbms access
+serverviewdbms;9212;UDP;Server View dbms access
+serverstart;9213;TCP;ServerStart RemoteControl
+serverstart;9213;UDP;ServerStart RemoteControl
+ipdcesgbs;9214;TCP;IPDC ESG BootstrapService
+ipdcesgbs;9214;UDP;IPDC ESG BootstrapService
+insis;9215;TCP;Integrated Setup and Install Service
+insis;9215;UDP;Integrated Setup and Install Service
+acme;9216;TCP;Aionex Communication Management Engine
+acme;9216;UDP;Aionex Communication Management Engine
+fsc-port;9217;TCP;FSC Communication Port
+fsc-port;9217;UDP;FSC Communication Port
+teamcoherence;9222;TCP;QSC Team Coherence
+teamcoherence;9222;UDP;QSC Team Coherence
+mon;9255;TCP;Manager On Network
+mon;9255;UDP;Manager On Network
+Unassigned;9277;TCP;Reserved
+traingpsdata;9277;UDP;GPS Data transmitted from train to ground network
+pegasus;9278;TCP;Pegasus GPS Platform
+pegasus;9278;UDP;Pegasus GPS Platform
+pegasus-ctl;9279;TCP;Pegaus GPS System Control Interface
+pegasus-ctl;9279;UDP;Pegaus GPS System Control Interface
+pgps;9280;TCP;Predicted GPS
+pgps;9280;UDP;Predicted GPS
+swtp-port1;9281;TCP;SofaWare transport port 1
+swtp-port1;9281;UDP;SofaWare transport port 1
+swtp-port2;9282;TCP;SofaWare transport port 2
+swtp-port2;9282;UDP;SofaWare transport port 2
+callwaveiam;9283;TCP;CallWaveIAM
+callwaveiam;9283;UDP;CallWaveIAM
+visd;9284;TCP;VERITAS Information Serve
+visd;9284;UDP;VERITAS Information Serve
+n2h2server;9285;TCP;N2H2 Filter Service Port
+n2h2server;9285;UDP;N2H2 Filter Service Port
+Unassigned;9286;TCP;Reserved
+n2receive;9286;UDP;n2 monitoring receiver
+cumulus;9287;TCP;Cumulus
+cumulus;9287;UDP;Cumulus
+armtechdaemon;9292;TCP;ArmTech Daemon
+armtechdaemon;9292;UDP;ArmTech Daemon
+storview;9293;TCP;StorView Client
+storview;9293;UDP;StorView Client
+armcenterhttp;9294;TCP;ARMCenter http Service
+armcenterhttp;9294;UDP;ARMCenter http Service
+armcenterhttps;9295;TCP;ARMCenter https Service
+armcenterhttps;9295;UDP;ARMCenter https Service
+vrace;9300;TCP;Virtual Racing Service
+vrace;9300;UDP;Virtual Racing Service
+sphinxql;9306;TCP;Sphinx search server (MySQL listener)
+Unassigned;9306;UDP;Reserved
+sphinxapi;9312;TCP;Sphinx search server
+Unassigned;9312;UDP;Reserved
+secure-ts;9318;TCP;PKIX TimeStamp over TLS
+secure-ts;9318;UDP;PKIX TimeStamp over TLS
+guibase;9321;TCP;guibase
+guibase;9321;UDP;guibase
+mpidcmgr;9343;TCP;MpIdcMgr
+mpidcmgr;9343;UDP;MpIdcMgr
+mphlpdmc;9344;TCP;Mphlpdmc
+mphlpdmc;9344;UDP;Mphlpdmc
+rancher;9345;TCP;Rancher Agent
+Unassigned;9345;UDP;Reserved
+ctechlicensing;9346;TCP;C Tech Licensing
+ctechlicensing;9346;UDP;C Tech Licensing
+fjdmimgr;9374;TCP;fjdmimgr
+fjdmimgr;9374;UDP;fjdmimgr
+boxp;9380;TCP;Brivs! Open Extensible Protocol
+boxp;9380;UDP;Brivs! Open Extensible Protocol
+d2dconfig;9387;TCP;D2D Configuration Service
+Unassigned;9387;UDP;Reserved
+d2ddatatrans;9388;TCP;D2D Data Transfer Service
+Unassigned;9388;UDP;Reserved
+adws;9389;TCP;Active Directory Web Services
+Unassigned;9389;UDP;Reserved
+otp;9390;TCP;OpenVAS Transfer Protocol
+Unassigned;9390;UDP;Reserved
+fjinvmgr;9396;TCP;fjinvmgr
+fjinvmgr;9396;UDP;fjinvmgr
+mpidcagt;9397;TCP;MpIdcAgt
+mpidcagt;9397;UDP;MpIdcAgt
+sec-t4net-srv;9400;TCP;Samsung Twain for Network Server
+sec-t4net-srv;9400;UDP;Samsung Twain for Network Server
+sec-t4net-clt;9401;TCP;Samsung Twain for Network Client
+sec-t4net-clt;9401;UDP;Samsung Twain for Network Client
+sec-pc2fax-srv;9402;TCP;Samsung PC2FAX for Network Server
+sec-pc2fax-srv;9402;UDP;Samsung PC2FAX for Network Server
+git;9418;TCP;git pack transfer service
+git;9418;UDP;git pack transfer service
+tungsten-https;9443;TCP;WSO2 Tungsten HTTPS
+tungsten-https;9443;UDP;WSO2 Tungsten HTTPS
+wso2esb-console;9444;TCP;WSO2 ESB Administration Console HTTPS
+wso2esb-console;9444;UDP;WSO2 ESB Administration Console HTTPS
+mindarray-ca;9445;TCP;MindArray Systems Console Agent
+Unassigned;9445;UDP;Reserved
+sntlkeyssrvr;9450;TCP;Sentinel Keys Server
+sntlkeyssrvr;9450;UDP;Sentinel Keys Server
+ismserver;9500;TCP;ismserver
+ismserver;9500;UDP;ismserver
+Unassigned;9522;TCP;Reserved
+sma-spw;9522;UDP;SMA Speedwire
+mngsuite;9535;TCP;Management Suite Remote Control
+mngsuite;9535;UDP;Management Suite Remote Control
+laes-bf;9536;TCP;Surveillance buffering function
+laes-bf;9536;UDP;Surveillance buffering function
+trispen-sra;9555;TCP;Trispen Secure Remote Access
+trispen-sra;9555;UDP;Trispen Secure Remote Access
+ldgateway;9592;TCP;LANDesk Gateway
+ldgateway;9592;UDP;LANDesk Gateway
+cba8;9593;TCP;LANDesk Management Agent (cba8)
+cba8;9593;UDP;LANDesk Management Agent (cba8)
+msgsys;9594;TCP;Message System
+msgsys;9594;UDP;Message System
+pds;9595;TCP;Ping Discovery Service
+pds;9595;UDP;Ping Discovery Service
+mercury-disc;9596;TCP;Mercury Discovery
+mercury-disc;9596;UDP;Mercury Discovery
+pd-admin;9597;TCP;PD Administration
+pd-admin;9597;UDP;PD Administration
+vscp;9598;TCP;Very Simple Ctrl Protocol
+vscp;9598;UDP;Very Simple Ctrl Protocol
+robix;9599;TCP;Robix
+robix;9599;UDP;Robix
+micromuse-ncpw;9600;TCP;MICROMUSE-NCPW
+micromuse-ncpw;9600;UDP;MICROMUSE-NCPW
+streamcomm-ds;9612;TCP;StreamComm User Directory
+streamcomm-ds;9612;UDP;StreamComm User Directory
+Unassigned;9613;UDP;Unassigned
+iadt-tls;9614;TCP;iADT Protocol over TLS
+Unassigned;9614;UDP;Reserved
+Unassigned;9615;UDP;Unassigned
+erunbook-agent;9616;TCP;eRunbook Agent
+erunbook_agent;9616;TCP;eRunbook Agent
+Unassigned;9616;UDP;Reserved
+erunbook-server;9617;TCP;eRunbook Server
+erunbook_server;9617;TCP;eRunbook Server
+Unassigned;9617;UDP;Reserved
+condor;9618;TCP;Condor Collector Service
+condor;9618;UDP;Condor Collector Service
+odbcpathway;9628;TCP;ODBC Pathway Service
+odbcpathway;9628;UDP;ODBC Pathway Service
+uniport;9629;TCP;UniPort SSO Controller
+uniport;9629;UDP;UniPort SSO Controller
+peoctlr;9630;TCP;Peovica Controller
+Unassigned;9630;UDP;Reserved
+peocoll;9631;TCP;Peovica Collector
+Unassigned;9631;UDP;Reserved
+Unassigned;9632;TCP;Reserved
+mc-comm;9632;UDP;Mobile-C Communications
+pqsflows;9640;TCP;ProQueSys Flows Service
+Unassigned;9640;UDP;Reserved
+zoomcp;9666;TCP;Zoom Control Panel Game Server Management
+Unassigned;9666;UDP;Reserved
+xmms2;9667;TCP;Cross-platform Music Multiplexing System
+xmms2;9667;UDP;Cross-platform Music Multiplexing System
+tec5-sdctp;9668;TCP;tec5 Spectral Device Control Protocol
+tec5-sdctp;9668;UDP;tec5 Spectral Device Control Protocol
+client-wakeup;9694;TCP;T-Mobile Client Wakeup Message
+client-wakeup;9694;UDP;T-Mobile Client Wakeup Message
+ccnx;9695;TCP;Content Centric Networking
+ccnx;9695;UDP;Content Centric Networking
+board-roar;9700;TCP;Board M.I.T. Service
+board-roar;9700;UDP;Board M.I.T. Service
+l5nas-parchan;9747;TCP;L5NAS Parallel Channel
+l5nas-parchan;9747;UDP;L5NAS Parallel Channel
+board-voip;9750;TCP;Board M.I.T. Synchronous Collaboration
+board-voip;9750;UDP;Board M.I.T. Synchronous Collaboration
+rasadv;9753;TCP;rasadv
+rasadv;9753;UDP;rasadv
+tungsten-http;9762;TCP;WSO2 Tungsten HTTP
+tungsten-http;9762;UDP;WSO2 Tungsten HTTP
+davsrc;9800;TCP;WebDav Source Port
+davsrc;9800;UDP;WebDav Source Port
+sstp-2;9801;TCP;Sakura Script Transfer Protocol-2
+sstp-2;9801;UDP;Sakura Script Transfer Protocol-2
+davsrcs;9802;TCP;WebDAV Source TLS/SSL
+davsrcs;9802;UDP;WebDAV Source TLS/SSL
+sapv1;9875;TCP;Session Announcement v1
+sapv1;9875;UDP;Session Announcement v1
+sd;9876;TCP;Session Director
+Unassigned;9877;UDP;Unassigned
+Unassigned;9878;TCP;Reserved
+kca-service;9878;UDP;The KX509 Kerberized Certificate Issuance Protocol in Use in 2012
+cyborg-systems;9888;TCP;CYBORG Systems
+cyborg-systems;9888;UDP;CYBORG Systems
+gt-proxy;9889;TCP;Port for Cable network related data proxy or repeater
+gt-proxy;9889;UDP;Port for Cable network related data proxy or repeater
+monkeycom;9898;TCP;MonkeyCom
+monkeycom;9898;UDP;MonkeyCom
+Unassigned;9899;TCP;Reserved
+sctp-tunneling;9899;UDP;SCTP TUNNELING
+iua;9900;UDP;IUA
+iua;9900;TCP;IUA
+iua;9900;UDP;IUA
+enrp-sctp;9901;UDP;enrp server channel
+enrp;9901;UDP;enrp server channel
+enrp-sctp-tls;9902;UDP;enrp/tls server channel
+Unassigned;9903;TCP;Reserved
+multicast-ping;9903;UDP;Multicast Ping Protocol
+domaintime;9909;TCP;domaintime
+domaintime;9909;UDP;domaintime
+Unassigned;9910;UDP;Unassigned
+sype-transport;9911;TCP;SYPECom Transport Protocol
+sype-transport;9911;UDP;SYPECom Transport Protocol
+xybrid-cloud;9925;TCP;XYBRID Cloud
+Unassigned;9925;UDP;Reserved
+apc-9950;9950;TCP;APC 9950
+apc-9950;9950;UDP;APC 9950
+apc-9951;9951;TCP;APC 9951
+apc-9951;9951;UDP;APC 9951
+apc-9952;9952;TCP;APC 9952
+apc-9952;9952;UDP;APC 9952
+acis;9953;TCP;9953
+acis;9953;UDP;9953
+hinp;9954;TCP;HaloteC Instrument Network Protocol
+Unassigned;9954;UDP;Reserved
+alljoyn-stm;9955;TCP;Contact Port for AllJoyn standard messaging
+alljoyn-mcm;9955;UDP;Contact Port for AllJoyn multiplexed constrained messaging
+Unassigned;9956;TCP;Reserved
+alljoyn;9956;UDP;Alljoyn Name Service
+odnsp;9966;TCP;OKI Data Network Setting Protocol
+odnsp;9966;UDP;OKI Data Network Setting Protocol
+xybrid-rt;9978;TCP;XYBRID RT Server
+Unassigned;9978;UDP;Reserved
+visweather;9979;TCP;Valley Information Systems Weather station data
+Unassigned;9979;UDP;Reserved
+Unassigned;9980;UDP;Unassigned
+pumpkindb;9981;TCP;Event sourcing database engine with a built-in programming language
+Unassigned;9981;UDP;Reserved
+dsm-scm-target;9987;TCP;DSM/SCM Target Interface
+dsm-scm-target;9987;UDP;DSM/SCM Target Interface
+nsesrvr;9988;TCP;Software Essentials Secure HTTP server
+Unassigned;9988;UDP;Reserved
+osm-appsrvr;9990;TCP;OSM Applet Server
+osm-appsrvr;9990;UDP;OSM Applet Server
+osm-oev;9991;TCP;OSM Event Server
+osm-oev;9991;UDP;OSM Event Server
+palace-1;9992;TCP;OnLive-1
+palace-1;9992;UDP;OnLive-1
+palace-2;9993;TCP;OnLive-2
+palace-2;9993;UDP;OnLive-2
+palace-3;9994;TCP;OnLive-3
+palace-3;9994;UDP;OnLive-3
+palace-4;9995;TCP;Palace-4
+palace-4;9995;UDP;Palace-4
+palace-5;9996;TCP;Palace-5
+palace-5;9996;UDP;Palace-5
+palace-6;9997;TCP;Palace-6
+palace-6;9997;UDP;Palace-6
+distinct32;9998;TCP;Distinct32
+distinct32;9998;UDP;Distinct32
+distinct;9999;TCP;distinct
+distinct;9999;UDP;distinct
+ndmp;10000;TCP;Network Data Management Protocol
+ndmp;10000;UDP;Network Data Management Protocol
+scp-config;10001;TCP;SCP Configuration
+scp-config;10001;UDP;SCP Configuration
+documentum;10002;TCP;EMC-Documentum Content Server Product
+documentum;10002;UDP;EMC-Documentum Content Server Product
+documentum-s;10003;TCP;EMC-Documentum Content Server Product
+documentum_s;10003;TCP;EMC-Documentum Content Server Product
+documentum-s;10003;UDP;EMC-Documentum Content Server Product
+documentum_s;10003;UDP;EMC-Documentum Content Server Product
+emcrmirccd;10004;TCP;EMC Replication Manager Client
+Unassigned;10004;UDP;Reserved
+emcrmird;10005;TCP;EMC Replication Manager Server
+Unassigned;10005;UDP;Reserved
+netapp-sync;10006;TCP;Sync replication protocol among different NetApp platforms
+Unassigned;10006;UDP;Reserved
+mvs-capacity;10007;TCP;MVS Capacity
+mvs-capacity;10007;UDP;MVS Capacity
+octopus;10008;TCP;Octopus Multiplexer
+octopus;10008;UDP;Octopus Multiplexer
+swdtp-sv;10009;TCP;Systemwalker Desktop Patrol
+swdtp-sv;10009;UDP;Systemwalker Desktop Patrol
+rxapi;10010;TCP;ooRexx rxapi services
+Unassigned;10010;UDP;Reserved
+abb-hw;10020;TCP;Hardware configuration and maintenance
+Unassigned;10020;UDP;Reserved
+Unassigned;10023;TCP;Reserved
+cefd-vmp;10023;UDP;Comtech EF-Data's Vipersat Management Protocol
+zabbix-agent;10050;TCP;Zabbix Agent
+zabbix-agent;10050;UDP;Zabbix Agent
+zabbix-trapper;10051;TCP;Zabbix Trapper
+zabbix-trapper;10051;UDP;Zabbix Trapper
+qptlmd;10055;TCP;Quantapoint FLEXlm Licensing Service
+Unassigned;10055;UDP;Reserved
+amanda;10080;TCP;Amanda
+amanda;10080;UDP;Amanda
+famdc;10081;TCP;FAM Archive Server
+famdc;10081;UDP;FAM Archive Server
+itap-ddtp;10100;TCP;VERITAS ITAP DDTP
+itap-ddtp;10100;UDP;VERITAS ITAP DDTP
+ezmeeting-2;10101;TCP;eZmeeting
+ezmeeting-2;10101;UDP;eZmeeting
+ezproxy-2;10102;TCP;eZproxy
+ezproxy-2;10102;UDP;eZproxy
+ezrelay;10103;TCP;eZrelay
+ezrelay;10103;UDP;eZrelay
+swdtp;10104;TCP;Systemwalker Desktop Patrol
+swdtp;10104;UDP;Systemwalker Desktop Patrol
+bctp-server;10107;TCP;VERITAS BCTP, server
+bctp-server;10107;UDP;VERITAS BCTP, server
+nmea-0183;10110;TCP;NMEA-0183 Navigational Data
+nmea-0183;10110;UDP;NMEA-0183 Navigational Data
+Unassigned;10111;TCP;Reserved
+nmea-onenet;10111;UDP;NMEA OneNet multicast messaging
+Unassigned;10112;UDP;Unassigned
+netiq-endpoint;10113;TCP;NetIQ Endpoint
+netiq-endpoint;10113;UDP;NetIQ Endpoint
+netiq-qcheck;10114;TCP;NetIQ Qcheck
+netiq-qcheck;10114;UDP;NetIQ Qcheck
+netiq-endpt;10115;TCP;NetIQ Endpoint
+netiq-endpt;10115;UDP;NetIQ Endpoint
+netiq-voipa;10116;TCP;NetIQ VoIP Assessor
+netiq-voipa;10116;UDP;NetIQ VoIP Assessor
+iqrm;10117;TCP;NetIQ IQCResource Managament Svc
+iqrm;10117;UDP;NetIQ IQCResource Managament Svc
+cimple;10125;TCP;HotLink CIMple REST API
+Unassigned;10125;UDP;Reserved
+bmc-perf-sd;10128;TCP;BMC-PERFORM-SERVICE DAEMON
+bmc-perf-sd;10128;UDP;BMC-PERFORM-SERVICE DAEMON
+bmc-gms;10129;TCP;BMC General Manager Server
+Unassigned;10129;UDP;Reserved
+qb-db-server;10160;TCP;QB Database Server
+qb-db-server;10160;UDP;QB Database Server
+snmptls;10161;TCP;SNMP-TLS
+snmpdtls;10161;UDP;SNMP-DTLS
+snmptls-trap;10162;TCP;SNMP-Trap-TLS
+snmpdtls-trap;10162;UDP;SNMP-Trap-DTLS
+trisoap;10200;TCP;Trigence AE Soap Service
+trisoap;10200;UDP;Trigence AE Soap Service
+rsms;10201;TCP;Remote Server Management Service
+rscs;10201;UDP;Remote Server Control and Test Service
+apollo-relay;10252;TCP;Apollo Relay Port
+apollo-relay;10252;UDP;Apollo Relay Port
+Unassigned;10253;TCP;Reserved
+eapol-relay;10253;UDP;Relay of EAPOL frames
+axis-wimp-port;10260;TCP;Axis WIMP Port
+axis-wimp-port;10260;UDP;Axis WIMP Port
+tile-ml;10261;TCP;Tile remote machine learning
+Unassigned;10261;UDP;Reserved
+blocks;10288;TCP;Blocks
+blocks;10288;UDP;Blocks
+cosir;10321;TCP;Computer Op System Information Report
+Unassigned;10321;UDP;Reserved
+Unassigned;10439;TCP;Reserved
+bngsync;10439;UDP;BalanceNG session table synchronization protocol
+Unassigned;10500;TCP;Reserved
+hip-nat-t;10500;UDP;HIP NAT-Traversal
+MOS-lower;10540;TCP;MOS Media Object Metadata Port
+MOS-lower;10540;UDP;MOS Media Object Metadata Port
+MOS-upper;10541;TCP;MOS Running Order Port
+MOS-upper;10541;UDP;MOS Running Order Port
+MOS-aux;10542;TCP;MOS Low Priority Port
+MOS-aux;10542;UDP;MOS Low Priority Port
+MOS-soap;10543;TCP;MOS SOAP Default Port
+MOS-soap;10543;UDP;MOS SOAP Default Port
+MOS-soap-opt;10544;TCP;MOS SOAP Optional Port
+MOS-soap-opt;10544;UDP;MOS SOAP Optional Port
+serverdocs;10548;TCP;Apple Document Sharing Service
+Unassigned;10548;UDP;Reserved
+printopia;10631;TCP;Printopia Serve
+Unassigned;10631;UDP;Reserved
+gap;10800;TCP;Gestor de Acaparamiento para Pocket PCs
+gap;10800;UDP;Gestor de Acaparamiento para Pocket PCs
+lpdg;10805;TCP;LUCIA Pareja Data Group
+lpdg;10805;UDP;LUCIA Pareja Data Group
+nbd;10809;TCP;Linux Network Block Device
+Unassigned;10809;UDP;Reserved
+Unassigned;10810;TCP;Reserved
+nmc-disc;10810;UDP;Nuance Mobile Care Discovery
+helix;10860;TCP;Helix Client/Server
+helix;10860;UDP;Helix Client/Server
+bveapi;10880;TCP;BVEssentials HTTP API
+bveapi;10880;UDP;BVEssentials HTTP API
+octopustentacle;10933;TCP;Listen port used by the Octopus Deploy Tentacle deployment agent
+Unassigned;10933;UDP;Reserved
+rmiaux;10990;TCP;Auxiliary RMI Port
+rmiaux;10990;UDP;Auxiliary RMI Port
+irisa;11000;TCP;IRISA
+irisa;11000;UDP;IRISA
+metasys;11001;TCP;Metasys
+metasys;11001;UDP;Metasys
+weave;11095;TCP;Nest device-to-device and device-to-service application protocol
+weave;11095;UDP;Nest device-to-device and device-to-service application protocol
+origo-sync;11103;TCP;OrigoDB Server Sync Interface
+Unassigned;11103;UDP;Reserved
+netapp-icmgmt;11104;TCP;NetApp Intercluster Management
+Unassigned;11104;UDP;Reserved
+netapp-icdata;11105;TCP;NetApp Intercluster Data
+Unassigned;11105;UDP;Reserved
+sgi-lk;11106;TCP;SGI LK Licensing service
+sgi-lk;11106;UDP;SGI LK Licensing service
+Unassigned;11107;UDP;Unassigned
+Unassigned;11108;TCP;Reserved
+myq-termlink;11108;UDP;Hardware Terminals Discovery and Low-Level Communication Protocol
+sgi-dmfmgr;11109;TCP;Data migration facility Manager (DMF) is a browser based interface to DMF
+Unassigned;11109;UDP;Reserved
+sgi-soap;11110;TCP;Data migration facility (DMF) SOAP is a web server protocol to support remote access to DMF
+Unassigned;11110;UDP;Reserved
+vce;11111;TCP;Viral Computing Environment (VCE)
+vce;11111;UDP;Viral Computing Environment (VCE)
+dicom;11112;TCP;DICOM
+dicom;11112;UDP;DICOM
+suncacao-snmp;11161;TCP;sun cacao snmp access point
+suncacao-snmp;11161;UDP;sun cacao snmp access point
+suncacao-jmxmp;11162;TCP;sun cacao JMX-remoting access point
+suncacao-jmxmp;11162;UDP;sun cacao JMX-remoting access point
+suncacao-rmi;11163;TCP;sun cacao rmi registry access point
+suncacao-rmi;11163;UDP;sun cacao rmi registry access point
+suncacao-csa;11164;TCP;sun cacao command-streaming access point
+suncacao-csa;11164;UDP;sun cacao command-streaming access point
+suncacao-websvc;11165;TCP;sun cacao web service access point
+suncacao-websvc;11165;UDP;sun cacao web service access point
+Unassigned;11171;TCP;Reserved
+snss;11171;UDP;Surgical Notes Security Service Discovery (SNSS)
+oemcacao-jmxmp;11172;TCP;OEM cacao JMX-remoting access point
+Unassigned;11172;UDP;Reserved
+t5-straton;11173;TCP;Straton Runtime Programing
+Unassigned;11173;UDP;Reserved
+oemcacao-rmi;11174;TCP;OEM cacao rmi registry access point
+Unassigned;11174;UDP;Reserved
+oemcacao-websvc;11175;TCP;OEM cacao web service access point
+Unassigned;11175;UDP;Reserved
+smsqp;11201;TCP;smsqp
+smsqp;11201;UDP;smsqp
+dcsl-backup;11202;TCP;DCSL Network Backup Services
+Unassigned;11202;UDP;Reserved
+wifree;11208;TCP;WiFree Service
+wifree;11208;UDP;WiFree Service
+memcache;11211;TCP;Memory cache service
+memcache;11211;UDP;Memory cache service
+imip;11319;TCP;IMIP
+imip;11319;UDP;IMIP
+imip-channels;11320;TCP;IMIP Channels Port
+imip-channels;11320;UDP;IMIP Channels Port
+arena-server;11321;TCP;Arena Server Listen
+arena-server;11321;UDP;Arena Server Listen
+atm-uhas;11367;TCP;ATM UHAS
+atm-uhas;11367;UDP;ATM UHAS
+hkp;11371;TCP;OpenPGP HTTP Keyserver
+hkp;11371;UDP;OpenPGP HTTP Keyserver
+Unassigned;11430;TCP;Reserved
+lsdp;11430;UDP;Lenbrook Service Discovery Protocol
+asgcypresstcps;11489;TCP;ASG Cypress Secure Only
+Unassigned;11489;UDP;Reserved
+tempest-port;11600;TCP;Tempest Protocol Port
+tempest-port;11600;UDP;Tempest Protocol Port
+emc-xsw-dconfig;11623;TCP;EMC XtremSW distributed config
+Unassigned;11623;UDP;Reserved
+h323callsigalt;11720;TCP;H.323 Call Control Signalling Alternate
+h323callsigalt;11720;UDP;H.323 Call Control Signalling Alternate
+emc-xsw-dcache;11723;TCP;EMC XtremSW distributed cache
+emc-xsw-dcache;11723;UDP;EMC XtremSW distributed cache
+intrepid-ssl;11751;TCP;Intrepid SSL
+intrepid-ssl;11751;UDP;Intrepid SSL
+lanschool;11796;TCP;LanSchool
+lanschool-mpt;11796;UDP;Lanschool Multipoint
+xoraya;11876;TCP;X2E Xoraya Multichannel protocol
+xoraya;11876;UDP;X2E Xoraya Multichannel protocol
+Unassigned;11877;TCP;Reserved
+x2e-disc;11877;UDP;X2E service discovery protocol
+sysinfo-sp;11967;TCP;SysInfo Service Protocol
+sysinfo-sp;11967;UDP;SysInfo Sercice Protocol
+wmereceiving;11997;UDP;WorldMailExpress
+wmedistribution;11998;UDP;WorldMailExpress
+wmereporting;11999;UDP;WorldMailExpress
+entextxid;12000;TCP;IBM Enterprise Extender SNA XID Exchange
+entextxid;12000;UDP;IBM Enterprise Extender SNA XID Exchange
+entextnetwk;12001;TCP;IBM Enterprise Extender SNA COS Network Priority
+entextnetwk;12001;UDP;IBM Enterprise Extender SNA COS Network Priority
+entexthigh;12002;TCP;IBM Enterprise Extender SNA COS High Priority
+entexthigh;12002;UDP;IBM Enterprise Extender SNA COS High Priority
+entextmed;12003;TCP;IBM Enterprise Extender SNA COS Medium Priority
+entextmed;12003;UDP;IBM Enterprise Extender SNA COS Medium Priority
+entextlow;12004;TCP;IBM Enterprise Extender SNA COS Low Priority
+entextlow;12004;UDP;IBM Enterprise Extender SNA COS Low Priority
+dbisamserver1;12005;TCP;DBISAM Database Server - Regular
+dbisamserver1;12005;UDP;DBISAM Database Server - Regular
+dbisamserver2;12006;TCP;DBISAM Database Server - Admin
+dbisamserver2;12006;UDP;DBISAM Database Server - Admin
+accuracer;12007;TCP;Accuracer Database System Server
+accuracer;12007;UDP;Accuracer Database System Server
+accuracer-dbms;12008;TCP;Accuracer Database System Admin
+accuracer-dbms;12008;UDP;Accuracer Database System Admin
+Unassigned;12009;TCP;Reserved
+ghvpn;12009;UDP;Green Hills VPN
+edbsrvr;12010;TCP;ElevateDB Server
+Unassigned;12010;UDP;Reserved
+Unassigned;12011;UDP;Unassigned
+vipera;12012;TCP;Vipera Messaging Service
+vipera;12012;UDP;Vipera Messaging Service
+vipera-ssl;12013;TCP;Vipera Messaging Service over SSL Communication
+vipera-ssl;12013;UDP;Vipera Messaging Service over SSL Communication
+rets-ssl;12109;TCP;RETS over SSL
+rets-ssl;12109;UDP;RETS over SSL
+nupaper-ss;12121;TCP;NuPaper Session Service
+nupaper-ss;12121;UDP;NuPaper Session Service
+cawas;12168;TCP;CA Web Access Service
+cawas;12168;UDP;CA Web Access Service
+hivep;12172;TCP;HiveP
+hivep;12172;UDP;HiveP
+linogridengine;12300;TCP;LinoGrid Engine
+linogridengine;12300;UDP;LinoGrid Engine
+Unassigned;12301;UDP;Unassigned
+rads;12302;TCP;Remote Administration Daemon (RAD) is a system service that offers secure, remote, programmatic access to Solaris system configuration and run-time state
+Unassigned;12302;UDP;Reserved
+warehouse-sss;12321;TCP;Warehouse Monitoring Syst SSS
+warehouse-sss;12321;UDP;Warehouse Monitoring Syst SSS
+warehouse;12322;TCP;Warehouse Monitoring Syst
+warehouse;12322;UDP;Warehouse Monitoring Syst
+italk;12345;TCP;Italk Chat System
+italk;12345;UDP;Italk Chat System
+tsaf;12753;TCP;tsaf port
+tsaf;12753;UDP;tsaf port
+netperf;12865;TCP;control port for the netperf benchmark
+Unassigned;12865;UDP;Reserved
+i-zipqd;13160;TCP;I-ZIPQD
+i-zipqd;13160;UDP;I-ZIPQD
+bcslogc;13216;TCP;Black Crow Software application logging
+bcslogc;13216;UDP;Black Crow Software application logging
+rs-pias;13217;TCP;R&S Proxy Installation Assistant Service
+rs-pias;13217;UDP;R&S Proxy Installation Assistant Service
+emc-vcas-tcp;13218;TCP;EMC Virtual CAS Service
+emc-vcas-udp;13218;UDP;EMV Virtual CAS Service Discovery
+powwow-client;13223;TCP;PowWow Client
+powwow-client;13223;UDP;PowWow Client
+powwow-server;13224;TCP;PowWow Server
+powwow-server;13224;UDP;PowWow Server
+doip-data;13400;TCP;DoIP Data
+doip-disc;13400;UDP;DoIP Discovery
+bprd;13720;TCP;BPRD Protocol (VERITAS NetBackup)
+bprd;13720;UDP;BPRD Protocol (VERITAS NetBackup)
+bpdbm;13721;TCP;BPDBM Protocol (VERITAS NetBackup)
+bpdbm;13721;UDP;BPDBM Protocol (VERITAS NetBackup)
+bpjava-msvc;13722;TCP;BP Java MSVC Protocol
+bpjava-msvc;13722;UDP;BP Java MSVC Protocol
+Unassigned;13723;UDP;Unassigned
+vnetd;13724;TCP;Veritas Network Utility
+vnetd;13724;UDP;Veritas Network Utility
+bpcd;13782;TCP;VERITAS NetBackup
+bpcd;13782;UDP;VERITAS NetBackup
+vopied;13783;TCP;VOPIED Protocol
+vopied;13783;UDP;VOPIED Protocol
+Unassigned;13784;UDP;Unassigned
+nbdb;13785;TCP;NetBackup Database
+nbdb;13785;UDP;NetBackup Database
+nomdb;13786;TCP;Veritas-nomdb
+nomdb;13786;UDP;Veritas-nomdb
+dsmcc-config;13818;TCP;DSMCC Config
+dsmcc-config;13818;UDP;DSMCC Config
+dsmcc-session;13819;TCP;DSMCC Session Messages
+dsmcc-session;13819;UDP;DSMCC Session Messages
+dsmcc-passthru;13820;TCP;DSMCC Pass-Thru Messages
+dsmcc-passthru;13820;UDP;DSMCC Pass-Thru Messages
+dsmcc-download;13821;TCP;DSMCC Download Protocol
+dsmcc-download;13821;UDP;DSMCC Download Protocol
+dsmcc-ccp;13822;TCP;DSMCC Channel Change Protocol
+dsmcc-ccp;13822;UDP;DSMCC Channel Change Protocol
+bmdss;13823;TCP;Blackmagic Design Streaming Server
+Unassigned;13823;UDP;Reserved
+ucontrol;13894;TCP;Ultimate Control communication protocol
+ucontrol;13894;UDP;Ultimate Control communication protocol
+dta-systems;13929;TCP;D-TA SYSTEMS
+dta-systems;13929;UDP;D-TA SYSTEMS
+medevolve;13930;TCP;MedEvolve Port Requester
+Unassigned;13930;UDP;Reserved
+scotty-ft;14000;TCP;SCOTTY High-Speed Filetransfer
+scotty-ft;14000;UDP;SCOTTY High-Speed Filetransfer
+sua;14001;UDP;SUA
+sua;14001;TCP;SUA
+sua;14001;UDP;De-Registered
+Unassigned;14002;TCP;Reserved
+scotty-disc;14002;UDP;Discovery of a SCOTTY hardware codec board
+sage-best-com1;14033;TCP;sage Best! Config Server 1
+sage-best-com1;14033;UDP;sage Best! Config Server 1
+sage-best-com2;14034;TCP;sage Best! Config Server 2
+sage-best-com2;14034;UDP;sage Best! Config Server 2
+vcs-app;14141;TCP;VCS Application
+vcs-app;14141;UDP;VCS Application
+icpp;14142;TCP;IceWall Cert Protocol
+icpp;14142;UDP;IceWall Cert Protocol
+icpps;14143;TCP;IceWall Cert Protocol over TLS
+Unassigned;14143;UDP;Reserved
+Unassigned;14144;UDP;Unassigned
+gcm-app;14145;TCP;GCM Application
+gcm-app;14145;UDP;GCM Application
+vrts-tdd;14149;TCP;Veritas Traffic Director
+vrts-tdd;14149;UDP;Veritas Traffic Director
+vcscmd;14150;TCP;Veritas Cluster Server Command Server
+Unassigned;14150;UDP;Reserved
+vad;14154;TCP;Veritas Application Director
+vad;14154;UDP;Veritas Application Director
+cps;14250;TCP;Fencing Server
+cps;14250;UDP;Fencing Server
+ca-web-update;14414;TCP;CA eTrust Web Update Service
+ca-web-update;14414;UDP;CA eTrust Web Update Service
+xpra;14500;TCP;xpra network protocol
+Unassigned;14500;UDP;Reserved
+hde-lcesrvr-1;14936;TCP;hde-lcesrvr-1
+hde-lcesrvr-1;14936;UDP;hde-lcesrvr-1
+hde-lcesrvr-2;14937;TCP;hde-lcesrvr-2
+hde-lcesrvr-2;14937;UDP;hde-lcesrvr-2
+hydap;15000;TCP;Hypack Data Aquisition
+hydap;15000;UDP;Hypack Data Aquisition
+Unassigned;15001;UDP;Unassigned
+onep-tls;15002;TCP;Open Network Environment TLS
+Unassigned;15002;UDP;Reserved
+Unassigned;15118;TCP;Reserved
+v2g-secc;15118;UDP;v2g Supply Equipment Communication Controller Discovery Protocol
+xpilot;15345;TCP;XPilot Contact Port
+xpilot;15345;UDP;XPilot Contact Port
+3link;15363;TCP;3Link Negotiation
+3link;15363;UDP;3Link Negotiation
+cisco-snat;15555;TCP;Cisco Stateful NAT
+cisco-snat;15555;UDP;Cisco Stateful NAT
+bex-xr;15660;TCP;Backup Express Restore Server
+bex-xr;15660;UDP;Backup Express Restore Server
+ptp;15740;TCP;Picture Transfer Protocol
+ptp;15740;UDP;Picture Transfer Protocol
+Unassigned;15998;TCP;Reserved
+2ping;15998;UDP;2ping Bi-Directional Ping Service
+programmar;15999;TCP;ProGrammar Enterprise
+Unassigned;15999;UDP;Reserved
+fmsas;16000;TCP;Administration Server Access
+Unassigned;16000;UDP;Reserved
+fmsascon;16001;TCP;Administration Server Connector
+Unassigned;16001;UDP;Reserved
+gsms;16002;TCP;GoodSync Mediation Service
+Unassigned;16002;UDP;Reserved
+Unassigned;16003;TCP;Reserved
+alfin;16003;UDP;Automation and Control by REGULACE.ORG
+jwpc;16020;TCP;Filemaker Java Web Publishing Core
+Unassigned;16020;UDP;Reserved
+jwpc-bin;16021;TCP;Filemaker Java Web Publishing Core Binary
+Unassigned;16021;UDP;Reserved
+sun-sea-port;16161;TCP;Solaris SEA Port
+sun-sea-port;16161;UDP;Solaris SEA Port
+solaris-audit;16162;TCP;Solaris Audit - secure remote audit log
+Unassigned;16162;UDP;Reserved
+etb4j;16309;TCP;etb4j
+etb4j;16309;UDP;etb4j
+pduncs;16310;TCP;Policy Distribute, Update Notification
+pduncs;16310;UDP;Policy Distribute, Update Notification
+pdefmns;16311;TCP;Policy definition and update management
+pdefmns;16311;UDP;Policy definition and update management
+netserialext1;16360;TCP;Network Serial Extension Ports One
+netserialext1;16360;UDP;Network Serial Extension Ports One
+netserialext2;16361;TCP;Network Serial Extension Ports Two
+netserialext2;16361;UDP;Network Serial Extension Ports Two
+netserialext3;16367;TCP;Network Serial Extension Ports Three
+netserialext3;16367;UDP;Network Serial Extension Ports Three
+netserialext4;16368;TCP;Network Serial Extension Ports Four
+netserialext4;16368;UDP;Network Serial Extension Ports Four
+connected;16384;TCP;Connected Corp
+connected;16384;UDP;Connected Corp
+rdgs;16385;TCP;Reliable Datagram Sockets
+Unassigned;16385;UDP;Reserved
+xoms;16619;TCP;X509 Objects Management Service
+Unassigned;16619;UDP;Reserved
+axon-tunnel;16665;TCP;Reliable multipath data transport for high latencies
+Unassigned;16665;UDP;Reserved
+Unassigned;16666;TCP;Reserved
+vtp;16666;UDP;Vidder Tunnel Protocol
+cadsisvr;16789;TCP;This server provides callable services to mainframe External Security Managers from any TCP/IP platform
+Unassigned;16789;UDP;Reserved
+newbay-snc-mc;16900;TCP;Newbay Mobile Client Update Service
+newbay-snc-mc;16900;UDP;Newbay Mobile Client Update Service
+sgcip;16950;TCP;Simple Generic Client Interface Protocol
+sgcip;16950;UDP;Simple Generic Client Interface Protocol
+intel-rci-mp;16991;TCP;INTEL-RCI-MP
+intel-rci-mp;16991;UDP;INTEL-RCI-MP
+amt-soap-http;16992;TCP;Intel(R) AMT SOAP/HTTP
+amt-soap-http;16992;UDP;Intel(R) AMT SOAP/HTTP
+amt-soap-https;16993;TCP;Intel(R) AMT SOAP/HTTPS
+amt-soap-https;16993;UDP;Intel(R) AMT SOAP/HTTPS
+amt-redir-tcp;16994;TCP;Intel(R) AMT Redirection/TCP
+amt-redir-tcp;16994;UDP;Intel(R) AMT Redirection/TCP
+amt-redir-tls;16995;TCP;Intel(R) AMT Redirection/TLS
+amt-redir-tls;16995;UDP;Intel(R) AMT Redirection/TLS
+isode-dua;17007;TCP;Unassigned
+isode-dua;17007;UDP;Unassigned
+vestasdlp;17184;TCP;Vestas Data Layer Protocol
+Unassigned;17184;UDP;Reserved
+soundsvirtual;17185;TCP;Sounds Virtual
+soundsvirtual;17185;UDP;Sounds Virtual
+chipper;17219;TCP;Chipper
+chipper;17219;UDP;Chipper
+avtp;17220;TCP;IEEE 1722 Transport Protocol for Time Sensitive Applications
+avtp;17220;UDP;IEEE 1722 Transport Protocol for Time Sensitive Applications
+avdecc;17221;TCP;IEEE 1722.1 AVB Discovery, Enumeration, Connection management, and Control
+avdecc;17221;UDP;IEEE 1722.1 AVB Discovery, Enumeration, Connection management, and Control
+Unassigned;17222;TCP;Reserved
+cpsp;17222;UDP;Control Plane Synchronization Protocol (SPSP)
+isa100-gci;17223;TCP;ISA100 GCI is a service utilizing a common interface between an ISA100 Wireless gateway and a client application
+Unassigned;17223;UDP;Reserved
+Unassigned;17224;TCP;Reserved
+trdp-pd;17224;UDP;Train Realtime Data Protocol (TRDP) Process Data
+trdp-md;17225;TCP;Train Realtime Data Protocol (TRDP) Message Data
+trdp-md;17225;UDP;Train Realtime Data Protocol (TRDP) Message Data
+integrius-stp;17234;TCP;Integrius Secure Tunnel Protocol
+integrius-stp;17234;UDP;Integrius Secure Tunnel Protocol
+ssh-mgmt;17235;TCP;SSH Tectia Manager
+ssh-mgmt;17235;UDP;SSH Tectia Manager
+db-lsp;17500;TCP;Dropbox LanSync Protocol
+db-lsp-disc;17500;UDP;Dropbox LanSync Discovery
+ailith;17555;TCP;Ailith management of routers
+Unassigned;17555;UDP;Reserved
+ea;17729;TCP;Eclipse Aviation
+ea;17729;UDP;Eclipse Aviation
+zep;17754;TCP;Encap. ZigBee Packets
+zep;17754;UDP;Encap. ZigBee Packets
+zigbee-ip;17755;TCP;ZigBee IP Transport Service
+zigbee-ip;17755;UDP;ZigBee IP Transport Service
+zigbee-ips;17756;TCP;ZigBee IP Transport Secure Service
+zigbee-ips;17756;UDP;ZigBee IP Transport Secure Service
+sw-orion;17777;TCP;SolarWinds Orion
+Unassigned;17777;UDP;Reserved
+biimenu;18000;TCP;Beckman Instruments, Inc.
+biimenu;18000;UDP;Beckman Instruments, Inc.
+radpdf;18104;TCP;RAD PDF Service
+Unassigned;18104;UDP;Reserved
+racf;18136;TCP;z/OS Resource Access Control Facility
+Unassigned;18136;UDP;Reserved
+opsec-cvp;18181;TCP;OPSEC CVP
+opsec-cvp;18181;UDP;OPSEC CVP
+opsec-ufp;18182;TCP;OPSEC UFP
+opsec-ufp;18182;UDP;OPSEC UFP
+opsec-sam;18183;TCP;OPSEC SAM
+opsec-sam;18183;UDP;OPSEC SAM
+opsec-lea;18184;TCP;OPSEC LEA
+opsec-lea;18184;UDP;OPSEC LEA
+opsec-omi;18185;TCP;OPSEC OMI
+opsec-omi;18185;UDP;OPSEC OMI
+ohsc;18186;TCP;Occupational Health SC
+ohsc;18186;UDP;Occupational Health Sc
+opsec-ela;18187;TCP;OPSEC ELA
+opsec-ela;18187;UDP;OPSEC ELA
+checkpoint-rtm;18241;TCP;Check Point RTM
+checkpoint-rtm;18241;UDP;Check Point RTM
+iclid;18242;TCP;Checkpoint router monitoring
+Unassigned;18242;UDP;Reserved
+clusterxl;18243;TCP;Checkpoint router state backup
+Unassigned;18243;UDP;Reserved
+gv-pf;18262;TCP;GV NetConfig Service
+gv-pf;18262;UDP;GV NetConfig Service
+ac-cluster;18463;TCP;AC Cluster
+ac-cluster;18463;UDP;AC Cluster
+rds-ib;18634;TCP;Reliable Datagram Service
+rds-ib;18634;UDP;Reliable Datagram Service
+rds-ip;18635;TCP;Reliable Datagram Service over IP
+rds-ip;18635;UDP;Reliable Datagram Service over IP
+vdmmesh;18668;TCP;Manufacturing Execution Systems Mesh Communication
+vdmmesh-disc;18668;UDP;Manufacturing Execution Systems Mesh Communication
+ique;18769;TCP;IQue Protocol
+ique;18769;UDP;IQue Protocol
+infotos;18881;TCP;Infotos
+infotos;18881;UDP;Infotos
+apc-necmp;18888;TCP;APCNECMP
+apc-necmp;18888;UDP;APCNECMP
+igrid;19000;TCP;iGrid Server
+igrid;19000;UDP;iGrid Server
+scintilla;19007;TCP;Scintilla protocol for device services
+scintilla;19007;UDP;Scintilla protocol for device services
+j-link;19020;TCP;J-Link TCP/IP Protocol
+Unassigned;19020;UDP;Reserved
+opsec-uaa;19191;TCP;OPSEC UAA
+opsec-uaa;19191;UDP;OPSEC UAA
+ua-secureagent;19194;TCP;UserAuthority SecureAgent
+ua-secureagent;19194;UDP;UserAuthority SecureAgent
+cora;19220;TCP;Client Connection Management and Data Exchange Service
+cora-disc;19220;UDP;Discovery for Client Connection Management and Data Exchange Service
+keysrvr;19283;TCP;Key Server for SASSAFRAS
+keysrvr;19283;UDP;Key Server for SASSAFRAS
+keyshadow;19315;TCP;Key Shadow for SASSAFRAS
+keyshadow;19315;UDP;Key Shadow for SASSAFRAS
+mtrgtrans;19398;TCP;mtrgtrans
+mtrgtrans;19398;UDP;mtrgtrans
+hp-sco;19410;TCP;hp-sco
+hp-sco;19410;UDP;hp-sco
+hp-sca;19411;TCP;hp-sca
+hp-sca;19411;UDP;hp-sca
+hp-sessmon;19412;TCP;HP-SESSMON
+hp-sessmon;19412;UDP;HP-SESSMON
+fxuptp;19539;TCP;FXUPTP
+fxuptp;19539;UDP;FXUPTP
+sxuptp;19540;TCP;SXUPTP
+sxuptp;19540;UDP;SXUPTP
+jcp;19541;TCP;JCP Client
+jcp;19541;UDP;JCP Client
+Unassigned;19788;TCP;Reserved
+mle;19788;UDP;Mesh Link Establishment
+iec-104-sec;19998;TCP;IEC 60870-5-104 process control - secure
+Unassigned;19998;UDP;Reserved
+dnp-sec;19999;TCP;Distributed Network Protocol - Secure
+dnp-sec;19999;UDP;Distributed Network Protocol - Secure
+dnp;20000;TCP;DNP
+dnp;20000;UDP;DNP
+microsan;20001;TCP;MicroSAN
+microsan;20001;UDP;MicroSAN
+commtact-http;20002;TCP;Commtact HTTP
+commtact-http;20002;UDP;Commtact HTTP
+commtact-https;20003;TCP;Commtact HTTPS
+commtact-https;20003;UDP;Commtact HTTPS
+Unassigned;20004;UDP;Unassigned
+openwebnet;20005;TCP;OpenWebNet protocol for electric network
+openwebnet;20005;UDP;OpenWebNet protocol for electric network
+Unassigned;20012;TCP;Reserved
+ss-idi-disc;20012;UDP;Samsung Interdevice Interaction discovery
+ss-idi;20013;TCP;Samsung Interdevice Interaction
+Unassigned;20013;UDP;Reserved
+opendeploy;20014;TCP;OpenDeploy Listener
+opendeploy;20014;UDP;OpenDeploy Listener
+nburn-id;20034;TCP;NetBurner ID Port
+nburn_id;20034;TCP;NetBurner ID Port
+nburn-id;20034;UDP;NetBurner ID Port
+nburn_id;20034;UDP;NetBurner ID Port
+tmophl7mts;20046;TCP;TMOP HL7 Message Transfer Service
+tmophl7mts;20046;UDP;TMOP HL7 Message Transfer Service
+mountd;20048;TCP;NFS mount protocol
+mountd;20048;UDP;NFS mount protocol
+nfsrdma;20049;UDP;Network File System (NFS) over RDMA
+nfsrdma;20049;TCP;Network File System (NFS) over RDMA
+nfsrdma;20049;UDP;Network File System (NFS) over RDMA
+avesterra;20057;TCP;AvesTerra Hypergraph Transfer Protocol (HGTP)
+Unassigned;20057;UDP;Reserved
+tolfab;20167;TCP;TOLfab Data Change
+tolfab;20167;UDP;TOLfab Data Change
+ipdtp-port;20202;TCP;IPD Tunneling Port
+ipdtp-port;20202;UDP;IPD Tunneling Port
+ipulse-ics;20222;TCP;iPulse-ICS
+ipulse-ics;20222;UDP;iPulse-ICS
+emwavemsg;20480;TCP;emWave Message Service
+emwavemsg;20480;UDP;emWave Message Service
+track;20670;TCP;Track
+track;20670;UDP;Track
+athand-mmp;20999;TCP;At Hand MMP
+athand-mmp;20999;UDP;AT Hand MMP
+irtrans;21000;TCP;IRTrans Control
+irtrans;21000;UDP;IRTrans Control
+notezilla-lan;21010;TCP;Notezilla.Lan Server
+Unassigned;21010;UDP;Reserved
+aigairserver;21221;TCP;Services for Air Server
+Unassigned;21221;UDP;Reserved
+rdm-tfs;21553;TCP;Raima RDM TFS
+Unassigned;21553;UDP;Reserved
+dfserver;21554;TCP;MineScape Design File Server
+dfserver;21554;UDP;MineScape Design File Server
+vofr-gateway;21590;TCP;VoFR Gateway
+vofr-gateway;21590;UDP;VoFR Gateway
+tvpm;21800;TCP;TVNC Pro Multiplexing
+tvpm;21800;UDP;TVNC Pro Multiplexing
+webphone;21845;TCP;webphone
+webphone;21845;UDP;webphone
+netspeak-is;21846;TCP;NetSpeak Corp. Directory Services
+netspeak-is;21846;UDP;NetSpeak Corp. Directory Services
+netspeak-cs;21847;TCP;NetSpeak Corp. Connection Services
+netspeak-cs;21847;UDP;NetSpeak Corp. Connection Services
+netspeak-acd;21848;TCP;NetSpeak Corp. Automatic Call Distribution
+netspeak-acd;21848;UDP;NetSpeak Corp. Automatic Call Distribution
+netspeak-cps;21849;TCP;NetSpeak Corp. Credit Processing System
+netspeak-cps;21849;UDP;NetSpeak Corp. Credit Processing System
+snapenetio;22000;TCP;SNAPenetIO
+snapenetio;22000;UDP;SNAPenetIO
+optocontrol;22001;TCP;OptoControl
+optocontrol;22001;UDP;OptoControl
+optohost002;22002;TCP;Opto Host Port 2
+optohost002;22002;UDP;Opto Host Port 2
+optohost003;22003;TCP;Opto Host Port 3
+optohost003;22003;UDP;Opto Host Port 3
+optohost004;22004;TCP;Opto Host Port 4
+optohost004;22004;UDP;Opto Host Port 4
+optohost004;22005;TCP;Opto Host Port 5
+optohost004;22005;UDP;Opto Host Port 5
+dcap;22125;TCP;dCache Access Protocol
+Unassigned;22125;UDP;Reserved
+gsidcap;22128;TCP;GSI dCache Access Protocol
+Unassigned;22128;UDP;Reserved
+easyengine;22222;TCP;EasyEngine is CLI tool to manage WordPress Sites on Nginx server
+Unassigned;22222;UDP;Reserved
+wnn6;22273;TCP;wnn6
+wnn6;22273;UDP;wnn6
+cis;22305;TCP;CompactIS Tunnel
+cis;22305;UDP;CompactIS Tunnel
+shrewd-control;22335;TCP;Initium Labs Security and Automation Control
+shrewd-stream;22335;UDP;Initium Labs Security and Automation Streaming
+cis-secure;22343;TCP;CompactIS Secure Tunnel
+cis-secure;22343;UDP;CompactIS Secure Tunnel
+wibukey;22347;TCP;WibuKey Standard WkLan
+wibukey;22347;UDP;WibuKey Standard WkLan
+codemeter;22350;TCP;CodeMeter Standard
+codemeter;22350;UDP;CodeMeter Standard
+codemeter-cmwan;22351;TCP;TPC/IP requests of copy protection software to a server
+Unassigned;22351;UDP;Reserved
+caldsoft-backup;22537;TCP;CaldSoft Backup server file transfer
+Unassigned;22537;UDP;Reserved
+vocaltec-wconf;22555;TCP;Vocaltec Web Conference
+vocaltec-phone;22555;UDP;Vocaltec Internet Phone
+talikaserver;22763;TCP;Talika Main Server
+talikaserver;22763;UDP;Talika Main Server
+aws-brf;22800;TCP;Telerate Information Platform LAN
+aws-brf;22800;UDP;Telerate Information Platform LAN
+brf-gw;22951;TCP;Telerate Information Platform WAN
+brf-gw;22951;UDP;Telerate Information Platform WAN
+inovaport1;23000;TCP;Inova LightLink Server Type 1
+inovaport1;23000;UDP;Inova LightLink Server Type 1
+inovaport2;23001;TCP;Inova LightLink Server Type 2
+inovaport2;23001;UDP;Inova LightLink Server Type 2
+inovaport3;23002;TCP;Inova LightLink Server Type 3
+inovaport3;23002;UDP;Inova LightLink Server Type 3
+inovaport4;23003;TCP;Inova LightLink Server Type 4
+inovaport4;23003;UDP;Inova LightLink Server Type 4
+inovaport5;23004;TCP;Inova LightLink Server Type 5
+inovaport5;23004;UDP;Inova LightLink Server Type 5
+inovaport6;23005;TCP;Inova LightLink Server Type 6
+inovaport6;23005;UDP;Inova LightLink Server Type 6
+gntp;23053;TCP;Generic Notification Transport Protocol
+Unassigned;23053;UDP;Reserved
+Unassigned;23272;TCP;Reserved
+s102;23272;UDP;S102 application
+5afe-dir;23294;TCP;5AFE SDN Directory
+5afe-disc;23294;UDP;5AFE SDN Directory discovery
+elxmgmt;23333;TCP;Emulex HBAnyware Remote Management
+elxmgmt;23333;UDP;Emulex HBAnyware Remote Management
+novar-dbase;23400;TCP;Novar Data
+novar-dbase;23400;UDP;Novar Data
+novar-alarm;23401;TCP;Novar Alarm
+novar-alarm;23401;UDP;Novar Alarm
+novar-global;23402;TCP;Novar Global
+novar-global;23402;UDP;Novar Global
+aequus;23456;TCP;Aequus Service
+Unassigned;23456;UDP;Reserved
+aequus-alt;23457;TCP;Aequus Service Mgmt
+Unassigned;23457;UDP;Reserved
+areaguard-neo;23546;TCP;AreaGuard Neo - WebServer
+Unassigned;23546;UDP;Reserved
+med-ltp;24000;TCP;med-ltp
+med-ltp;24000;UDP;med-ltp
+med-fsp-rx;24001;TCP;med-fsp-rx
+med-fsp-rx;24001;UDP;med-fsp-rx
+med-fsp-tx;24002;TCP;med-fsp-tx
+med-fsp-tx;24002;UDP;med-fsp-tx
+med-supp;24003;TCP;med-supp
+med-supp;24003;UDP;med-supp
+med-ovw;24004;TCP;med-ovw
+med-ovw;24004;UDP;med-ovw
+med-ci;24005;TCP;med-ci
+med-ci;24005;UDP;med-ci
+med-net-svc;24006;TCP;med-net-svc
+med-net-svc;24006;UDP;med-net-svc
+filesphere;24242;TCP;fileSphere
+filesphere;24242;UDP;fileSphere
+vista-4gl;24249;TCP;Vista 4GL
+vista-4gl;24249;UDP;Vista 4GL
+ild;24321;TCP;Isolv Local Directory
+ild;24321;UDP;Isolv Local Directory
+Unassigned;24322;TCP;Reserved
+hid;24322;UDP;Transport of Human Interface Device data streams
+intel-rci;24386;TCP;Intel RCI
+intel_rci;24386;TCP;Intel RCI
+intel-rci;24386;UDP;Intel RCI
+intel_rci;24386;UDP;Intel RCI
+tonidods;24465;TCP;Tonido Domain Server
+tonidods;24465;UDP;Tonido Domain Server
+binkp;24554;TCP;BINKP
+binkp;24554;UDP;BINKP
+bilobit;24577;TCP;bilobit Service
+bilobit-update;24577;UDP;bilobit Service Update
+sdtvwcam;24666;TCP;Service used by SmarDTV to communicate between a CAM and a second screen application
+Unassigned;24666;UDP;Reserved
+canditv;24676;TCP;Canditv Message Service
+canditv;24676;UDP;Canditv Message Service
+flashfiler;24677;TCP;FlashFiler
+flashfiler;24677;UDP;FlashFiler
+proactivate;24678;TCP;Turbopower Proactivate
+proactivate;24678;UDP;Turbopower Proactivate
+Unassigned;24679;UDP;Unassigned
+tcc-http;24680;TCP;TCC User HTTP Service
+tcc-http;24680;UDP;TCC User HTTP Service
+cslg;24754;TCP;Citrix StorageLink Gateway
+Unassigned;24754;UDP;Reserved
+Unassigned;24850;TCP;Reserved
+assoc-disc;24850;UDP;Device Association Discovery
+find;24922;TCP;Find Identification of Network Devices
+find;24922;UDP;Find Identification of Network Devices
+icl-twobase1;25000;TCP;icl-twobase1
+icl-twobase1;25000;UDP;icl-twobase1
+icl-twobase2;25001;TCP;icl-twobase2
+icl-twobase2;25001;UDP;icl-twobase2
+icl-twobase3;25002;TCP;icl-twobase3
+icl-twobase3;25002;UDP;icl-twobase3
+icl-twobase4;25003;TCP;icl-twobase4
+icl-twobase4;25003;UDP;icl-twobase4
+icl-twobase5;25004;TCP;icl-twobase5
+icl-twobase5;25004;UDP;icl-twobase5
+icl-twobase6;25005;TCP;icl-twobase6
+icl-twobase6;25005;UDP;icl-twobase6
+icl-twobase7;25006;TCP;icl-twobase7
+icl-twobase7;25006;UDP;icl-twobase7
+icl-twobase8;25007;TCP;icl-twobase8
+icl-twobase8;25007;UDP;icl-twobase8
+icl-twobase9;25008;TCP;icl-twobase9
+icl-twobase9;25008;UDP;icl-twobase9
+icl-twobase10;25009;TCP;icl-twobase10
+icl-twobase10;25009;UDP;icl-twobase10
+rna;25471;UDP;RNSAP User Adaptation for Iurh
+sauterdongle;25576;TCP;Sauter Dongle
+Unassigned;25576;UDP;Reserved
+idtp;25604;TCP;Identifier Tracing Protocol
+Unassigned;25604;UDP;Reserved
+vocaltec-hos;25793;TCP;Vocaltec Address Server
+vocaltec-hos;25793;UDP;Vocaltec Address Server
+tasp-net;25900;TCP;TASP Network Comm
+tasp-net;25900;UDP;TASP Network Comm
+niobserver;25901;TCP;NIObserver
+niobserver;25901;UDP;NIObserver
+nilinkanalyst;25902;TCP;NILinkAnalyst
+nilinkanalyst;25902;UDP;NILinkAnalyst
+niprobe;25903;TCP;NIProbe
+niprobe;25903;UDP;NIProbe
+Unassigned;25954;TCP;Reserved
+bf-game;25954;UDP;Bitfighter game server
+Unassigned;25955;TCP;Reserved
+bf-master;25955;UDP;Bitfighter master server
+quake;26000;TCP;quake
+quake;26000;UDP;quake
+scscp;26133;TCP;Symbolic Computation Software Composability Protocol
+scscp;26133;UDP;Symbolic Computation Software Composability Protocol
+wnn6-ds;26208;TCP;wnn6-ds
+wnn6-ds;26208;UDP;wnn6-ds
+cockroach;26257;TCP;CockroachDB
+Unassigned;26257;UDP;Reserved
+ezproxy;26260;TCP;eZproxy
+ezproxy;26260;UDP;eZproxy
+ezmeeting;26261;TCP;eZmeeting
+ezmeeting;26261;UDP;eZmeeting
+k3software-svr;26262;TCP;K3 Software-Server
+k3software-svr;26262;UDP;K3 Software-Server
+k3software-cli;26263;TCP;K3 Software-Client
+k3software-cli;26263;UDP;K3 Software-Client
+Unassigned;26264;UDP;De-registered
+exoline-tcp;26486;TCP;EXOline-TCP
+exoline-udp;26486;UDP;EXOline-UDP
+exoconfig;26487;TCP;EXOconfig
+exoconfig;26487;UDP;EXOconfig
+Unassigned;26488;UDP;Unassigned
+exonet;26489;TCP;EXOnet
+exonet;26489;UDP;EXOnet
+imagepump;27345;TCP;ImagePump
+imagepump;27345;UDP;ImagePump
+jesmsjc;27442;TCP;Job controller service
+jesmsjc;27442;UDP;Job controller service
+kopek-httphead;27504;TCP;Kopek HTTP Head Port
+kopek-httphead;27504;UDP;Kopek HTTP Head Port
+ars-vista;27782;TCP;ARS VISTA Application
+ars-vista;27782;UDP;ARS VISTA Application
+astrolink;27876;TCP;Astrolink Protocol
+Unassigned;27876;UDP;Reserved
+tw-auth-key;27999;TCP;TW Authentication/Key Distribution and
+tw-auth-key;27999;UDP;Attribute Certificate Services
+nxlmd;28000;TCP;NX License Manager
+nxlmd;28000;UDP;NX License Manager
+pqsp;28001;TCP;PQ Service
+Unassigned;28001;UDP;Reserved
+Unassigned;28119;TCP;Reserved
+a27-ran-ran;28119;UDP;A27 cdma2000 RAN Management
+voxelstorm;28200;TCP;VoxelStorm game server
+voxelstorm;28200;UDP;VoxelStorm game server
+siemensgsm;28240;TCP;Siemens GSM
+siemensgsm;28240;UDP;Siemens GSM
+bosswave;28589;TCP;Building operating system services wide area verified exchange
+Unassigned;28589;UDP;Reserved
+sgsap;29118;UDP;SGsAP in 3GPP
+Unassigned;29118;TCP;Reserved
+Unassigned;29118;UDP;Reserved
+otmp;29167;TCP;ObTools Message Protocol
+otmp;29167;UDP;ObTools Message Protocol
+sbcap;29168;UDP;SBcAP in 3GPP
+Unassigned;29168;TCP;Reserved
+Unassigned;29168;UDP;Reserved
+iuhsctpassoc;29169;UDP;HNBAP and RUA Common Association
+bingbang;29999;TCP;data exchange protocol for IEC61850 in wind power plants
+Unassigned;29999;UDP;Reserved
+ndmps;30000;TCP;Secure Network Data Management Protocol
+Unassigned;30000;UDP;Reserved
+pago-services1;30001;TCP;Pago Services 1
+pago-services1;30001;UDP;Pago Services 1
+pago-services2;30002;TCP;Pago Services 2
+pago-services2;30002;UDP;Pago Services 2
+amicon-fpsu-ra;30003;TCP;Amicon FPSU-IP Remote Administration
+amicon-fpsu-ra;30003;UDP;Amicon FPSU-IP Remote Administration
+Unassigned;30004;TCP;Reserved
+amicon-fpsu-s;30004;UDP;Amicon FPSU-IP VPN
+rwp;30100;UDP;Remote Window Protocol
+rwp;30100;TCP;Remote Window Protocol
+Unassigned;30100;UDP;Reserved
+kingdomsonline;30260;TCP;Kingdoms Online (CraigAvenue)
+kingdomsonline;30260;UDP;Kingdoms Online (CraigAvenue)
+gs-realtime;30400;TCP;GroundStar RealTime System
+Unassigned;30400;UDP;Reserved
+Unassigned;30832;TCP;Reserved
+samsung-disc;30832;UDP;Samsung Convergence Discovery Protocol
+ovobs;30999;TCP;OpenView Service Desk Client
+ovobs;30999;UDP;OpenView Service Desk Client
+ka-sddp;31016;TCP;Kollective Agent Secure Distributed Delivery Protocol
+ka-kdp;31016;UDP;Kollective Agent Kollective Delivery Protocol
+autotrac-acp;31020;TCP;Autotrac ACP 245
+Unassigned;31020;UDP;Reserved
+Unassigned;31029;TCP;Reserved
+yawn;31029;UDP;YaWN - Yet Another Windows Notifier
+pace-licensed;31400;TCP;PACE license server
+Unassigned;31400;UDP;Reserved
+xqosd;31416;TCP;XQoS network monitor
+xqosd;31416;UDP;XQoS network monitor
+tetrinet;31457;TCP;TetriNET Protocol
+tetrinet;31457;UDP;TetriNET Protocol
+lm-mon;31620;TCP;lm mon
+lm-mon;31620;UDP;lm mon
+dsx-monitor;31685;TCP;DS Expert Monitor
+dsx_monitor;31685;TCP;DS Expert Monitor
+Unassigned;31685;UDP;Reserved
+gamesmith-port;31765;TCP;GameSmith Port
+gamesmith-port;31765;UDP;GameSmith Port
+iceedcp-tx;31948;TCP;Embedded Device Configuration Protocol TX
+iceedcp_tx;31948;TCP;Embedded Device Configuration Protocol TX
+iceedcp-tx;31948;UDP;Embedded Device Configuration Protocol TX
+iceedcp_tx;31948;UDP;Embedded Device Configuration Protocol TX
+iceedcp-rx;31949;TCP;Embedded Device Configuration Protocol RX
+iceedcp_rx;31949;TCP;Embedded Device Configuration Protocol RX
+iceedcp-rx;31949;UDP;Embedded Device Configuration Protocol RX
+iceedcp_rx;31949;UDP;Embedded Device Configuration Protocol RX
+iracinghelper;32034;TCP;iRacing helper service
+iracinghelper;32034;UDP;iRacing helper service
+t1distproc60;32249;TCP;T1 Distributed Processor
+t1distproc60;32249;UDP;T1 Distributed Processor
+plex;32400;TCP;Plex multimedia
+Unassigned;32400;UDP;Reserved
+apm-link;32483;TCP;Access Point Manager Link
+apm-link;32483;UDP;Access Point Manager Link
+sec-ntb-clnt;32635;TCP;SecureNotebook-CLNT
+sec-ntb-clnt;32635;UDP;SecureNotebook-CLNT
+DMExpress;32636;TCP;DMExpress
+DMExpress;32636;UDP;DMExpress
+filenet-powsrm;32767;TCP;FileNet BPM WS-ReliableMessaging Client
+filenet-powsrm;32767;UDP;FileNet BPM WS-ReliableMessaging Client
+filenet-tms;32768;TCP;Filenet TMS
+filenet-tms;32768;UDP;Filenet TMS
+filenet-rpc;32769;TCP;Filenet RPC
+filenet-rpc;32769;UDP;Filenet RPC
+filenet-nch;32770;TCP;Filenet NCH
+filenet-nch;32770;UDP;Filenet NCH
+filenet-rmi;32771;TCP;FileNET RMI
+filenet-rmi;32771;UDP;FileNet RMI
+filenet-pa;32772;TCP;FileNET Process Analyzer
+filenet-pa;32772;UDP;FileNET Process Analyzer
+filenet-cm;32773;TCP;FileNET Component Manager
+filenet-cm;32773;UDP;FileNET Component Manager
+filenet-re;32774;TCP;FileNET Rules Engine
+filenet-re;32774;UDP;FileNET Rules Engine
+filenet-pch;32775;TCP;Performance Clearinghouse
+filenet-pch;32775;UDP;Performance Clearinghouse
+filenet-peior;32776;TCP;FileNET BPM IOR
+filenet-peior;32776;UDP;FileNET BPM IOR
+filenet-obrok;32777;TCP;FileNet BPM CORBA
+filenet-obrok;32777;UDP;FileNet BPM CORBA
+mlsn;32801;TCP;Multiple Listing Service Network
+mlsn;32801;UDP;Multiple Listing Service Network
+retp;32811;TCP;Real Estate Transport Protocol
+Unassigned;32811;UDP;Reserved
+idmgratm;32896;TCP;Attachmate ID Manager
+idmgratm;32896;UDP;Attachmate ID Manager
+mysqlx;33060;TCP;MySQL Database Extended Interface
+Unassigned;33060;UDP;Reserved
+aurora-balaena;33123;TCP;Aurora (Balaena Ltd)
+aurora-balaena;33123;UDP;Aurora (Balaena Ltd)
+diamondport;33331;TCP;DiamondCentral Interface
+diamondport;33331;UDP;DiamondCentral Interface
+Unassigned;33332;UDP;Unassigned
+dgi-serv;33333;TCP;Digital Gaslight Service
+Unassigned;33333;UDP;Reserved
+speedtrace;33334;TCP;SpeedTrace TraceAgent
+speedtrace-disc;33334;UDP;SpeedTrace TraceAgent Discovery
+traceroute;33434;TCP;traceroute use
+traceroute;33434;UDP;traceroute use
+snip-slave;33656;TCP;SNIP Slave
+snip-slave;33656;UDP;SNIP Slave
+turbonote-2;34249;TCP;TurboNote Relay Server Default Port
+turbonote-2;34249;UDP;TurboNote Relay Server Default Port
+p-net-local;34378;TCP;P-Net on IP local
+p-net-local;34378;UDP;P-Net on IP local
+p-net-remote;34379;TCP;P-Net on IP remote
+p-net-remote;34379;UDP;P-Net on IP remote
+dhanalakshmi;34567;TCP;dhanalakshmi.org EDI Service
+edi_service;34567;UDP;dhanalakshmi.org EDI Service
+profinet-rt;34962;TCP;PROFInet RT Unicast
+profinet-rt;34962;UDP;PROFInet RT Unicast
+profinet-rtm;34963;TCP;PROFInet RT Multicast
+profinet-rtm;34963;UDP;PROFInet RT Multicast
+profinet-cm;34964;TCP;PROFInet Context Manager
+profinet-cm;34964;UDP;PROFInet Context Manager
+ethercat;34980;TCP;EtherCAT Port
+ethercat;34980;UDP;EhterCAT Port
+heathview;35000;TCP;HeathView
+Unassigned;35000;UDP;Reserved
+rt-viewer;35001;TCP;ReadyTech Viewer
+rt-viewer;35001;UDP;ReadyTech Viewer
+rt-sound;35002;TCP;ReadyTech Sound Server
+Unassigned;35002;UDP;Reserved
+rt-devicemapper;35003;TCP;ReadyTech DeviceMapper Server
+Unassigned;35003;UDP;Reserved
+rt-classmanager;35004;TCP;ReadyTech ClassManager
+rt-classmanager;35004;UDP;ReadyTech ClassManager
+rt-labtracker;35005;TCP;ReadyTech LabTracker
+Unassigned;35005;UDP;Reserved
+rt-helper;35006;TCP;ReadyTech Helper Service
+Unassigned;35006;UDP;Reserved
+axio-disc;35100;TCP;Axiomatic discovery protocol
+axio-disc;35100;UDP;Axiomatic discovery protocol
+kitim;35354;TCP;KIT Messenger
+Unassigned;35354;UDP;Reserved
+altova-lm;35355;TCP;Altova License Management
+altova-lm-disc;35355;UDP;Altova License Management Discovery
+guttersnex;35356;TCP;Gutters Note Exchange
+Unassigned;35356;UDP;Reserved
+openstack-id;35357;TCP;OpenStack ID Service
+Unassigned;35357;UDP;Reserved
+allpeers;36001;TCP;AllPeers Network
+allpeers;36001;UDP;AllPeers Network
+Unassigned;36411;TCP;Reserved
+wlcp;36411;UDP;Wireless LAN Control plane Protocol (WLCP)
+s1-control;36412;UDP;S1-Control Plane (3GPP)
+Unassigned;36412;TCP;Reserved
+Unassigned;36412;UDP;Reserved
+x2-control;36422;UDP;X2-Control Plane (3GPP)
+Unassigned;36422;TCP;Reserved
+Unassigned;36422;UDP;Reserved
+slmap;36423;UDP;SLm Interface Application Protocol
+nq-ap;36424;UDP;Nq and Nq' Application Protocol
+m2ap;36443;UDP;M2 Application Part
+m3ap;36444;UDP;M3 Application Part
+xw-control;36462;UDP;Xw-Control Plane (3GPP)
+Unassigned;36462;TCP;Reserved
+Unassigned;36462;UDP;Reserved
+febooti-aw;36524;TCP;Febooti Automation Workshop
+Unassigned;36524;UDP;Reserved
+observium-agent;36602;TCP;Observium statistics collection agent
+Unassigned;36602;UDP;Reserved
+mapx;36700;TCP;MapX communication
+Unassigned;36700;UDP;Reserved
+kastenxpipe;36865;TCP;KastenX Pipe
+kastenxpipe;36865;UDP;KastenX Pipe
+neckar;37475;TCP;science + computing's Venus Administration Port
+neckar;37475;UDP;science + computing's Venus Administration Port
+gdrive-sync;37483;TCP;Google Drive Sync
+Unassigned;37483;UDP;Reserved
+eftp;37601;TCP;Epipole File Transfer Protocol
+Unassigned;37601;UDP;Reserved
+unisys-eportal;37654;TCP;Unisys ClearPath ePortal
+unisys-eportal;37654;UDP;Unisys ClearPath ePortal
+ivs-database;38000;TCP;InfoVista Server Database
+Unassigned;38000;UDP;Reserved
+ivs-insertion;38001;TCP;InfoVista Server Insertion
+Unassigned;38001;UDP;Reserved
+cresco-control;38002;TCP;Cresco Controller
+crescoctrl-disc;38002;UDP;Cresco Controller Discovery
+galaxy7-data;38201;TCP;Galaxy7 Data Tunnel
+galaxy7-data;38201;UDP;Galaxy7 Data Tunnel
+fairview;38202;TCP;Fairview Message Service
+fairview;38202;UDP;Fairview Message Service
+agpolicy;38203;TCP;AppGate Policy Server
+agpolicy;38203;UDP;AppGate Policy Server
+ng-control;38412;UDP;NG Control Plane (3GPP)
+Unassigned;38412;TCP;Reserved
+Unassigned;38412;UDP;Reserved
+xn-control;38422;UDP;Xn Control Plane (3GPP)
+Unassigned;38422;TCP;Reserved
+Unassigned;38422;UDP;Reserved
+f1-control;38472;UDP;F1 Control Plane (3GPP)
+Unassigned;38472;TCP;Reserved
+Unassigned;38472;UDP;Reserved
+sruth;38800;TCP;Sruth is a service for the distribution of routinely-
+Unassigned;38800;UDP;Reserved
+secrmmsafecopya;38865;TCP;Security approval process for use of the secRMM SafeCopy program
+Unassigned;38865;UDP;Reserved
+turbonote-1;39681;TCP;TurboNote Default Port
+turbonote-1;39681;UDP;TurboNote Default Port
+safetynetp;40000;TCP;SafetyNET p
+safetynetp;40000;UDP;SafetyNET p
+Unassigned;40023;TCP;Reserved
+k-patentssensor;40023;UDP;K-PatentsSensorInformation
+sptx;40404;TCP;Simplify Printing TX
+Unassigned;40404;UDP;Reserved
+cscp;40841;TCP;CSCP
+cscp;40841;UDP;CSCP
+csccredir;40842;TCP;CSCCREDIR
+csccredir;40842;UDP;CSCCREDIR
+csccfirewall;40843;TCP;CSCCFIREWALL
+csccfirewall;40843;UDP;CSCCFIREWALL
+Unassigned;40853;TCP;Reserved
+ortec-disc;40853;UDP;ORTEC Service Discovery
+fs-qos;41111;TCP;Foursticks QoS Protocol
+fs-qos;41111;UDP;Foursticks QoS Protocol
+tentacle;41121;TCP;Tentacle Server
+Unassigned;41121;UDP;Reserved
+z-wave-s;41230;TCP;Z-Wave Protocol over SSL/TLS
+z-wave-s;41230;UDP;Z-Wave Protocol over DTLS
+crestron-cip;41794;TCP;Crestron Control Port
+crestron-cip;41794;UDP;Crestron Control Port
+crestron-ctp;41795;TCP;Crestron Terminal Port
+crestron-ctp;41795;UDP;Crestron Terminal Port
+crestron-cips;41796;TCP;Crestron Secure Control Port
+Unassigned;41796;UDP;Reserved
+crestron-ctps;41797;TCP;Crestron Secure Terminal Port
+Unassigned;41797;UDP;Reserved
+candp;42508;TCP;Computer Associates network discovery protocol
+candp;42508;UDP;Computer Associates network discovery protocol
+candrp;42509;TCP;CA discovery response
+candrp;42509;UDP;CA discovery response
+caerpc;42510;TCP;CA eTrust RPC
+caerpc;42510;UDP;CA eTrust RPC
+recvr-rc;43000;TCP;Receiver Remote Control
+recvr-rc-disc;43000;UDP;Receiver Remote Control Discovery
+reachout;43188;TCP;REACHOUT
+reachout;43188;UDP;REACHOUT
+ndm-agent-port;43189;TCP;NDM-AGENT-PORT
+ndm-agent-port;43189;UDP;NDM-AGENT-PORT
+ip-provision;43190;TCP;IP-PROVISION
+ip-provision;43190;UDP;IP-PROVISION
+noit-transport;43191;TCP;Reconnoiter Agent Data Transport
+Unassigned;43191;UDP;Reserved
+shaperai;43210;TCP;Shaper Automation Server Management
+shaperai-disc;43210;UDP;Shaper Automation Server Management Discovery
+eq3-update;43439;TCP;EQ3 firmware update
+eq3-config;43439;UDP;EQ3 discovery and configuration
+ew-mgmt;43440;TCP;Cisco EnergyWise Management
+ew-disc-cmd;43440;UDP;Cisco EnergyWise Discovery and Command Flooding
+ciscocsdb;43441;TCP;Cisco NetMgmt DB Ports
+ciscocsdb;43441;UDP;Cisco NetMgmt DB Ports
+z-wave-tunnel;44123;TCP;Z-Wave Secure Tunnel
+Unassigned;44123;UDP;Reserved
+pmcd;44321;TCP;PCP server (pmcd)
+pmcd;44321;UDP;PCP server (pmcd)
+pmcdproxy;44322;TCP;PCP server (pmcd) proxy
+pmcdproxy;44322;UDP;PCP server (pmcd) proxy
+pmwebapi;44323;TCP;HTTP binding for Performance Co-Pilot client API
+Unassigned;44323;UDP;Unassigned
+cognex-dataman;44444;TCP;Cognex DataMan Management Protocol
+Unassigned;44444;UDP;Reserved
+Unassigned;44544;TCP;Reserved
+domiq;44544;UDP;DOMIQ Building Automation
+rbr-debug;44553;TCP;REALbasic Remote Debug
+rbr-debug;44553;UDP;REALbasic Remote Debug
+Unassigned;44600;TCP;Reserved
+asihpi;44600;UDP;AudioScience HPI
+EtherNet-IP-2;44818;TCP;EtherNet/IP messaging
+EtherNet/IP-2;44818;TCP;EtherNet/IP messaging
+EtherNet-IP-2;44818;UDP;EtherNet/IP messaging
+EtherNet/IP-2;44818;UDP;EtherNet/IP messaging
+m3da;44900;TCP;M3DA is used for efficient machine-to-machine communications
+m3da-disc;44900;UDP;M3DA Discovery is used for efficient machine-to-machine communications
+asmp;45000;TCP;Nuance AutoStore Status Monitoring Protocol (data transfer)
+asmp-mon;45000;UDP;Nuance AutoStore Status Monitoring Protocol (device monitoring)
+asmps;45001;TCP;Nuance AutoStore Status Monitoring Protocol (secure data transfer)
+Unassigned;45001;UDP;Reserved
+rs-status;45002;TCP;Redspeed Status Monitor
+Unassigned;45002;UDP;Reserved
+synctest;45045;TCP;Remote application control protocol
+Unassigned;45045;UDP;Reserved
+invision-ag;45054;TCP;InVision AG
+invision-ag;45054;UDP;InVision AG
+cloudcheck;45514;TCP;ASSIA CloudCheck WiFi Management System
+cloudcheck-ping;45514;UDP;ASSIA CloudCheck WiFi Management keepalive
+eba;45678;TCP;EBA PRISE
+eba;45678;UDP;EBA PRISE
+dai-shell;45824;TCP;Server for the DAI family of client-server products
+Unassigned;45824;UDP;Reserved
+qdb2service;45825;TCP;Qpuncture Data Access Service
+qdb2service;45825;UDP;Qpuncture Data Access Service
+ssr-servermgr;45966;TCP;SSRServerMgr
+ssr-servermgr;45966;UDP;SSRServerMgr
+inedo;46336;TCP;Listen port used for Inedo agent communication
+Unassigned;46336;UDP;Reserved
+spremotetablet;46998;TCP;Connection between a desktop computer or server and a signature tablet to capture handwritten signatures
+Unassigned;46998;UDP;Reserved
+mediabox;46999;TCP;MediaBox Server
+mediabox;46999;UDP;MediaBox Server
+mbus;47000;TCP;Message Bus
+mbus;47000;UDP;Message Bus
+winrm;47001;TCP;Windows Remote Management Service
+Unassigned;47001;UDP;Reserved
+Unassigned;47100;TCP;Reserved
+jvl-mactalk;47100;UDP;Configuration of motors connected to Industrial Ethernet
+dbbrowse;47557;TCP;Databeam Corporation
+dbbrowse;47557;UDP;Databeam Corporation
+directplaysrvr;47624;TCP;Direct Play Server
+directplaysrvr;47624;UDP;Direct Play Server
+ap;47806;TCP;ALC Protocol
+ap;47806;UDP;ALC Protocol
+Unassigned;47807;UDP;Unassigned
+bacnet;47808;TCP;Building Automation and Control Networks
+bacnet;47808;UDP;Building Automation and Control Networks
+Unassigned;47809;TCP;Reserved
+presonus-ucnet;47809;UDP;PreSonus Universal Control Network Protocol
+nimcontroller;48000;TCP;Nimbus Controller
+nimcontroller;48000;UDP;Nimbus Controller
+nimspooler;48001;TCP;Nimbus Spooler
+nimspooler;48001;UDP;Nimbus Spooler
+nimhub;48002;TCP;Nimbus Hub
+nimhub;48002;UDP;Nimbus Hub
+nimgtw;48003;TCP;Nimbus Gateway
+nimgtw;48003;UDP;Nimbus Gateway
+nimbusdb;48004;TCP;NimbusDB Connector
+Unassigned;48004;UDP;Reserved
+nimbusdbctrl;48005;TCP;NimbusDB Control
+Unassigned;48005;UDP;Reserved
+3gpp-cbsp;48049;TCP;3GPP Cell Broadcast Service Protocol
+Unassigned;48049;UDP;Reserved
+weandsf;48050;TCP;WeFi Access Network Discovery and Selection Function
+Unassigned;48050;UDP;Reserved
+isnetserv;48128;TCP;Image Systems Network Services
+isnetserv;48128;UDP;Image Systems Network Services
+blp5;48129;TCP;Bloomberg locator
+blp5;48129;UDP;Bloomberg locator
+com-bardac-dw;48556;TCP;com-bardac-dw
+com-bardac-dw;48556;UDP;com-bardac-dw
+iqobject;48619;TCP;iqobject
+iqobject;48619;UDP;iqobject
