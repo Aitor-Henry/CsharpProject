@@ -1,0 +1,1009 @@
+rtsclient;2501;TCP;Resource Tracking system client
+rtsclient;2501;UDP;Resource Tracking system client
+kentrox-prot;2502;TCP;Kentrox Protocol
+kentrox-prot;2502;UDP;Kentrox Protocol
+nms-dpnss;2503;TCP;NMS-DPNSS
+nms-dpnss;2503;UDP;NMS-DPNSS
+wlbs;2504;TCP;WLBS
+wlbs;2504;UDP;WLBS
+ppcontrol;2505;TCP;PowerPlay Control
+ppcontrol;2505;UDP;PowerPlay Control
+jbroker;2506;TCP;jbroker
+jbroker;2506;UDP;jbroker
+spock;2507;TCP;spock
+spock;2507;UDP;spock
+jdatastore;2508;TCP;JDataStore
+jdatastore;2508;UDP;JDataStore
+fjmpss;2509;TCP;fjmpss
+fjmpss;2509;UDP;fjmpss
+fjappmgrbulk;2510;TCP;fjappmgrbulk
+fjappmgrbulk;2510;UDP;fjappmgrbulk
+metastorm;2511;TCP;Metastorm
+metastorm;2511;UDP;Metastorm
+citrixima;2512;TCP;Citrix IMA
+citrixima;2512;UDP;Citrix IMA
+citrixadmin;2513;TCP;Citrix ADMIN
+citrixadmin;2513;UDP;Citrix ADMIN
+facsys-ntp;2514;TCP;Facsys NTP
+facsys-ntp;2514;UDP;Facsys NTP
+facsys-router;2515;TCP;Facsys Router
+facsys-router;2515;UDP;Facsys Router
+maincontrol;2516;TCP;Main Control
+maincontrol;2516;UDP;Main Control
+call-sig-trans;2517;TCP;H.323 Annex E Call Control Signalling Transport
+call-sig-trans;2517;UDP;H.323 Annex E Call Control Signalling Transport
+willy;2518;TCP;Willy
+willy;2518;UDP;Willy
+globmsgsvc;2519;TCP;globmsgsvc
+globmsgsvc;2519;UDP;globmsgsvc
+pvsw;2520;TCP;Pervasive Listener
+pvsw;2520;UDP;Pervasive Listener
+adaptecmgr;2521;TCP;Adaptec Manager
+adaptecmgr;2521;UDP;Adaptec Manager
+windb;2522;TCP;WinDb
+windb;2522;UDP;WinDb
+qke-llc-v3;2523;TCP;Qke LLC V.3
+qke-llc-v3;2523;UDP;Qke LLC V.3
+optiwave-lm;2524;TCP;Optiwave License Management
+optiwave-lm;2524;UDP;Optiwave License Management
+ms-v-worlds;2525;TCP;MS V-Worlds
+ms-v-worlds;2525;UDP;MS V-Worlds
+ema-sent-lm;2526;TCP;EMA License Manager
+ema-sent-lm;2526;UDP;EMA License Manager
+iqserver;2527;TCP;IQ Server
+iqserver;2527;UDP;IQ Server
+ncr-ccl;2528;TCP;NCR CCL
+ncr_ccl;2528;TCP;NCR CCL
+ncr-ccl;2528;UDP;NCR CCL
+ncr_ccl;2528;UDP;NCR CCL
+utsftp;2529;TCP;UTS FTP
+utsftp;2529;UDP;UTS FTP
+vrcommerce;2530;TCP;VR Commerce
+vrcommerce;2530;UDP;VR Commerce
+ito-e-gui;2531;TCP;ITO-E GUI
+ito-e-gui;2531;UDP;ITO-E GUI
+ovtopmd;2532;TCP;OVTOPMD
+ovtopmd;2532;UDP;OVTOPMD
+snifferserver;2533;TCP;SnifferServer
+snifferserver;2533;UDP;SnifferServer
+combox-web-acc;2534;TCP;Combox Web Access
+combox-web-acc;2534;UDP;Combox Web Access
+madcap;2535;TCP;MADCAP
+madcap;2535;UDP;MADCAP
+btpp2audctr1;2536;TCP;btpp2audctr1
+btpp2audctr1;2536;UDP;btpp2audctr1
+upgrade;2537;TCP;Upgrade Protocol
+upgrade;2537;UDP;Upgrade Protocol
+vnwk-prapi;2538;TCP;vnwk-prapi
+vnwk-prapi;2538;UDP;vnwk-prapi
+vsiadmin;2539;TCP;VSI Admin
+vsiadmin;2539;UDP;VSI Admin
+lonworks;2540;TCP;LonWorks
+lonworks;2540;UDP;LonWorks
+lonworks2;2541;TCP;LonWorks2
+lonworks2;2541;UDP;LonWorks2
+udrawgraph;2542;TCP;uDraw(Graph)
+udrawgraph;2542;UDP;uDraw(Graph)
+reftek;2543;TCP;REFTEK
+reftek;2543;UDP;REFTEK
+novell-zen;2544;TCP;Management Daemon Refresh
+novell-zen;2544;UDP;Management Daemon Refresh
+sis-emt;2545;TCP;sis-emt
+sis-emt;2545;UDP;sis-emt
+vytalvaultbrtp;2546;TCP;vytalvaultbrtp
+vytalvaultbrtp;2546;UDP;vytalvaultbrtp
+vytalvaultvsmp;2547;TCP;vytalvaultvsmp
+vytalvaultvsmp;2547;UDP;vytalvaultvsmp
+vytalvaultpipe;2548;TCP;vytalvaultpipe
+vytalvaultpipe;2548;UDP;vytalvaultpipe
+ipass;2549;TCP;IPASS
+ipass;2549;UDP;IPASS
+ads;2550;TCP;ADS
+ads;2550;UDP;ADS
+isg-uda-server;2551;TCP;ISG UDA Server
+isg-uda-server;2551;UDP;ISG UDA Server
+call-logging;2552;TCP;Call Logging
+call-logging;2552;UDP;Call Logging
+efidiningport;2553;TCP;efidiningport
+efidiningport;2553;UDP;efidiningport
+vcnet-link-v10;2554;TCP;VCnet-Link v10
+vcnet-link-v10;2554;UDP;VCnet-Link v10
+compaq-wcp;2555;TCP;Compaq WCP
+compaq-wcp;2555;UDP;Compaq WCP
+nicetec-nmsvc;2556;TCP;nicetec-nmsvc
+nicetec-nmsvc;2556;UDP;nicetec-nmsvc
+nicetec-mgmt;2557;TCP;nicetec-mgmt
+nicetec-mgmt;2557;UDP;nicetec-mgmt
+pclemultimedia;2558;TCP;PCLE Multi Media
+pclemultimedia;2558;UDP;PCLE Multi Media
+lstp;2559;TCP;LSTP
+lstp;2559;UDP;LSTP
+labrat;2560;TCP;labrat
+labrat;2560;UDP;labrat
+mosaixcc;2561;TCP;MosaixCC
+mosaixcc;2561;UDP;MosaixCC
+delibo;2562;TCP;Delibo
+delibo;2562;UDP;Delibo
+cti-redwood;2563;TCP;CTI Redwood
+cti-redwood;2563;UDP;CTI Redwood
+hp-3000-telnet;2564;TCP;HP 3000 NS/VT block mode telnet
+hp-3000-telnet;2564;UDP;HP 3000 NS/VT block mode telnet
+coord-svr;2565;TCP;Coordinator Server
+coord-svr;2565;UDP;Coordinator Server
+pcs-pcw;2566;TCP;pcs-pcw
+pcs-pcw;2566;UDP;pcs-pcw
+clp;2567;TCP;Cisco Line Protocol
+clp;2567;UDP;Cisco Line Protocol
+spamtrap;2568;TCP;SPAM TRAP
+spamtrap;2568;UDP;SPAM TRAP
+sonuscallsig;2569;TCP;Sonus Call Signal
+sonuscallsig;2569;UDP;Sonus Call Signal
+hs-port;2570;TCP;HS Port
+hs-port;2570;UDP;HS Port
+cecsvc;2571;TCP;CECSVC
+cecsvc;2571;UDP;CECSVC
+ibp;2572;TCP;IBP
+ibp;2572;UDP;IBP
+trustestablish;2573;TCP;Trust Establish
+trustestablish;2573;UDP;Trust Establish
+blockade-bpsp;2574;TCP;Blockade BPSP
+blockade-bpsp;2574;UDP;Blockade BPSP
+hl7;2575;TCP;HL7
+hl7;2575;UDP;HL7
+tclprodebugger;2576;TCP;TCL Pro Debugger
+tclprodebugger;2576;UDP;TCL Pro Debugger
+scipticslsrvr;2577;TCP;Scriptics Lsrvr
+scipticslsrvr;2577;UDP;Scriptics Lsrvr
+rvs-isdn-dcp;2578;TCP;RVS ISDN DCP
+rvs-isdn-dcp;2578;UDP;RVS ISDN DCP
+mpfoncl;2579;TCP;mpfoncl
+mpfoncl;2579;UDP;mpfoncl
+tributary;2580;TCP;Tributary
+tributary;2580;UDP;Tributary
+argis-te;2581;TCP;ARGIS TE
+argis-te;2581;UDP;ARGIS TE
+argis-ds;2582;TCP;ARGIS DS
+argis-ds;2582;UDP;ARGIS DS
+mon;2583;TCP;MON
+mon;2583;UDP;MON
+cyaserv;2584;TCP;cyaserv
+cyaserv;2584;UDP;cyaserv
+netx-server;2585;TCP;NETX Server
+netx-server;2585;UDP;NETX Server
+netx-agent;2586;TCP;NETX Agent
+netx-agent;2586;UDP;NETX Agent
+masc;2587;TCP;MASC
+masc;2587;UDP;MASC
+privilege;2588;TCP;Privilege
+privilege;2588;UDP;Privilege
+quartus-tcl;2589;TCP;quartus tcl
+quartus-tcl;2589;UDP;quartus tcl
+idotdist;2590;TCP;idotdist
+idotdist;2590;UDP;idotdist
+maytagshuffle;2591;TCP;Maytag Shuffle
+maytagshuffle;2591;UDP;Maytag Shuffle
+netrek;2592;TCP;netrek
+netrek;2592;UDP;netrek
+mns-mail;2593;TCP;MNS Mail Notice Service
+mns-mail;2593;UDP;MNS Mail Notice Service
+dts;2594;TCP;Data Base Server
+dts;2594;UDP;Data Base Server
+worldfusion1;2595;TCP;World Fusion 1
+worldfusion1;2595;UDP;World Fusion 1
+worldfusion2;2596;TCP;World Fusion 2
+worldfusion2;2596;UDP;World Fusion 2
+homesteadglory;2597;TCP;Homestead Glory
+homesteadglory;2597;UDP;Homestead Glory
+citriximaclient;2598;TCP;Citrix MA Client
+citriximaclient;2598;UDP;Citrix MA Client
+snapd;2599;TCP;Snap Discovery
+snapd;2599;UDP;Snap Discovery
+hpstgmgr;2600;TCP;HPSTGMGR
+hpstgmgr;2600;UDP;HPSTGMGR
+discp-client;2601;TCP;discp client
+discp-client;2601;UDP;discp client
+discp-server;2602;TCP;discp server
+discp-server;2602;UDP;discp server
+servicemeter;2603;TCP;Service Meter
+servicemeter;2603;UDP;Service Meter
+nsc-ccs;2604;TCP;NSC CCS
+nsc-ccs;2604;UDP;NSC CCS
+nsc-posa;2605;TCP;NSC POSA
+nsc-posa;2605;UDP;NSC POSA
+netmon;2606;TCP;Dell Netmon
+netmon;2606;UDP;Dell Netmon
+connection;2607;TCP;Dell Connection
+connection;2607;UDP;Dell Connection
+wag-service;2608;TCP;Wag Service
+wag-service;2608;UDP;Wag Service
+system-monitor;2609;TCP;System Monitor
+system-monitor;2609;UDP;System Monitor
+versa-tek;2610;TCP;VersaTek
+versa-tek;2610;UDP;VersaTek
+lionhead;2611;TCP;LIONHEAD
+lionhead;2611;UDP;LIONHEAD
+qpasa-agent;2612;TCP;Qpasa Agent
+qpasa-agent;2612;UDP;Qpasa Agent
+smntubootstrap;2613;TCP;SMNTUBootstrap
+smntubootstrap;2613;UDP;SMNTUBootstrap
+neveroffline;2614;TCP;Never Offline
+neveroffline;2614;UDP;Never Offline
+firepower;2615;TCP;firepower
+firepower;2615;UDP;firepower
+appswitch-emp;2616;TCP;appswitch-emp
+appswitch-emp;2616;UDP;appswitch-emp
+cmadmin;2617;TCP;Clinical Context Managers
+cmadmin;2617;UDP;Clinical Context Managers
+priority-e-com;2618;TCP;Priority E-Com
+priority-e-com;2618;UDP;Priority E-Com
+bruce;2619;TCP;bruce
+bruce;2619;UDP;bruce
+lpsrecommender;2620;TCP;LPSRecommender
+lpsrecommender;2620;UDP;LPSRecommender
+miles-apart;2621;TCP;Miles Apart Jukebox Server
+miles-apart;2621;UDP;Miles Apart Jukebox Server
+metricadbc;2622;TCP;MetricaDBC
+metricadbc;2622;UDP;MetricaDBC
+lmdp;2623;TCP;LMDP
+lmdp;2623;UDP;LMDP
+aria;2624;TCP;Aria
+aria;2624;UDP;Aria
+blwnkl-port;2625;TCP;Blwnkl Port
+blwnkl-port;2625;UDP;Blwnkl Port
+gbjd816;2626;TCP;gbjd816
+gbjd816;2626;UDP;gbjd816
+moshebeeri;2627;TCP;Moshe Beeri
+moshebeeri;2627;UDP;Moshe Beeri
+dict;2628;TCP;DICT
+dict;2628;UDP;DICT
+sitaraserver;2629;TCP;Sitara Server
+sitaraserver;2629;UDP;Sitara Server
+sitaramgmt;2630;TCP;Sitara Management
+sitaramgmt;2630;UDP;Sitara Management
+sitaradir;2631;TCP;Sitara Dir
+sitaradir;2631;UDP;Sitara Dir
+irdg-post;2632;TCP;IRdg Post
+irdg-post;2632;UDP;IRdg Post
+interintelli;2633;TCP;InterIntelli
+interintelli;2633;UDP;InterIntelli
+pk-electronics;2634;TCP;PK Electronics
+pk-electronics;2634;UDP;PK Electronics
+backburner;2635;TCP;Back Burner
+backburner;2635;UDP;Back Burner
+solve;2636;TCP;Solve
+solve;2636;UDP;Solve
+imdocsvc;2637;TCP;Import Document Service
+imdocsvc;2637;UDP;Import Document Service
+sybaseanywhere;2638;TCP;Sybase Anywhere
+sybaseanywhere;2638;UDP;Sybase Anywhere
+aminet;2639;TCP;AMInet
+aminet;2639;UDP;AMInet
+ami-control;2640;TCP;Alcorn McBride Inc protocol used for device control
+ami-control;2640;UDP;Alcorn McBride Inc protocol used for device control
+hdl-srv;2641;TCP;HDL Server
+hdl-srv;2641;UDP;HDL Server
+tragic;2642;TCP;Tragic
+tragic;2642;UDP;Tragic
+gte-samp;2643;TCP;GTE-SAMP
+gte-samp;2643;UDP;GTE-SAMP
+travsoft-ipx-t;2644;TCP;Travsoft IPX Tunnel
+travsoft-ipx-t;2644;UDP;Travsoft IPX Tunnel
+novell-ipx-cmd;2645;TCP;Novell IPX CMD
+novell-ipx-cmd;2645;UDP;Novell IPX CMD
+and-lm;2646;TCP;AND License Manager
+and-lm;2646;UDP;AND License Manager
+syncserver;2647;TCP;SyncServer
+syncserver;2647;UDP;SyncServer
+upsnotifyprot;2648;TCP;Upsnotifyprot
+upsnotifyprot;2648;UDP;Upsnotifyprot
+vpsipport;2649;TCP;VPSIPPORT
+vpsipport;2649;UDP;VPSIPPORT
+eristwoguns;2650;TCP;eristwoguns
+eristwoguns;2650;UDP;eristwoguns
+ebinsite;2651;TCP;EBInSite
+ebinsite;2651;UDP;EBInSite
+interpathpanel;2652;TCP;InterPathPanel
+interpathpanel;2652;UDP;InterPathPanel
+sonus;2653;TCP;Sonus
+sonus;2653;UDP;Sonus
+corel-vncadmin;2654;TCP;Corel VNC Admin
+corel_vncadmin;2654;TCP;Corel VNC Admin
+corel-vncadmin;2654;UDP;Corel VNC Admin
+corel_vncadmin;2654;UDP;Corel VNC Admin
+unglue;2655;TCP;UNIX Nt Glue
+unglue;2655;UDP;UNIX Nt Glue
+kana;2656;TCP;Kana
+kana;2656;UDP;Kana
+sns-dispatcher;2657;TCP;SNS Dispatcher
+sns-dispatcher;2657;UDP;SNS Dispatcher
+sns-admin;2658;TCP;SNS Admin
+sns-admin;2658;UDP;SNS Admin
+sns-query;2659;TCP;SNS Query
+sns-query;2659;UDP;SNS Query
+gcmonitor;2660;TCP;GC Monitor
+gcmonitor;2660;UDP;GC Monitor
+olhost;2661;TCP;OLHOST
+olhost;2661;UDP;OLHOST
+bintec-capi;2662;TCP;BinTec-CAPI
+bintec-capi;2662;UDP;BinTec-CAPI
+bintec-tapi;2663;TCP;BinTec-TAPI
+bintec-tapi;2663;UDP;BinTec-TAPI
+patrol-mq-gm;2664;TCP;Patrol for MQ GM
+patrol-mq-gm;2664;UDP;Patrol for MQ GM
+patrol-mq-nm;2665;TCP;Patrol for MQ NM
+patrol-mq-nm;2665;UDP;Patrol for MQ NM
+extensis;2666;TCP;extensis
+extensis;2666;UDP;extensis
+alarm-clock-s;2667;TCP;Alarm Clock Server
+alarm-clock-s;2667;UDP;Alarm Clock Server
+alarm-clock-c;2668;TCP;Alarm Clock Client
+alarm-clock-c;2668;UDP;Alarm Clock Client
+toad;2669;TCP;TOAD
+toad;2669;UDP;TOAD
+tve-announce;2670;TCP;TVE Announce
+tve-announce;2670;UDP;TVE Announce
+newlixreg;2671;TCP;newlixreg
+newlixreg;2671;UDP;newlixreg
+nhserver;2672;TCP;nhserver
+nhserver;2672;UDP;nhserver
+firstcall42;2673;TCP;First Call 42
+firstcall42;2673;UDP;First Call 42
+ewnn;2674;TCP;ewnn
+ewnn;2674;UDP;ewnn
+ttc-etap;2675;TCP;TTC ETAP
+ttc-etap;2675;UDP;TTC ETAP
+simslink;2676;TCP;SIMSLink
+simslink;2676;UDP;SIMSLink
+gadgetgate1way;2677;TCP;Gadget Gate 1 Way
+gadgetgate1way;2677;UDP;Gadget Gate 1 Way
+gadgetgate2way;2678;TCP;Gadget Gate 2 Way
+gadgetgate2way;2678;UDP;Gadget Gate 2 Way
+syncserverssl;2679;TCP;Sync Server SSL
+syncserverssl;2679;UDP;Sync Server SSL
+pxc-sapxom;2680;TCP;pxc-sapxom
+pxc-sapxom;2680;UDP;pxc-sapxom
+mpnjsomb;2681;TCP;mpnjsomb
+mpnjsomb;2681;UDP;mpnjsomb
+Unassigned;2682;UDP;Removed
+ncdloadbalance;2683;TCP;NCDLoadBalance
+ncdloadbalance;2683;UDP;NCDLoadBalance
+mpnjsosv;2684;TCP;mpnjsosv
+mpnjsosv;2684;UDP;mpnjsosv
+mpnjsocl;2685;TCP;mpnjsocl
+mpnjsocl;2685;UDP;mpnjsocl
+mpnjsomg;2686;TCP;mpnjsomg
+mpnjsomg;2686;UDP;mpnjsomg
+pq-lic-mgmt;2687;TCP;pq-lic-mgmt
+pq-lic-mgmt;2687;UDP;pq-lic-mgmt
+md-cg-http;2688;TCP;md-cf-http
+md-cg-http;2688;UDP;md-cf-http
+fastlynx;2689;TCP;FastLynx
+fastlynx;2689;UDP;FastLynx
+hp-nnm-data;2690;TCP;HP NNM Embedded Database
+hp-nnm-data;2690;UDP;HP NNM Embedded Database
+itinternet;2691;TCP;ITInternet ISM Server
+itinternet;2691;UDP;ITInternet ISM Server
+admins-lms;2692;TCP;Admins LMS
+admins-lms;2692;UDP;Admins LMS
+Unassigned;2693;TCP;Unassigned
+Unassigned;2693;UDP;Unassigned
+pwrsevent;2694;TCP;pwrsevent
+pwrsevent;2694;UDP;pwrsevent
+vspread;2695;TCP;VSPREAD
+vspread;2695;UDP;VSPREAD
+unifyadmin;2696;TCP;Unify Admin
+unifyadmin;2696;UDP;Unify Admin
+oce-snmp-trap;2697;TCP;Oce SNMP Trap Port
+oce-snmp-trap;2697;UDP;Oce SNMP Trap Port
+mck-ivpip;2698;TCP;MCK-IVPIP
+mck-ivpip;2698;UDP;MCK-IVPIP
+csoft-plusclnt;2699;TCP;Csoft Plus Client
+csoft-plusclnt;2699;UDP;Csoft Plus Client
+tqdata;2700;TCP;tqdata
+tqdata;2700;UDP;tqdata
+sms-rcinfo;2701;TCP;SMS RCINFO
+sms-rcinfo;2701;UDP;SMS RCINFO
+sms-xfer;2702;TCP;SMS XFER
+sms-xfer;2702;UDP;SMS XFER
+sms-chat;2703;TCP;SMS CHAT
+sms-chat;2703;UDP;SMS CHAT
+sms-remctrl;2704;TCP;SMS REMCTRL
+sms-remctrl;2704;UDP;SMS REMCTRL
+sds-admin;2705;TCP;SDS Admin
+sds-admin;2705;UDP;SDS Admin
+ncdmirroring;2706;TCP;NCD Mirroring
+ncdmirroring;2706;UDP;NCD Mirroring
+emcsymapiport;2707;TCP;EMCSYMAPIPORT
+emcsymapiport;2707;UDP;EMCSYMAPIPORT
+banyan-net;2708;TCP;Banyan-Net
+banyan-net;2708;UDP;Banyan-Net
+supermon;2709;TCP;Supermon
+supermon;2709;UDP;Supermon
+sso-service;2710;TCP;SSO Service
+sso-service;2710;UDP;SSO Service
+sso-control;2711;TCP;SSO Control
+sso-control;2711;UDP;SSO Control
+aocp;2712;TCP;Axapta Object Communication Protocol
+aocp;2712;UDP;Axapta Object Communication Protocol
+raventbs;2713;TCP;Raven Trinity Broker Service
+raventbs;2713;UDP;Raven Trinity Broker Service
+raventdm;2714;TCP;Raven Trinity Data Mover
+raventdm;2714;UDP;Raven Trinity Data Mover
+hpstgmgr2;2715;TCP;HPSTGMGR2
+hpstgmgr2;2715;UDP;HPSTGMGR2
+inova-ip-disco;2716;TCP;Inova IP Disco
+inova-ip-disco;2716;UDP;Inova IP Disco
+pn-requester;2717;TCP;PN REQUESTER
+pn-requester;2717;UDP;PN REQUESTER
+pn-requester2;2718;TCP;PN REQUESTER 2
+pn-requester2;2718;UDP;PN REQUESTER 2
+scan-change;2719;TCP;Scan & Change
+scan-change;2719;UDP;Scan & Change
+wkars;2720;TCP;wkars
+wkars;2720;UDP;wkars
+smart-diagnose;2721;TCP;Smart Diagnose
+smart-diagnose;2721;UDP;Smart Diagnose
+proactivesrvr;2722;TCP;Proactive Server
+proactivesrvr;2722;UDP;Proactive Server
+watchdog-nt;2723;TCP;WatchDog NT Protocol
+watchdog-nt;2723;UDP;WatchDog NT Protocol
+qotps;2724;TCP;qotps
+qotps;2724;UDP;qotps
+msolap-ptp2;2725;TCP;MSOLAP PTP2
+msolap-ptp2;2725;UDP;MSOLAP PTP2
+tams;2726;TCP;TAMS
+tams;2726;UDP;TAMS
+mgcp-callagent;2727;TCP;Media Gateway Control Protocol Call Agent
+mgcp-callagent;2727;UDP;Media Gateway Control Protocol Call Agent
+sqdr;2728;TCP;SQDR
+sqdr;2728;UDP;SQDR
+tcim-control;2729;TCP;TCIM Control
+tcim-control;2729;UDP;TCIM Control
+nec-raidplus;2730;TCP;NEC RaidPlus
+nec-raidplus;2730;UDP;NEC RaidPlus
+fyre-messanger;2731;TCP;Fyre Messanger
+fyre-messanger;2731;UDP;Fyre Messagner
+g5m;2732;TCP;G5M
+g5m;2732;UDP;G5M
+signet-ctf;2733;TCP;Signet CTF
+signet-ctf;2733;UDP;Signet CTF
+ccs-software;2734;TCP;CCS Software
+ccs-software;2734;UDP;CCS Software
+netiq-mc;2735;TCP;NetIQ Monitor Console
+netiq-mc;2735;UDP;NetIQ Monitor Console
+radwiz-nms-srv;2736;TCP;RADWIZ NMS SRV
+radwiz-nms-srv;2736;UDP;RADWIZ NMS SRV
+srp-feedback;2737;TCP;SRP Feedback
+srp-feedback;2737;UDP;SRP Feedback
+ndl-tcp-ois-gw;2738;TCP;NDL TCP-OSI Gateway
+ndl-tcp-ois-gw;2738;UDP;NDL TCP-OSI Gateway
+tn-timing;2739;TCP;TN Timing
+tn-timing;2739;UDP;TN Timing
+alarm;2740;TCP;Alarm
+alarm;2740;UDP;Alarm
+tsb;2741;TCP;TSB
+tsb;2741;UDP;TSB
+tsb2;2742;TCP;TSB2
+tsb2;2742;UDP;TSB2
+murx;2743;TCP;murx
+murx;2743;UDP;murx
+honyaku;2744;TCP;honyaku
+honyaku;2744;UDP;honyaku
+urbisnet;2745;TCP;URBISNET
+urbisnet;2745;UDP;URBISNET
+cpudpencap;2746;TCP;CPUDPENCAP
+cpudpencap;2746;UDP;CPUDPENCAP
+fjippol-swrly;2747;TCP;Unassigned
+fjippol-swrly;2747;UDP;Unassigned
+fjippol-polsvr;2748;TCP;Unassigned
+fjippol-polsvr;2748;UDP;Unassigned
+fjippol-cnsl;2749;TCP;Unassigned
+fjippol-cnsl;2749;UDP;Unassigned
+fjippol-port1;2750;TCP;Unassigned
+fjippol-port1;2750;UDP;Unassigned
+fjippol-port2;2751;TCP;Unassigned
+fjippol-port2;2751;UDP;Unassigned
+rsisysaccess;2752;TCP;RSISYS ACCESS
+rsisysaccess;2752;UDP;RSISYS ACCESS
+de-spot;2753;TCP;de-spot
+de-spot;2753;UDP;de-spot
+apollo-cc;2754;TCP;APOLLO CC
+apollo-cc;2754;UDP;APOLLO CC
+expresspay;2755;TCP;Express Pay
+expresspay;2755;UDP;Express Pay
+simplement-tie;2756;TCP;simplement-tie
+simplement-tie;2756;UDP;simplement-tie
+cnrp;2757;TCP;CNRP
+cnrp;2757;UDP;CNRP
+apollo-status;2758;TCP;APOLLO Status
+apollo-status;2758;UDP;APOLLO Status
+apollo-gms;2759;TCP;APOLLO GMS
+apollo-gms;2759;UDP;APOLLO GMS
+sabams;2760;TCP;Saba MS
+sabams;2760;UDP;Saba MS
+dicom-iscl;2761;TCP;DICOM ISCL
+dicom-iscl;2761;UDP;DICOM ISCL
+dicom-tls;2762;TCP;DICOM TLS
+dicom-tls;2762;UDP;DICOM TLS
+desktop-dna;2763;TCP;Desktop DNA
+desktop-dna;2763;UDP;Desktop DNA
+data-insurance;2764;TCP;Data Insurance
+data-insurance;2764;UDP;Data Insurance
+qip-audup;2765;TCP;qip-audup
+qip-audup;2765;UDP;qip-audup
+compaq-scp;2766;TCP;Compaq SCP
+compaq-scp;2766;UDP;Compaq SCP
+uadtc;2767;TCP;UADTC
+uadtc;2767;UDP;UADTC
+uacs;2768;TCP;UACS
+uacs;2768;UDP;UACS
+exce;2769;TCP;eXcE
+exce;2769;UDP;eXcE
+veronica;2770;TCP;Veronica
+veronica;2770;UDP;Veronica
+vergencecm;2771;TCP;Vergence CM
+vergencecm;2771;UDP;Vergence CM
+auris;2772;TCP;auris
+auris;2772;UDP;auris
+rbakcup1;2773;TCP;RBackup Remote Backup
+rbakcup1;2773;UDP;RBackup Remote Backup
+rbakcup2;2774;TCP;RBackup Remote Backup
+rbakcup2;2774;UDP;RBackup Remote Backup
+smpp;2775;TCP;SMPP
+smpp;2775;UDP;SMPP
+ridgeway1;2776;TCP;Ridgeway Systems & Software
+ridgeway1;2776;UDP;Ridgeway Systems & Software
+ridgeway2;2777;TCP;Ridgeway Systems & Software
+ridgeway2;2777;UDP;Ridgeway Systems & Software
+gwen-sonya;2778;TCP;Gwen-Sonya
+gwen-sonya;2778;UDP;Gwen-Sonya
+lbc-sync;2779;TCP;LBC Sync
+lbc-sync;2779;UDP;LBC Sync
+lbc-control;2780;TCP;LBC Control
+lbc-control;2780;UDP;LBC Control
+whosells;2781;TCP;whosells
+whosells;2781;UDP;whosells
+everydayrc;2782;TCP;everydayrc
+everydayrc;2782;UDP;everydayrc
+aises;2783;TCP;AISES
+aises;2783;UDP;AISES
+www-dev;2784;TCP;world wide web - development
+www-dev;2784;UDP;world wide web - development
+aic-np;2785;TCP;aic-np
+aic-np;2785;UDP;aic-np
+aic-oncrpc;2786;TCP;aic-oncrpc - Destiny MCD database
+aic-oncrpc;2786;UDP;aic-oncrpc - Destiny MCD database
+piccolo;2787;TCP;piccolo - Cornerstone Software
+piccolo;2787;UDP;piccolo - Cornerstone Software
+fryeserv;2788;TCP;NetWare Loadable Module - Seagate Software
+fryeserv;2788;UDP;NetWare Loadable Module - Seagate Software
+media-agent;2789;TCP;Media Agent
+media-agent;2789;UDP;Media Agent
+plgproxy;2790;TCP;PLG Proxy
+plgproxy;2790;UDP;PLG Proxy
+mtport-regist;2791;TCP;MT Port Registrator
+mtport-regist;2791;UDP;MT Port Registrator
+f5-globalsite;2792;TCP;f5-globalsite
+f5-globalsite;2792;UDP;f5-globalsite
+initlsmsad;2793;TCP;initlsmsad
+initlsmsad;2793;UDP;initlsmsad
+Unassigned;2794;UDP;Unassigned
+livestats;2795;TCP;LiveStats
+livestats;2795;UDP;LiveStats
+ac-tech;2796;TCP;ac-tech
+ac-tech;2796;UDP;ac-tech
+esp-encap;2797;TCP;esp-encap
+esp-encap;2797;UDP;esp-encap
+tmesis-upshot;2798;TCP;TMESIS-UPShot
+tmesis-upshot;2798;UDP;TMESIS-UPShot
+icon-discover;2799;TCP;ICON Discover
+icon-discover;2799;UDP;ICON Discover
+acc-raid;2800;TCP;ACC RAID
+acc-raid;2800;UDP;ACC RAID
+igcp;2801;TCP;IGCP
+igcp;2801;UDP;IGCP
+veritas-tcp1;2802;TCP;Veritas TCP1
+veritas-udp1;2802;UDP;Veritas UDP1
+btprjctrl;2803;TCP;btprjctrl
+btprjctrl;2803;UDP;btprjctrl
+dvr-esm;2804;TCP;March Networks Digital Video Recorders and Enterprise Service Manager products
+dvr-esm;2804;UDP;March Networks Digital Video Recorders and Enterprise Service Manager products
+wta-wsp-s;2805;TCP;WTA WSP-S
+wta-wsp-s;2805;UDP;WTA WSP-S
+cspuni;2806;TCP;cspuni
+cspuni;2806;UDP;cspuni
+cspmulti;2807;TCP;cspmulti
+cspmulti;2807;UDP;cspmulti
+j-lan-p;2808;TCP;J-LAN-P
+j-lan-p;2808;UDP;J-LAN-P
+corbaloc;2809;TCP;CORBA LOC
+corbaloc;2809;UDP;CORBA LOC
+netsteward;2810;TCP;Active Net Steward
+netsteward;2810;UDP;Active Net Steward
+gsiftp;2811;TCP;GSI FTP
+gsiftp;2811;UDP;GSI FTP
+atmtcp;2812;TCP;atmtcp
+atmtcp;2812;UDP;atmtcp
+llm-pass;2813;TCP;llm-pass
+llm-pass;2813;UDP;llm-pass
+llm-csv;2814;TCP;llm-csv
+llm-csv;2814;UDP;llm-csv
+lbc-measure;2815;TCP;LBC Measurement
+lbc-measure;2815;UDP;LBC Measurement
+lbc-watchdog;2816;TCP;LBC Watchdog
+lbc-watchdog;2816;UDP;LBC Watchdog
+nmsigport;2817;TCP;NMSig Port
+nmsigport;2817;UDP;NMSig Port
+rmlnk;2818;TCP;rmlnk
+rmlnk;2818;UDP;rmlnk
+fc-faultnotify;2819;TCP;FC Fault Notification
+fc-faultnotify;2819;UDP;FC Fault Notification
+univision;2820;TCP;UniVision
+univision;2820;UDP;UniVision
+vrts-at-port;2821;TCP;VERITAS Authentication Service
+vrts-at-port;2821;UDP;VERITAS Authentication Service
+ka0wuc;2822;TCP;ka0wuc
+ka0wuc;2822;UDP;ka0wuc
+cqg-netlan;2823;TCP;CQG Net/LAN
+cqg-netlan;2823;UDP;CQG Net/LAN
+cqg-netlan-1;2824;TCP;CQG Net/LAN 1
+cqg-netlan-1;2824;UDP;CQG Net/Lan 1
+Unassigned;2825;UDP;(unassigned) Possibly assigned
+slc-systemlog;2826;TCP;slc systemlog
+slc-systemlog;2826;UDP;slc systemlog
+slc-ctrlrloops;2827;TCP;slc ctrlrloops
+slc-ctrlrloops;2827;UDP;slc ctrlrloops
+itm-lm;2828;TCP;ITM License Manager
+itm-lm;2828;UDP;ITM License Manager
+silkp1;2829;TCP;silkp1
+silkp1;2829;UDP;silkp1
+silkp2;2830;TCP;silkp2
+silkp2;2830;UDP;silkp2
+silkp3;2831;TCP;silkp3
+silkp3;2831;UDP;silkp3
+silkp4;2832;TCP;silkp4
+silkp4;2832;UDP;silkp4
+glishd;2833;TCP;glishd
+glishd;2833;UDP;glishd
+evtp;2834;TCP;EVTP
+evtp;2834;UDP;EVTP
+evtp-data;2835;TCP;EVTP-DATA
+evtp-data;2835;UDP;EVTP-DATA
+catalyst;2836;TCP;catalyst
+catalyst;2836;UDP;catalyst
+repliweb;2837;TCP;Repliweb
+repliweb;2837;UDP;Repliweb
+starbot;2838;TCP;Starbot
+starbot;2838;UDP;Starbot
+nmsigport;2839;TCP;NMSigPort
+nmsigport;2839;UDP;NMSigPort
+l3-exprt;2840;TCP;l3-exprt
+l3-exprt;2840;UDP;l3-exprt
+l3-ranger;2841;TCP;l3-ranger
+l3-ranger;2841;UDP;l3-ranger
+l3-hawk;2842;TCP;l3-hawk
+l3-hawk;2842;UDP;l3-hawk
+pdnet;2843;TCP;PDnet
+pdnet;2843;UDP;PDnet
+bpcp-poll;2844;TCP;BPCP POLL
+bpcp-poll;2844;UDP;BPCP POLL
+bpcp-trap;2845;TCP;BPCP TRAP
+bpcp-trap;2845;UDP;BPCP TRAP
+aimpp-hello;2846;TCP;AIMPP Hello
+aimpp-hello;2846;UDP;AIMPP Hello
+aimpp-port-req;2847;TCP;AIMPP Port Req
+aimpp-port-req;2847;UDP;AIMPP Port Req
+amt-blc-port;2848;TCP;AMT-BLC-PORT
+amt-blc-port;2848;UDP;AMT-BLC-PORT
+fxp;2849;TCP;FXP
+fxp;2849;UDP;FXP
+metaconsole;2850;TCP;MetaConsole
+metaconsole;2850;UDP;MetaConsole
+webemshttp;2851;TCP;webemshttp
+webemshttp;2851;UDP;webemshttp
+bears-01;2852;TCP;bears-01
+bears-01;2852;UDP;bears-01
+ispipes;2853;TCP;ISPipes
+ispipes;2853;UDP;ISPipes
+infomover;2854;TCP;InfoMover
+infomover;2854;UDP;InfoMover
+msrp;2855;TCP;MSRP over TCP
+Unassigned;2855;UDP;Reserved
+cesdinv;2856;TCP;cesdinv
+cesdinv;2856;UDP;cesdinv
+simctlp;2857;TCP;SimCtIP
+simctlp;2857;UDP;SimCtIP
+ecnp;2858;TCP;ECNP
+ecnp;2858;UDP;ECNP
+activememory;2859;TCP;Active Memory
+activememory;2859;UDP;Active Memory
+dialpad-voice1;2860;TCP;Dialpad Voice 1
+dialpad-voice1;2860;UDP;Dialpad Voice 1
+dialpad-voice2;2861;TCP;Dialpad Voice 2
+dialpad-voice2;2861;UDP;Dialpad Voice 2
+ttg-protocol;2862;TCP;TTG Protocol
+ttg-protocol;2862;UDP;TTG Protocol
+sonardata;2863;TCP;Sonar Data
+sonardata;2863;UDP;Sonar Data
+astromed-main;2864;TCP;main 5001 cmd
+astromed-main;2864;UDP;main 5001 cmd
+pit-vpn;2865;TCP;pit-vpn
+pit-vpn;2865;UDP;pit-vpn
+iwlistener;2866;TCP;iwlistener
+iwlistener;2866;UDP;iwlistener
+esps-portal;2867;TCP;esps-portal
+esps-portal;2867;UDP;esps-portal
+npep-messaging;2868;TCP;Norman Proprietaqry Events Protocol
+npep-messaging;2868;UDP;Norman Proprietaqry Events Protocol
+icslap;2869;TCP;ICSLAP
+icslap;2869;UDP;ICSLAP
+daishi;2870;TCP;daishi
+daishi;2870;UDP;daishi
+msi-selectplay;2871;TCP;MSI Select Play
+msi-selectplay;2871;UDP;MSI Select Play
+radix;2872;TCP;RADIX
+radix;2872;UDP;RADIX
+Unassigned;2873;UDP;Unassigned
+dxmessagebase1;2874;TCP;DX Message Base Transport Protocol
+dxmessagebase1;2874;UDP;DX Message Base Transport Protocol
+dxmessagebase2;2875;TCP;DX Message Base Transport Protocol
+dxmessagebase2;2875;UDP;DX Message Base Transport Protocol
+sps-tunnel;2876;TCP;SPS Tunnel
+sps-tunnel;2876;UDP;SPS Tunnel
+bluelance;2877;TCP;BLUELANCE
+bluelance;2877;UDP;BLUELANCE
+aap;2878;TCP;AAP
+aap;2878;UDP;AAP
+ucentric-ds;2879;TCP;ucentric-ds
+ucentric-ds;2879;UDP;ucentric-ds
+synapse;2880;TCP;Synapse Transport
+synapse;2880;UDP;Synapse Transport
+ndsp;2881;TCP;NDSP
+ndsp;2881;UDP;NDSP
+ndtp;2882;TCP;NDTP
+ndtp;2882;UDP;NDTP
+ndnp;2883;TCP;NDNP
+ndnp;2883;UDP;NDNP
+flashmsg;2884;TCP;Flash Msg
+flashmsg;2884;UDP;Flash Msg
+topflow;2885;TCP;TopFlow
+topflow;2885;UDP;TopFlow
+responselogic;2886;TCP;RESPONSELOGIC
+responselogic;2886;UDP;RESPONSELOGIC
+aironetddp;2887;TCP;aironet
+aironetddp;2887;UDP;aironet
+spcsdlobby;2888;TCP;SPCSDLOBBY
+spcsdlobby;2888;UDP;SPCSDLOBBY
+rsom;2889;TCP;RSOM
+rsom;2889;UDP;RSOM
+cspclmulti;2890;TCP;CSPCLMULTI
+cspclmulti;2890;UDP;CSPCLMULTI
+cinegrfx-elmd;2891;TCP;CINEGRFX-ELMD License Manager
+cinegrfx-elmd;2891;UDP;CINEGRFX-ELMD License Manager
+snifferdata;2892;TCP;SNIFFERDATA
+snifferdata;2892;UDP;SNIFFERDATA
+vseconnector;2893;TCP;VSECONNECTOR
+vseconnector;2893;UDP;VSECONNECTOR
+abacus-remote;2894;TCP;ABACUS-REMOTE
+abacus-remote;2894;UDP;ABACUS-REMOTE
+natuslink;2895;TCP;NATUS LINK
+natuslink;2895;UDP;NATUS LINK
+ecovisiong6-1;2896;TCP;ECOVISIONG6-1
+ecovisiong6-1;2896;UDP;ECOVISIONG6-1
+citrix-rtmp;2897;TCP;Citrix RTMP
+citrix-rtmp;2897;UDP;Citrix RTMP
+appliance-cfg;2898;TCP;APPLIANCE-CFG
+appliance-cfg;2898;UDP;APPLIANCE-CFG
+powergemplus;2899;TCP;POWERGEMPLUS
+powergemplus;2899;UDP;POWERGEMPLUS
+quicksuite;2900;TCP;QUICKSUITE
+quicksuite;2900;UDP;QUICKSUITE
+allstorcns;2901;TCP;ALLSTORCNS
+allstorcns;2901;UDP;ALLSTORCNS
+netaspi;2902;TCP;NET ASPI
+netaspi;2902;UDP;NET ASPI
+suitcase;2903;TCP;SUITCASE
+suitcase;2903;UDP;SUITCASE
+m2ua;2904;UDP;M2UA
+m2ua;2904;TCP;M2UA
+m2ua;2904;UDP;M2UA
+m3ua;2905;UDP;M3UA
+m3ua;2905;TCP;M3UA
+Unassigned;2905;UDP;De-registered
+caller9;2906;TCP;CALLER9
+caller9;2906;UDP;CALLER9
+webmethods-b2b;2907;TCP;WEBMETHODS B2B
+webmethods-b2b;2907;UDP;WEBMETHODS B2B
+mao;2908;TCP;mao
+mao;2908;UDP;mao
+funk-dialout;2909;TCP;Funk Dialout
+funk-dialout;2909;UDP;Funk Dialout
+tdaccess;2910;TCP;TDAccess
+tdaccess;2910;UDP;TDAccess
+blockade;2911;TCP;Blockade
+blockade;2911;UDP;Blockade
+epicon;2912;TCP;Epicon
+epicon;2912;UDP;Epicon
+boosterware;2913;TCP;Booster Ware
+boosterware;2913;UDP;Booster Ware
+gamelobby;2914;TCP;Game Lobby
+gamelobby;2914;UDP;Game Lobby
+tksocket;2915;TCP;TK Socket
+tksocket;2915;UDP;TK Socket
+elvin-server;2916;TCP;Elvin Server
+elvin_server;2916;TCP;Elvin Server
+elvin-server;2916;UDP;Elvin Server
+elvin_server;2916;UDP;Elvin Server
+elvin-client;2917;TCP;Elvin Client
+elvin_client;2917;TCP;Elvin Client
+elvin-client;2917;UDP;Elvin Client
+elvin_client;2917;UDP;Elvin Client
+kastenchasepad;2918;TCP;Kasten Chase Pad
+kastenchasepad;2918;UDP;Kasten Chase Pad
+roboer;2919;TCP;roboER
+roboer;2919;UDP;roboER
+roboeda;2920;TCP;roboEDA
+roboeda;2920;UDP;roboEDA
+cesdcdman;2921;TCP;CESD Contents Delivery Management
+cesdcdman;2921;UDP;CESD Contents Delivery Management
+cesdcdtrn;2922;TCP;CESD Contents Delivery Data Transfer
+cesdcdtrn;2922;UDP;CESD Contents Delivery Data Transfer
+wta-wsp-wtp-s;2923;TCP;WTA-WSP-WTP-S
+wta-wsp-wtp-s;2923;UDP;WTA-WSP-WTP-S
+precise-vip;2924;TCP;PRECISE-VIP
+precise-vip;2924;UDP;PRECISE-VIP
+Unassigned;2925;UDP;Unassigned (FRP-Released 12/7/00)
+mobile-file-dl;2926;TCP;MOBILE-FILE-DL
+mobile-file-dl;2926;UDP;MOBILE-FILE-DL
+unimobilectrl;2927;TCP;UNIMOBILECTRL
+unimobilectrl;2927;UDP;UNIMOBILECTRL
+redstone-cpss;2928;TCP;REDSTONE-CPSS
+redstone-cpss;2928;UDP;REDSTONE-CPSS
+amx-webadmin;2929;TCP;AMX-WEBADMIN
+amx-webadmin;2929;UDP;AMX-WEBADMIN
+amx-weblinx;2930;TCP;AMX-WEBLINX
+amx-weblinx;2930;UDP;AMX-WEBLINX
+circle-x;2931;TCP;Circle-X
+circle-x;2931;UDP;Circle-X
+incp;2932;TCP;INCP
+incp;2932;UDP;INCP
+4-tieropmgw;2933;TCP;4-TIER OPM GW
+4-tieropmgw;2933;UDP;4-TIER OPM GW
+4-tieropmcli;2934;TCP;4-TIER OPM CLI
+4-tieropmcli;2934;UDP;4-TIER OPM CLI
+qtp;2935;TCP;QTP
+qtp;2935;UDP;QTP
+otpatch;2936;TCP;OTPatch
+otpatch;2936;UDP;OTPatch
+pnaconsult-lm;2937;TCP;PNACONSULT-LM
+pnaconsult-lm;2937;UDP;PNACONSULT-LM
+sm-pas-1;2938;TCP;SM-PAS-1
+sm-pas-1;2938;UDP;SM-PAS-1
+sm-pas-2;2939;TCP;SM-PAS-2
+sm-pas-2;2939;UDP;SM-PAS-2
+sm-pas-3;2940;TCP;SM-PAS-3
+sm-pas-3;2940;UDP;SM-PAS-3
+sm-pas-4;2941;TCP;SM-PAS-4
+sm-pas-4;2941;UDP;SM-PAS-4
+sm-pas-5;2942;TCP;SM-PAS-5
+sm-pas-5;2942;UDP;SM-PAS-5
+ttnrepository;2943;TCP;TTNRepository
+ttnrepository;2943;UDP;TTNRepository
+megaco-h248;2944;UDP;Megaco-H.248 text
+megaco-h248;2944;TCP;Megaco H-248
+megaco-h248;2944;UDP;Megaco H-248
+h248-binary;2945;UDP;Megaco/H.248 binary
+h248-binary;2945;TCP;H248 Binary
+h248-binary;2945;UDP;H248 Binary
+fjsvmpor;2946;TCP;FJSVmpor
+fjsvmpor;2946;UDP;FJSVmpor
+gpsd;2947;TCP;GPS Daemon request/response protocol
+gpsd;2947;UDP;GPS Daemon request/response protocol
+wap-push;2948;TCP;WAP PUSH
+wap-push;2948;UDP;WAP PUSH
+wap-pushsecure;2949;TCP;WAP PUSH SECURE
+wap-pushsecure;2949;UDP;WAP PUSH SECURE
+esip;2950;TCP;ESIP
+esip;2950;UDP;ESIP
+ottp;2951;TCP;OTTP
+ottp;2951;UDP;OTTP
+mpfwsas;2952;TCP;MPFWSAS
+mpfwsas;2952;UDP;MPFWSAS
+ovalarmsrv;2953;TCP;OVALARMSRV
+ovalarmsrv;2953;UDP;OVALARMSRV
+ovalarmsrv-cmd;2954;TCP;OVALARMSRV-CMD
+ovalarmsrv-cmd;2954;UDP;OVALARMSRV-CMD
+csnotify;2955;TCP;CSNOTIFY
+csnotify;2955;UDP;CSNOTIFY
+ovrimosdbman;2956;TCP;OVRIMOSDBMAN
+ovrimosdbman;2956;UDP;OVRIMOSDBMAN
+jmact5;2957;TCP;JAMCT5
+jmact5;2957;UDP;JAMCT5
+jmact6;2958;TCP;JAMCT6
+jmact6;2958;UDP;JAMCT6
+rmopagt;2959;TCP;RMOPAGT
+rmopagt;2959;UDP;RMOPAGT
+dfoxserver;2960;TCP;DFOXSERVER
+dfoxserver;2960;UDP;DFOXSERVER
+boldsoft-lm;2961;TCP;BOLDSOFT-LM
+boldsoft-lm;2961;UDP;BOLDSOFT-LM
+iph-policy-cli;2962;TCP;IPH-POLICY-CLI
+iph-policy-cli;2962;UDP;IPH-POLICY-CLI
+iph-policy-adm;2963;TCP;IPH-POLICY-ADM
+iph-policy-adm;2963;UDP;IPH-POLICY-ADM
+bullant-srap;2964;TCP;BULLANT SRAP
+bullant-srap;2964;UDP;BULLANT SRAP
+bullant-rap;2965;TCP;BULLANT RAP
+bullant-rap;2965;UDP;BULLANT RAP
+idp-infotrieve;2966;TCP;IDP-INFOTRIEVE
+idp-infotrieve;2966;UDP;IDP-INFOTRIEVE
+ssc-agent;2967;TCP;SSC-AGENT
+ssc-agent;2967;UDP;SSC-AGENT
+enpp;2968;TCP;ENPP
+enpp;2968;UDP;ENPP
+essp;2969;TCP;ESSP
+essp;2969;UDP;ESSP
+index-net;2970;TCP;INDEX-NET
+index-net;2970;UDP;INDEX-NET
+netclip;2971;TCP;NetClip clipboard daemon
+netclip;2971;UDP;NetClip clipboard daemon
+pmsm-webrctl;2972;TCP;PMSM Webrctl
+pmsm-webrctl;2972;UDP;PMSM Webrctl
+svnetworks;2973;TCP;SV Networks
+svnetworks;2973;UDP;SV Networks
+signal;2974;TCP;Signal
+signal;2974;UDP;Signal
+fjmpcm;2975;TCP;Fujitsu Configuration Management Service
+fjmpcm;2975;UDP;Fujitsu Configuration Management Service
+cns-srv-port;2976;TCP;CNS Server Port
+cns-srv-port;2976;UDP;CNS Server Port
+ttc-etap-ns;2977;TCP;TTCs Enterprise Test Access Protocol - NS
+ttc-etap-ns;2977;UDP;TTCs Enterprise Test Access Protocol - NS
+ttc-etap-ds;2978;TCP;TTCs Enterprise Test Access Protocol - DS
+ttc-etap-ds;2978;UDP;TTCs Enterprise Test Access Protocol - DS
+h263-video;2979;TCP;H.263 Video Streaming
+h263-video;2979;UDP;H.263 Video Streaming
+wimd;2980;TCP;Instant Messaging Service
+wimd;2980;UDP;Instant Messaging Service
+mylxamport;2981;TCP;MYLXAMPORT
+mylxamport;2981;UDP;MYLXAMPORT
+iwb-whiteboard;2982;TCP;IWB-WHITEBOARD
+iwb-whiteboard;2982;UDP;IWB-WHITEBOARD
+netplan;2983;TCP;NETPLAN
+netplan;2983;UDP;NETPLAN
+hpidsadmin;2984;TCP;HPIDSADMIN
+hpidsadmin;2984;UDP;HPIDSADMIN
+hpidsagent;2985;TCP;HPIDSAGENT
+hpidsagent;2985;UDP;HPIDSAGENT
+stonefalls;2986;TCP;STONEFALLS
+stonefalls;2986;UDP;STONEFALLS
+identify;2987;TCP;identify
+identify;2987;UDP;identify
+hippad;2988;TCP;HIPPA Reporting Protocol
+hippad;2988;UDP;HIPPA Reporting Protocol
+zarkov;2989;TCP;ZARKOV Intelligent Agent Communication
+zarkov;2989;UDP;ZARKOV Intelligent Agent Communication
+boscap;2990;TCP;BOSCAP
+boscap;2990;UDP;BOSCAP
+wkstn-mon;2991;TCP;WKSTN-MON
+wkstn-mon;2991;UDP;WKSTN-MON
+avenyo;2992;TCP;Avenyo Server
+avenyo;2992;UDP;Avenyo Server
+veritas-vis1;2993;TCP;VERITAS VIS1
+veritas-vis1;2993;UDP;VERITAS VIS1
+veritas-vis2;2994;TCP;VERITAS VIS2
+veritas-vis2;2994;UDP;VERITAS VIS2
+idrs;2995;TCP;IDRS
+idrs;2995;UDP;IDRS
+vsixml;2996;TCP;vsixml
+vsixml;2996;UDP;vsixml
+rebol;2997;TCP;REBOL
+rebol;2997;UDP;REBOL
+realsecure;2998;TCP;Real Secure
+realsecure;2998;UDP;Real Secure
+remoteware-un;2999;TCP;RemoteWare Unassigned
+remoteware-un;2999;UDP;RemoteWare Unassigned
+hbci;3000;TCP;HBCI
+remoteware-cl;3000;TCP;RemoteWare Client
+hbci;3000;UDP;HBCI
+remoteware-cl;3000;UDP;RemoteWare Client

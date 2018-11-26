@@ -1,0 +1,1008 @@
+origo-native;3001;TCP;OrigoDB Server Native Interface
+Unassigned;3001;UDP;Reserved
+exlm-agent;3002;TCP;EXLM Agent
+remoteware-srv;3002;TCP;RemoteWare Server
+exlm-agent;3002;UDP;EXLM Agent
+remoteware-srv;3002;UDP;RemoteWare Server
+cgms;3003;TCP;CGMS
+cgms;3003;UDP;CGMS
+csoftragent;3004;TCP;Csoft Agent
+csoftragent;3004;UDP;Csoft Agent
+geniuslm;3005;TCP;Genius License Manager
+geniuslm;3005;UDP;Genius License Manager
+ii-admin;3006;TCP;Instant Internet Admin
+ii-admin;3006;UDP;Instant Internet Admin
+lotusmtap;3007;TCP;Lotus Mail Tracking Agent Protocol
+lotusmtap;3007;UDP;Lotus Mail Tracking Agent Protocol
+midnight-tech;3008;TCP;Midnight Technologies
+midnight-tech;3008;UDP;Midnight Technologies
+pxc-ntfy;3009;TCP;PXC-NTFY
+pxc-ntfy;3009;UDP;PXC-NTFY
+gw;3010;TCP;Telerate Workstation
+ping-pong;3010;UDP;Telerate Workstation
+trusted-web;3011;TCP;Trusted Web
+trusted-web;3011;UDP;Trusted Web
+twsdss;3012;TCP;Trusted Web Client
+twsdss;3012;UDP;Trusted Web Client
+gilatskysurfer;3013;TCP;Gilat Sky Surfer
+gilatskysurfer;3013;UDP;Gilat Sky Surfer
+broker-service;3014;TCP;Broker Service
+broker_service;3014;TCP;Broker Service
+broker-service;3014;UDP;Broker Service
+broker_service;3014;UDP;Broker Service
+nati-dstp;3015;TCP;NATI DSTP
+nati-dstp;3015;UDP;NATI DSTP
+notify-srvr;3016;TCP;Notify Server
+notify_srvr;3016;TCP;Notify Server
+notify-srvr;3016;UDP;Notify Server
+notify_srvr;3016;UDP;Notify Server
+event-listener;3017;TCP;Event Listener
+event_listener;3017;TCP;Event Listener
+event-listener;3017;UDP;Event Listener
+event_listener;3017;UDP;Event Listener
+srvc-registry;3018;TCP;Service Registry
+srvc_registry;3018;TCP;Service Registry
+srvc-registry;3018;UDP;Service Registry
+srvc_registry;3018;UDP;Service Registry
+resource-mgr;3019;TCP;Resource Manager
+resource_mgr;3019;TCP;Resource Manager
+resource-mgr;3019;UDP;Resource Manager
+resource_mgr;3019;UDP;Resource Manager
+cifs;3020;TCP;CIFS
+cifs;3020;UDP;CIFS
+agriserver;3021;TCP;AGRI Server
+agriserver;3021;UDP;AGRI Server
+csregagent;3022;TCP;CSREGAGENT
+csregagent;3022;UDP;CSREGAGENT
+magicnotes;3023;TCP;magicnotes
+magicnotes;3023;UDP;magicnotes
+nds-sso;3024;TCP;NDS_SSO
+nds_sso;3024;TCP;NDS_SSO
+nds-sso;3024;UDP;NDS_SSO
+nds_sso;3024;UDP;NDS_SSO
+arepa-raft;3025;TCP;Arepa Raft
+arepa-raft;3025;UDP;Arepa Raft
+agri-gateway;3026;TCP;AGRI Gateway
+agri-gateway;3026;UDP;AGRI Gateway
+LiebDevMgmt-C;3027;TCP;LiebDevMgmt_C
+LiebDevMgmt_C;3027;TCP;LiebDevMgmt_C
+LiebDevMgmt-C;3027;UDP;LiebDevMgmt_C
+LiebDevMgmt_C;3027;UDP;LiebDevMgmt_C
+LiebDevMgmt-DM;3028;TCP;LiebDevMgmt_DM
+LiebDevMgmt_DM;3028;TCP;LiebDevMgmt_DM
+LiebDevMgmt-DM;3028;UDP;LiebDevMgmt_DM
+LiebDevMgmt_DM;3028;UDP;LiebDevMgmt_DM
+LiebDevMgmt-A;3029;TCP;LiebDevMgmt_A
+LiebDevMgmt_A;3029;TCP;LiebDevMgmt_A
+LiebDevMgmt-A;3029;UDP;LiebDevMgmt_A
+LiebDevMgmt_A;3029;UDP;LiebDevMgmt_A
+arepa-cas;3030;TCP;Arepa Cas
+arepa-cas;3030;UDP;Arepa Cas
+eppc;3031;TCP;Remote AppleEvents/PPC Toolbox
+eppc;3031;UDP;Remote AppleEvents/PPC Toolbox
+redwood-chat;3032;TCP;Redwood Chat
+redwood-chat;3032;UDP;Redwood Chat
+pdb;3033;TCP;PDB
+pdb;3033;UDP;PDB
+osmosis-aeea;3034;TCP;Osmosis / Helix (R) AEEA Port
+osmosis-aeea;3034;UDP;Osmosis / Helix (R) AEEA Port
+fjsv-gssagt;3035;TCP;FJSV gssagt
+fjsv-gssagt;3035;UDP;FJSV gssagt
+hagel-dump;3036;TCP;Hagel DUMP
+hagel-dump;3036;UDP;Hagel DUMP
+hp-san-mgmt;3037;TCP;HP SAN Mgmt
+hp-san-mgmt;3037;UDP;HP SAN Mgmt
+santak-ups;3038;TCP;Santak UPS
+santak-ups;3038;UDP;Santak UPS
+cogitate;3039;TCP;Cogitate, Inc.
+cogitate;3039;UDP;Cogitate, Inc.
+tomato-springs;3040;TCP;Tomato Springs
+tomato-springs;3040;UDP;Tomato Springs
+di-traceware;3041;TCP;di-traceware
+di-traceware;3041;UDP;di-traceware
+journee;3042;TCP;journee
+journee;3042;UDP;journee
+brp;3043;TCP;Broadcast Routing Protocol
+brp;3043;UDP;Broadcast Routing Protocol
+epp;3044;TCP;EndPoint Protocol
+epp;3044;UDP;EndPoint Protocol
+responsenet;3045;TCP;ResponseNet
+responsenet;3045;UDP;ResponseNet
+di-ase;3046;TCP;di-ase
+di-ase;3046;UDP;di-ase
+hlserver;3047;TCP;Fast Security HL Server
+hlserver;3047;UDP;Fast Security HL Server
+pctrader;3048;TCP;Sierra Net PC Trader
+pctrader;3048;UDP;Sierra Net PC Trader
+nsws;3049;TCP;NSWS
+nsws;3049;UDP;NSWS
+gds-db;3050;TCP;gds_db
+gds_db;3050;TCP;gds_db
+gds-db;3050;UDP;gds_db
+gds_db;3050;UDP;gds_db
+galaxy-server;3051;TCP;Galaxy Server
+galaxy-server;3051;UDP;Galaxy Server
+apc-3052;3052;TCP;APC 3052
+apc-3052;3052;UDP;APC 3052
+dsom-server;3053;TCP;dsom-server
+dsom-server;3053;UDP;dsom-server
+amt-cnf-prot;3054;TCP;AMT CNF PROT
+amt-cnf-prot;3054;UDP;AMT CNF PROT
+policyserver;3055;TCP;Policy Server
+policyserver;3055;UDP;Policy Server
+cdl-server;3056;TCP;CDL Server
+cdl-server;3056;UDP;CDL Server
+goahead-fldup;3057;TCP;GoAhead FldUp
+goahead-fldup;3057;UDP;GoAhead FldUp
+videobeans;3058;TCP;videobeans
+videobeans;3058;UDP;videobeans
+qsoft;3059;TCP;qsoft
+qsoft;3059;UDP;qsoft
+interserver;3060;TCP;interserver
+interserver;3060;UDP;interserver
+cautcpd;3061;TCP;cautcpd
+cautcpd;3061;UDP;cautcpd
+ncacn-ip-tcp;3062;TCP;ncacn-ip-tcp
+ncacn-ip-tcp;3062;UDP;ncacn-ip-tcp
+ncadg-ip-udp;3063;TCP;ncadg-ip-udp
+ncadg-ip-udp;3063;UDP;ncadg-ip-udp
+rprt;3064;TCP;Remote Port Redirector
+rprt;3064;UDP;Remote Port Redirector
+slinterbase;3065;TCP;slinterbase
+slinterbase;3065;UDP;slinterbase
+netattachsdmp;3066;TCP;NETATTACHSDMP
+netattachsdmp;3066;UDP;NETATTACHSDMP
+fjhpjp;3067;TCP;FJHPJP
+fjhpjp;3067;UDP;FJHPJP
+ls3bcast;3068;TCP;ls3 Broadcast
+ls3bcast;3068;UDP;ls3 Broadcast
+ls3;3069;TCP;ls3
+ls3;3069;UDP;ls3
+mgxswitch;3070;TCP;MGXSWITCH
+mgxswitch;3070;UDP;MGXSWITCH
+xplat-replicate;3071;TCP;Crossplatform replication protocol
+Unassigned;3071;UDP;Reserved
+csd-monitor;3072;TCP;ContinuStor Monitor Port
+csd-monitor;3072;UDP;ContinuStor Monitor Port
+vcrp;3073;TCP;Very simple chatroom prot
+vcrp;3073;UDP;Very simple chatroom prot
+xbox;3074;TCP;Xbox game port
+xbox;3074;UDP;Xbox game port
+orbix-locator;3075;TCP;Orbix 2000 Locator
+orbix-locator;3075;UDP;Orbix 2000 Locator
+orbix-config;3076;TCP;Orbix 2000 Config
+orbix-config;3076;UDP;Orbix 2000 Config
+orbix-loc-ssl;3077;TCP;Orbix 2000 Locator SSL
+orbix-loc-ssl;3077;UDP;Orbix 2000 Locator SSL
+orbix-cfg-ssl;3078;TCP;Orbix 2000 Locator SSL
+orbix-cfg-ssl;3078;UDP;Orbix 2000 Locator SSL
+lv-frontpanel;3079;TCP;LV Front Panel
+lv-frontpanel;3079;UDP;LV Front Panel
+stm-pproc;3080;TCP;stm_pproc
+stm_pproc;3080;TCP;stm_pproc
+stm-pproc;3080;UDP;stm_pproc
+stm_pproc;3080;UDP;stm_pproc
+tl1-lv;3081;TCP;TL1-LV
+tl1-lv;3081;UDP;TL1-LV
+tl1-raw;3082;TCP;TL1-RAW
+tl1-raw;3082;UDP;TL1-RAW
+tl1-telnet;3083;TCP;TL1-TELNET
+tl1-telnet;3083;UDP;TL1-TELNET
+itm-mccs;3084;TCP;ITM-MCCS
+itm-mccs;3084;UDP;ITM-MCCS
+pcihreq;3085;TCP;PCIHReq
+pcihreq;3085;UDP;PCIHReq
+jdl-dbkitchen;3086;TCP;JDL-DBKitchen
+jdl-dbkitchen;3086;UDP;JDL-DBKitchen
+asoki-sma;3087;TCP;Asoki SMA
+asoki-sma;3087;UDP;Asoki SMA
+xdtp;3088;TCP;eXtensible Data Transfer Protocol
+xdtp;3088;UDP;eXtensible Data Transfer Protocol
+ptk-alink;3089;TCP;ParaTek Agent Linking
+ptk-alink;3089;UDP;ParaTek Agent Linking
+stss;3090;TCP;Senforce Session Services
+stss;3090;UDP;Senforce Session Services
+1ci-smcs;3091;TCP;1Ci Server Management
+1ci-smcs;3091;UDP;1Ci Server Management
+Unassigned;3092;UDP;Unassigned
+rapidmq-center;3093;TCP;Jiiva RapidMQ Center
+rapidmq-center;3093;UDP;Jiiva RapidMQ Center
+rapidmq-reg;3094;TCP;Jiiva RapidMQ Registry
+rapidmq-reg;3094;UDP;Jiiva RapidMQ Registry
+panasas;3095;TCP;Panasas rendezvous port
+panasas;3095;UDP;Panasas rendezvous port
+ndl-aps;3096;TCP;Active Print Server Port
+ndl-aps;3096;UDP;Active Print Server Port
+itu-bicc-stc;3097;UDP;ITU-T Q.1902.1/Q.2150.3
+Unassigned;3097;TCP;Reserved
+Unassigned;3097;UDP;Reserved
+umm-port;3098;TCP;Universal Message Manager
+umm-port;3098;UDP;Universal Message Manager
+chmd;3099;TCP;CHIPSY Machine Daemon
+chmd;3099;UDP;CHIPSY Machine Daemon
+opcon-xps;3100;TCP;OpCon/xps
+opcon-xps;3100;UDP;OpCon/xps
+hp-pxpib;3101;TCP;HP PolicyXpert PIB Server
+hp-pxpib;3101;UDP;HP PolicyXpert PIB Server
+slslavemon;3102;TCP;SoftlinK Slave Mon Port
+slslavemon;3102;UDP;SoftlinK Slave Mon Port
+autocuesmi;3103;TCP;Autocue SMI Protocol
+autocuesmi;3103;UDP;Autocue SMI Protocol
+autocuelog;3104;TCP;Autocue Logger Protocol
+autocuetime;3104;UDP;Autocue Time Service
+cardbox;3105;TCP;Cardbox
+cardbox;3105;UDP;Cardbox
+cardbox-http;3106;TCP;Cardbox HTTP
+cardbox-http;3106;UDP;Cardbox HTTP
+business;3107;TCP;Business protocol
+business;3107;UDP;Business protocol
+geolocate;3108;TCP;Geolocate protocol
+geolocate;3108;UDP;Geolocate protocol
+personnel;3109;TCP;Personnel protocol
+personnel;3109;UDP;Personnel protocol
+sim-control;3110;TCP;simulator control port
+sim-control;3110;UDP;simulator control port
+wsynch;3111;TCP;Web Synchronous Services
+wsynch;3111;UDP;Web Synchronous Services
+ksysguard;3112;TCP;KDE System Guard
+ksysguard;3112;UDP;KDE System Guard
+cs-auth-svr;3113;TCP;CS-Authenticate Svr Port
+cs-auth-svr;3113;UDP;CS-Authenticate Svr Port
+ccmad;3114;TCP;CCM AutoDiscover
+ccmad;3114;UDP;CCM AutoDiscover
+mctet-master;3115;TCP;MCTET Master
+mctet-master;3115;UDP;MCTET Master
+mctet-gateway;3116;TCP;MCTET Gateway
+mctet-gateway;3116;UDP;MCTET Gateway
+mctet-jserv;3117;TCP;MCTET Jserv
+mctet-jserv;3117;UDP;MCTET Jserv
+pkagent;3118;TCP;PKAgent
+pkagent;3118;UDP;PKAgent
+d2000kernel;3119;TCP;D2000 Kernel Port
+d2000kernel;3119;UDP;D2000 Kernel Port
+d2000webserver;3120;TCP;D2000 Webserver Port
+d2000webserver;3120;UDP;D2000 Webserver Port
+pcmk-remote;3121;TCP;The pacemaker remote (pcmk-remote) service extends high availability functionality outside of the Linux cluster into remote nodes.
+Unassigned;3121;UDP;Reserved
+vtr-emulator;3122;TCP;MTI VTR Emulator port
+vtr-emulator;3122;UDP;MTI VTR Emulator port
+edix;3123;TCP;EDI Translation Protocol
+edix;3123;UDP;EDI Translation Protocol
+beacon-port;3124;TCP;Beacon Port
+beacon-port;3124;UDP;Beacon Port
+a13-an;3125;TCP;A13-AN Interface
+a13-an;3125;UDP;A13-AN Interface
+Unassigned;3126;UDP;Unassigned
+ctx-bridge;3127;TCP;CTX Bridge Port
+ctx-bridge;3127;UDP;CTX Bridge Port
+ndl-aas;3128;TCP;Active API Server Port
+ndl-aas;3128;UDP;Active API Server Port
+netport-id;3129;TCP;NetPort Discovery Port
+netport-id;3129;UDP;NetPort Discovery Port
+icpv2;3130;TCP;ICPv2
+icpv2;3130;UDP;ICPv2
+netbookmark;3131;TCP;Net Book Mark
+netbookmark;3131;UDP;Net Book Mark
+ms-rule-engine;3132;TCP;Microsoft Business Rule Engine Update Service
+ms-rule-engine;3132;UDP;Microsoft Business Rule Engine Update Service
+prism-deploy;3133;TCP;Prism Deploy User Port
+prism-deploy;3133;UDP;Prism Deploy User Port
+ecp;3134;TCP;Extensible Code Protocol
+ecp;3134;UDP;Extensible Code Protocol
+peerbook-port;3135;TCP;PeerBook Port
+peerbook-port;3135;UDP;PeerBook Port
+grubd;3136;TCP;Grub Server Port
+grubd;3136;UDP;Grub Server Port
+rtnt-1;3137;TCP;rtnt-1 data packets
+rtnt-1;3137;UDP;rtnt-1 data packets
+rtnt-2;3138;TCP;rtnt-2 data packets
+rtnt-2;3138;UDP;rtnt-2 data packets
+incognitorv;3139;TCP;Incognito Rendez-Vous
+incognitorv;3139;UDP;Incognito Rendez-Vous
+ariliamulti;3140;TCP;Arilia Multiplexor
+ariliamulti;3140;UDP;Arilia Multiplexor
+vmodem;3141;TCP;VMODEM
+vmodem;3141;UDP;VMODEM
+rdc-wh-eos;3142;TCP;RDC WH EOS
+rdc-wh-eos;3142;UDP;RDC WH EOS
+seaview;3143;TCP;Sea View
+seaview;3143;UDP;Sea View
+tarantella;3144;TCP;Tarantella
+tarantella;3144;UDP;Tarantella
+csi-lfap;3145;TCP;CSI-LFAP
+csi-lfap;3145;UDP;CSI-LFAP
+bears-02;3146;TCP;bears-02
+bears-02;3146;UDP;bears-02
+rfio;3147;TCP;RFIO
+rfio;3147;UDP;RFIO
+nm-game-admin;3148;TCP;NetMike Game Administrator
+nm-game-admin;3148;UDP;NetMike Game Administrator
+nm-game-server;3149;TCP;NetMike Game Server
+nm-game-server;3149;UDP;NetMike Game Server
+nm-asses-admin;3150;TCP;NetMike Assessor Administrator
+nm-asses-admin;3150;UDP;NetMike Assessor Administrator
+nm-assessor;3151;TCP;NetMike Assessor
+nm-assessor;3151;UDP;NetMike Assessor
+feitianrockey;3152;TCP;FeiTian Port
+feitianrockey;3152;UDP;FeiTian Port
+s8-client-port;3153;TCP;S8Cargo Client Port
+s8-client-port;3153;UDP;S8Cargo Client Port
+ccmrmi;3154;TCP;ON RMI Registry
+ccmrmi;3154;UDP;ON RMI Registry
+jpegmpeg;3155;TCP;JpegMpeg Port
+jpegmpeg;3155;UDP;JpegMpeg Port
+indura;3156;TCP;Indura Collector
+indura;3156;UDP;Indura Collector
+e3consultants;3157;TCP;CCC Listener Port
+e3consultants;3157;UDP;CCC Listener Port
+stvp;3158;TCP;SmashTV Protocol
+stvp;3158;UDP;SmashTV Protocol
+navegaweb-port;3159;TCP;NavegaWeb Tarification
+navegaweb-port;3159;UDP;NavegaWeb Tarification
+tip-app-server;3160;TCP;TIP Application Server
+tip-app-server;3160;UDP;TIP Application Server
+doc1lm;3161;TCP;DOC1 License Manager
+doc1lm;3161;UDP;DOC1 License Manager
+sflm;3162;TCP;SFLM
+sflm;3162;UDP;SFLM
+res-sap;3163;TCP;RES-SAP
+res-sap;3163;UDP;RES-SAP
+imprs;3164;TCP;IMPRS
+imprs;3164;UDP;IMPRS
+newgenpay;3165;TCP;Newgenpay Engine Service
+newgenpay;3165;UDP;Newgenpay Engine Service
+sossecollector;3166;TCP;Quest Spotlight Out-Of-Process Collector
+sossecollector;3166;UDP;Quest Spotlight Out-Of-Process Collector
+nowcontact;3167;TCP;Now Contact Public Server
+nowcontact;3167;UDP;Now Contact Public Server
+poweronnud;3168;TCP;Now Up-to-Date Public Server
+poweronnud;3168;UDP;Now Up-to-Date Public Server
+serverview-as;3169;TCP;SERVERVIEW-AS
+serverview-as;3169;UDP;SERVERVIEW-AS
+serverview-asn;3170;TCP;SERVERVIEW-ASN
+serverview-asn;3170;UDP;SERVERVIEW-ASN
+serverview-gf;3171;TCP;SERVERVIEW-GF
+serverview-gf;3171;UDP;SERVERVIEW-GF
+serverview-rm;3172;TCP;SERVERVIEW-RM
+serverview-rm;3172;UDP;SERVERVIEW-RM
+serverview-icc;3173;TCP;SERVERVIEW-ICC
+serverview-icc;3173;UDP;SERVERVIEW-ICC
+armi-server;3174;TCP;ARMI Server
+armi-server;3174;UDP;ARMI Server
+t1-e1-over-ip;3175;TCP;T1_E1_Over_IP
+t1-e1-over-ip;3175;UDP;T1_E1_Over_IP
+ars-master;3176;TCP;ARS Master
+ars-master;3176;UDP;ARS Master
+phonex-port;3177;TCP;Phonex Protocol
+phonex-port;3177;UDP;Phonex Protocol
+radclientport;3178;TCP;Radiance UltraEdge Port
+radclientport;3178;UDP;Radiance UltraEdge Port
+h2gf-w-2m;3179;TCP;H2GF W.2m Handover prot.
+h2gf-w-2m;3179;UDP;H2GF W.2m Handover prot.
+mc-brk-srv;3180;TCP;Millicent Broker Server
+mc-brk-srv;3180;UDP;Millicent Broker Server
+bmcpatrolagent;3181;TCP;BMC Patrol Agent
+bmcpatrolagent;3181;UDP;BMC Patrol Agent
+bmcpatrolrnvu;3182;TCP;BMC Patrol Rendezvous
+bmcpatrolrnvu;3182;UDP;BMC Patrol Rendezvous
+cops-tls;3183;TCP;COPS/TLS
+cops-tls;3183;UDP;COPS/TLS
+apogeex-port;3184;TCP;ApogeeX Port
+apogeex-port;3184;UDP;ApogeeX Port
+smpppd;3185;TCP;SuSE Meta PPPD
+smpppd;3185;UDP;SuSE Meta PPPD
+iiw-port;3186;TCP;IIW Monitor User Port
+iiw-port;3186;UDP;IIW Monitor User Port
+odi-port;3187;TCP;Open Design Listen Port
+odi-port;3187;UDP;Open Design Listen Port
+brcm-comm-port;3188;TCP;Broadcom Port
+brcm-comm-port;3188;UDP;Broadcom Port
+pcle-infex;3189;TCP;Pinnacle Sys InfEx Port
+pcle-infex;3189;UDP;Pinnacle Sys InfEx Port
+csvr-proxy;3190;TCP;ConServR Proxy
+csvr-proxy;3190;UDP;ConServR Proxy
+csvr-sslproxy;3191;TCP;ConServR SSL Proxy
+csvr-sslproxy;3191;UDP;ConServR SSL Proxy
+firemonrcc;3192;TCP;FireMon Revision Control
+firemonrcc;3192;UDP;FireMon Revision Control
+spandataport;3193;TCP;SpanDataPort
+spandataport;3193;UDP;SpanDataPort
+magbind;3194;TCP;Rockstorm MAG protocol
+magbind;3194;UDP;Rockstorm MAG protocol
+ncu-1;3195;TCP;Network Control Unit
+ncu-1;3195;UDP;Network Control Unit
+ncu-2;3196;TCP;Network Control Unit
+ncu-2;3196;UDP;Network Control Unit
+embrace-dp-s;3197;TCP;Embrace Device Protocol Server
+embrace-dp-s;3197;UDP;Embrace Device Protocol Server
+embrace-dp-c;3198;TCP;Embrace Device Protocol Client
+embrace-dp-c;3198;UDP;Embrace Device Protocol Client
+dmod-workspace;3199;TCP;DMOD WorkSpace
+dmod-workspace;3199;UDP;DMOD WorkSpace
+tick-port;3200;TCP;Press-sense Tick Port
+tick-port;3200;UDP;Press-sense Tick Port
+cpq-tasksmart;3201;TCP;CPQ-TaskSmart
+cpq-tasksmart;3201;UDP;CPQ-TaskSmart
+intraintra;3202;TCP;IntraIntra
+intraintra;3202;UDP;IntraIntra
+netwatcher-mon;3203;TCP;Network Watcher Monitor
+netwatcher-mon;3203;UDP;Network Watcher Monitor
+netwatcher-db;3204;TCP;Network Watcher DB Access
+netwatcher-db;3204;UDP;Network Watcher DB Access
+isns;3205;TCP;iSNS Server Port
+isns;3205;UDP;iSNS Server Port
+ironmail;3206;TCP;IronMail POP Proxy
+ironmail;3206;UDP;IronMail POP Proxy
+vx-auth-port;3207;TCP;Veritas Authentication Port
+vx-auth-port;3207;UDP;Veritas Authentication Port
+pfu-prcallback;3208;TCP;PFU PR Callback
+pfu-prcallback;3208;UDP;PFU PR Callback
+netwkpathengine;3209;TCP;HP OpenView Network Path Engine Server
+netwkpathengine;3209;UDP;HP OpenView Network Path Engine Server
+flamenco-proxy;3210;TCP;Flamenco Networks Proxy
+flamenco-proxy;3210;UDP;Flamenco Networks Proxy
+avsecuremgmt;3211;TCP;Avocent Secure Management
+avsecuremgmt;3211;UDP;Avocent Secure Management
+surveyinst;3212;TCP;Survey Instrument
+surveyinst;3212;UDP;Survey Instrument
+neon24x7;3213;TCP;NEON 24X7 Mission Control
+neon24x7;3213;UDP;NEON 24X7 Mission Control
+jmq-daemon-1;3214;TCP;JMQ Daemon Port 1
+jmq-daemon-1;3214;UDP;JMQ Daemon Port 1
+jmq-daemon-2;3215;TCP;JMQ Daemon Port 2
+jmq-daemon-2;3215;UDP;JMQ Daemon Port 2
+ferrari-foam;3216;TCP;Ferrari electronic FOAM
+ferrari-foam;3216;UDP;Ferrari electronic FOAM
+unite;3217;TCP;Unified IP & Telecom Environment
+unite;3217;UDP;Unified IP & Telecom Environment
+smartpackets;3218;TCP;EMC SmartPackets
+smartpackets;3218;UDP;EMC SmartPackets
+wms-messenger;3219;TCP;WMS Messenger
+wms-messenger;3219;UDP;WMS Messenger
+xnm-ssl;3220;TCP;XML NM over SSL
+xnm-ssl;3220;UDP;XML NM over SSL
+xnm-clear-text;3221;TCP;XML NM over TCP
+xnm-clear-text;3221;UDP;XML NM over TCP
+glbp;3222;TCP;Gateway Load Balancing Pr
+glbp;3222;UDP;Gateway Load Balancing Pr
+digivote;3223;TCP;DIGIVOTE (R) Vote-Server
+digivote;3223;UDP;DIGIVOTE (R) Vote-Server
+aes-discovery;3224;TCP;AES Discovery Port
+aes-discovery;3224;UDP;AES Discovery Port
+fcip-port;3225;TCP;FCIP
+fcip-port;3225;UDP;FCIP
+isi-irp;3226;TCP;ISI Industry Software IRP
+isi-irp;3226;UDP;ISI Industry Software IRP
+dwnmshttp;3227;TCP;DiamondWave NMS Server
+dwnmshttp;3227;UDP;DiamondWave NMS Server
+dwmsgserver;3228;TCP;DiamondWave MSG Server
+dwmsgserver;3228;UDP;DiamondWave MSG Server
+global-cd-port;3229;TCP;Global CD Port
+global-cd-port;3229;UDP;Global CD Port
+sftdst-port;3230;TCP;Software Distributor Port
+sftdst-port;3230;UDP;Software Distributor Port
+vidigo;3231;TCP;VidiGo communication (previous was: Delta Solutions Direct)
+vidigo;3231;UDP;VidiGo communication (previous was: Delta Solutions Direct)
+mdtp;3232;TCP;MDT port
+mdtp;3232;UDP;MDT port
+whisker;3233;TCP;WhiskerControl main port
+whisker;3233;UDP;WhiskerControl main port
+alchemy;3234;TCP;Alchemy Server
+alchemy;3234;UDP;Alchemy Server
+mdap-port;3235;TCP;MDAP port
+mdap-port;3235;UDP;MDAP Port
+apparenet-ts;3236;TCP;appareNet Test Server
+apparenet-ts;3236;UDP;appareNet Test Server
+apparenet-tps;3237;TCP;appareNet Test Packet Sequencer
+apparenet-tps;3237;UDP;appareNet Test Packet Sequencer
+apparenet-as;3238;TCP;appareNet Analysis Server
+apparenet-as;3238;UDP;appareNet Analysis Server
+apparenet-ui;3239;TCP;appareNet User Interface
+apparenet-ui;3239;UDP;appareNet User Interface
+triomotion;3240;TCP;Trio Motion Control Port
+triomotion;3240;UDP;Trio Motion Control Port
+sysorb;3241;TCP;SysOrb Monitoring Server
+sysorb;3241;UDP;SysOrb Monitoring Server
+sdp-id-port;3242;TCP;Session Description ID
+sdp-id-port;3242;UDP;Session Description ID
+timelot;3243;TCP;Timelot Port
+timelot;3243;UDP;Timelot Port
+onesaf;3244;TCP;OneSAF
+onesaf;3244;UDP;OneSAF
+vieo-fe;3245;TCP;VIEO Fabric Executive
+vieo-fe;3245;UDP;VIEO Fabric Executive
+dvt-system;3246;TCP;DVT SYSTEM PORT
+dvt-system;3246;UDP;DVT SYSTEM PORT
+dvt-data;3247;TCP;DVT DATA LINK
+dvt-data;3247;UDP;DVT DATA LINK
+procos-lm;3248;TCP;PROCOS LM
+procos-lm;3248;UDP;PROCOS LM
+ssp;3249;TCP;State Sync Protocol
+ssp;3249;UDP;State Sync Protocol
+hicp;3250;TCP;HMS hicp port
+hicp;3250;UDP;HMS hicp port
+sysscanner;3251;TCP;Sys Scanner
+sysscanner;3251;UDP;Sys Scanner
+dhe;3252;TCP;DHE port
+dhe;3252;UDP;DHE port
+pda-data;3253;TCP;PDA Data
+pda-data;3253;UDP;PDA Data
+pda-sys;3254;TCP;PDA System
+pda-sys;3254;UDP;PDA System
+semaphore;3255;TCP;Semaphore Connection Port
+semaphore;3255;UDP;Semaphore Connection Port
+cpqrpm-agent;3256;TCP;Compaq RPM Agent Port
+cpqrpm-agent;3256;UDP;Compaq RPM Agent Port
+cpqrpm-server;3257;TCP;Compaq RPM Server Port
+cpqrpm-server;3257;UDP;Compaq RPM Server Port
+ivecon-port;3258;TCP;Ivecon Server Port
+ivecon-port;3258;UDP;Ivecon Server Port
+epncdp2;3259;TCP;Epson Network Common Devi
+epncdp2;3259;UDP;Epson Network Common Devi
+iscsi-target;3260;TCP;iSCSI port
+iscsi-target;3260;UDP;iSCSI port
+winshadow;3261;TCP;winShadow
+winshadow;3261;UDP;winShadow
+necp;3262;TCP;NECP
+necp;3262;UDP;NECP
+ecolor-imager;3263;TCP;E-Color Enterprise Imager
+ecolor-imager;3263;UDP;E-Color Enterprise Imager
+ccmail;3264;TCP;cc:mail/lotus
+ccmail;3264;UDP;cc:mail/lotus
+altav-tunnel;3265;TCP;Altav Tunnel
+altav-tunnel;3265;UDP;Altav Tunnel
+ns-cfg-server;3266;TCP;NS CFG Server
+ns-cfg-server;3266;UDP;NS CFG Server
+ibm-dial-out;3267;TCP;IBM Dial Out
+ibm-dial-out;3267;UDP;IBM Dial Out
+msft-gc;3268;TCP;Microsoft Global Catalog
+msft-gc;3268;UDP;Microsoft Global Catalog
+msft-gc-ssl;3269;TCP;Microsoft Global Catalog with LDAP/SSL
+msft-gc-ssl;3269;UDP;Microsoft Global Catalog with LDAP/SSL
+verismart;3270;TCP;Verismart
+verismart;3270;UDP;Verismart
+csoft-prev;3271;TCP;CSoft Prev Port
+csoft-prev;3271;UDP;CSoft Prev Port
+user-manager;3272;TCP;Fujitsu User Manager
+user-manager;3272;UDP;Fujitsu User Manager
+sxmp;3273;TCP;Simple Extensible Multiplexed Protocol
+sxmp;3273;UDP;Simple Extensible Multiplexed Protocol
+ordinox-server;3274;TCP;Ordinox Server
+ordinox-server;3274;UDP;Ordinox Server
+samd;3275;TCP;SAMD
+samd;3275;UDP;SAMD
+maxim-asics;3276;TCP;Maxim ASICs
+maxim-asics;3276;UDP;Maxim ASICs
+awg-proxy;3277;TCP;AWG Proxy
+awg-proxy;3277;UDP;AWG Proxy
+lkcmserver;3278;TCP;LKCM Server
+lkcmserver;3278;UDP;LKCM Server
+admind;3279;TCP;admind
+admind;3279;UDP;admind
+vs-server;3280;TCP;VS Server
+vs-server;3280;UDP;VS Server
+sysopt;3281;TCP;SYSOPT
+sysopt;3281;UDP;SYSOPT
+datusorb;3282;TCP;Datusorb
+datusorb;3282;UDP;Datusorb
+Apple Remote Desktop (Net Assistant);3283;TCP;Net Assistant
+Apple Remote Desktop (Net Assistant);3283;UDP;Net Assistant
+4talk;3284;TCP;4Talk
+4talk;3284;UDP;4Talk
+plato;3285;TCP;Plato
+plato;3285;UDP;Plato
+e-net;3286;TCP;E-Net
+e-net;3286;UDP;E-Net
+directvdata;3287;TCP;DIRECTVDATA
+directvdata;3287;UDP;DIRECTVDATA
+cops;3288;TCP;COPS
+cops;3288;UDP;COPS
+enpc;3289;TCP;ENPC
+enpc;3289;UDP;ENPC
+caps-lm;3290;TCP;CAPS LOGISTICS TOOLKIT - LM
+caps-lm;3290;UDP;CAPS LOGISTICS TOOLKIT - LM
+sah-lm;3291;TCP;S A Holditch & Associates - LM
+sah-lm;3291;UDP;S A Holditch & Associates - LM
+cart-o-rama;3292;TCP;Cart O Rama
+cart-o-rama;3292;UDP;Cart O Rama
+fg-fps;3293;TCP;fg-fps
+fg-fps;3293;UDP;fg-fps
+fg-gip;3294;TCP;fg-gip
+fg-gip;3294;UDP;fg-gip
+dyniplookup;3295;TCP;Dynamic IP Lookup
+dyniplookup;3295;UDP;Dynamic IP Lookup
+rib-slm;3296;TCP;Rib License Manager
+rib-slm;3296;UDP;Rib License Manager
+cytel-lm;3297;TCP;Cytel License Manager
+cytel-lm;3297;UDP;Cytel License Manager
+deskview;3298;TCP;DeskView
+deskview;3298;UDP;DeskView
+pdrncs;3299;TCP;pdrncs
+pdrncs;3299;UDP;pdrncs
+ceph;3300;TCP;Ceph monitor
+Unassigned;3300;UDP;Reserved
+Unassigned;3301;UDP;unassigned
+mcs-fastmail;3302;TCP;MCS Fastmail
+mcs-fastmail;3302;UDP;MCS Fastmail
+opsession-clnt;3303;TCP;OP Session Client
+opsession-clnt;3303;UDP;OP Session Client
+opsession-srvr;3304;TCP;OP Session Server
+opsession-srvr;3304;UDP;OP Session Server
+odette-ftp;3305;TCP;ODETTE-FTP
+odette-ftp;3305;UDP;ODETTE-FTP
+mysql;3306;TCP;MySQL
+mysql;3306;UDP;MySQL
+opsession-prxy;3307;TCP;OP Session Proxy
+opsession-prxy;3307;UDP;OP Session Proxy
+tns-server;3308;TCP;TNS Server
+tns-server;3308;UDP;TNS Server
+tns-adv;3309;TCP;TNS ADV
+tns-adv;3309;UDP;TNS ADV
+dyna-access;3310;TCP;Dyna Access
+dyna-access;3310;UDP;Dyna Access
+mcns-tel-ret;3311;TCP;MCNS Tel Ret
+mcns-tel-ret;3311;UDP;MCNS Tel Ret
+appman-server;3312;TCP;Application Management Server
+appman-server;3312;UDP;Application Management Server
+uorb;3313;TCP;Unify Object Broker
+uorb;3313;UDP;Unify Object Broker
+uohost;3314;TCP;Unify Object Host
+uohost;3314;UDP;Unify Object Host
+cdid;3315;TCP;CDID
+cdid;3315;UDP;CDID
+aicc-cmi;3316;TCP;AICC/CMI
+aicc-cmi;3316;UDP;AICC/CMI
+vsaiport;3317;TCP;VSAI PORT
+vsaiport;3317;UDP;VSAI PORT
+ssrip;3318;TCP;Swith to Swith Routing Information Protocol
+ssrip;3318;UDP;Swith to Swith Routing Information Protocol
+sdt-lmd;3319;TCP;SDT License Manager
+sdt-lmd;3319;UDP;SDT License Manager
+officelink2000;3320;TCP;Office Link 2000
+officelink2000;3320;UDP;Office Link 2000
+vnsstr;3321;TCP;VNSSTR
+vnsstr;3321;UDP;VNSSTR
+sftu;3326;TCP;SFTU
+sftu;3326;UDP;SFTU
+bbars;3327;TCP;BBARS
+bbars;3327;UDP;BBARS
+egptlm;3328;TCP;Eaglepoint License Manager
+egptlm;3328;UDP;Eaglepoint License Manager
+hp-device-disc;3329;TCP;HP Device Disc
+hp-device-disc;3329;UDP;HP Device Disc
+mcs-calypsoicf;3330;TCP;MCS Calypso ICF
+mcs-calypsoicf;3330;UDP;MCS Calypso ICF
+mcs-messaging;3331;TCP;MCS Messaging
+mcs-messaging;3331;UDP;MCS Messaging
+mcs-mailsvr;3332;TCP;MCS Mail Server
+mcs-mailsvr;3332;UDP;MCS Mail Server
+dec-notes;3333;TCP;DEC Notes
+dec-notes;3333;UDP;DEC Notes
+directv-web;3334;TCP;Direct TV Webcasting
+directv-web;3334;UDP;Direct TV Webcasting
+directv-soft;3335;TCP;Direct TV Software Updates
+directv-soft;3335;UDP;Direct TV Software Updates
+directv-tick;3336;TCP;Direct TV Tickers
+directv-tick;3336;UDP;Direct TV Tickers
+directv-catlg;3337;TCP;Direct TV Data Catalog
+directv-catlg;3337;UDP;Direct TV Data Catalog
+anet-b;3338;TCP;OMF data b
+anet-b;3338;UDP;OMF data b
+anet-l;3339;TCP;OMF data l
+anet-l;3339;UDP;OMF data l
+anet-m;3340;TCP;OMF data m
+anet-m;3340;UDP;OMF data m
+anet-h;3341;TCP;OMF data h
+anet-h;3341;UDP;OMF data h
+webtie;3342;TCP;WebTIE
+webtie;3342;UDP;WebTIE
+ms-cluster-net;3343;TCP;MS Cluster Net
+ms-cluster-net;3343;UDP;MS Cluster Net
+bnt-manager;3344;TCP;BNT Manager
+bnt-manager;3344;UDP;BNT Manager
+influence;3345;TCP;Influence
+influence;3345;UDP;Influence
+trnsprntproxy;3346;TCP;Trnsprnt Proxy
+trnsprntproxy;3346;UDP;Trnsprnt Proxy
+phoenix-rpc;3347;TCP;Phoenix RPC
+phoenix-rpc;3347;UDP;Phoenix RPC
+pangolin-laser;3348;TCP;Pangolin Laser
+pangolin-laser;3348;UDP;Pangolin Laser
+chevinservices;3349;TCP;Chevin Services
+chevinservices;3349;UDP;Chevin Services
+findviatv;3350;TCP;FINDVIATV
+findviatv;3350;UDP;FINDVIATV
+btrieve;3351;TCP;Btrieve port
+btrieve;3351;UDP;Btrieve port
+ssql;3352;TCP;Scalable SQL
+ssql;3352;UDP;Scalable SQL
+fatpipe;3353;TCP;FATPIPE
+fatpipe;3353;UDP;FATPIPE
+suitjd;3354;TCP;SUITJD
+suitjd;3354;UDP;SUITJD
+ordinox-dbase;3355;TCP;Ordinox Dbase
+ordinox-dbase;3355;UDP;Ordinox Dbase
+upnotifyps;3356;TCP;UPNOTIFYPS
+upnotifyps;3356;UDP;UPNOTIFYPS
+adtech-test;3357;TCP;Adtech Test IP
+adtech-test;3357;UDP;Adtech Test IP
+mpsysrmsvr;3358;TCP;Mp Sys Rmsvr
+mpsysrmsvr;3358;UDP;Mp Sys Rmsvr
+wg-netforce;3359;TCP;WG NetForce
+wg-netforce;3359;UDP;WG NetForce
+kv-server;3360;TCP;KV Server
+kv-server;3360;UDP;KV Server
+kv-agent;3361;TCP;KV Agent
+kv-agent;3361;UDP;KV Agent
+dj-ilm;3362;TCP;DJ ILM
+dj-ilm;3362;UDP;DJ ILM
+nati-vi-server;3363;TCP;NATI Vi Server
+nati-vi-server;3363;UDP;NATI Vi Server
+creativeserver;3364;TCP;Creative Server
+creativeserver;3364;UDP;Creative Server
+contentserver;3365;TCP;Content Server
+contentserver;3365;UDP;Content Server
+creativepartnr;3366;TCP;Creative Partner
+creativepartnr;3366;UDP;Creative Partner
+tip2;3372;TCP;TIP 2
+tip2;3372;UDP;TIP 2
+lavenir-lm;3373;TCP;Lavenir License Manager
+lavenir-lm;3373;UDP;Lavenir License Manager
+cluster-disc;3374;TCP;Cluster Disc
+cluster-disc;3374;UDP;Cluster Disc
+vsnm-agent;3375;TCP;VSNM Agent
+vsnm-agent;3375;UDP;VSNM Agent
+cdbroker;3376;TCP;CD Broker
+cdbroker;3376;UDP;CD Broker
+cogsys-lm;3377;TCP;Cogsys Network License Manager
+cogsys-lm;3377;UDP;Cogsys Network License Manager
+wsicopy;3378;TCP;WSICOPY
+wsicopy;3378;UDP;WSICOPY
+socorfs;3379;TCP;SOCORFS
+socorfs;3379;UDP;SOCORFS
+sns-channels;3380;TCP;SNS Channels
+sns-channels;3380;UDP;SNS Channels
+geneous;3381;TCP;Geneous
+geneous;3381;UDP;Geneous
+fujitsu-neat;3382;TCP;Fujitsu Network Enhanced Antitheft function
+fujitsu-neat;3382;UDP;Fujitsu Network Enhanced Antitheft function
+esp-lm;3383;TCP;Enterprise Software Products License Manager
+esp-lm;3383;UDP;Enterprise Software Products License Manager
+hp-clic;3384;TCP;Cluster Management Services
+hp-clic;3384;UDP;Hardware Management
+qnxnetman;3385;TCP;qnxnetman
+qnxnetman;3385;UDP;qnxnetman
+gprs-data;3386;TCP;GPRS Data
+gprs-sig;3386;UDP;GPRS SIG
+backroomnet;3387;TCP;Back Room Net
+backroomnet;3387;UDP;Back Room Net
+cbserver;3388;TCP;CB Server
+cbserver;3388;UDP;CB Server
+ms-wbt-server;3389;TCP;MS WBT Server
+ms-wbt-server;3389;UDP;MS WBT Server
+dsc;3390;TCP;Distributed Service Coordinator
+dsc;3390;UDP;Distributed Service Coordinator
+savant;3391;TCP;SAVANT
+savant;3391;UDP;SAVANT
+efi-lm;3392;TCP;EFI License Management
+efi-lm;3392;UDP;EFI License Management
+d2k-tapestry1;3393;TCP;D2K Tapestry Client to Server
+d2k-tapestry1;3393;UDP;D2K Tapestry Client to Server
+d2k-tapestry2;3394;TCP;D2K Tapestry Server to Server
+d2k-tapestry2;3394;UDP;D2K Tapestry Server to Server
+dyna-lm;3395;TCP;Dyna License Manager (Elam)
+dyna-lm;3395;UDP;Dyna License Manager (Elam)
+printer-agent;3396;TCP;Printer Agent
+printer_agent;3396;TCP;Printer Agent
+printer-agent;3396;UDP;Printer Agent
+printer_agent;3396;UDP;Printer Agent
+cloanto-lm;3397;TCP;Cloanto License Manager
+cloanto-lm;3397;UDP;Cloanto License Manager
+mercantile;3398;TCP;Mercantile
+mercantile;3398;UDP;Mercantile
+csms;3399;TCP;CSMS
+csms;3399;UDP;CSMS
+csms2;3400;TCP;CSMS2
+csms2;3400;UDP;CSMS2
+filecast;3401;TCP;filecast
+filecast;3401;UDP;filecast
+fxaengine-net;3402;TCP;FXa Engine Network Port
+fxaengine-net;3402;UDP;FXa Engine Network Port
+Unassigned;3403;UDP;De-registered
+Unassigned;3404;UDP;Removed
+nokia-ann-ch1;3405;TCP;Nokia Announcement ch 1
+nokia-ann-ch1;3405;UDP;Nokia Announcement ch 1
+nokia-ann-ch2;3406;TCP;Nokia Announcement ch 2
+nokia-ann-ch2;3406;UDP;Nokia Announcement ch 2
+ldap-admin;3407;TCP;LDAP admin server port
+ldap-admin;3407;UDP;LDAP admin server port
+BESApi;3408;TCP;BES Api Port
+BESApi;3408;UDP;BES Api Port
+networklens;3409;TCP;NetworkLens Event Port
+networklens;3409;UDP;NetworkLens Event Port
+networklenss;3410;TCP;NetworkLens SSL Event
+networklenss;3410;UDP;NetworkLens SSL Event
+biolink-auth;3411;TCP;BioLink Authenteon server
+biolink-auth;3411;UDP;BioLink Authenteon server
+xmlblaster;3412;TCP;xmlBlaster
+xmlblaster;3412;UDP;xmlBlaster
+svnet;3413;TCP;SpecView Networking
+svnet;3413;UDP;SpecView Networking
+wip-port;3414;TCP;BroadCloud WIP Port
+wip-port;3414;UDP;BroadCloud WIP Port
+bcinameservice;3415;TCP;BCI Name Service
+bcinameservice;3415;UDP;BCI Name Service
+commandport;3416;TCP;AirMobile IS Command Port
+commandport;3416;UDP;AirMobile IS Command Port
+csvr;3417;TCP;ConServR file translation
+csvr;3417;UDP;ConServR file translation
+rnmap;3418;TCP;Remote nmap
+rnmap;3418;UDP;Remote nmap
+softaudit;3419;TCP;Isogon SoftAudit
+softaudit;3419;UDP;ISogon SoftAudit
+ifcp-port;3420;TCP;iFCP User Port
+ifcp-port;3420;UDP;iFCP User Port
+bmap;3421;TCP;Bull Apprise portmapper
+bmap;3421;UDP;Bull Apprise portmapper
+rusb-sys-port;3422;TCP;Remote USB System Port
+rusb-sys-port;3422;UDP;Remote USB System Port
+xtrm;3423;TCP;xTrade Reliable Messaging
+xtrm;3423;UDP;xTrade Reliable Messaging
+xtrms;3424;TCP;xTrade over TLS/SSL
+xtrms;3424;UDP;xTrade over TLS/SSL
+agps-port;3425;TCP;AGPS Access Port
+agps-port;3425;UDP;AGPS Access Port
+arkivio;3426;TCP;Arkivio Storage Protocol
+arkivio;3426;UDP;Arkivio Storage Protocol
+websphere-snmp;3427;TCP;WebSphere SNMP
+websphere-snmp;3427;UDP;WebSphere SNMP
+twcss;3428;TCP;2Wire CSS
+twcss;3428;UDP;2Wire CSS
+gcsp;3429;TCP;GCSP user port
+gcsp;3429;UDP;GCSP user port
+ssdispatch;3430;TCP;Scott Studios Dispatch
+ssdispatch;3430;UDP;Scott Studios Dispatch
+ndl-als;3431;TCP;Active License Server Port
+ndl-als;3431;UDP;Active License Server Port
+osdcp;3432;TCP;Secure Device Protocol
+osdcp;3432;UDP;Secure Device Protocol
+opnet-smp;3433;TCP;OPNET Service Management Platform
+opnet-smp;3433;UDP;OPNET Service Management Platform
+opencm;3434;TCP;OpenCM Server
+opencm;3434;UDP;OpenCM Server
+pacom;3435;TCP;Pacom Security User Port
+pacom;3435;UDP;Pacom Security User Port
+gc-config;3436;TCP;GuardControl Exchange Protocol
+gc-config;3436;UDP;GuardControl Exchange Protocol
+autocueds;3437;TCP;Autocue Directory Service
+autocueds;3437;UDP;Autocue Directory Service
+spiral-admin;3438;TCP;Spiralcraft Admin
+spiral-admin;3438;UDP;Spiralcraft Admin
+hri-port;3439;TCP;HRI Interface Port
+hri-port;3439;UDP;HRI Interface Port
+ans-console;3440;TCP;Net Steward Mgmt Console
+ans-console;3440;UDP;Net Steward Mgmt Console
+connect-client;3441;TCP;OC Connect Client
+connect-client;3441;UDP;OC Connect Client
+connect-server;3442;TCP;OC Connect Server
+connect-server;3442;UDP;OC Connect Server
+ov-nnm-websrv;3443;TCP;OpenView Network Node Manager WEB Server
+ov-nnm-websrv;3443;UDP;OpenView Network Node Manager WEB Server
+denali-server;3444;TCP;Denali Server
+denali-server;3444;UDP;Denali Server
+monp;3445;TCP;Media Object Network
+monp;3445;UDP;Media Object Network
+3comfaxrpc;3446;TCP;3Com FAX RPC port
+3comfaxrpc;3446;UDP;3Com FAX RPC port
+directnet;3447;TCP;DirectNet IM System
+directnet;3447;UDP;DirectNet IM System
+dnc-port;3448;TCP;Discovery and Net Config
+dnc-port;3448;UDP;Discovery and Net Config
+hotu-chat;3449;TCP;HotU Chat
+hotu-chat;3449;UDP;HotU Chat
+castorproxy;3450;TCP;CAStorProxy
+castorproxy;3450;UDP;CAStorProxy
+asam;3451;TCP;ASAM Services
+asam;3451;UDP;ASAM Services
+sabp-signal;3452;TCP;SABP-Signalling Protocol
+sabp-signal;3452;UDP;SABP-Signalling Protocol
+pscupd;3453;TCP;PSC Update
+pscupd;3453;UDP;PSC Update
+mira;3454;TCP;Apple Remote Access Protocol
+mira;3454;UDP;Apple Remote Access Protocol
+prsvp;3455;TCP;RSVP Port
+prsvp;3455;UDP;RSVP Port
+vat;3456;TCP;VAT default data
+vat;3456;UDP;VAT default data
+vat-control;3457;TCP;VAT default control
+vat-control;3457;UDP;VAT default control
+d3winosfi;3458;TCP;D3WinOSFI
+d3winosfi;3458;UDP;D3WinOSFI
+integral;3459;TCP;TIP Integral
+integral;3459;UDP;TIP Integral
+edm-manager;3460;TCP;EDM Manger
+edm-manager;3460;UDP;EDM Manger
+edm-stager;3461;TCP;EDM Stager
+edm-stager;3461;UDP;EDM Stager
+edm-std-notify;3462;TCP;EDM STD Notify
+edm-std-notify;3462;UDP;EDM STD Notify
+edm-adm-notify;3463;TCP;EDM ADM Notify
+edm-adm-notify;3463;UDP;EDM ADM Notify
+edm-mgr-sync;3464;TCP;EDM MGR Sync
+edm-mgr-sync;3464;UDP;EDM MGR Sync
+edm-mgr-cntrl;3465;TCP;EDM MGR Cntrl
+edm-mgr-cntrl;3465;UDP;EDM MGR Cntrl
+workflow;3466;TCP;WORKFLOW
+workflow;3466;UDP;WORKFLOW
+rcst;3467;TCP;RCST
+rcst;3467;UDP;RCST
+ttcmremotectrl;3468;TCP;TTCM Remote Controll
+ttcmremotectrl;3468;UDP;TTCM Remote Controll
+pluribus;3469;TCP;Pluribus
+pluribus;3469;UDP;Pluribus
+jt400;3470;TCP;jt400
+jt400;3470;UDP;jt400
+jt400-ssl;3471;TCP;jt400-ssl
+jt400-ssl;3471;UDP;jt400-ssl
+jaugsremotec-1;3472;TCP;JAUGS N-G Remotec 1
+jaugsremotec-1;3472;UDP;JAUGS N-G Remotec 1
+jaugsremotec-2;3473;TCP;JAUGS N-G Remotec 2
+jaugsremotec-2;3473;UDP;JAUGS N-G Remotec 2
+ttntspauto;3474;TCP;TSP Automation
+ttntspauto;3474;UDP;TSP Automation
+genisar-port;3475;TCP;Genisar Comm Port
+genisar-port;3475;UDP;Genisar Comm Port
+nppmp;3476;TCP;NVIDIA Mgmt Protocol
+nppmp;3476;UDP;NVIDIA Mgmt Protocol
+ecomm;3477;TCP;eComm link port
+ecomm;3477;UDP;eComm link port
+stun;3478;TCP;Session Traversal Utilities for NAT (STUN) port
+turn;3478;TCP;TURN over TCP
+stun-behavior;3478;TCP;STUN Behavior Discovery over TCP
+stun;3478;UDP;Session Traversal Utilities for NAT (STUN) port
+turn;3478;UDP;TURN over UDP
+stun-behavior;3478;UDP;STUN Behavior Discovery over UDP
+twrpc;3479;TCP;2Wire RPC
+twrpc;3479;UDP;2Wire RPC
+plethora;3480;TCP;Secure Virtual Workspace
+plethora;3480;UDP;Secure Virtual Workspace
+cleanerliverc;3481;TCP;CleanerLive remote ctrl
+cleanerliverc;3481;UDP;CleanerLive remote ctrl
+vulture;3482;TCP;Vulture Monitoring System
+vulture;3482;UDP;Vulture Monitoring System
+slim-devices;3483;TCP;Slim Devices Protocol
+slim-devices;3483;UDP;Slim Devices Protocol
+gbs-stp;3484;TCP;GBS SnapTalk Protocol
+gbs-stp;3484;UDP;GBS SnapTalk Protocol
+celatalk;3485;TCP;CelaTalk
+celatalk;3485;UDP;CelaTalk
+ifsf-hb-port;3486;TCP;IFSF Heartbeat Port
+ifsf-hb-port;3486;UDP;IFSF Heartbeat Port
+ltctcp;3487;TCP;LISA TCP Transfer Channel
+ltcudp;3487;UDP;LISA UDP Transfer Channel
+fs-rh-srv;3488;TCP;FS Remote Host Server
+fs-rh-srv;3488;UDP;FS Remote Host Server
+dtp-dia;3489;TCP;DTP/DIA
+dtp-dia;3489;UDP;DTP/DIA
+colubris;3490;TCP;Colubris Management Port
+colubris;3490;UDP;Colubris Management Port
+swr-port;3491;TCP;SWR Port
+swr-port;3491;UDP;SWR Port
+tvdumtray-port;3492;TCP;TVDUM Tray Port
+tvdumtray-port;3492;UDP;TVDUM Tray Port
+nut;3493;TCP;Network UPS Tools
+nut;3493;UDP;Network UPS Tools
+ibm3494;3494;TCP;IBM 3494
+ibm3494;3494;UDP;IBM 3494
+seclayer-tcp;3495;TCP;securitylayer over tcp
+seclayer-tcp;3495;UDP;securitylayer over tcp
+seclayer-tls;3496;TCP;securitylayer over tls
+seclayer-tls;3496;UDP;securitylayer over tls
+ipether232port;3497;TCP;ipEther232Port
+ipether232port;3497;UDP;ipEther232Port
+dashpas-port;3498;TCP;DASHPAS user port
+dashpas-port;3498;UDP;DASHPAS user port
+sccip-media;3499;TCP;SccIP Media
+sccip-media;3499;UDP;SccIP Media
+rtmp-port;3500;TCP;RTMP Port
+rtmp-port;3500;UDP;RTMP Port
