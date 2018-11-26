@@ -13,6 +13,7 @@ namespace DoorScanner
 	/// <summary>
 	/// Description of Port.
 	/// </summary>
+	[Serializable]
 	public class Port
 	{
 		int NumPort;
@@ -56,9 +57,9 @@ namespace DoorScanner
 			service = cservice;
 		}
 		
-		//-----Functions----- Inutlie par la suite, juste debuggage
-		public string showip(){
-			return "port : "+numport+";"+state+";"+protocole+";"+service+".";
+		//-----Functions-----
+		public string showForSave(){
+			return "Port : "+numport+", State: "+state+", Proto: "+protocole+", Service: "+service+".";
 		}
 		
 	}

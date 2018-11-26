@@ -54,6 +54,10 @@
     <Compile Include="FormListeIpUp.Designer.cs">
       <DependentUpon>FormListeIpUp.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormScanResult.cs" />
+    <Compile Include="FormScanResult.Designer.cs">
+      <DependentUpon>FormScanResult.cs</DependentUpon>
+    </Compile>
     <Compile Include="Interface.cs" />
     <Compile Include="ListeInterfaces.cs" />
     <Compile Include="networkScan.cs" />
@@ -69,6 +73,9 @@
   <ItemGroup>
     <EmbeddedResource Include="FormListeIpUp.resx">
       <DependentUpon>FormListeIpUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormScanResult.resx">
+      <DependentUpon>FormScanResult.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

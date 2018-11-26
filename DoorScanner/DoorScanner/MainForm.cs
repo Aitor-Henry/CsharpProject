@@ -57,7 +57,7 @@ namespace DoorScanner
 				}
 				
 				if(lIpUp.ShowDialog()==DialogResult.OK){
-					
+					//passer tout ca dans FormListipup, generer par valider > ouverture du formScanResult
 					if(lIpUp.checkedListBoxSelectIp.CheckedItems.Count>0){
 						
 						List<string> IpSelected = new List<string>();

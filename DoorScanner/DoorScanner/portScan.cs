@@ -7,11 +7,11 @@
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
 using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Xml.Linq;
 using System.Linq;
-using System.Xml.XPath;
 using System.Xml;
 using System.Xml.Serialization;
 using System.Windows.Forms;
@@ -21,6 +21,7 @@ namespace DoorScanner
 	/// <summary>
 	/// Description of portScan.
 	/// </summary>
+	[Serializable]
 	public class portScan
 	{
 		//string ipToScan;
@@ -137,5 +138,20 @@ namespace DoorScanner
 			return display;
 		}
 		
+		//export format txt
+		public void listToTxt(string nomFichier)
+		{
+			StreamWriter sw = new StreamWriter(nomFichier);
+			foreach(KeyValuePair<string, List<Port>> p in ResultatScans)
+			{
+				List<Port> port = p.Value;
+				sw.WriteLine(p.Key + port[0].showForSave());
+				for(int i=1; i<port.Count; i++){
+					sw.WriteLine(port[i].showForSave());
+				}
+			}
+				
+			sw.Close();			
+		}
 	}
 }

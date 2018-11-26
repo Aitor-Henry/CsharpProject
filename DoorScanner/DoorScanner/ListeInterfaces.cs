@@ -46,7 +46,6 @@ namespace DoorScanner
 			foreach(Interface i in InterListe)
 			{
 				resultat=resultat+" \n"+i.showInterfaceT();
-				
 			}
 			return resultat;
 		}
