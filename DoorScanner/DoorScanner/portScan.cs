@@ -59,7 +59,7 @@ namespace DoorScanner
 			*/
 			
 			foreach(string ip in LipToScan){
-				string commande = ("nmap "+optNB+" "+optScan+" "+ip+" -oX scanPort"+ip+".xml");
+				string commande = ("nmap "+optNB+" "+optScan+" -T4 "+ip+" -oX scanPort"+ip+".xml");
 				Process cmd = new Process();
 				cmd.StartInfo.FileName = "cmd.exe";
 				cmd.StartInfo.Arguments = "/c"+commande;
@@ -145,7 +145,7 @@ namespace DoorScanner
 			foreach(KeyValuePair<string, List<Port>> p in ResultatScans)
 			{
 				List<Port> port = p.Value;
-				sw.WriteLine(p.Key + port[0].showForSave());
+				sw.WriteLine(p.Key+" \n"+ port[0].showForSave());
 				for(int i=1; i<port.Count; i++){
 					sw.WriteLine(port[i].showForSave());
 				}

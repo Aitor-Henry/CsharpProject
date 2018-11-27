@@ -28,5 +28,9 @@ namespace DoorScanner
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		void BtnNewScanClick(object sender, EventArgs e)
+		{
+			this.Close();
+		}
 	}
 }

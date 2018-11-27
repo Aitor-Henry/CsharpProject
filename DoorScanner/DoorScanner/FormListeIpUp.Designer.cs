@@ -24,6 +24,7 @@ namespace DoorScanner
 		private System.Windows.Forms.GroupBox groupBox1;
 		public System.Windows.Forms.CheckBox checkBoxUDP;
 		public System.Windows.Forms.CheckBox checkBoxTCPConnect;
+		private System.Windows.Forms.CheckBox checkBoxVuln;
 		
 		/// <summary>
 		/// Disposes resources used by the form.
@@ -54,6 +55,7 @@ namespace DoorScanner
 			this.option1023 = new System.Windows.Forms.RadioButton();
 			this.optionClassique = new System.Windows.Forms.RadioButton();
 			this.groupBox1 = new System.Windows.Forms.GroupBox();
+			this.checkBoxVuln = new System.Windows.Forms.CheckBox();
 			this.checkBoxUDP = new System.Windows.Forms.CheckBox();
 			this.checkBoxTCPConnect = new System.Windows.Forms.CheckBox();
 			this.groupBoxOptionScanRange.SuspendLayout();
@@ -63,25 +65,27 @@ namespace DoorScanner
 			// validateIpButton
 			// 
 			this.validateIpButton.DialogResult = System.Windows.Forms.DialogResult.Yes;
-			this.validateIpButton.Location = new System.Drawing.Point(472, 18);
+			this.validateIpButton.Location = new System.Drawing.Point(134, 56);
 			this.validateIpButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			this.validateIpButton.Name = "validateIpButton";
-			this.validateIpButton.Size = new System.Drawing.Size(126, 51);
+			this.validateIpButton.Size = new System.Drawing.Size(158, 51);
 			this.validateIpButton.TabIndex = 1;
-			this.validateIpButton.Text = "Valider";
+			this.validateIpButton.Text = "Lancer le Scan";
 			this.validateIpButton.UseVisualStyleBackColor = true;
+			this.validateIpButton.Click += new System.EventHandler(this.ValidateIpButtonClick);
 			// 
 			// cancelIpButton
 			// 
 			this.cancelIpButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-			this.cancelIpButton.Location = new System.Drawing.Point(693, 18);
+			this.cancelIpButton.Location = new System.Drawing.Point(643, 56);
 			this.cancelIpButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			this.cancelIpButton.Name = "cancelIpButton";
-			this.cancelIpButton.Size = new System.Drawing.Size(124, 51);
+			this.cancelIpButton.Size = new System.Drawing.Size(167, 51);
 			this.cancelIpButton.TabIndex = 2;
 			this.cancelIpButton.TabStop = false;
-			this.cancelIpButton.Text = "Annuler";
+			this.cancelIpButton.Text = "Changer de réseau";
 			this.cancelIpButton.UseVisualStyleBackColor = true;
+			this.cancelIpButton.Click += new System.EventHandler(this.CancelIpButtonClick);
 			// 
 			// checkedListBoxSelectIp
 			// 
@@ -89,7 +93,7 @@ namespace DoorScanner
 			this.checkedListBoxSelectIp.Location = new System.Drawing.Point(426, 137);
 			this.checkedListBoxSelectIp.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			this.checkedListBoxSelectIp.Name = "checkedListBoxSelectIp";
-			this.checkedListBoxSelectIp.Size = new System.Drawing.Size(932, 634);
+			this.checkedListBoxSelectIp.Size = new System.Drawing.Size(724, 634);
 			this.checkedListBoxSelectIp.TabIndex = 3;
 			// 
 			// groupBoxOptionScanRange
@@ -141,6 +145,7 @@ namespace DoorScanner
 			// 
 			// groupBox1
 			// 
+			this.groupBox1.Controls.Add(this.checkBoxVuln);
 			this.groupBox1.Controls.Add(this.checkBoxUDP);
 			this.groupBox1.Controls.Add(this.checkBoxTCPConnect);
 			this.groupBox1.Location = new System.Drawing.Point(52, 497);
@@ -150,11 +155,20 @@ namespace DoorScanner
 			this.groupBox1.Size = new System.Drawing.Size(318, 302);
 			this.groupBox1.TabIndex = 5;
 			this.groupBox1.TabStop = false;
-			this.groupBox1.Text = "groupBox1";
+			this.groupBox1.Text = "Options";
+			// 
+			// checkBoxVuln
+			// 
+			this.checkBoxVuln.Location = new System.Drawing.Point(42, 154);
+			this.checkBoxVuln.Name = "checkBoxVuln";
+			this.checkBoxVuln.Size = new System.Drawing.Size(198, 62);
+			this.checkBoxVuln.TabIndex = 3;
+			this.checkBoxVuln.Text = "Ports potentiellement vulnérables";
+			this.checkBoxVuln.UseVisualStyleBackColor = true;
 			// 
 			// checkBoxUDP
 			// 
-			this.checkBoxUDP.Location = new System.Drawing.Point(42, 148);
+			this.checkBoxUDP.Location = new System.Drawing.Point(43, 109);
 			this.checkBoxUDP.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			this.checkBoxUDP.Name = "checkBoxUDP";
 			this.checkBoxUDP.Size = new System.Drawing.Size(216, 37);
@@ -164,7 +178,7 @@ namespace DoorScanner
 			// 
 			// checkBoxTCPConnect
 			// 
-			this.checkBoxTCPConnect.Location = new System.Drawing.Point(42, 62);
+			this.checkBoxTCPConnect.Location = new System.Drawing.Point(42, 48);
 			this.checkBoxTCPConnect.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			this.checkBoxTCPConnect.Name = "checkBoxTCPConnect";
 			this.checkBoxTCPConnect.Size = new System.Drawing.Size(258, 37);
@@ -176,7 +190,8 @@ namespace DoorScanner
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(1375, 962);
+			this.AutoScroll = true;
+			this.ClientSize = new System.Drawing.Size(1201, 892);
 			this.Controls.Add(this.groupBox1);
 			this.Controls.Add(this.groupBoxOptionScanRange);
 			this.Controls.Add(this.checkedListBoxSelectIp);

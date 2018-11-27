@@ -38,7 +38,8 @@ namespace DoorScanner
 		void BtnValiderClick(object sender, EventArgs e)
 		{
 			
-			if(lviewCarteReseau.SelectedItems.Count>0){
+			if(lviewCarteReseau.SelectedItems.Count>0)
+			{
 				// Ligne suivant en comm. pour éviter de lancer un scan a chaque fois
 				//NS.getIpAvailable(lviewCarteReseau.SelectedItems[0].SubItems[1].Text, lviewCarteReseau.SelectedItems[0].SubItems[2].Text); 
 				LI = new ListeInterfaces();
@@ -55,71 +56,8 @@ namespace DoorScanner
 					ipup.SubItems.Add(i.status);
 					lIpUp.checkedListBoxSelectIp.Items.Add(i.showInterfaceT());
 				}
-				
-				if(lIpUp.ShowDialog()==DialogResult.OK){
-					//passer tout ca dans FormListipup, generer par valider > ouverture du formScanResult
-					if(lIpUp.checkedListBoxSelectIp.CheckedItems.Count>0){
-						
-						List<string> IpSelected = new List<string>();
-						foreach (string ipSelected in lIpUp.checkedListBoxSelectIp.CheckedItems) {
-							IpSelected.Add(ipSelected.Split(new[] {"; "},StringSplitOptions.None)[1]);
-						}
-						portScan PS = new portScan(IpSelected);
-						string optionNB="";
-						string optionScan="";
-						if(lIpUp.optionClassique.Checked){
-							optionNB = "-F";
-						}
-						if(lIpUp.option1023.Checked){
-							optionNB = "-p1-1023";
-						}
-						if(lIpUp.optionTous.Checked){
-							optionNB = "-p-";
-						}
-						if(lIpUp.checkBoxTCPConnect.Checked){
-							if(lIpUp.checkBoxUDP.Checked){
-								optionScan = "-sT -sU";
-							} else {
-								optionScan = "-sT";
-							}
-						} else {
-							if(lIpUp.checkBoxUDP.Checked){
-								optionScan = "-sS -sU";
-							} else {
-								optionScan = "-sS"; // option par défaut si aucune checkbox n'est cochée
-							}
-						}
-						PS.startMultipleScanPorts(optionNB, optionScan);
-						PS.readScanToListMultiple();
-						foreach (KeyValuePair<string,List<Port>> ip in PS.ResultatScans) {
-							ListViewItem ipPorts = new ListViewItem(ip.Key);
-							List<Port> Ports = ip.Value;
-							ipPorts.SubItems.Add(Ports[0].numport.ToString());
-							ipPorts.SubItems.Add(Ports[0].protocole);
-							ipPorts.SubItems.Add(Ports[0].state);
-							ipPorts.SubItems.Add(Ports[0].service);
-							listPortView.Items.Add(ipPorts);
-							for (int i = 1; i < Ports.Count; i++) {
-								ListViewItem PortsVI = new ListViewItem("");
-								PortsVI.SubItems.Add(Ports[i].numport.ToString());
-								PortsVI.SubItems.Add(Ports[i].protocole);
-								PortsVI.SubItems.Add(Ports[i].state);
-								PortsVI.SubItems.Add(Ports[i].service);
-								listPortView.Items.Add(PortsVI);
-							}
-						}
-						ipAddLabel.Text = PS.diplayLipToScan();
-						scanPortPanel.Visible = true;
-					} else {
-						MessageBox.Show("Vous n'avez pas seléctionné d'ip à scanner");
-					}
-
-				}
-			} else {
-				MessageBox.Show("Veuillez sélectionner une interface réseau parmis la liste.");
-			}
-			
+				lIpUp.Show();
+			} else {MessageBox.Show("Veuillez sélectionner une interface réseau parmis la liste.");}
 		}
-
 	}
 }
