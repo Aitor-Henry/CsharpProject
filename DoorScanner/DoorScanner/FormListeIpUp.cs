@@ -51,6 +51,9 @@ namespace DoorScanner
 				if(this.optionTous.Checked){
 					optionNB = "-p-";
 				}
+				if(this.optionAucun.Checked){
+					optionNB = "";
+				}
 				if(this.checkBoxTCPConnect.Checked){
 					optionScan += " -sT";
 				}
@@ -58,7 +61,7 @@ namespace DoorScanner
 					optionScan += " -sU";
 				}
 				if(this.checkBoxVuln.Checked){
-						optionScan += " -p389,631,1433,1521,3389,3680,5353,5432,5900,6667,8080";//a compléter
+					optionScan += " -p389,631,1433,1434,1521,3389,3680,5353,5432,5900,6667,8080";
 				}
 				PS.startMultipleScanPorts(optionNB, optionScan);
 				PS.readScanToListMultiple();

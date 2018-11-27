@@ -25,6 +25,7 @@ namespace DoorScanner
 		public System.Windows.Forms.CheckBox checkBoxUDP;
 		public System.Windows.Forms.CheckBox checkBoxTCPConnect;
 		private System.Windows.Forms.CheckBox checkBoxVuln;
+		private System.Windows.Forms.RadioButton optionAucun;
 		
 		/// <summary>
 		/// Disposes resources used by the form.
@@ -51,6 +52,7 @@ namespace DoorScanner
 			this.cancelIpButton = new System.Windows.Forms.Button();
 			this.checkedListBoxSelectIp = new System.Windows.Forms.CheckedListBox();
 			this.groupBoxOptionScanRange = new System.Windows.Forms.GroupBox();
+			this.optionAucun = new System.Windows.Forms.RadioButton();
 			this.optionTous = new System.Windows.Forms.RadioButton();
 			this.option1023 = new System.Windows.Forms.RadioButton();
 			this.optionClassique = new System.Windows.Forms.RadioButton();
@@ -98,6 +100,7 @@ namespace DoorScanner
 			// 
 			// groupBoxOptionScanRange
 			// 
+			this.groupBoxOptionScanRange.Controls.Add(this.optionAucun);
 			this.groupBoxOptionScanRange.Controls.Add(this.optionTous);
 			this.groupBoxOptionScanRange.Controls.Add(this.option1023);
 			this.groupBoxOptionScanRange.Controls.Add(this.optionClassique);
@@ -105,20 +108,30 @@ namespace DoorScanner
 			this.groupBoxOptionScanRange.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			this.groupBoxOptionScanRange.Name = "groupBoxOptionScanRange";
 			this.groupBoxOptionScanRange.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-			this.groupBoxOptionScanRange.Size = new System.Drawing.Size(327, 286);
+			this.groupBoxOptionScanRange.Size = new System.Drawing.Size(327, 333);
 			this.groupBoxOptionScanRange.TabIndex = 4;
 			this.groupBoxOptionScanRange.TabStop = false;
 			this.groupBoxOptionScanRange.Text = "Options du scan de Ports - Nombre";
+			// 
+			// optionAucun
+			// 
+			this.optionAucun.Location = new System.Drawing.Point(50, 253);
+			this.optionAucun.Name = "optionAucun";
+			this.optionAucun.Size = new System.Drawing.Size(217, 54);
+			this.optionAucun.TabIndex = 3;
+			this.optionAucun.TabStop = true;
+			this.optionAucun.Text = "Aucun";
+			this.optionAucun.UseVisualStyleBackColor = true;
 			// 
 			// optionTous
 			// 
 			this.optionTous.Location = new System.Drawing.Point(51, 197);
 			this.optionTous.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			this.optionTous.Name = "optionTous";
-			this.optionTous.Size = new System.Drawing.Size(156, 37);
+			this.optionTous.Size = new System.Drawing.Size(216, 37);
 			this.optionTous.TabIndex = 2;
 			this.optionTous.TabStop = true;
-			this.optionTous.Text = "Tous les ports";
+			this.optionTous.Text = "Tous les ports (open only)";
 			this.optionTous.UseVisualStyleBackColor = true;
 			// 
 			// option1023
@@ -126,10 +139,10 @@ namespace DoorScanner
 			this.option1023.Location = new System.Drawing.Point(51, 128);
 			this.option1023.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			this.option1023.Name = "option1023";
-			this.option1023.Size = new System.Drawing.Size(156, 37);
+			this.option1023.Size = new System.Drawing.Size(216, 37);
 			this.option1023.TabIndex = 1;
 			this.option1023.TabStop = true;
-			this.option1023.Text = "De 1 à 1023";
+			this.option1023.Text = "De 1 à 1023 (open only)";
 			this.option1023.UseVisualStyleBackColor = true;
 			// 
 			// optionClassique
@@ -137,10 +150,10 @@ namespace DoorScanner
 			this.optionClassique.Location = new System.Drawing.Point(51, 52);
 			this.optionClassique.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			this.optionClassique.Name = "optionClassique";
-			this.optionClassique.Size = new System.Drawing.Size(156, 37);
+			this.optionClassique.Size = new System.Drawing.Size(229, 37);
 			this.optionClassique.TabIndex = 0;
 			this.optionClassique.TabStop = true;
-			this.optionClassique.Text = "Ports classiques";
+			this.optionClassique.Text = "Ports classiques (all state)";
 			this.optionClassique.UseVisualStyleBackColor = true;
 			// 
 			// groupBox1

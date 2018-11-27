@@ -41,7 +41,7 @@ namespace DoorScanner
 			if(lviewCarteReseau.SelectedItems.Count>0)
 			{
 				// Ligne suivant en comm. pour éviter de lancer un scan a chaque fois
-				//NS.getIpAvailable(lviewCarteReseau.SelectedItems[0].SubItems[1].Text, lviewCarteReseau.SelectedItems[0].SubItems[2].Text); 
+				NS.getIpAvailable(lviewCarteReseau.SelectedItems[0].SubItems[1].Text, lviewCarteReseau.SelectedItems[0].SubItems[2].Text); 
 				LI = new ListeInterfaces();
 				LI.XmltoList();
 				
