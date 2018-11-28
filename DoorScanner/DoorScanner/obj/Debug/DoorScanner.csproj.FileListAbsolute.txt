@@ -17,3 +17,4 @@ D:\Cours\M2\Csharp\DS\CsharpProject\DoorScanner\DoorScanner\obj\Debug\DoorScanne
 D:\Cours\M2\Csharp\DS\CsharpProject\DoorScanner\DoorScanner\obj\Debug\DoorScanner.FormListeIpUp.resources
 C:\Users\Aitor\Documents\SharpDevelop Projects\CsharpProject\DoorScanner\DoorScanner\obj\Debug\DoorScanner.FormListeIpUp.resources
 C:\Users\Aitor\Documents\SharpDevelop Projects\CsharpProject\DoorScanner\DoorScanner\obj\Debug\DoorScanner.csproj.GenerateResource.Cache
+C:\Users\Aitor\Documents\SharpDevelop Projects\CsharpProject\DoorScanner\DoorScanner\obj\Debug\DoorScanner.FormScanResult.resources

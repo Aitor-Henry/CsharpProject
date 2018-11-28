@@ -54,15 +54,16 @@ namespace DoorScanner
 				if(this.optionAucun.Checked){
 					optionNB = "";
 				}
+				if(this.optionVuln.Checked){
+					optionNB = " -p389,631,1433,1434,1521,3389,3680,5353,5432,5900,6667,8080";
+				}
 				if(this.checkBoxTCPConnect.Checked){
 					optionScan += " -sT";
 				}
 				if(this.checkBoxUDP.Checked){
 					optionScan += " -sU";
 				}
-				if(this.checkBoxVuln.Checked){
-					optionScan += " -p389,631,1433,1434,1521,3389,3680,5353,5432,5900,6667,8080";
-				}
+				
 				PS.startMultipleScanPorts(optionNB, optionScan);
 				PS.readScanToListMultiple();
 				foreach (KeyValuePair<string,List<Port>> ip in PS.ResultatScans) {
@@ -95,6 +96,10 @@ namespace DoorScanner
 		void CancelIpButtonClick(object sender, EventArgs e)
 		{
 			this.Close();
+		}
+		void OptionAucunCheckedChanged(object sender, EventArgs e)
+		{
+	
 		}
 	}
 }

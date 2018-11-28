@@ -24,22 +24,13 @@ namespace DoorScanner
 	[Serializable]
 	public class portScan
 	{
-		//string ipToScan;
-		//public List<Port> listPort {get; set;}
+
 		
 		List<string> LipToScan;
 		public Dictionary<string, List<Port>> ResultatScans {get; set;} 
 		
 		
-		/*
-		public portScan(string ipScan)
-		{
-			listPort = new List<Port>();
-			ipToScan = ipScan;
-		}
-		*/
 		
-		// Nouvelle solution en dév #########################################################################
 		public portScan(List<string> LipTS){
 			
 			LipToScan = LipTS;
@@ -47,17 +38,10 @@ namespace DoorScanner
 		}
 		
 		public void startMultipleScanPorts(string optNB, string optScan){
-			/*
-			Options,
-				1) Nombre de ports :
-					Ports classiques == -F
-					1 à 1023 == -p1-1023
-					Tous == -p-
-				2) Type de scan (par défaut -sS):
-					TCP connect == -sT
-					scan UDP == -sU
-			*/
 			
+			/*if(optScan==""){
+				optScan="-sS";
+			}*/
 			foreach(string ip in LipToScan){
 				string commande = ("nmap "+optNB+" "+optScan+" -T4 "+ip+" -oX scanPort"+ip+".xml");
 				Process cmd = new Process();
@@ -145,7 +129,7 @@ namespace DoorScanner
 			foreach(KeyValuePair<string, List<Port>> p in ResultatScans)
 			{
 				List<Port> port = p.Value;
-				sw.WriteLine(p.Key+" \n"+ port[0].showForSave());
+				sw.WriteLine(p.Key+Environment.NewLine+ port[0].showForSave());
 				for(int i=1; i<port.Count; i++){
 					sw.WriteLine(port[i].showForSave());
 				}

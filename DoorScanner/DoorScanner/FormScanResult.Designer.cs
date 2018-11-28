@@ -62,17 +62,19 @@ namespace DoorScanner
 			// 
 			// ipAddLabel
 			// 
-			this.ipAddLabel.Location = new System.Drawing.Point(12, 53);
+			this.ipAddLabel.Location = new System.Drawing.Point(8, 34);
+			this.ipAddLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
 			this.ipAddLabel.Name = "ipAddLabel";
-			this.ipAddLabel.Size = new System.Drawing.Size(311, 53);
+			this.ipAddLabel.Size = new System.Drawing.Size(207, 34);
 			this.ipAddLabel.TabIndex = 1;
 			// 
 			// btnExport
 			// 
 			this.btnExport.DialogResult = System.Windows.Forms.DialogResult.OK;
-			this.btnExport.Location = new System.Drawing.Point(540, 33);
+			this.btnExport.Location = new System.Drawing.Point(360, 21);
+			this.btnExport.Margin = new System.Windows.Forms.Padding(2);
 			this.btnExport.Name = "btnExport";
-			this.btnExport.Size = new System.Drawing.Size(163, 60);
+			this.btnExport.Size = new System.Drawing.Size(109, 39);
 			this.btnExport.TabIndex = 2;
 			this.btnExport.Text = "Exporter le Scan";
 			this.btnExport.UseVisualStyleBackColor = true;
@@ -89,11 +91,11 @@ namespace DoorScanner
 			this.columnProtocole,
 			this.columnState,
 			this.columnService});
+			this.listPortView.FullRowSelect = true;
 			this.listPortView.GridLines = true;
-			this.listPortView.Location = new System.Drawing.Point(106, 111);
-			this.listPortView.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+			this.listPortView.Location = new System.Drawing.Point(71, 72);
 			this.listPortView.Name = "listPortView";
-			this.listPortView.Size = new System.Drawing.Size(614, 439);
+			this.listPortView.Size = new System.Drawing.Size(411, 287);
 			this.listPortView.TabIndex = 3;
 			this.listPortView.UseCompatibleStateImageBehavior = false;
 			this.listPortView.View = System.Windows.Forms.View.Details;
@@ -123,9 +125,10 @@ namespace DoorScanner
 			// 
 			// btnNewScan
 			// 
-			this.btnNewScan.Location = new System.Drawing.Point(344, 33);
+			this.btnNewScan.Location = new System.Drawing.Point(229, 21);
+			this.btnNewScan.Margin = new System.Windows.Forms.Padding(2);
 			this.btnNewScan.Name = "btnNewScan";
-			this.btnNewScan.Size = new System.Drawing.Size(163, 60);
+			this.btnNewScan.Size = new System.Drawing.Size(109, 39);
 			this.btnNewScan.TabIndex = 4;
 			this.btnNewScan.Text = "Nouveau scan";
 			this.btnNewScan.UseVisualStyleBackColor = true;
@@ -133,23 +136,25 @@ namespace DoorScanner
 			// 
 			// label1
 			// 
-			this.label1.Location = new System.Drawing.Point(12, 9);
+			this.label1.Location = new System.Drawing.Point(8, 6);
+			this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(217, 26);
+			this.label1.Size = new System.Drawing.Size(145, 17);
 			this.label1.TabIndex = 5;
 			this.label1.Text = "Addresse(s) Ip scannée(s) :";
 			// 
 			// FormScanResult
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.AutoScroll = true;
-			this.ClientSize = new System.Drawing.Size(807, 541);
+			this.ClientSize = new System.Drawing.Size(555, 352);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.btnNewScan);
 			this.Controls.Add(this.listPortView);
 			this.Controls.Add(this.btnExport);
 			this.Controls.Add(this.ipAddLabel);
+			this.Margin = new System.Windows.Forms.Padding(2);
 			this.Name = "FormScanResult";
 			this.Text = "FormScanResult";
 			this.ResumeLayout(false);
