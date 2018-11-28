@@ -129,7 +129,6 @@ namespace DoorScanner
 			this.optionAucun.TabStop = true;
 			this.optionAucun.Text = "Aucun en particulier";
 			this.optionAucun.UseVisualStyleBackColor = true;
-			this.optionAucun.CheckedChanged += new System.EventHandler(this.OptionAucunCheckedChanged);
 			// 
 			// optionTous
 			// 

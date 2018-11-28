@@ -8,7 +8,6 @@
  */
 using System;
 using System.Collections.Generic;
-using System.Drawing;
 using System.Windows.Forms;
 
 namespace DoorScanner
@@ -96,10 +95,6 @@ namespace DoorScanner
 		void CancelIpButtonClick(object sender, EventArgs e)
 		{
 			this.Close();
-		}
-		void OptionAucunCheckedChanged(object sender, EventArgs e)
-		{
-	
 		}
 	}
 }

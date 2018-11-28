@@ -10,11 +10,8 @@ using System;
 using System.IO;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Xml.Linq;
 using System.Linq;
 using System.Xml;
-using System.Xml.Serialization;
-using System.Windows.Forms;
 
 namespace DoorScanner
 {

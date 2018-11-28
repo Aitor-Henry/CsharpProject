@@ -7,11 +7,7 @@
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
 using System;
-using System.Xml;
-using System.Xml.Serialization;
 using System.Collections.Generic;
-using System.Windows.Forms;
-using System.Xml.XPath;
 using System.Xml.Linq;
 using System.Linq;
 namespace DoorScanner
