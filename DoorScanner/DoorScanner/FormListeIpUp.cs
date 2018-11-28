@@ -87,6 +87,9 @@ namespace DoorScanner
 				if (scanRes.ShowDialog() == DialogResult.OK){
 					if(scanRes.saveFileDialog1.ShowDialog() == DialogResult.OK){
 						PS.listToTxt(scanRes.saveFileDialog1.FileName);
+						Reporting rapport =new Reporting(scanRes.saveFileDialog1.FileName);
+						rapport.createReport();
+						MessageBox.Show("Enregistrement du scan et rapport terminé");
 					}
 				}
 			} else { MessageBox.Show("Vous n'avez pas seléctionné d'ip à scanner");}

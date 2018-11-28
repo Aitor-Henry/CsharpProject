@@ -71,12 +71,12 @@ namespace DoorScanner
 			// btnExport
 			// 
 			this.btnExport.DialogResult = System.Windows.Forms.DialogResult.OK;
-			this.btnExport.Location = new System.Drawing.Point(360, 21);
+			this.btnExport.Location = new System.Drawing.Point(274, 382);
 			this.btnExport.Margin = new System.Windows.Forms.Padding(2);
 			this.btnExport.Name = "btnExport";
-			this.btnExport.Size = new System.Drawing.Size(109, 39);
+			this.btnExport.Size = new System.Drawing.Size(208, 39);
 			this.btnExport.TabIndex = 2;
-			this.btnExport.Text = "Exporter le Scan";
+			this.btnExport.Text = "Exporter le Scan / Rapport";
 			this.btnExport.UseVisualStyleBackColor = true;
 			// 
 			// saveFileDialog1
@@ -125,7 +125,7 @@ namespace DoorScanner
 			// 
 			// btnNewScan
 			// 
-			this.btnNewScan.Location = new System.Drawing.Point(229, 21);
+			this.btnNewScan.Location = new System.Drawing.Point(71, 382);
 			this.btnNewScan.Margin = new System.Windows.Forms.Padding(2);
 			this.btnNewScan.Name = "btnNewScan";
 			this.btnNewScan.Size = new System.Drawing.Size(109, 39);
@@ -148,7 +148,7 @@ namespace DoorScanner
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.AutoScroll = true;
-			this.ClientSize = new System.Drawing.Size(555, 352);
+			this.ClientSize = new System.Drawing.Size(615, 503);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.btnNewScan);
 			this.Controls.Add(this.listPortView);

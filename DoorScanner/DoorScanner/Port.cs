@@ -59,7 +59,9 @@ namespace DoorScanner
 		
 		//-----Functions-----
 		public string showForSave(){
-			return "Port : "+numport+", State: "+state+", Proto: "+protocole+", Service: "+service+".";
+			//return "Port : "+numport+", State: "+state+", Proto: "+protocole+", Service: "+service+".";
+			//plus facile pour faire le reporting
+			return numport+";"+state+";"+protocole.ToUpper()+";"+service;
 		}
 		
 	}

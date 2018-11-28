@@ -31,6 +31,7 @@ namespace DoorScanner
 		{
 			this.Close();
 		}
-
+		
+		
 	}
 }

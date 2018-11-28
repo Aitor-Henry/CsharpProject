@@ -69,6 +69,7 @@
     <Compile Include="portScan.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reporting.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="FormListeIpUp.resx">
