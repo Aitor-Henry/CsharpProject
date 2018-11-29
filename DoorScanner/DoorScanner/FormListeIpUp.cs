@@ -42,7 +42,7 @@ namespace DoorScanner
 				string optionNB="";
 				string optionScan="";
 				if(this.optionClassique.Checked){
-					optionNB = "-p20,21,22,23,25,53,68,80,110,119,135,139,143,443,445,465,548,587,993,995,1025,3680,8080";
+					optionNB = "-F";
 				}
 				if(this.option1023.Checked){
 					optionNB = "-p1-1023";
@@ -50,11 +50,8 @@ namespace DoorScanner
 				if(this.optionTous.Checked){
 					optionNB = "-p-";
 				}
-				if(this.optionAucun.Checked){
-					optionNB = "";
-				}
 				if(this.optionVuln.Checked){
-					optionNB = " -p389,631,1433,1434,1521,3389,3680,5353,5432,5900,6667,8080";
+					optionNB = " -p20,21,22,23,25,53,68,80,110,119,135,139,143,443,445,465,548,587,993,995,1025,389,631,1433,1434,1521,3389,3680,5353,5432,5900,6667,8080";
 				}
 				if(this.checkBoxTCPConnect.Checked){
 					optionScan += " -sT";
