@@ -22,23 +22,21 @@ namespace DoorScanner
 	public class portScan
 	{
 
-		
+		//-----Variables-----
 		List<string> LipToScan;
 		public Dictionary<string, List<Port>> ResultatScans {get; set;} 
 		
 		
-		
+		//-----Constructeurs-----
 		public portScan(List<string> LipTS){
 			
 			LipToScan = LipTS;
 			ResultatScans = new Dictionary<string, List<Port>>();
 		}
 		
+		//-----Fonctions-----
 		public void startMultipleScanPorts(string optNB, string optScan){
 			
-			/*if(optScan==""){
-				optScan="-sS";
-			}*/
 			foreach(string ip in LipToScan){
 				string commande = ("nmap "+optNB+" "+optScan+" -T4 "+ip+" -oX scanPort"+ip+".xml");
 				Process cmd = new Process();
@@ -58,7 +56,7 @@ namespace DoorScanner
 			}
 		}
 		
-		
+		// Lit le résultat d'un scan de port
 		public List<Port> readScanToList(string ip){
 			List<Port> listPort = new List<Port>();
 			XmlDocument docXml = new XmlDocument();
@@ -78,7 +76,7 @@ namespace DoorScanner
 						port.Add(Int32.Parse(Node.Attributes["portid"].Value));
 						prot.Add(Node.Attributes["protocol"].Value);
 						
-						foreach (XmlNode test in Node) { //c'est pas beau mais j'ai pas trouvé d'autres moyens
+						foreach (XmlNode test in Node) {
 							if(test.Name=="state"){
 								state.Add(test.Attributes["state"].Value);
 							}
@@ -100,7 +98,7 @@ namespace DoorScanner
 					P.protocole=prot[i];
 					P.service=service[i];
 					P.state=state[i];
-					//si l'état et le service sont unknown, on n'ajoute pas ? (seulement un numéro ip)
+					//si l'état et le service sont unknown, on n'ajoute pas. (seulement un numéro ip)
 					if(!(P.state=="unknown" && P.service=="unknown")){
 						listPort.Add(P);
 					}

@@ -63,20 +63,23 @@ namespace DoorScanner
 				PS.startMultipleScanPorts(optionNB, optionScan);
 				PS.readScanToListMultiple();
 				foreach (KeyValuePair<string,List<Port>> ip in PS.ResultatScans) {
-					ListViewItem ipPorts = new ListViewItem(ip.Key);
-					List<Port> Ports = ip.Value;
-					ipPorts.SubItems.Add(Ports[0].numport.ToString());
-					ipPorts.SubItems.Add(Ports[0].protocole);
-					ipPorts.SubItems.Add(Ports[0].state);
-					ipPorts.SubItems.Add(Ports[0].service);
-					scanRes.listPortView.Items.Add(ipPorts);
-					for (int i = 1; i < Ports.Count; i++) {
-						ListViewItem PortsVI = new ListViewItem("");
-						PortsVI.SubItems.Add(Ports[i].numport.ToString());
-						PortsVI.SubItems.Add(Ports[i].protocole);
-						PortsVI.SubItems.Add(Ports[i].state);
-						PortsVI.SubItems.Add(Ports[i].service);
-						scanRes.listPortView.Items.Add(PortsVI);
+					//Si l'ip n'a pas de ports ouverts
+					if(ip.Value.Count>0){
+						ListViewItem ipPorts = new ListViewItem(ip.Key);
+						List<Port> Ports = ip.Value;
+						ipPorts.SubItems.Add(Ports[0].numport.ToString());
+						ipPorts.SubItems.Add(Ports[0].protocole);
+						ipPorts.SubItems.Add(Ports[0].state);
+						ipPorts.SubItems.Add(Ports[0].service);
+						scanRes.listPortView.Items.Add(ipPorts);
+						for (int i = 1; i < Ports.Count; i++) {
+							ListViewItem PortsVI = new ListViewItem("");
+							PortsVI.SubItems.Add(Ports[i].numport.ToString());
+							PortsVI.SubItems.Add(Ports[i].protocole);
+							PortsVI.SubItems.Add(Ports[i].state);
+							PortsVI.SubItems.Add(Ports[i].service);
+							scanRes.listPortView.Items.Add(PortsVI);
+						}
 					}
 				}
 				scanRes.ipAddLabel.Text = PS.diplayLipToScan();

@@ -30,7 +30,7 @@ namespace DoorScanner
 		}
 		
 		
-		//-----Functions-----
+		//-----Fonctions-----
 		public void ajout(Interface i)
 		{
 			InterListe.Add(i);

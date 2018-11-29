@@ -24,7 +24,7 @@ namespace DoorScanner
 	public class networkScan
 	{
 		
-		
+		//-----Variables-----
 		IPAddress networkAdd;
 		IPAddress broadcastAdd;
 		IPAddress currentIP;
@@ -32,13 +32,7 @@ namespace DoorScanner
 		Interface currentInterface;
 		public List<Interface> cartesListe;
 		
-		/*public Interface interfaceGS
-		{
-			get{return currentInterface;}
-			set{currentInterface=value;}
-		}
-		*/
-		
+		//-----Constructeur-----
 		public networkScan()
 		{
 			//récupere l'adresse IP de la machine et le masque du réseau.
@@ -81,25 +75,26 @@ namespace DoorScanner
                                     InfoInterface += "  MASK ............................. : "+uni.IPv4Mask+Environment.NewLine;
                                     currentMask = uni.IPv4Mask;
 
-                                foreach (GatewayIPAddressInformation gate in gateway)
-                                {
-                                    InfoInterface += "  gateway .......................... : "+ gate.Address+Environment.NewLine;
-                                }
-
-
-                                foreach (IPAddress dns in dnsServers)
-                                {
-                                    InfoInterface +="  DNS Servers ...................... : "+dns.ToString()+Environment.NewLine;
-                                }
-
-                                InfoInterface += "  Bail dhcp ........................ : "+(((uni.DhcpLeaseLifetime) / 3600) / 24)+" Jours "+Environment.NewLine;
-
-                                foreach (IPAddress dhcp in dhcpserver)
-                                {
-                                    InfoInterface += "Serveur dhcp ....................... : "+dhcp.ToString()+Environment.NewLine;
-                                }
+	                                foreach (GatewayIPAddressInformation gate in gateway)
+	                                {
+	                                    InfoInterface += "  gateway .......................... : "+ gate.Address+Environment.NewLine;
+	                                }
+	
+	
+	                                foreach (IPAddress dns in dnsServers)
+	                                {
+	                                    InfoInterface +="  DNS Servers ...................... : "+dns.ToString()+Environment.NewLine;
+	                                }
+	
+	                                InfoInterface += "  Bail dhcp ........................ : "+(((uni.DhcpLeaseLifetime) / 3600) / 24)+" Jours "+Environment.NewLine;
+	
+	                                foreach (IPAddress dhcp in dhcpserver)
+	                                {
+	                                    InfoInterface += "Serveur dhcp ....................... : "+dhcp.ToString()+Environment.NewLine;
+	                                }
                                 }
                             }
+                        //On sauvegarde les infos des interfaces dans un fichier txt
                     	File.WriteAllText("InterfaceInfos.txt", InfoInterface);
                     	networkAdd = getNetworkAddress(currentIP, currentMask);
                     	broadcastAdd = getBroadcastAddress(networkAdd, currentMask);
@@ -111,16 +106,8 @@ namespace DoorScanner
             }
 		}
 		
-		
-		public string shownetworkID(){
-			return networkAdd.ToString();
-		}
-		
-		public string showBroadcast(){
-			return broadcastAdd.ToString();
-		}
-		
 	
+		//-----Fonctions-----
 		public static IPAddress getNetworkAddress(IPAddress IP, IPAddress mask){
 			//calcul pour IDR
 			byte[] IPadd = IP.GetAddressBytes();
@@ -202,7 +189,7 @@ namespace DoorScanner
 			if (convertToCIDR.TryGetValue(mask, out result)) {
 				return result;
 			}
-			//shouldn't happen but never know
+			//Ne devrait pas arriver
 			return "error";
 		}
 

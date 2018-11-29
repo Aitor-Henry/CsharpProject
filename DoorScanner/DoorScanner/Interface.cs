@@ -13,14 +13,14 @@ namespace DoorScanner
 	[Serializable]
 	public class Interface
 	{
-		private string HostName;
-		private string OsCarte;
-		private string MacAddress;
-		private string Mask;
-		private string IpAddress;
-		private string NetAdd;
-		private string BroadAdd;
-		private string Status;
+		string HostName;
+		string OsCarte;
+		string MacAddress;
+		string Mask;
+		string IpAddress;
+		string NetAdd;
+		string BroadAdd;
+		string Status;
 		
 		
 		//-----GETTER AND SETTER-----
@@ -88,14 +88,10 @@ namespace DoorScanner
 		}
 		
 		
-		//-----function----- Inutile, à supprimer par la suite
+		//-----Fonction-----
 		public string showInterfaceT()
 		{
 			return hostName+"; "+ipAddress+"; "+macAddress+"; "+osCarte+"; "+ status;
-		}
-		public string showCarte()
-		{
-			return "IP: "+ipAddress+"  Reseau: "+netAdd;
 		}
 		
 	}
