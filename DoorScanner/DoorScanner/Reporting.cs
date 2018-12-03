@@ -9,6 +9,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Windows.Forms;
 
 namespace DoorScanner
 {
@@ -20,9 +21,10 @@ namespace DoorScanner
 		
 		//-----Variables-----
 		string nomF;
+		string path;
 		string header = "Rapport du "+DateTime.Now.ToString("d/M/yyyy")+". \r\n" +
-			"Ce rapport vous présente en fonction des adresses IP choisie les vulnérabilités potentielle détéctées.\r\n" +
-			"Tout les ports et services présent dans ce rapport devront faire l'état d'une recherche sur internet ou être analysé par un expert afin de se renseigner sur leur dangerosité. \r\n";
+			"Ce rapport vous présente en fonction des adresses IP choisies les vulnérabilités potentielles détéctées.\r\n" +
+			"Tous les ports et services présents dans ce rapport devront faire l'état d'une recherche sur internet ou être analysé par un expert afin de se renseigner sur leur dangerosité. \r\n";
 		string corpsRapport = "";
 		string footer = "\r\nFin du scan pour les adresses demandées.\r\n";
 		
@@ -30,8 +32,12 @@ namespace DoorScanner
 		//-----Constructeur-----
 		public Reporting(string fichierscan)
 		{
-			string[] temp = fichierscan.Split('/');
-			nomF = temp[temp.Length-1];
+			/*string[] temp = fichierscan.Split('/');
+			nomF = temp[temp.Length-1];*/
+			nomF = fichierscan;
+			string[] temp = fichierscan.Split('\\');
+			string temp2 = temp[temp.Length-1];
+			path = fichierscan.Replace(temp2,"");
 		}
 		
 		//-----Fonctions-----
@@ -75,12 +81,11 @@ namespace DoorScanner
 						//si port et protocole correspondent
 						if(ls[0]==tempLecture[1] && ls[2]==tempLecture[2]){
 							//si les services sont différents
-							if(ls[3]!=tempLecture[0] && tempLecture[0]!="Unassigned"){
+							if(ls[3]!=tempLecture[0] && tempLecture[0]!="Unassigned" && (ls[1]=="open" || ls[1]=="filtered")){
 								corpsRapport += "Attention au port "+ls[0]+", utilisant le service "+ls[3]+" et dans l'état "+ls[1]+". \r\n";
 							}
 							break;
 						}
-						
 					}
 					fichierPorts.Close();
 				}
@@ -88,7 +93,7 @@ namespace DoorScanner
 			}
 			
 			//ajoute à la suite si le fichier existe déjà
-			using (StreamWriter swRapport = File.AppendText("Rapports_"+DateTime.Now.ToString("d-M-yyyy")+".txt")){
+			using (StreamWriter swRapport = File.AppendText(path+"Rapports_"+DateTime.Now.ToString("d-M-yyyy")+".txt")){
 				swRapport.WriteLine(header+corpsRapport+footer);
 			}
 

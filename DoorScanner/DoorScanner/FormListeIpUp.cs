@@ -83,15 +83,20 @@ namespace DoorScanner
 					}
 				}
 				scanRes.ipAddLabel.Text = PS.diplayLipToScan();
-
+				
 				if (scanRes.ShowDialog() == DialogResult.OK){
 					if(scanRes.saveFileDialog1.ShowDialog() == DialogResult.OK){
-						PS.listToTxt(scanRes.saveFileDialog1.FileName);
-						Reporting rapport =new Reporting(scanRes.saveFileDialog1.FileName);
-						rapport.createReport();
-						MessageBox.Show("Enregistrement du scan et rapport terminé");
+						if(scanRes.listPortView.Items.Count>0){
+							PS.listToTxt(scanRes.saveFileDialog1.FileName);
+							Reporting rapport =new Reporting(scanRes.saveFileDialog1.FileName);
+							rapport.createReport();
+							MessageBox.Show("Enregistrement du scan et rapport terminé");
+						} else {
+							MessageBox.Show("Vous avez tenter d'enregistrer un scan sans aucune données. Aucune action.");
+						}
 					}
 				}
+				
 			} else { MessageBox.Show("Vous n'avez pas seléctionné d'ip à scanner");}
 			
 		}

@@ -123,10 +123,13 @@ namespace DoorScanner
 			StreamWriter sw = new StreamWriter(nomFichier);
 			foreach(KeyValuePair<string, List<Port>> p in ResultatScans)
 			{
-				List<Port> port = p.Value;
-				sw.WriteLine(p.Key+Environment.NewLine+ port[0].showForSave());
-				for(int i=1; i<port.Count; i++){
-					sw.WriteLine(port[i].showForSave());
+				//condition pour les IP sans ports ouverts
+				if(p.Value.Count>0){
+					List<Port> port = p.Value;
+					sw.WriteLine(p.Key+Environment.NewLine+ port[0].showForSave());
+					for(int i=1; i<port.Count; i++){
+						sw.WriteLine(port[i].showForSave());
+					}
 				}
 			}
 				
