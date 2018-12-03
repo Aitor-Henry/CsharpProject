@@ -76,7 +76,7 @@ namespace DoorScanner
 			this.btnExport.Name = "btnExport";
 			this.btnExport.Size = new System.Drawing.Size(208, 39);
 			this.btnExport.TabIndex = 2;
-			this.btnExport.Text = "Exporter le Scan / Rapport";
+			this.btnExport.Text = "Exporter le Scan + Rapport";
 			this.btnExport.UseVisualStyleBackColor = true;
 			// 
 			// saveFileDialog1

@@ -9,7 +9,6 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Windows.Forms;
 
 namespace DoorScanner
 {
@@ -32,8 +31,6 @@ namespace DoorScanner
 		//-----Constructeur-----
 		public Reporting(string fichierscan)
 		{
-			/*string[] temp = fichierscan.Split('/');
-			nomF = temp[temp.Length-1];*/
 			nomF = fichierscan;
 			string[] temp = fichierscan.Split('\\');
 			string temp2 = temp[temp.Length-1];
